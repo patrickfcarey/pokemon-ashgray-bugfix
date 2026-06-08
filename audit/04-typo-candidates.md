@@ -1,0 +1,44 @@
+# Ash Gray — dialogue text-error candidates
+
+Flagged: **40** strings (high-precision filters).
+
+- `0x801303` [space-before-punct]  —  MON! // Ready or not ...
+- `0x807F82` [dup-word "BULBA"]  —  BULBA BULBA! / BULBASAUR! BULBASAUR!
+- `0x8092EE` [dup-word "the"]  —  SEYMOUR: You’ve found the MOON / STONE! The CLEFAIRY must pray to\lit! // Thank you for saving the CLEFAIRY / from TEAM ROCKET! // I’ve deci
+- `0x80F8C2` [space-before-punct]  —   o then ... // Off you go!
+- `0x80F8DF` [space-before-punct]  —  This is impossible! // I created this transfer machine / system myself! // There’s nothing wrong with the / system or the programming! // Wa
+- `0x81037F` [space-before-punct]  —  {V}: My friends! // You win ... // Guess we’ll all be cold together.
+- `0x810420` [dup-word "CHAR"]  —  {V}: CHARMANDER? // CHARMANDER: CHAR CHAR!
+- `0x810669` [space-before-punct]  —  It looks so happy with all the / other PIKACHU! // Maybe ... Maybe it would be best / to leave it behind. // Would you like to leave PIKACHU
+- `0x819902` [dup-word "BULBA"]  —  BULBASAUR: BULBA BULBA! / BULBASAUR! BULBASAUR!
+- `0x82C57B` [dup-word "one"]  —  MON, but this\lVILLAGE is too small. // The bulb on its back can’t grow. / It needs to go out into the world\lnow and I know you’ll take goo
+- `0x8341F7` [dup-word "Ha"]  —  NASTINA: Ha ha! Now I can / exterminate this thing myself! // Here’s a little reward for your / trouble …
+- `0x834CBF` [dup-word "the"]  —   / I like playing out in the the / streets! It’s so fun!
+- `0x858DF3` [dup-word "RING"]  —   RING RING RING! / RING RING RING! // … A phone is ringing!
+- `0x877756` [dup-word "could"]  —  You are the number one ranked / TRAINER in the KANTO REGION! // However, you could could not / defeat the ELITE FOUR and the\lCHAMPION. // D
+- `0x89C5C6` [dup-word "SPEAROW"]  —  The FEAROW seems furious with you! // Maybe one of the wild SPEAROW / SPEAROW that came to help the\lSPEAROW you captured on the first\lday 
+- `0x94A8D4` [double-space]  —  RhB{V}Uh // R{V}h                                                                
+- `0x94AABC` [double-space]  —  iA //   V{V} Cg{V}QSAVhRBShR
+- `0x94AAF6` [double-space]  —    A{C} U{C}   C //   VC   V                    CA // iAA’A
+- `0x94B0D4` [double-space]  —  RhB{V}Uh // R{V}h                                                                
+- `0x94B2D4` [double-space]  —  RhB{V}Uh // R{V}h                                                                
+- `0x94B4BC` [double-space]  —  iA //   V{V} Cg{V}QSAVhRBShR
+- `0x94B4F6` [double-space]  —    A{C} U{C}   C //   VC   V                    CA // iAA’A
+- `0x94B6BC` [double-space]  —  iA //   V{V} Cg{V}QSAVhRBShR
+- `0x94B6F6` [double-space]  —    A{C} U{C}   C //   VC   V                    CA // iAA’A
+- `0x96DD03` [double-space]  —  R   9                         / DAARAAR9PR
+- `0x97D6D9` [double-space]  —  {C} URk                                                        :   :   :VURk:U // B:{C}BURUBUhRC{C}RS{C}RSU
+- `0x97DED9` [double-space]  —  {C} URk                                                        :   :   :VURk:U // B:{C}BURUBUhRC{C}RS{C}RSU
+- `0x97E0D9` [double-space]  —  {C} URk                                                        :   :   :VURk:U // B:{C}BURUBUhRC{C}RS{C}RSU
+- `0x97E3C1` [double-space]  —   // RREUhh{C}RURU{C}{C}U{V}i{V}   
+- `0x982B94` [double-space, dup-word "k"]  —  {V}R{V}gR{V}iR //                                                                                                                           
+- `0x983D54` [double-space]  —     {V} :R  VRkAR{V}BQ{C}UB // S
+- `0x998BA1` [dup-word "CAA"]  —  A // {V}CAA\lCAA’kCAA{V}ig.{V}gkii\lfAA{V}! AA{V}AA{V}AiE3i\lCA
+- `0x9993A1` [dup-word "CAA"]  —  A // {V}CAA\lCAA’kCAA{V}ig.{V}gkii{V}AA{V}! AA{V}AA{V}AiE3i\lCA
+- `0x9A4DF7` [double-space]  —   vw //  ED //   :ww :AD  EA  :
+- `0x9ABA50` [double-space]  —  sz //  / RB //  / DQv / zAA\l                                               :   :   :        :/!
+- `0x9AC050` [double-space]  —  sz //  / RB //  / DQv / zAA\l                                               :   :   :        :/!
+- `0x9AC250` [double-space]  —  sz //  / RB //  / DQv / zAA\l                                               :   :   :        :/!
+- `0x9ADCA2` [double-space]  —  zz vzz vT /  \lA\l  
+- `0x9ADF13` [double-space]  —   9R?  P?  P? AAA // AA!9 // 
+- `0x9AF4A2` [double-space]  —  zz vzz vT /  \lA\l  
