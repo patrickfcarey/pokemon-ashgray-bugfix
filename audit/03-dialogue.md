@@ -1,0 +1,4887 @@
+# Ash Gray — anime dialogue dump (region 0x700000–0xA00000)
+
+Strings found: **4883**. Proofread for typos/grammar; each is editable in‑place.
+
+- `0x719886` MAL ICIOSO
+- `0x719A28` Do wh at with  {V04}?
+- `0x719A3B` SWIT CH
+- `0x719A43` SEND  OUT
+- `0x719A4D` SUMM ARY
+- `0x719A6B`  SKI LLS
+- `0x719A74` BATT LE MOVES 
+- `0x719B68` PSY CHC
+- `0x719CAE`  already / 
+- `0x71A29C` MON LAND
+- `0x71A468` HIDDEN VILLAGE
+- `0x71B994` DIGITAL WORLD
+- `0x71F114` DESERTED ISLAND
+- `0x71F2F8` FIRE ISLAND
+- `0x71FEC8` FAIRCHILD ISLAND
+- `0x720068` VALENCIA ISLAND
+- `0x72022F`  MIKAN ISLAND
+- `0x7208C8` MOPOLIS RUINS
+- `0x7219EC` CLEOPATRA ISLAND
+- `0x7226A0`     SHAMOUTI ISLAND
+- `0x7273D7` MON from further harm… /  / 
+- `0x727F76`   TANGELO ISLAND
+- `0x728B60` PINKAN ISLAND
+- `0x728D91`    SUNBURST ISLAND
+- `0x72BB18` GREPABERRY ISLANDS
+- `0x72BCD0` TROVITA ISLAND
+- `0x72F4D4` LIGHTNING ISLAND
+- `0x7342E4` AAR{CBB}AR{CBB}AR{CBB}AR{CBB}QR
+- `0x734319` AAAAQR
+- `0x734324` AR{CFF}AR{CFF}AR{CFF}AR{CFF}AQR
+- `0x73433C` RAAARAAABAAABAAABAAABAAARAAARAAAAOR
+- `0x734364` A×R{CBB}×R{CBB}×R{CBB}×R{CBB}QR
+- `0x7343A4` AR{CFF}AR{CFF}AR{CFF}AR{CFF}AQR
+- `0x7343E4` AAR{CBB}AR{CBB}AR{CBB}AR{CBB}QR
+- `0x734419` AAAAQR
+- `0x734424` AR{CFF}AR{CFF}AR{CFF}AR{CFF}AQR
+- `0x73443C` RAAARAAABAAABAAABAAABAAARAAARAAAAOR
+- `0x734464` A×R{CBB}×R{CBB}×R{CBB}×R{CBB}QR
+- `0x7344A4` AR{CFF}AR{CFF}AR{CFF}AR{CFF}AQR
+- `0x75A7DC` {C93}{V93}1H1H2H2H / ‘
+- `0x762A94` AAAR9AAA9/AA99/A999/99999999999999 / 
+- `0x762AC9` zzzzzzzzzzz
+- `0x762BF9` zzz{CFF}zzRR
+- `0x762C14` zzz / zzz
+- `0x763014` zzz / zzz
+- `0x763274` RRA!RRA!QRA9ARA9AAA9/A!99A!999!9QRB/QRR!ARR?/RR?/QR!9AA99/!999!9999 / 999 / 999
+- `0x7633FA` zz{CFF}zzRR
+- `0x763414` zzzzzzz / zz / Uz
+- `0x765F34` Egii  // ·kiA
+- `0x780030` The ocean water is lovely, isn’t / it?
+- `0x780119` The water is calm. / Would you like to SURF?
+- `0x780146` The water is calm… / Would you like to use the RAFT?
+- `0x782C5F`   ii ii{VFF}
+- `0x799DDA` Egii //  ·kiA
+- `0x799E39` CE // iCAA i{VBB}Ei{VFF}
+- `0x7B76D6` cS hicihR
+- `0x7B76F8`  yz   /y  Cz / 
+- `0x7BA53D` DATh-A EAp E:
+- `0x7BDA27` yz {V0F}hy
+- `0x7BDC8C`  Ö:i yhlgzjlR  / j:z
+- `0x7BECEA` yz{RIVAL}Ehy
+- `0x7DF7C2` R:A zx:Rxz:
+- `0x7E01CA` {VFD}{VDF}{VFD}
+- `0x8001CE` Raising BULBASAUR … / That’d be really simple. // It’s perfect for beginners.
+- `0x800217`  And then there’s SQUIRTLE. // Choose it or lose it!
+- `0x800249`   {PLAYER} woke up from his / restless sleep.
+- `0x800295` on … CHARMANDER! // Those in the know say that’s / the best way to go.
+- `0x8002D7`  {PLAYER} woke up from his / restless sleep.
+- `0x8002FC`  {PLAYER} woke up from his / restless sleep.
+- `0x800321`  {PLAYER} woke up from his / restless sleep.
+- `0x8003C2` MISTY: I knew I’d find you here! / Look what happened to my bike! // It was destroyed by lightning / when you stole it! // You’ll pay for my bike someday, kid!Now I’ve got you!
+- `0x8004AF` : I knew I’d find you here! / Look what happened to my bike! // It was destroyed by lightning / when you stole it! // You’ll pay for my bike someday, kid!
+- `0x800542`   / Now I’ve got you!
+- `0x8005A3` STY: I knew I’d find you here! / Look what you did to my bike! // It was destroyed by lightning / when you stole it! // You’ll pay for this someday, kid!
+- `0x800639`  / Now I’ve got you!
+- `0x800699` MISTY: I knew I’d find you here! / Look what you did to my bike! // It was destroyed by lightning / when you stole it! // You’ll pay for this someday, kid!
+- `0x8007BD` MON! // Just try to stop us!
+- `0x800802` Incredible! // That’s no ordinary PIKACHU! // It must be very rare! / Someday we’ll catch it! // Until then, TEAM ROCKET is / blasting off!
+- `0x800910` MON! // Just try to stop us!
+- `0x80092C` Incredible! // That’s no ordinary PIKACHU! // It must be very rare! / Someday we’ll catch it! // Until then, TEAM ROCKET is / blasting off!
+- `0x8009D1` MON! // Just try to stop us!
+- `0x800A3A` MON! // Just try to stop us!
+- `0x800B17` Don’t be frightened, little boy! / Allow us to introduce ourselves!
+- `0x800B5B` To protect the world from devastation! / To unite all peoples within our nation // To denounce the evils of truth and love! / To extend our reach to the stars above! // Jessie! / James! // TEAM ROCKET blast off at the / speed of light! // Surrender now or prepare to / fight!
+- `0x800C59`  Don’t be frightened, little boy! / Allow us to introduce ourselves!
+- `0x800CDE` To protect the world from / devastation! // To unite all peoples within our / nation! // To denounce the evils of truth and / love! // To extend our reach to the stars / above! // Jessie! // James! // TEAM ROCKET blast off at the speed / of light! // Surrender now or prepare to fight!
+- `0x800DDD`  STY: I knew I’d find you here! / Look what you did to my bike! // It was destroyed by lightning / when you stole it! // You’ll pay for this someday, kid!
+- `0x800E72` What? / No!!! // TEAM ROCKET is blasting off!
+- `0x800E9B`  st be very rare! // Someday we’ll catch it! / Until then, TEAM ROCKET is blasting / off!
+- `0x800F24` MON! / Hand over that PIKACHU! // That PIKACHU is excedinlty rare! // Its power surpasses its evolutinary / level! // Hand it over or prepare to fight!
+- `0x800FE6` MON! / Hand over that PIKACHU! // That PIKACHU is exceedingly rare! // Its power surpasses its evolutionary / level! // Hand it over or prepare to fight!
+- `0x801073` hope you learned your lesson, / novice! // Your letting that WEEDLE escape / almost cost us our lives! // The other trainers from PALLET / would never be so irresponsible! // I had three matches with PALLET / trainers! // Those trainers really knew / how to raise POKeMON! // Though I lost, I have been / training to face the next // trainer from PALLET! // But you proved to be only / a novice! // Now rest your POKeMON and / leave my cabin.
+- `0x80123F` That LIGHT BALL will increase / your PIKACHU’s power exponentially!
+- `0x801303` MON! // Ready or not ...
+- `0x80134D` It’s time TEAM ROCKET blasted off! // You may have won this round, but / we’ll be back!
+- `0x801410` MON LEAGUE // 98 WINS 1 LOSS. // Now accepting all challenges.
+- `0x801449`  Hey, are you lost in the forest, / too?
+- `0x801499` Thank you so much! You saved my / life! // My name is Seymour the Scientist! // Somebody has strung lights up in / MT. MOON, causing the nocturnal / POKeMON to fly out! // They’re after the MOON STONE, I’m / sure of it! // The MOON STONE was brought here / from another planet by CLEFAIRY! // That’s right, CLEFAIRY are aliens! / Please, go help them!
+- `0x8015F9` It’s a CHARMANDER! / But it refused to battle. // Maybe it has a trainer …
+- `0x801685` ainer? I had a / CHARMANDER but it was so weak it // couldn’t even beat the weakest / opponent! // So I left it on a rock so it’d / stop following me! // I lied and said I’d be back / for it. It’s so stupid that it’s // probably still there waiting / for me!
+- `0x80178F` MON / inside. It’s owned by a trainer.
+- `0x8017BF` MUMBLE … MUMBLE …/nburglars … shop … robbed …
+- `0x80185D` MON trainer? / All right then, move along, please!
+- `0x8018DF` MON trainer? / All right then, move along, please!
+- `0x801910`  MUMBLE … MUMBLE … / burglars … shop … robbed …
+- `0x8019AF` MON trainer? / All right then, move along, please!
+- `0x801A7F` MON trainer? / All right then, move along, please!
+- `0x801B2A` MON trainer? / All right then, move along, please!
+- `0x801BD8` MON trainer? / All right then, move along, please!
+- `0x801C8B` MON trainer? / All right then, move along, please!
+- `0x801CBC`  Grass and caves handled easily! / BIKE SHOP
+- `0x801DBA` MON with this vaccuum and // hose! Let’s go!
+- `0x801E17` MON for you.
+- `0x801E24`  Oh, hold on … CHARMANDER! // Those in the know say that’s / the best way to go.
+- `0x801F77` MON? I’m sorry, / but I have to be on the lookout / for thieves!
+- `0x8020DB` MON so you / can battle TEAM ROCKET!
+- `0x802154` Sixth battle coming up!
+- `0x80216E` Oh dear. I lost?
+- `0x802181` Well, you can’t win them all …
+- `0x8021B9` Numero sieta, coming up!
+- `0x8021EE` MON / lost?
+- `0x8021FA` I guess rare doesn’t mean strong!
+- `0x802235` My calculations say I’m number / eight!
+- `0x80225C` My math was wrong!
+- `0x802271` I had you figured for an easy win!
+- `0x8022AD` Isn’t the bright green grass so / beautiful?
+- `0x8022DA` Smell that flowery scent!
+- `0x8022F6` This is your ninth victory in / a row? How impressive!
+- `0x802370` MON LEAGUE // 99 WINS 1 LOSS. // Now accepting all challenges.
+- `0x80242E` MON called? // JOE: … I don’t know … / Is it a Zubat? // You’ll have to do better than / that! // Keep coming up with those types of / answers and we’ll have to pummel / you some more!
+- `0x8024DA`  /  / … … // What’s it to you, kid? / Mind your own business. // This is a private training / session. We’re helping our / classmate bone up! // But we don’t fight losers like / you! See ya back at the TECH, JOE.
+- `0x8025B3` JOE: Thanks for the help. Those / were my classmates at the TECH. // They’re trying to help me prepare / for exams. // Will you help me too by battling / me?
+- `0x802813` MON LEAGUE // 98 WINS 0 LOSSES. // Now accepting all challenges.
+- `0x802883` MON LEAGUE // 99 WINS 0 LOSSES. // Now accepting all challenges.
+- `0x802920` Are you a trainer? // I had a CHARMANDER but it was so / weak it couldn’t even beat the / weakest opponent! // So I left it on a rock so it’d / stop following me! // I lied and said I’d be back for / it. It’s so stupid that it’s / probably still there waiting for / me!
+- `0x802A7C` QUIRTLE! / It looks pumped for battle!
+- `0x802B08` MON gang called the SQUIRTLE // SQUAD! It was deserted by its trainer / so it runs wild and plays tricks on // the town! If it had someone to care / for it, it wouldn’t be as bad as it is. // We’ve been trying to catch it, but / it always gets away! // Be careful if you run into it again!
+- `0x802C31`  / It’s a wild SQUIRTLE! / It looks pumped for battle!
+- `0x802C64`  It’s a wild SQUIRTLE! / It looks pumped for battle!
+- `0x802C97`  It’s a wild SQUIRTLE! / It looks pumped for battle!
+- `0x802E20` ISH: Ode-ish! Ode!
+- `0x802E7B`  / Dialed PROF. OAK’S phone number!
+- `0x802F04` MON with you! // Any others are sent to my lab! / Don’t worry, I’ll take good care / of them! // Goodbye and good luck, {PLAYER}!
+- `0x8030FD` MON! // So hand them over!
+- `0x803117` Grrr! / Let’s get off this lousy bucket!
+- `0x803140` You may have foiled TEAM ROCKET’s scheme, / but we’ll be back! // We’re blasting off again!
+- `0x8031A4` You may have foiled TEAM ROCKET’s / scheme, but we’ll be back! // We’re blasting off again!
+- `0x803217`  / CAPTAIN: I’m the CAPTAIN of the / ST. ANNE! // The ST. ANNE is the greatest cruise / liner in the world! // Nothing could bring her down!
+- `0x8032A3` Sorry, but you can’t leave! // The ST. ANNE has set sail already!
+- `0x80330A` This wall looks brittle! // Would you like to use CUT to / try to break it open?
+- `0x803356`  It’s debris from this ship! / It can’t be moved!
+- `0x8033D5` MON or face our / wrath!SLOWPOKE: SLOW? POKE?
+- `0x80345F`  wild Gyarados appeared! / It seems to be enraged!
+- `0x803492` The Gyarados called forth a school / of Gyarados! // The Gyarados used Dragon Rage to / trap {PLAYER} in a cyclone!
+- `0x8034FB` {PLAYER} fainted!
+- `0x803507`  It used DRAGON RAGE on JESSIE and / JAMES!
+- `0x803531`  nraged!
+- `0x8035B5`  / KEEP OUT!
+- `0x803615` It’s a rusty railcart! / But it doesn’t work …
+- `0x803652` It’s a PIKACHU! // … … … // Wait, it’s a machine!
+- `0x8036B7` MON / LAND! // Would you like me to take you to / the mainland of PORTA VISTA now?
+- `0x80371F` Okay! / We’re off to PORTA VISTA!
+- `0x80373F`  It’s a phone booth! / … But it doesn’t work.
+- `0x80378D` MOE’S SEASIDE RESTAURANT
+- `0x8037B1` BRUTELLA’S OCEAN CHATEAU
+- `0x8037D5` PORTA VISTA BEACH BEAUTY AND / POKEMON COSTUME CONTEST
+- `0x803823` I just adore bathing on the beach!
+- `0x803848` I got sunk!
+- `0x803856` I heard there was going to be a / beauty contest! // I’m thinking of entering.
+- `0x8038B9` Let’s go for a swim!
+- `0x8038D0` Glub glub!
+- `0x8038DD` I need to do some more training!
+- `0x803917` Isn’t PORTA VISTA’s beach beautiful?
+- `0x80393E` What a day for a battle!
+- `0x803959` I need to go swim off that loss!
+- `0x803993` I’m gonna check out the beauty / contest!
+- `0x8039BD` What a battle!
+- `0x8039CE` I hope I see some pretty girls in / the contest!
+- `0x803A08` It’s a ship tied to a pier.
+- `0x803A2F` I’m competing in PORTA VISTA’s / beauty contest! I hope I win!
+- `0x803A77` I hope I win the beauty contest! 1st / prize is a trophy and a cash reward!
+- `0x803ACE` Aren’t I the prettiest girl on the / beach? I should win, shouldn’t I?
+- `0x803B1E` Hey, {PLAYER}! I didn’t come here to / make you jealous of me! // Huh? Sorry, I’m not here to / battle, I’m here to relax! // Maybe some other time, {PLAYER}y!
+- `0x803BB3` Did you see that restaurant on the / opposite shore? // It’s owned by BRUTELLA! I owe her a / bit of money. But I can’t pay it! // She says she’ll take my beloved ship / if she doesn’t get the cash by // tomorrow! For years I’ve dreamed / about taking it on a cruise around // the world. I wanted to see the / world before it’s too late, // but I guess it wasn’t meant to be …
+- `0x803D1E` PROF. OAK: Oh, hello, {PLAYER}! I came / to PORTA VISTA with a tour group! // Your mother was part of the group, / too! I think if we want to help / MOE out, we might try advertising / during the beauty contest! // Be sure to tell everyone you see / about MOE’s RESTAURANT, okay?
+- `0x803E2C` Hi, honey! // It’s so nice to see you here! // I’m just here with the PALLET TOWN / VOLUNTEER PATROL GROUP! // Isn’t it nice to be on vacation?
+- `0x803EC2` BRUTELLA: I own this restaurant! / Buy some food or get lost!
+- `0x803F09` … Hmm? // MOE’s RESTAURANT? / Never heard of it. // But sure I’ll give it a try!
+- `0x803F5D` The service here is awful! // The owner, BRUTELLA, is terribly / cruel, too! // … Hm? / Another restaurant in PORTA VISTA? // I’d like to try it! Next time I’m / going to MOE’S!
+- `0x80400B` Sure I’ll try MOE’S RESTAURANT! // BRUTELLA’S place is nice, but I / could use going to a place that’s / more friendly and cozy!
+- `0x804119` NASTINA: I’m building a luxury / resort out on the ocean! // You can see it from the shore! / But those despicable TENTACOOL / keep ruining everything! // I was wondering if you would help / me exterminate the TENTACOOL! // … / What? You won’t? / Then I don’t need you!
+- `0x804242` I’m driving a ferry to MAIDEN’S PEAK. / Would you like to come?
+- `0x804282` All right! / All aboard!
+- `0x8042CF` Fwoo! Thanks for fighting off that / TENTACRUEL! // It would’ve capsized the boat for / sure! // I heard it destroyed NASTINA’S / construction project just before / we landed!
+- `0x804392` BEWARE! // Not of an old beauty like me, but / a beautiful young woman! // Or you’ll meet a cruel fate!
+- `0x8043FD` Welcome! To celebrate the SUMMER / END’S FESTIVAL we will now display / the shrine of the MAIDEN’S / greatest treasure! // The painting hangs on the / building just to my left! // Behold it with reverence!
+- `0x8044C8` It’s a picture of a woman! // It looks just like the mystery / woman from the beach!
+- `0x804549` MAIDEN’S ROCK / The legend of MAIDEN’S PEAK says / that 2,000 years ago a woman stood / on this cliff awaiting the return / of her lover from war. // She waited so long that her body / turned to stone just like the / cliff upon which she stood. // To this day she waits for her love / to return.
+- `0x8046DD` MON, GASTLY!
+- `0x8046FC` It’s a picture of a woman! // It looks just like the mystery / woman from the beach!
+- `0x804757` It’s a picture of a woman! // It looks just like the mystery / woman from the beach!
+- `0x8047F3` The path to CELADON CITY isn’t / quite done yet. // Maybe try visiting SAFFRON CITY / for a while first.
+- `0x804859` Oh, yes! / The path is done now! // You can go on ahead!
+- `0x804928` See all those BUTTERFREE by the ocean? / It’s the BUTTERFREE’S mating season! // If you have a BUTTERFREE, you should / release it to find a mate!
+- `0x8049B6` No? You won’t? // But then your BUTTERFREE will never / have babies!
+- `0x8049F8` Oh, good! // All BUTTERFREE should get the chance / to fall in love! // Just select your BUTTERFREE and / release it!
+- `0x804AD5` Hehehehehehe!
+- `0x804AFB` See all those BUTTERFREE by the / ocean? It’s the BUTTERFREE’S mating // season! If you have a BUTTERFREE, / you should release it to find a mate!
+- `0x804B89` No? You won’t? // But then your BUTTERFREE will / never have babies!
+- `0x804BCB` Oh, good! // All BUTTERFREE should get the / chance to fall in love! // Just select your BUTTERFREE to / release it!
+- `0x804C3C` Your BUTTERFREE has found a mate! // The BUTTERFREE are flying away into / the sunset together! // {PLAYER}: Goodbye, BUTTERFREE! / Good luck, buddy!
+- `0x804DB8` hat’s not a BUTTERFREE!
+- `0x804E51` That’s not a BUTTERFREE!
+- `0x804E6A`  Huh? / That’s not a BUTTERFREE!
+- `0x804E9D` You can’t release your last POKEMON!
+- `0x804EC2`  Aren’t BUTTERFREE in love the most / beautiful thing?
+- `0x804EF7`  BUTTERFREE BLUFF / During the Summer of Love, come to / BUTTERFREE BLUFF to release your / BUTTERFREE and let it mate!
+- `0x804FF9` No water will come out of the / spout …
+- `0x805057` HAHAHAHA! // The only trip you’ve won is a trip / through the warp tile!
+- `0x805139` {PLAYER}: So it’s you again! / Who are you?
+- `0x80515D`  ’ve come to SAFFRON CITY and / you don’t even know SABRINA’S GYM? // If you’re trying to enter the / POKeMON LEAGUE, young man, this is // one GYM I suggest you stay away / from!
+- `0x8052EB` MON without telekinesis! // You still wish to challenge / SABRINA? Then battle me first!
+- `0x80533F` You are powerful. / Very well, then. // You may challenge SABRINA!
+- `0x80542C` Oh, too bad!
+- `0x80546F` Hehehehe! / Now I can really play with you! // I’ve shrunk you with telekinisis! / I hope you like living in my toy town!
+- `0x8054EB` SABRINA: So now. / Time for us to play.
+- `0x805544` Hehehehe! // I’d like to have a match with you! // But if you lose you have to let me / be your friend and let me play / with you! Okay?
+- `0x8055DF` en! / Let your mind rely on mine! // TELEPORTATION!
+- `0x80583E` hehe! / Now I can really play with you! // I’ve shrunk you with telekinisis! I / hope you like living in my toy town!
+- `0x8058BC` Hehehehe! / Now I can really play with you! // I’ve shrunk you with telekinisis! / I hope you like living in my toy town!
+- `0x805B7D` Listen! / Let your mind rely on mine! // TELEPORTATION!
+- `0x805C4C` MON / from LAVENDER TOWN you should // challenge SABRINA again!
+- `0x805CA4` MON now? / Excellent! You might have a shot at // beating SABRINA now! / Good luck!
+- `0x805D40` MON from / LAVENDER TOWN first! // Only then can you try to challenge / SABRINA again!
+- `0x805DAD` MON now! / Great! Go ahead and do your best // to defeat SABRINA!
+- `0x805DFA` Good luck challenging SABRINA, young / man! You’ll need it!
+- `0x805E34`  Hehehehe! / Now I can really play with you! // I’ve shrunk you with telekinesis! I / hope you like living in my toy town!
+- `0x805EE9`  A strange voice calls to you:
+- `0x805F0A` {PLAYER}: You must return to SAFFRON / CITY!
+- `0x805F44` MEOWTH is so cute, meow, meow, / meow!
+- `0x805F69`  Blood curtling screams can be heard / coming from within the TOWER.
+- `0x805FB7` It’s a plate of delicious food!
+- `0x805FEF` The inscription reads: PULL THIS / Would you like to pull the rope?
+- `0x8060BB` WELCOME!
+- `0x8060F9` It’s a toy boat!
+- `0x806222` {PLAYER}: It’s a GHOST!
+- `0x806261` Haunter has pulled your spirit / from your body! // It wants to take you to another / room …
+- `0x80638D` HAUNTER is nodding its head with / understanding.
+- `0x8063BD`   You can’t leave until you return / to your body!
+- `0x806425` {PLAYER} re-entered his body!
+- `0x80643F` HAUNTER decided to follow {PLAYER} on / his journey!
+- `0x80646E` HAUNTER joined ASH!
+- `0x806518` {C01} HAUNTER is nowhere to be found!
+- `0x80653B`  Thank you so much for helping / my daughter!
+- `0x806593` {PLAYER} hung up the phone.
+- `0x8065D9` MON at once, or / you’ll go back to my toy box!
+- `0x80664B` Thank you for all your help, / {PLAYER}. // Thanks to you and HAUNTER I finally / feel free and innocent again!
+- `0x80670B` MAN: I haven’t seen SABRINA laugh / like this since she was a little / girl! // That’s right, I’m SABRINA’S father! / Thank you for coming back! // That HAUNTER has helped SABRINA / discover the human part of her / heart!
+- `0x806818` SABRINA: Hahahahaha!
+- `0x80683C` Prepare to become my doll and play / with me forever!
+- `0x8068E3` HAUNTER is nowhere to be found!
+- `0x806946` It’s a VIDEO PHONE! // Would you like to dial PROF. OAK’S / number?
+- `0x806A05` MON fled!
+- `0x806A92` MON fled!
+- `0x806A9C`  MANKEY: Bwii bwiii!
+- `0x806ACA` SABRINA’S inner child is fading / from existence.
+- `0x806CD6` … / PROF. OAK hung up the phone.
+- `0x806D4F` MON is furious that you / would try to catch it!
+- `0x806D80` Would you like to try to catch it?
+- `0x806DAD` MON is crazed with rage! // … … … / What??? // It’s evolving!
+- `0x806DF3` MON wants to fight!
+- `0x806E13` It grabbed the tasty donut!
+- `0x806E31` It seems to be looking for some food. / Give it a tasty donut?
+- `0x806EB6` CELADON PERFUME STORE
+- `0x806F6E` JIGGLYPUFF: Puu pupuu!
+- `0x806FDC` MON to evolve / just to battle isn’t very / responsible is it?
+- `0x80702A` The THUNDERSTONE causes PIKACHU / to evolve into RAICHU! // But once it evolves it can never / return to its previous form. // Think long and hard before using / it!
+- `0x8070C6` Oh? // You’re having trouble beating LT. / SURGE with your PIKACHU? // There is something that can make / it stronger! // But it will change your PIKACHU / forever! Do you want it?
+- `0x807297` MON evolve as soon as you / catch it! … … … // You still want to fight, eh? / Oh, well!
+- `0x8072E8`   guess you’ll learn that playing / with the big boys can be a / shocking experience!
+- `0x80771E`  through the air.
+- `0x807767` Please leave! / Since we all sell perfume here you / must find us offensive!
+- `0x8077B2` Hello, I’m the store manager. / Don’t you think perfume is the / most exquisite and elegant aroma / in the world?
+- `0x80782A` Oh, you do? You’re not just saying / that? // … … …
+- `0x80785C` What??? / You think perfume is a stinky / ripoff??? // P for pretty! / E for elegant! / R for radiant! / F for fun! / U for urbane! / M for mysterious! / E for energy! / And that spells PERFUME! // If you object to perfume so much, / then you should just leave!
+- `0x807980`  Table for one?
+- `0x8079B1` Pssst! Hey, pest! / Over here!
+- `0x807A41` Good evening! We’d like to enroll our / daughter in your training classes! // WOMAN: That’s wonderful! / Please come in!
+- `0x807AB3`  Bing! Bong! Bang! / Tah-dah!
+- `0x807ACF`  ot even your own mother would / recognize you in this outfit! // Talk about dressing for success! / That getup will get you into the / GYM easy! // Let’s go!
+- `0x807B64` Hey, kid! Bet they wouldn’t let / you into that GYM today! // Even though you’re a pest, we’ll / show you how to get into that GYM. // You just need a fashion makeover! // Ready? / One … / Two … / Three!
+- `0x807D3F`  / Oh, so are you ready for some / extreme training? // As ERIKA’S pupils, we won’t go / easy on you.
+- `0x807DCB`  / Arnold! / ARNOLD! // Where have you been, Arnold? / Father’s been so worried! // … … … / Huh? // You’re not my son? / Oh, I’m so sorry! // You look just like my Arnold! / My son Arnold just disappeared! // He’s been gone for three days! / I can’t find him anywhere …
+- `0x807EBC`   I’m hanging up posters of lost / children. // They certainly were nice, all / of them. // Disappearing one by one like that, / I just don’t understand it.
+- `0x807F4D`  Psy-yi-yi!
+- `0x807F59`  MAGIKARP! MAGIKARP! MAGIKARP!
+- `0x807F82` BULBA BULBA! / BULBASAUR! BULBASAUR!
+- `0x807FB0` GLOOM! GLOOM! GLOOM!
+- `0x80815A` MON / in our field? / My word! // I’ll resolve this at once! // I’ll have DROWZEE use DREAM EATER / to counteract the HYNOSIS right / away!
+- `0x808222` My ARNOLD has returned! / I’m so happy!
+- `0x808253` MOMMY says I was gone for three / whole days! // But I don’t remember a thing!
+- `0x80829D`  I had DROWZEE use DREAM EATER! // It should cure the power of / HYPNOSIS completely!
+- `0x808302` All of the missing children have / returned!
+- `0x80832D`  All of the missing children have / returned!
+- `0x808374` All of the missing children have / returned!
+- `0x8084B1` JACK’S house
+- `0x8084C9` JOHN’S house
+- `0x80851E` You can’t leave without PIKACHU!
+- `0x808647` MON! / There’s one in VIRIDIAN CITY!
+- `0x80867B` There’s no time to sleep now!
+- `0x8087A7` Hey, kid! / Give me back my bicycle!
+- `0x808882` MON here. // Good luck!
+- `0x80891D` MON CENTER is.
+- `0x808970` MON CENTER is.
+- `0x8089B2` MON thieves known / as TEAM ROCKET are in the area! // If you run into them call me / right away! / My name is OFFICER JENNY!
+- `0x808A53` Would you like to place a call / to your mother?
+- `0x808C1F` RING! RING! RING! / PHONE CALL! PHONE CALL! // Huh? The phone is ringing! / Will you pick it up?
+- `0x808CEC` MON CENTER in VIRIDIAN CITY. // Is that correct? / … … … // I’m pleasantly surprised you got / there so soon! // I admit, when you left I had my / doubts that you could handle / your PIKACHU! // Keep up the good work! / Gotta go, {PLAYER}!
+- `0x808DCC` It’s a video telephone! / Ah, the miracles of science!
+- `0x808E8A` MON match and / see who triumphs!
+- `0x808EFE` I hope you enjoy your stone!
+- `0x808F1D` A new rock came in! / You should check it out …
+- `0x808F60` MON aren’t powerful / enough to challenge me. // Come back when you’ve gotten / stronger.
+- `0x808FB7` MON? / It won’t stand a chance against // my ROCK TYPES. Come back when / you’ve gotten stronger.
+- `0x809012`  So BROCK wouldn’t battle your / PIKACHU? The only way to get BROCK // to accept your challenge is to // increase your PIKACHU’s power. / I can help you. // This is a hydro electric plant. / The electricity it produces has / condensed into an electric ball. // It might be able to increase your / PIKACHU’s power. // Do you want it?
+- `0x809146`  This is a hydo electric plant!
+- `0x809177` This is a hydro electric plant! / It generates a ton of electricity!
+- `0x8091E9` Stop! / I don’t want to hurt your / PIKACHU. // Let’s call this a draw.
+- `0x80922A`  MOON STONE, huh? // What’s so special about it? / Looks like an ordinary rock to me.
+- `0x8092EE` SEYMOUR: You’ve found the MOON / STONE! The CLEFAIRY must pray to / it! // Thank you for saving the CLEFAIRY / from TEAM ROCKET! // I’ve decided to live here with the / the CLEFAIRY! // It’s been my life’s dream to find / the MOON STONE! // And some day I’ll travel to the / stars with CLEFAIRY!
+- `0x80944F` MON? // Your PIKACHU is in its cutest stage. / It can’t win! // As GYM LEADER I have to accept / every challenge, so let’s get / this over with!
+- `0x809557` MON? // Your PIKACHU is in its cutest stage. / It can’t win! // As GYM LEADER I have to accept / every challenge, so let’s get / this over with!
+- `0x809663` The CLEFAIRY are using METRONOME! / It caused a huge explosion!
+- `0x8096A6` Looks like TEAM ROCKET’S blasting / off again!
+- `0x8096D8` All right, twerp! / We’re here for that MOON STONE! // Hand it over!
+- `0x809743`  / SEYMOUR: Thank you for saving the / CLEFAIRY, {PLAYER}!
+- `0x80982B` SEYMOUR: Thank you for saving the / CLEFAIRY, {PLAYER}!
+- `0x80985B`  SEYMOUR: Thank you for saving the / CLEFAIRY, {PLAYER}!
+- `0x80988C`  Hey! Will you battle me, please?
+- `0x8098D6` CHARMANDER: CHAR! CHARMANDER! / CHAR!
+- `0x809942` MON and went running out of / here crying!
+- `0x80996B`  This GENTLEMAN’S RATICATE really / is something! // Anyone would be lucky to own it, / don’t you think?
+- `0x809B2F`  / Ahoy, there! / So you’re brave enough to // battle my RATIC8? / As you wish!
+- `0x809B85` Business has really picked up! Now / I can save my boat and my / restaurant! // Thank you, {PLAYER}!
+- `0x809BDD`  The service is great here! // From now on I only eat at MOE’S!
+- `0x809C91`  / My POLIWRATH can smackdown any / opponent! For real!
+- `0x809D0E`  / That’s enough. / Why don’t we just call it a draw?
+- `0x809D6C` MON / DROWZEE is inside it!
+- `0x809DA1` MON / HYPNO is inside it!
+- `0x809DB9`  SCISSOR STREET / AKA BREEDERS LANE
+- `0x809DFA` MON beauty / makeovers
+- `0x809E27` MON SALON
+- `0x809E4C` MON / trainer! // Huh? You’ve even got badges? // I bet you could even beat AJ! // He’s got a GYM up ahead and he’s / undefeated! // Go see if you’re good enough!
+- `0x809EF5` Ow, ow, mommy! // Fine, keep that weak CHARMANDER! / I don’t want it!
+- `0x809F9D` MON a / PRETTY-MON!
+- `0x809FE2` MON a fashion makeover?
+- `0x80A005` I always bring my CHANSEY to SUZY / for a beauty makeover!
+- `0x80A130`  / SUZY: I don’t have pupils, BROCK. / Breeding takes up all my time. // But I haven’t had as many customers / since that new salon opened! // If you ask me, its owners are up / to no good!
+- `0x80A1E5` BROCK: If you think they’re up to no / good then I’ll investigate them! // It’s the least I could do for my / idol!
+- `0x80A257` BROCK: SUZY! My name’s BROCK! / Nice to meet ya’, SUZY! // Er, uh, I wanna breed like you! / I, uh, mean I wanna be a breeder / like you! // What I’m really trying to say is / … SUZY, I’m begging you to accept / me as your pupil!
+- `0x80A342` BROCK: SUZY!?!
+- `0x80A353` May I help you?
+- `0x80A3C8` T. // Will you go see if everything’s / all right?
+- `0x80A3F8` Oh, CHANSEY darling! // Don’t you look precious! // Thanks, SUZY! / See you soon!
+- `0x80A44E` Just relax. / Release all your tensions! / There! Done!
+- `0x80A571` T / are really from TEAM ROCKET!
+- `0x80A677` VULPIX used FIRE SPIN on TEAM ROCKET!
+- `0x80A6C5` TEAM ROCKET: We’re blasting off again!
+- `0x80A7E3` SUZY: We both have journeys ahead of us, BROCK. / {PLAYER}, thank you for your help! // Please take this as my thanks!
+- `0x80A854` SUZY: Good luck, {PLAYER}, BROCK!
+- `0x80A872` Thanks for your help, {PLAYER}! / Maybe once we’ve both gotten stronger // we can battle again! / Good luck, {PLAYER}!
+- `0x80A989` T are really from TEAM ROCKET!
+- `0x80AA2F` MON’S outer beauty, / its inner strength will be lost! // VULPIX! / Wrap them up with FIRE SPIN!
+- `0x80AA8D` VULPIX used FIRE SPIN on TEAM / ROCKET!
+- `0x80AADC` TEAM ROCKET: We’re blasting off / again!
+- `0x80ABFB` SUZY: We both have journeys / ahead of us, BROCK.
+- `0x80AC2D` , thank you for your help! / Please take this as my thanks!
+- `0x80AC6B` SUZY: Good luck, {PLAYER}, BROCK!
+- `0x80AC8C` Thanks for your help, {PLAYER}! // Maybe once we’ve both gotten / stronger we can battle again! // Good luck, {PLAYER}!
+- `0x80ADA4` BROCK: {PLAYER}, take out TEAM / ROCKET! If you could beat me in / battle, you can beat them!
+- `0x80ADFA` It’s a fashion disaster!
+- `0x80AE68` I’m trying to keep an eye on my / daddy …
+- `0x80AEBB`  {PLAYER} received a BLUE SCARF from / SUZY!
+- `0x80AF1D` SUZY: BROCK has left on his own / journey to become a BREEDER. // I’m going to work harder to become / a better breeder too!
+- `0x80AFF7` MON! // They only wanted money!
+- `0x80B05B` T, I’ll be bringing my / PSYDUCK to SUZY from now on!
+- `0x80B0AB` I realize now that my SLOWPOKE’S / inner beauty is more important / than its outter beauty!
+- `0x80B13D` I like to eat by the oceanside!
+- `0x80B181` I can’t stand the service at this / place!
+- `0x80B1C0` I’ve traveled a lot in my days! // I just need a comfortable place to / sit, eat, and rest!
+- `0x80B285` MON so sleepy!
+- `0x80B2B8` MON are all full of life / again!
+- `0x80B385`  BALL! // Now I’ve got a PSYDUCK-sized / headache! // SIGH!
+- `0x80B5E1` MON to be sleepy!
+- `0x80B63A` MON to be sleepy!
+- `0x80B6A8` MON to be sleepy!
+- `0x80B87B` … / PROF. OAK hung up the phone.
+- `0x80B8EC` Go ahead. See just how weak you / are against SABRINA’S PSYCHIC powers!
+- `0x80B9B7` REBECCA: I’m really sorry my / father bothered you … // Can I ask a favor of you? / A really, really big favor? // Please defeat my father’s HITMONCHAN! / My father’s training nonstop to win // the P1 CHAMPIONSHIP! / If you beat him he’ll come to his // senses and come home! / Thank you so much for your help!
+- `0x80BBAA` ANTHONY: I’ll be in the gym taking on / challengers! I’ll be waiting for ya!
+- `0x80BC9E` REBECCA: DADDY!
+- `0x80BCAE`  The CHAMPIONSHIP is underway! / You can enter now!
+- `0x80BDD3` MON to compete!
+- `0x80BE92` MON! // Come back when you have a FIGHTING / type to battle with!
+- `0x80C0F0` MON to compete!
+- `0x80C1AF` MON! // Come back when you have a FIGHTING / type to battle with!
+- `0x80C40D` MON to compete!
+- `0x80C4CC` MON! // Come back when you have a FIGHTING / type to battle with!
+- `0x80C6D1` ANTHONY: Thanks, {PLAYER}! // I’ll turn {V02} into a real / champ, you’ll see!
+- `0x80C717` ANTHONY: Now select your PRIMEAPE / to give to me!
+- `0x80C773` MON // from your BOX!
+- `0x80C795` ANTHONY: Hey, I understand if you / want to keep it to train yourself! // Good luck, {PLAYER}!
+- `0x80C7EE` ANTHONY: {PLAYER}! I was so impressed / with your {V02}! // It’s got a lot of natural fighting / talent! // Why don’t you let me train it for a / while? I promise to turn it into a // real P1 CHAMPION!
+- `0x80C8AC` REBECCA: Thank you so much! / Now my daddy can be with us as a / family again!
+- `0x80C901` {PLAYER} received a BLACK BELT as reward / for winning the P1!
+- `0x80C93D` Congratulations! / For your victory in the P1 GRAND / PRIX please accept this prize!
+- `0x80C9C7` Let the finals of the P1 GRAND / PRIX begin!
+- `0x80CA11` Begin the SEMIFINAL ROUND!
+- `0x80CA5C` Let ROUND THREE commence!
+- `0x80CAA6` Let ROUND TWO begin!
+- `0x80CB07` MON! // Very well! / Let the contest begin!
+- `0x80CC2A` MON NUMBER ONE / GRAND PRIX CHAMPIONSHIP!
+- `0x80CC52`  termine // if it qualifies for the P1 / CHAMPIONSHIP contest.
+- `0x80CD1B` MON out of storage!
+- `0x80CD32`  / Congratulations on winning the P1 / CHAMPIONSHIP!
+- `0x80CD9E` My MAHCOP and I are going to blow / away the competition!
+- `0x80CDE1` I’ve been training for weeks to / become the Ultimate Fighting Champ!
+- `0x80CE55` GRINGEY CITY
+- `0x80CE78` POWER PLANT
+- `0x80CEFB` Tears are welling up in its eyes / knowing that it has to say goodbye / …
+- `0x80CFF3` MON especially / to win the CHAMPIONSHIP BELT! // We’re going to be the winners / around here!
+- `0x80D0AE` We may have lost the fighting / tournament, but you haven’t heard / the last of us! // We’re blasting off again!
+- `0x80D118`  I gotta throw in the towel!
+- `0x80D1DC` MON on your side!
+- `0x80D1FA` ANTHONY: I’m going to focus more / on my family now that the P1 has / ended!
+- `0x80D243`  REBECCA: Thank you so much for all / your help, {PLAYER}!
+- `0x80D27B` MON NUMBER ONE GRAND / PRIX TOURNAMENT // Now accepting entries.
+- `0x80D2F8` There’s no power! / The computer can’t be booted up!
+- `0x80D3E8` MON / here! // Maybe if you went to the POWER / PLANT you could find out what / happened to the power!
+- `0x80D4CB` Thanks for getting rid of that / MUK! // Now GRINGY CITY has power again!
+- `0x80D512` You did it! // Now that the MUK’S gone, the / power’s working again! // Thank you!
+- `0x80D55F` Ack! Here it comes now! / Do something!
+- `0x80D65D` MON for / us and get rid of it?
+- `0x80D739` I just can’t take it anymore! / It’s the DIGLETT! // They’re destroying everything!
+- `0x80D7D6` MON trainer right? / If you’re passing through / DIGLETT’S CAVE, then maybe you can / catch them so we can proceed! // Please! / We’re desperate!
+- `0x80D893` Haven’t you caught the DIGLETT yet? / We need to restart our construction // as soon as possible!
+- `0x80D923` Thank you for your help!
+- `0x80D93E` Oh! So you’ve caught a DIGLETT! / What? // The DIGLETT were only protecting / their environment? // Then I suppose our construction / must halt permanently! // Thank you for your help! / Please take this as my thanks!
+- `0x80DA07`  HOT SPRING / Bathe for free!
+- `0x80DA5B` LETT’S CAVE
+- `0x80DB0A`  DIGLETT’S TUNNEL
+- `0x80DBBF` MON, but we’ll be back! // We’re blasting off again!
+- `0x80DBF1`  HAHAHA! // Born in darkness! / Living in darkness! // Such is the fate of the ninja! // I am Aya, ninja warrior! // My VENONAT informed me that a / stupid looking person had entered / the MANSION.
+- `0x80DCF0`  you learned your lesson, / novice! // Your letting that WEEDLE escape / almost cost us our lives! // The other trainers from PALLET / would never be so irresponsible! // I had three matches with PALLET / trainers! // Those trainers really knew how to / raise POKeMON! // Though I lost, I have been / training to face the next trainer / from PALLET! // But you proved to be only a / novice! // Now rest your POKeMON and leave my / cabin.
+- `0x80DEA2` MON reserve
+- `0x80DF1D` MON up every / once in a while.
+- `0x80DF84` MON reserve! // I’m training for a big race tomorrow! / Mind if I train with you a bit?
+- `0x80DFD7`  KANGASKHAN: KANGAS! KANGASKHAN!
+- `0x80E000` You may have bested me, but I’ll / still win that race! // Thanks for the battle. Here’s a / little somthing for your trouble.
+- `0x80E0DE` MON reserve! // I’m training for a big race tomorrow! / Mind if I train with you a bit?
+- `0x80E147` {PLAYER} received a QUICK CLAW!
+- `0x80E161`  PONYTA: PEIGH!
+- `0x80E21B` MON / poaching! // … … … // Didn’t you know this whole / area is a reserve?
+- `0x80E29E` MON / here, and look out for poachers!
+- `0x80E323` MON / here, and look out for poachers!
+- `0x80E358` SAFARI ZONE
+- `0x80E36F` SAFARI GUIDE HUT
+- `0x80E3AD` TOMO decide to stay with mama / KANGASKHAN and people mama!
+- `0x80E3FA` MON or people? / My name TOMO. I protect / KANGASKHAN. // What? / My mama and papa look for me? // Mama KANGASKHAN my mama! // I have people mama, too? I go see!
+- `0x80E4AB` Please help me find my baby boy!
+- `0x80E4CE` I’m so happy to be with my boy / again!
+- `0x80E512` Five years ago we lost our boy, / TOMMY in this wilderness! // We were told he’s been seen with / some wild KANGASKHAN! // If you find him, please tell him / we’re looking for him!
+- `0x80E5BD` We’ve decided to live here with / the KANGASKHAN and our boy! // Mama is so happy!
+- `0x80E64B` Hold on!!!
+- `0x80E677` WARDEN: No!!! / There’s no DRATINI in that picture! // There are no DRATINI in the SAFARI / ZONE, understand! // Now get going!!!
+- `0x80E83B` MON! // Break any of these rules and my / THUNDERBOLT REVOLVER will burn you! // Got it? / So you wanna play?
+- `0x80E89F`  Hmmmm? // It appears to be a picture of / the WARDEN with a DRATINI!
+- `0x80E94B` WARDEN: You saved the DRATINI! / Thank you! // Please, take this as a reward for / your help!
+- `0x80E9A2`  reward!
+- `0x80E9B0` We may not have gotten DRATINI but / we’ll still get your PIKACHU / someday! // We’re blasting off again!
+- `0x80EAC3` MON go belly up! // Then we’ll capture DRATINI for sure! / Just try to stop us!
+- `0x80EB4C` Sorry, but we don’t sell perfume / to people who think it’s a stinky // ripoff!
+- `0x80EB97`  Do you need a quick rest? / Here you go!
+- `0x80EBBF`  Please help me find my baby boy!
+- `0x80EC43` Excuse me!
+- `0x80EC53` The bridge isn’t finished yet! / Only the bike path is completed. // If you don’t have a bike, you / travel on it.
+- `0x80ED15` The bridge isn’t finished yet! / Only the bike path is completed. // If you don’t have a bike, you / can’t travel on it.
+- `0x80EDCB` Thank you for your help!
+- `0x80EDFA` MON MEDICINE / and the BIKE from NURSE JOY!
+- `0x80EF3F` MON / CENTER in SUNNY TOWN. // I know you need a BICYCLE to get / over the bridge. // Don’t worry! I’ll let you use one / of mine! // Please borrow this bike and take this / MEDICINE to SUNNY TOWN for me!
+- `0x80F0A3` MON battle! // Let’s go! / I’ll send you home crying!
+- `0x80F0D4`  Let’s get electric!
+- `0x80F1B6` Thank you so much for your / help! // To show my gratitude, please keep / that bike my sister gave you. // I’m sure she won’t mind!
+- `0x80F2A0` {PLAYER} handed over the MEDICINE / to NURSE JOY.
+- `0x80F382` MON! // That’s why I opened this HOUSE / OF IMITE! // Once I get it up and running, DITTO / and I will become world famous / impersonators!
+- `0x80F452` MON! // This is the HOUSE OF IMITE! // I’m hoping to perfect my DITTO’s / TRANSFORM ability! // If you think DITTO’s boring, then / you don’t know DITTO’s true power!
+- `0x80F4F4` Let’s have a little match. / Then you’ll understand, {PLAYER}y-BOY!
+- `0x80F530`  DUPLICA: Feel free to take a look / around if you like. // If you want you can wait out / the storm here!
+- `0x80F612` MON CENTER!
+- `0x80F64A` MON transporting system / has been down all day! // I wish there was something I could / do! // But I’m sure you didn’t come here / to worry about that.
+- `0x80F79E` MON again!
+- `0x80F853` MON that are being transferred / from this CENTER. // The only way to stop them is for / someone to go in after them!
+- `0x80F8C2`  o then ... // Off you go!
+- `0x80F8DF` This is impossible! // I created this transfer machine / system myself! // There’s nothing wrong with the / system or the programming! // Wait! What is-- // It can’t be! It’s not possible ...
+- `0x80F9BD` The BRIDGE ends here.
+- `0x80F9D5` {PLAYER}! / Quickly! // I must transport you back to the / real world before the VIRUS traps / you in the DIGITAL WORLD forever! // Hang on! / 3 ... 2 ... // 1! Go!
+- `0x80FAD8` Looks like it’s time for us to / blast off back to the real world!
+- `0x80FB20` This feels bad!
+- `0x80FB6A` MON! // See if you can handle us this / time! // Go, PORYGON ZERO!
+- `0x80FC20` It’s a wild PIKACHU!
+- `0x80FCCC` Very well. / Let’s go!
+- `0x80FCE6` Very well then. / Goodbye!
+- `0x80FD17` LAPRAS: You’re on the right / path. / Come with me! // SANTA lost his boot and this JYNX / a few days ago. // I can take you NORTH to meet him. / Would you like to go?
+- `0x80FDB3` It’s a JYNX carrying a boot. // On the inside is a picture of / SANTA CLAUS!
+- `0x80FDFB`  JYNX! JYNX JYNX!
+- `0x80FE0D`  SANTA’S WORKSHOP
+- `0x80FE68` Merry Christmas, {PLAYER}!
+- `0x80FE7D`   received the EXPERIENCE SHARE / as a present from SANTA CLAUS!
+- `0x80FEC1` Ah, my boot! // I was afraid that I’d have to / deliver all the children’s / presents without it and my toes / would freeze! // Thank you so much, {PLAYER}! // As your reward, here’s your / CHRISTMAS PRESENT!
+- `0x80FF9C` An intense snowstorm whipped up! / Better take cover!
+- `0x810025`  DOLL / as a present from SANTA CLAUS!
+- `0x81006C` It’s too cold and snowy to leave / yet! // Better hunker down!
+- `0x81037F` {PLAYER}: My friends! // You win ... // Guess we’ll all be cold together.
+- `0x8103D2` PIKACHU: PIKA PIKA!
+- `0x810400` SQUIRTLE: SQUIRTLE SQUIRT!
+- `0x810420` {PLAYER}: CHARMANDER? // CHARMANDER: CHAR CHAR!
+- `0x810462` BULBASAUR: BULBA BULBA!
+- `0x810480` It’s freezing in this cave!
+- `0x8104B9` Have you done everything you / wanted to do at the NORTH POLE? // Would you like to return to the / KANTO REGION?
+- `0x810581` PIKA PIKACHU!
+- `0x810591` Aren’t they all so cute?
+- `0x8105C3` PIKACHU: PIKA PIKA???
+- `0x810648` It will be better this way ...
+- `0x810669` It looks so happy with all the / other PIKACHU! // Maybe ... Maybe it would be best / to leave it behind. // Would you like to leave PIKACHU / with the wild PIKACHU in the / forest?
+- `0x81073D` Your PIKACHU looks like it wants / to play with them!
+- `0x810773` It’s a group of wild PIKACHU!
+- `0x8107AC` Sorry, EEVEE!
+- `0x810833` ROUTE 20 FARM
+- `0x8108D7` DARK CITY
+- `0x8108E8` This is for the best ...
+- `0x810948` The PIKACHU are cheering for / {PLAYER} and for PIKACHU!
+- `0x8109FD` The PIKACHU are cheering for / {PLAYER} and for PIKACHU!
+- `0x810AB3` It’s just too hard giving up / PIKACHU!
+- `0x810B66` PIKACHU returned! It looks like it / would rather stay with you!
+- `0x810BCA` {PLAYER} received the EEVEE!
+- `0x810BE4` You can’t return EEVEE to its / owner if you don’t have room for / it!
+- `0x810C29` It’s an EEVEE! // But it might have a trainer … // It has a tag on its collar that / says ”STONE TOWN.” // Maybe you should return it to its / owner? How about it?
+- `0x810D56` Welcome to our EVOLUTION GARDEN / PARTY! // Let’s compare attacks!
+- `0x810DB5` MON CIRCUS
+- `0x810DF8` MON with / EVOLUTIONARY STONES!
+- `0x810E48` MON evolve!
+- `0x810EB3` MON might produce a shock!
+- `0x810ED0` If history’s taught us anything / it’s that the only way to survive / is to evolve!
+- `0x810F20`  Please select MIKEY’S EEVEE to / return to him!
+- `0x810F87` MON to your / PARTY first!
+- `0x810FA0`  an give MIKEY his / EEVEE back!
+- `0x81101C` MIKEY: Thanks for bringing EEVEE / back to me!
+- `0x81104E` MIKEY: Oh, EEVEE! // I hid it in the forest so that my / brothers wouldn’t make it evolve! // They’re known as the EEVEE / BROTHERS because they all have / evolutions of EEVEE! // But I just want to be an EEVEE / trainer! // I’ll take EEVEE back now!
+- `0x811135`  IKEY: I’ve decided to tell my / brothers that I want to be an / EEVEE trainer! // That way we’ll really be the EEVEE / BROTHERS!
+- `0x8111D3` MIKEY: Did you see an EEVEE in the / forest? // It’s mine, but don’t tell my / brothers! // I don’t want them to / force it to evolve, so I’m hiding / it form them until their EVOLUTION / PARTY is over.
+- `0x8112AE` It’s a SNORLAX! // It’s blocking the water from the / spring!
+- `0x81134D` It’s a SNORLAX! // It’s blocking the water from the / spring!
+- `0x811447` It’s a SNORLAX! // It’s blocking the water from the / spring!
+- `0x811541` It’s a SNORLAX! // It’s blocking the water from the / spring!
+- `0x811615` The river is flowing again! // Now I can feed my family!
+- `0x81169A` The water from the river started / to flow again!
+- `0x8116CA`  My crops are all dried up! // Something is blocking the river / from flowing out to them! // If I don’t get any water, my / family will starve!
+- `0x8117AC` YAS GYM
+- `0x81184F` I guess my flute woke that little / dude up, huh?
+- `0x8118BE` My FLUTE works wonders for waking / up SNORLAX!
+- `0x81190F` What’s the rush, dude? // A SNORLAX blocking the river? // That’s little dude is mine! It / loves to snooze! I can’t even take / it for a walk! I just come to wake / it up once a month. // You want to move it? Here, use my / flute to wake it! Free of charge! / That’s what free love’s all about!
+- `0x811A26` Groovy! // Greetings child of the universe! // What? I’m not alone! I’ve got my / music!
+- `0x811A79` Now that you’ve heard my music you / have to give me some food. // Isn’t my flute playing at least / worth a sandwich? // What? You don’t have any food? // Another free concert … // Well, guess you should hit the / road then!
+- `0x811CAA` LORELEI: If you aren’t busy, come / to my demonstartion at MANDARIN / ISLAND STADIUM. // Well, I have to go.
+- `0x811E0A` MON / trainers out?
+- `0x811E7C` MON you better get / out of our town now!
+- `0x811F50` MON you better get / out of our town now!
+- `0x811FC0` DARK CITY DINER
+- `0x81200A` KAS GYM
+- `0x812016` YAS GYM
+- `0x81202F`  / Thank you for saving my / restaurant.
+- `0x81211F` KAS GYM
+- `0x812149` Maybe the body guard game isn’t / for us! // We’ll finish you off next time. // TEAM ROCKET’S blasting off again!
+- `0x812372` MON / GYM.
+- `0x812383` ld we lose?
+- `0x8123D7` How could we lose?
+- `0x812432` How could we lose?
+- `0x81248D` How could we lose?
+- `0x8124A0`  I am the YAS GYM LEADER. // You are not worthy to face me in / battle.
+- `0x81251B` This isn’t over! / YAS GYM, attack!
+- `0x81256F` How could we lose?
+- `0x812587` I heard how you defeated the KAS / BODY GUARDS like they were / nothing! // You must work for me. I need your / strength! // … What??? // You won’t join us?
+- `0x81262B` BORING!
+- `0x812691` This isn’t over! / YAS GYM, attack!
+- `0x8126FD` I heard how you defeated the KAS / BODY GUARDS like they were / nothing! // You must work for me. I need your / strength! // … What??? // You won’t join us?
+- `0x8127D8` MON for / you …
+- `0x812896` I’m ’da KAS GYM LEADER! // You ain’t nothin’ to me, so get / outta my GYM!
+- `0x81290B` Thank you so much … PIKACHU!
+- `0x812972` Ohhh! // Losing makes me so mad! // I’m gonna go battle that punk / right now!
+- `0x812B5E` NURSE JOY: {PLAYER}! // Thank you for your help in trying / to unite these GYM LEADERS and / stop their bickering! // Now DARK CITY can become a lot / brighter! // Please take this as my thanks!
+- `0x812E1B` Return!
+- `0x812E99` HOLD IT!
+- `0x812F44` YAS LEADER: I’m afraid you have / things all mixed up! // You’re the ones who had better / clear out and fast! // Leave now or we’ll crush you like / the slimy insect you are!
+- `0x81303C` MON for / you!
+- `0x813049`  We’ll unite the KAS and YAS GYMS / and learn how to become true / OFFICIAL LEAGUE GYMS!
+- `0x81309E`  I’m gonna go beat up on the KAS / GYM’S SCYTHER to make up for this / loss!
+- `0x81311D` MON for / you!
+- `0x81314E` We’ll unite the KAS and YAS GYMS / and learn how to become true / OFFICIAL LEAGUE GYMS!
+- `0x8131A2`  We’ll unite the KAS and YAS GYMS / and learn how to become true / OFFICIAL LEAGUE GYMS!
+- `0x81323C` The GYMS have stopped fighting! // MOMMY says I can play outside / again!
+- `0x813325` Do a trick, will ’ya?
+- `0x813386` Wonderful! // I’ll meet you inside!
+- `0x8133AC` Oh, dear. I guess I’ll have to / perform on my own …
+- `0x81341C` Let’s get this show on the road!
+- `0x81345D` {PLAYER} received the SOOTHE BELL from / NURSE JOY!
+- `0x8134EF` Oh, you’d help me out, wouldn’t / you? // I need an assistant for my act! // I’m a magician. MELVIN’S the name. // I’m not very famous yet, but I’m / working really hard on my act! // Will you help me?
+- `0x81368D` And who do you think is going to / come watch your lousy show? // Goodbye!
+- `0x8137B7` Oh, I’m on! Hang on, I’m coming!
+- `0x8137DD` Ladies and gentlemen, thank you / for coming! // Allow me to introduce myself! I am / MELVIN, the magician magnificent! // My EXEGGCUTE will do some great / magic tricks that will samaze and / aprise you!
+- `0x8138D8` This is pathetic! / You’re the worst!
+- `0x8138FC`  Sorry, but the show hasn’t started / yet!
+- `0x813925`  MOSSGREEN VILLAGE
+- `0x81394C` Please go capture me an / EXEGGUTOR! You must obey my / EXEGGCUTE’S HYPNOSIS!
+- `0x813999` Oh, it’s my lovely assistant! // Let me show you how my EXEGGCUTE’S / HYPNOSIS works!
+- `0x813AD1` {PLAYER} has no choice but to / obey the HYPNOTIC command!
+- `0x813B53` Thank you for your help, {PLAYER}! // Now my show can be a big success!
+- `0x813B94` Oh, I’m still a loser!
+- `0x813BB0` Now how about we put on a show?
+- `0x813BF7` {PLAYER} handed over the EXEGGUTOR / to MELVIN!
+- `0x813C55` EXEGGUTOR’S FOREST
+- `0x813C70` HYPNOSIS commands you to hand over / MELVIN’S EXEGGUTOR!
+- `0x813D3B` SCYTHER: Scyther scythe!
+- `0x813E0D` MON trainer? / How about a battle? // I’ll meet you outside, okay?
+- `0x813E81` Grandma!
+- `0x813E8C` I’ve asked you before not to / frighten the customers! // We’re here to help trainers with / our miracle potions, not scare / them away.
+- `0x813F0E` So you want some POTIONS, do you? // I got some snake root that’ll / cure insomnia and grow hair on / your nose and tongue!
+- `0x813FA1` Welcome to the HERB SHOP, home of / effective and inexpensive medicine!
+- `0x813FE9` Please come again!
+- `0x813FFC`  Thank you for helping PARAS / evolve!
+- `0x814023` {PLAYER} recieved the / BIG MUSHROOM from CASSANDRA!
+- `0x814052` It evolved into PARASECT! // Now I can make my MIRACLE POTION. // As my thanks for your help, please / take this!
+- `0x8140BC`  take this!
+- `0x8140F2` I’d like for my PARAS to evolve / into PARASECT very soon, but it’s / very cowardly! // But if I can get it to evolve, I / can make a new POTION from its / mushroom! // Please battle with it so it will / evolve!
+- `0x8141B6`  NEON TOWN CASINO / Play all day and all night!
+- `0x81420D` PARAS: Paras …
+- `0x81423E` {PLAYER} examined the tree. // The tree is empty!
+- `0x814267`  PARASECT: PARASECCCCCT!
+- `0x81428E` PARAS ran back to CASSANDRA!
+- `0x8142B0` {PLAYER} examined the tree. // CASSANDRA’S PARAS is in the / branches!
+- `0x8142EC`  looks like CASSANDRA’S PARAS / evolved!
+- `0x814313` PARASECT brashly attacked {PLAYER}!
+- `0x8143A5` Welcome to the HERB SHOP! / We just got a brand new item in!
+- `0x8143E0`  ALL NATURAL HERB SHOP
+- `0x8143F7`  NEON TOWN / The city that never sleeps.
+- `0x8145A6` OFFICER JENNY: All right! // Break it up, you two! There’s no / fighting here! // A kid like you shouldn’t be / walking the streets at night! // People around here are pretty / short tempered! // They’re on edge because they stay / out all night and don’t get enough / sleep! // You should go get a nice rest at a / hotel and mind your own business!
+- `0x81478B` Go ahead! Laugh! / I’m flat-out busted! // No more slots for me! / I’m going straight! // Here! / I won’t be needing this anymore!
+- `0x814804` {PLAYER} received a COIN CASE / from the man.
+- `0x81482C` I always thought I was going to / win it back…
+- `0x81485B` Make room for this!
+- `0x8148FC` {PLAYER} woke up completely refreshed! // JIGGLYPUFF looks upset that you / didn’t listen to its song without / falling asleep.
+- `0x81496F`  t ran off in a rage!
+- `0x81498F` {PLAYER} started to get drowsy …
+- `0x8149AC`  fell fast asleep!
+- `0x8149C1` JIGGLYPUFF happily sipped up the / BERRY JUICE! // It’s voice was instantly restored! // JIGGLYPUFF is starting to sing!
+- `0x814A34` Want to give it the BERRY JUICE to / soothe it’s sore throat?
+- `0x814A72` It’s a wild JIGGLYPUFF! // But there seems to be something / strange about it … // It seems to want to speak, but it / can’t!
+- `0x814AF1` {PLAYER} fell fast asleep!
+- `0x814B44` Ever since I fell asleep after / hearing that strange song I’ve / felt great! // I just wanted to apologize for / bumping into you before! // Sorry!
+- `0x814BCD`  This wall looks brittle! // Would you like to use the HATCHET / to try to break it open?
+- `0x814C22`  This tree looks like it can be hacked / through! // Would you like to use the HATCHET?
+- `0x814CA7` GRAMPA CANYON
+- `0x814CCF` {PLAYER} used the HATCHET!
+- `0x814CE6` This tree looks like it can be hacked / through!
+- `0x814D3D` is rock appears to be breakable. / Would you like to use the PICKAXE?
+- `0x814DF5` {PLAYER} used the PICKAXE!
+- `0x814E0A`  he PICKAXE!
+- `0x814EBB` MON / manure???
+- `0x814ECB` Smell ya’ later, {PLAYER}!
+- `0x814EE2` {PLAYER} received the / PICKAXE from {RIVAL}!
+- `0x814F05` {RIVAL}: {PLAYER}! // Don’t tell me you’ve never heard / about the great fossil rush! // I gotta go find all the fossils / before everyone else does! // If you wanna get in on the fun, / you can have this! // I found it in the ROCK TUNNEL, but / I’ve got a better one!
+- `0x814FFE` CELADON THEATER
+- `0x81502B` Finding valuable fossils is / harder than it looks, isn’t it?
+- `0x8150D5` MON fossils! / What an exciting venture this is!
+- `0x8151B4` It grabbed {PLAYER} in its claws and / lifted him out of the cave!
+- `0x8151EF`  ifted him out of the cave!
+- `0x815253` AERODACTYL fainted and fell back / into the canyon cave, sealing it / above!
+- `0x81529E` The WILD AERODACTYLY attacked in a / ravenous rage!
+- `0x8153A6` {PLAYER} used the RAFT!
+- `0x81548B` Didn’t you hear me? // I said take your PIKACHU and leave / this hospital.
+- `0x8154D3` {PLAYER} received the LEPPA BERRY that / PIKACHU choked on!
+- `0x815509` There’s something stuck in its / throat! // All right, PIKACHU, say ”ah.” / I see it! Hang on … // Got it! // I have to say, it was very / irresponsible of you as a trainer / to let your PIKACHU eat that BERRY / whole! // In any case, the treatment’s over, / so go on home and take this with / you …
+- `0x815650` MON! // If you aren’t sick, please leave.
+- `0x8156A9` DOCTOR’S belong on this side of / the desk. // PATIENTS belong on the other!
+- `0x81572B` MON / nurse!
+- `0x815736`  ROUTE 12 PUBLIC HOSPITAL
+- `0x81576F` Didn’t you hear me? // I said take your PIKACHU and leave / this hospital.
+- `0x8157B7` {PLAYER} received the LEPPA BERRY that / PIKACHU choked on!
+- `0x8157ED` There’s something stuck in its / throat! // All right, PIKACHU, say ”aw.” / I see it! Hang on … // Got it! // I have tosay, it was very / irresponsible of you as a trainer / to let your PIKACHU eat that BERRY / whole! // In any case, the treatment’s over, / so go on home and take this with / you …
+- `0x815934` MON! // If you aren’t sick, please leave.
+- `0x81598D` DOCTOR’S belong on this side of / the desk. // PATIENTS belong on the other!
+- `0x8159E3` This rock appears to be breakable. / Would you like to use the PICKAXE?
+- `0x815A34` Oh man! // I’m sick as a GROWLITHE! / Thank goodness I got to this / hospital in time!
+- `0x815A93` It’s a sick bed! / Want to take a rest?
+- `0x815ABB` {PLAYER} laid down in the hospital bed / and fell asleep!
+- `0x815AF0` {PLAYER} woke up completely refreshed!
+- `0x815B64` Better leave it for the experts.
+- `0x815BB2` You need to make room in your / party for this EGG!
+- `0x815BE6` {PLAYER} received the EGG!
+- `0x815BFD` It’s a strange looking EGG! / Want to take it?
+- `0x815C7B` It’s a pair of caskets! // JAMES’ parents have past away!
+- `0x815CB7` CHARMANDER: CHAR! CHARMANDER! / CHAR!
+- `0x815D93` This is the MASTER’S MANSION! // That over there is the DOG HOUSE / of the MASTER’S PET, GROWLIE. // Please, enter.
+- `0x815EA5` Have you seen that boy in the / photo? // You have??? // Quick! To the estate!
+- `0x815F4B` It’s a ”MISSING” POSTER! // The boy in the picture looks like / a younger version of TEAM ROCKET’S / JAMES!
+- `0x815FC0` What? // You’ve seen the boy in the missing / poster? // Jolly good eureka! // Please step into the estate at / once!
+- `0x81602B` This is a PRIVATE ESTATE. / Please kindly leave at once!
+- `0x81612F` e they have chosen for / him! // Please step into the estate at / once!
+- `0x8161F9` Oh, JAMES! / We’re so happy you came back home! // Now you can be married and become / a perfectly refined gentleman! // Come! It’s time to say hello to / your blushing bride to be!
+- `0x8162A8` Hmh hmh hmh ha ha ha!
+- `0x8162CD` JAMES: No, no! I won’t! You / can’t make me! // JESSIE: JAMES! Don’t you want to / be rich? / Then you have to get married! // Then we can split with the dough!
+- `0x816367`  / It’s a pair of caskets! // JAMES’ parents have past away!
+- `0x81651A` JAMES: EEEEAAAAAAGGGGGHHHH!
+- `0x81657C` JAMES’ FATHER: You must uphold / the family tradition! // JAMES’ MOTHER: As our son and heir / you have certain obligations - the / most important of these is that / you marry and continue the family / line! // You’ll learn to be a real / gentleman when you marry the right / girl! // And that girl is … // JESSIEBELLE!
+- `0x8166A5` JAMES: Please, help me! // If you can distract JESSIEBELLE, / it will give me a chance to / escape! // Please! I may be a thief, but I / don’t want to be forced to get / married!
+- `0x81674A`  JESSIE: If JAMES marries / JESSIEBELLE, he can get his / inheriance! // That money’s just too tempting! / He’ll have to hang up his TEAM / ROCKET costume!
+- `0x8167FC` JESSIEBELLE’S as delicate as a / flower!
+- `0x816825` We’re tired of waiting for JAMES / to grow up!
+- `0x816872` JESSIEBELLE’S much too good for / our delinquent son!
+- `0x8168A8` It’s time for JAMES to face the / music and get married!
+- `0x816954` Oh, please won’t you help me find / JAMES again? // What? Where are you going? / Don’t run away!
+- `0x8169BA` You want to help JAMES? // Very well! Let the taming begin!
+- `0x816A08` My name’s JESSIEBELLE, and I’m / going to turn JAMES into a refined / young gentleman!
+- `0x816A8D` MON / can be heard from within!
+- `0x816ADB` MON can / be heard from within the forest! // It sound unusual and rare!
+- `0x816C22` Forgive me! // It was wrong to steal and it was / wrong not to believe in / FARFETCH’D! // Now I’m going to train FARFETCH’D / to become even stronger!
+- `0x816CFA` MON / back!
+- `0x816D06` FARFETCH’D is a lot stronger than / I thought! I didn’t know it had / all those attacks! // From now on I’m going to use it to / battle! Now I don’t have to steal / anymore!
+- `0x816DB9` MON back!
+- `0x816E53` MON back!
+- `0x816E5F`  RFETCH’D? But we’ll lose for / sure!
+- `0x816F1D` MON’s gone!
+- `0x816FA7` BALLs you / dropped! See ’ya!
+- `0x81704E` MON are gone!
+- `0x81714E` Huh? / What do you mean you want to teach / me a lesson? // You want to battle me? But my / FARFETCH’D is too weak! It will / lose for sure!
+- `0x8172CE` IVYSAUR: IVYSAUR!
+- `0x8172ED` It’s a VIDEO TELEPHONE! / There’s no time for talking!
+- `0x8174DD` PROF. OAK hung up the phone.
+- `0x8174FC` It’s a VIDEO TELEPHONE! // Want to place a call to PROF. OAK?
+- `0x81766A` MISTY: I told you, but you / didn’t want to believe me! // Look! TOGEPI doesn’t want to go to / anyone else but me! // It likes me because it thinks I’m / its mother! I’ll love it just like / a mother would!
+- `0x81772C`  hanks, {PLAYER}!
+- `0x81776E` MON BATTLE!
+- `0x81777C` Oh no, no, no, no, no!
+- `0x817798` MISTY: Oh, it hatched! It / hatched! How cute! // You know, {PLAYER}, I think I should get / to keep TOGEPI, because it likes / me the best! // It’s obvious! TOGEPI has made the / right choice! // Huh? You want to keep it too, huh?
+- `0x817972`  / The water is too rough to use the / raft!
+- `0x817A71` TOGEPI thinks MISTY is its mother! / It wouldn’t be happy with anyone / else!
+- `0x817B01` MON in / your party!
+- `0x817B2D` TOGEPI is the one that thinks / MISTY is its mother, not {V02}!
+- `0x817B90` MISTY: Thanks, {PLAYER}!
+- `0x817BA5` {PLAYER} released TOGEPI over to MISTY!
+- `0x817BC7`  I win! TOGEPI belongs to MISTY!
+- `0x817D6E` MISTY’S the runt of the litter! // She’s not a real SENSATIONAL / SISTER, but we do love her …
+- `0x817DF5` CERULEAN CITY - VERMILION CITY / New direct route now open!
+- `0x817EFE` What a nice looking truck! / Huh? It’s only a toy!
+- `0x817F64` PIKACHU: PIKA!
+- `0x817F83` Oh, hmm? So where is it?
+- `0x817FAB` Now, now! If you don’t show it / to me, I’ll have to send you back / to my toy box!
+- `0x818064` {PLAYER} released TOGEPI to MISTY’S / care!
+- `0x818090` MISTY: Thanks, {PLAYER}!
+- `0x818115` MON are, like, / worn out from the show we put on! // But I guess if you beat all three / of the SENSATIONAL SISTERS, you’ll / have earned that badge!
+- `0x818216` MEOWTH: MEOW!
+- `0x818224`  You’re a tough fighter! / I must bow to your skills!
+- `0x8182DB` What? You aren’t strong enough / to challenge me! // Hehe! It wouldn’t even be any fun!
+- `0x8184ED` {PLAYER} received the MAP from MOM!
+- `0x81850D` {PLAYER} received the FAME CHECKER from / mom!
+- `0x818586` MON captured by the trainers / of PALLET TOWN
+- `0x8185D8` Ah, much better! All refreshed!
+- `0x8186E1` MON MASTER! // I can’t be defeated by the likes / of you! // I’m going to capture and defeat / you all! You hear me? // Come and get me!!!
+- `0x81875F`  t / you all! You hear me? // come and get me!!!
+- `0x8187FD` This is such a big forest! I could / use a break! How about you?
+- `0x818924` Well, where is it?
+- `0x8189A5` SABRINA: Hahahahaha!
+- `0x8189CC`   / {PLAYER} received the MAP and FAME / CHECKER from MOM!
+- `0x818A31` The SPEAROW is furious that it was / defeated! // It’s calling to the other SPEAROW / for help!
+- `0x818A8A`  ORANGE ARCHIPELAGO WHARF
+- `0x818AD4`  / Hm, oh well! Good luck, {PLAYER}! // And don’t forget to change your / underwear … every day! // {PLAYER}, I know you have to get going. / I love you!
+- `0x818BAB` Hahaha! / TEAM ROCKET wins!
+- `0x818CDD` PIKACHU used THUNDERSHOCK!
+- `0x818D65`  BALLS. // Why doesn’t this one? / It’s a little weird …
+- `0x818DE7` MON and leave my / cabin, novice!
+- `0x818E16` MON and leave my / cabin, novice!
+- `0x818EA8` Oh no! The wild BEEDRILL swept / down and grabbed METAPOD in its / arms! // It flew off with METAPOD!
+- `0x818F10` {V02} won’t help here! Only METAPOD’S / defense can get the job done!
+- `0x818FCB` Oh no! The wild BEEDRILL swept / down and grabbed METAPOD in its / arms! // It flew off with METAPOD!
+- `0x819033` {V02} won’t help here! Only METAPOD’S / defense can get the job done!
+- `0x8190EE` Oh no! The wild BEEDRILL swept / down and grabbed {V03} in its / arms! // It flew off with METAPOD!
+- `0x819156` {V02} won’t help here! Only METAPOD’S / defense can get the job done!
+- `0x8191A7` Hurry! METAPOD’S defense is the / only thing that can help!
+- `0x8191F1` A group of wild BEEDRILL is / attacking! // Maybe METAPOD’S HARDEN attack can / help protect you!
+- `0x8192E5`   // What? The BEEDRILL that took it is / attacking!
+- `0x819321` FLINT’S ROCK SHOP / Rock souvenirs for your stay at / the STONE GRAY CITY of PEWTER.
+- `0x8193C0` {V02} won’t help here! Only / METAPOD’S defense can get the job / done!
+- `0x8194C5` That feels much better, doesn’t / it?
+- `0x8195C6` Stop! This has gone far enough!
+- `0x819627` Oh, sorry! That sign is a little / misleading! // The path isn’t quite done yet.
+- `0x8196D3`  / Oh, I wanted to win!
+- `0x8196E9`   guess / you aren’t all bad after all! // Here’s the CASCADEBADGE.
+- `0x819762`  / Oh, sorry! That sign is a little / misleading! // The path isn’t quite done yet.
+- `0x8197C9` he path is finished! That didn’t / take so long, did it?
+- `0x819886` ODDISH: Ode-ish! Ode!
+- `0x8198A0` SQUIRTLE: SQUIRTLE SQUIRT! / SQUIRT SQUIRTLE!
+- `0x819902` BULBASAUR: BULBA BULBA! / BULBASAUR! BULBASAUR!
+- `0x81998B` CHARMANDER: CHAR! CHARMANDER! / CHAR!
+- `0x819A1F` MON gang called the / SQUIRTLE SQUAD! // It was deserted by its trainer so / it runs wild and plays tricks / on the town! // If it had someone to care for it, / I don’t think it would be as bad / as it is. // We’ve been trying to catch it, but / it always gets away! // Be careful if you run into it / again and alert me right away!
+- `0x819B6F` MON in / the SQUIRTLE SQUAD except its / leader! // We’ve appointed them the town’s / firefighters!
+- `0x819C75` MON up to Lv. 30 obey. // That includes even outsiders you / got in trades. // You can also have my favorite TM.
+- `0x819CE1`  nytime, even out of battle. // You can CUT down small trees to / open new pathways. // You can also have my favorite TM.
+- `0x819D92` Thanks for the help! / You really earned that CASCADEBADGE!
+- `0x819E4C` It’s BILL’S desktop! Better leave / it alone …
+- `0x819F13` MON to appear at my / lighthouse again!
+- `0x819FC4` MON to appear at my / lighthouse again!
+- `0x819FF7` {PLAYER} used the PC to send a phone / call.
+- `0x81A01C`  I guess you’ll learn that playing / with the big boys can be a / shocking experience!
+- `0x81A118` The path is finished! That didn’t / take so long, did it?
+- `0x81A1CE` LT. SURGE will still massacre / you!
+- `0x81A249` Congratulations! Nice job, kid! // As proof of your victory: / a THUNDERBADGE!
+- `0x81A2B2` MON GYM // WINNING TRAINERS: / {RIVAL}, JACK, JOHN
+- `0x81A2DB`  , JACK, JOHN
+- `0x81A316` MON GYM // WINNING TRAINERS: / {RIVAL}, JACK, JOHN, {PLAYER}
+- `0x81A343`  CK, JOHN, {PLAYER}
+- `0x81A35E` MON GYM / LEADER: SABRINA // WINNING TRAINERS: / 
+- `0x81A38A` , JACK, JOHN
+- `0x81A3C3` MON GYM / LEADER: SABRINA // WINNING TRAINERS: / {PLAYER}
+- `0x81A3F0`  JACK, JOHN, {PLAYER}
+- `0x81A40F` MON GYM / LEADER: LT. SURGE // WINNING TRAINERS: / {RIVAL}, JACK, JOHN
+- `0x81A478` MON GYM / LEADER: LT. SURGE // WINNING TRAINERS: / {RIVAL}, JACK, JOHN, {PLAYER}
+- `0x81A4C3` MON GYM / LEADER: BROCK // WINNING TRAINERS: / {RIVAL}, JACK, JOHN
+- `0x81A525` MON GYM / LEADER: BROCK // WINNING TRAINERS: / {RIVAL}, JACK, JOHN, {PLAYER}
+- `0x81A56D` MON GYM / LEADER: ERIKA // WINNING TRAINERS: / {RIVAL}, JACK, JOHN
+- `0x81A5D0` MON GYM / LEADER: ERIKA // WINNING TRAINERS: / {RIVAL}, JACK, JOHN, {PLAYER}
+- `0x81A618` MON are weak, just / bring them to me!
+- `0x81A63D`  ou wouldn’t want them to faint on / this boat. Who know where you / might end up …
+- `0x81A6D8` MON back to perfect health?
+- `0x81A778` You BUTTERFREE is doing quite well / with me, I do declare! I hope your / doing as well with RATIC8!
+- `0x81A7F8`  That’s enough … / Why don’t we just call it a draw?
+- `0x81A82B`  CITY CHECKPOINT / SAFFRON CITY - CELADON CITY
+- `0x81A85A` Yo, kid, make room in your BAG!
+- `0x81A8BE` Your BUTTERFREE’s doing quite well / with me, I do declare! I hope / you’re doing as well with RATIC8!
+- `0x81A940` What? … // So you want to go back on our / trade?
+- `0x81A979` I really wanted a BUTTERFREE, but / I don’t mind sticking with my / RATIC8.
+- `0x81A9C3` You leave me no choice …
+- `0x81AA68` Good luck to you and to / BUTTERFREE …
+- `0x81AA9B` So you don’t want to trade after / all …
+- `0x81AB4F` Ah, now. That’s a shame!
+- `0x81AC09` MON, / they trade them! // It’s quite a common practice / everywhere! What do you say?
+- `0x81AD19`  Something’s wrong with the ST. / ANNE! Could TEAM ROCKET be trying / to capsize it?
+- `0x81ADAF` Hey, matey! // Let’s do a little jig!
+- `0x81ADD2`  Are you brave enough to battle / my RATIC8? … // As you wish!
+- `0x81AEAC` MON, / they trade them! // It’s quite a common practice / everywhere! What do you say? // Will you trade me your BUTTERFREE / for my RATIC8?
+- `0x81AF59` It’s a map of the KANTO REGION! // Huh? Everything’s upsidedown!
+- `0x81B00F` MON or face our / wrath!
+- `0x81B026`  What a nice looking truck! / Huh? It’s only a toy!
+- `0x81B05F` This ship is being rocked / violently from side to side! // … … The ship capsized!
+- `0x81B0CB` This wall looks like it was / damaged when the ship sank! // Would you like to use the HATCHET / to try to break it open?
+- `0x81B14C` It’s the captain’s chair! It would / be tough to sit in it all the way / up there!
+- `0x81B19B`  The dresser’s upsidedown? That / must mean … you’re standing on / the ceiling!
+- `0x81B321`  Some dust fell off my STARYU! / It’s sprinkled all over the room!
+- `0x81B362`  I lost my old HATCHET. Back in the / day I used to chop down small / trees as a woodsman. // My chopping days are over, though, / so I guess I don’t really need it …
+- `0x81B494` MON! // So hand them over!
+- `0x81B503` MON in the world! // Would you like me to take you back / to the mainland of PORTA VISTA / now?
+- `0x81B5D2` TEAM ROCKET’s blasting off again!
+- `0x81B620` Huh? Something’s happening! // The MAGIKARP JAMES threw away is / evolving into GYARADOS!
+- `0x81B67D` JAMES: You good for nothing fish! / Why did I ever buy you from that / hustler on the ST. ANNE? // I don’t want to be your MASTER!
+- `0x81B6FB` The GYARADOS is attacking in a / rage!
+- `0x81B76E` MON for you?
+- `0x81B77B`  I hope I win the beauty contest! // First prize is a trophy and a cash / reward!
+- `0x81B7C8`  Did you see that restaurant on the / opposite shore? // It’s owned by BRUTELLA! I owe her / a bit of money. But I can’t pay / it! // She says she’ll take my beloved / ship if she doesn’t get the cash / by tomorrow! // For years I’ve dreamed about / taking it on a cruise around the / world. // I wanted to see the world before / it’s too late, but I guess it / wasn’t meant to be …
+- `0x81B98C` Thanks, {PLAYER}! Now I can travel the / world in my wonderful old ship!
+- `0x81B9CF` As my thanks, you can have this / BIG PEARL I found on the beach!
+- `0x81BA11` {PLAYER} received the BIG PEARL from / MOE!
+- `0x81BA64` The FESTIVAL is over for the / summer, but we’ll celebrate the / MAIDEN again next year, you can be / certain!
+- `0x81BACF` {PLAYER} received the SPELL TAG!
+- `0x81BAEC` What a wonderful festival this / was! // As a reward to revelers, I’m / giving away this free TAG! // Please enjoy!
+- `0x81BB78` Hehehehe! / Now I can really play with you! // I’ve shrunk you with telekinesis! / I hope you like living in my toy / town!
+- `0x81BC39`  I like VIDEO TELEPHONES because / you can see who you’re talking to! // Hey, wait, that’s just my / reflection!
+- `0x81BCE0` MON in / your party!
+- `0x81BCFD` See all those BUTTERFREE by the / ocean? It’s the BUTTERFREE’S / mating season! // If you have a BUTTERFREE, you / should release it to find a mate!
+- `0x81BE8D` MON in / your party!
+- `0x81BED0` {PLAYER}’s house
+- `0x81C018` The TV switched off.
+- `0x81C081` MON that live in the TOWER at / LAVENDER TOWN. // Creepy, huh?
+- `0x81C0EB` The heavenly smell of perfume / wafts through the air.
+- `0x81C182` Perfume will get you the guy / every time!
+- `0x81C1B6` MAN: I haven’t seen SABRINA / laugh like this since she was a / little girl! // That’s right, I’m SABRINA’s / father! / Thank you for coming back! // That HAUNTER has helped SABRINA / discover the human part of her / heart!
+- `0x81C48B` HAUNTER: Haunt haunt haunt!
+- `0x81C4D2` MON now! // Great! Go ahead and do your best / to defeat SABRINA!
+- `0x81C6BA` … / PROF. OAK hung up the phone.
+- `0x81C71F` MON to be / sleepy!
+- `0x81C731`  What??? / You think perfume is a stinky / ripoff???
+- `0x81C80A` It’s a truck for hauling dirt and / gravel!
+- `0x81C8B9` I guess I’m not P1 material!
+- `0x81C8D8`  I guess I wasn’t prepared to / be a P1 CHAMP yet!
+- `0x81C98B` MON on your side!
+- `0x81C9C9` It’s a whiteout! You better take / cover before you go any farther!
+- `0x81CA30` SABRINA: Thank you, {PLAYER}. // For your help, I reward you / the MARSH BADGE! // Take this TM with you as well.
+- `0x81CB46` Good evening! We’d like to enroll / our daughter in your training / classes! // WOMAN: That’s wonderful! / Please come in!
+- `0x81CBE0` T are really from TEAM / ROCKET!
+- `0x81CC08` {PLAYER} received the SOFT SAND!
+- `0x81CC32` Your lesson is just beginning!
+- `0x81CC65` AREA 3 / EAST: CENTER AREA
+- `0x81CCFE` {PLAYER} received the / MIRACLE SEED from the farmer!
+- `0x81CD90` MON, but we’ll be / back! // We’re blasting off again!
+- `0x81CDF0` YOU ARE A MUFFIN.
+- `0x81CE1A` SUZY: I don’t have pupils, BROCK. / Breeding takes up all my time. // But I haven’t had as many / customers since that new salon / opened! // If you ask me, its owners are up / to no good!
+- `0x81CECE` BROCK: If you think they’re up to / no good then I’ll investigate / them! // It’s the least I could do for my / idol!
+- `0x81CFE8` REBECCA: But daddy!
+- `0x81CFFF` ANTHONY: I’ll be in the gym / taking on challengers! I’ll be / waiting for ya!
+- `0x81D04A`  Let me give you something as a / little thanks for your efforts!
+- `0x81D168` REBECCA: I’m really sorry my / father bothered you … // Can I ask a favor of you? / A really, really big favor? // Please defeat my father’s / HITMONCHAN! // My father’s training nonstop to / win the P1 CHAMPIONSHIP! // If you beat him he’ll come to his / senses and come home! // Thank you so much for your help!
+- `0x81D289`  Haven’t you caught the DIGLETT / yet? // We need to restart our / construction as soon as possible!
+- `0x81D300` MOM: {PLAYER}! Get to bed! / It’s 11:00! You should be asleep! // Go to bed and don’t forget to / change into your pajamas!
+- `0x81D3EE`  /  / Let’s rock!
+- `0x81D3FE` You rolled me over.
+- `0x81D43D` MON! // Very well! / Let the contest begin!
+- `0x81D537` MON for us / and get rid of it?
+- `0x81D62B` MON for us / and get rid of it?
+- `0x81D6DD` MON here, and look out for / poachers!
+- `0x81D713` MON or people? / My name TOMO. I protect / KANGASKHAN from poachers!
+- `0x81D7BF` VENUSAUR: VENUSAUR!
+- `0x81D843` {RIVAL}’s house
+- `0x81D868` Don’t you think you should try to / get your METAPOD back first?
+- `0x81D986` MON go belly up! // Then we’ll capture DRATINI for / sure! // Just try to stop us!
+- `0x81D9D1`  I’m the top student in the / beginning class of the most / exclusive prep school in the / world! // People call me a star, but I’m / just Giselle!
+- `0x81DA5A`  I was given a ticket for free by / two odd young girls. // I fee like the king of the world!
+- `0x81DB33`  / I’m a cool guy. / I’ve got a girlfriend!
+- `0x81DB77` Come on! // Are you man enough to take on my / RHYHORN?
+- `0x81DBE2` MON back to / perfect health!
+- `0x81DC33` ANTHONY: {PLAYER}! I was so impressed / with your {V02}! // It’s got a lot of natural fighting / talent! // Why don’t you let me train it for / a while? I promise to turn it into / a real P1 CHAMPION!
+- `0x81DCE5`  I must bow to your skills!
+- `0x81DD22` ANTHONY: I lost to a worthy / opponent. // You deserve the P1 CHAMPIONSHIP, / {PLAYER}! // Now I can go be with my family and / stop all this tough training until / next year!
+- `0x81DDBE`  ANTHONY: I lost to a worthy / opponent. // You deserve the P1 CHAMPIONSHIP, / {PLAYER}! // Now I can go be with my family and / stop all this tough training until / next year!
+- `0x81DF5E` MON! // Break any of these rules and my / THUNDERBOLT REVOLVER will burn / you! // Got it? So you wanna play?
+- `0x81E00B` SUNNY TOWN // The bright side of ROUTE 11
+- `0x81E032`  STONE TOWN
+- `0x81E0EA` MON’s great!
+- `0x81E1F3` Many hours pass until finally the / snowstorm subsides …
+- `0x81E38E` HITMONLEE: Hitmon-lee!
+- `0x81E3B9` SANDSLASH: Shew!
+- `0x81E3D9` I hope you learned your lesson, / novice! // Your letting that WEEDLE escape / almost cost us our lives! // The other trainers from PALLET / would never be so irresponsible! // I had three matches with PALLET / trainers! // Those trainers really knew how to / raise POKeMON! // Though I lost, I have been / training to face the next trainer / from PALLET! // But you proved to be only a / novice! // Now rest your POKeMON and leave my / cabin.
+- `0x81E5A9` The trees behind SNORLAX are still / blocking the path of the river!
+- `0x81E6CA` Hold it right there! // All right, DAISY, if you won’t put / up a real fight I will!
+- `0x81E77C` {PLAYER}: Goodbye, {V02}! / Good luck, buddy!
+- `0x81E7A7`  The BULBASAUR won’t let you pass! / Maybe only BULBASAUR are allowed / in …
+- `0x81E8DC` NURSE JOY: So your BULBASAUR / doesn’t want to evolve? I know! // Give it this. This will prevent it / from evolving no matter what its / level is!
+- `0x81E969` {PLAYER} received the EVERSTONE from / NURSE JOY!
+- `0x81E9A1` MON FESTIVAL CONTEST
+- `0x81EB9A` VENUSAUR is lowering its head in / deep reflection. It seems to / understand BULBASAUR’s decision.
+- `0x81EBFB`  NURSE JOY: Hm? Something wrong / with your BULBASAUR? Let me see … // You don’t have to worry about your / BULBASAUR at all, {PLAYER}! // It isn’t sick at all! It’s just / getting ready to evolve!
+- `0x81ECCB` {PLAYER} received the EVERSTONE from / NURSE JOY!
+- `0x81ECF5`  Congratulations on winning the / PRINCESS FESTIVAL! // The winning PRIZE was given to the / nice young lady you were battling / for.
+- `0x81ED74` Oh, so you’ll be battling in place / of MISTY? She must be a very / special girl, eh? // Very well, I suppose I can make / such an exception. You may / challenge the lead competitor.
+- `0x81EE22` Welcome to the PRINCESS FESTIVAL, / where the beauty and wonder of / WOMEN are celebrated! // Would you like to enter the / competition? Oh, whoops! Only / girls can enter!
+- `0x81EEC8` JESSIE: What? You’re going to / battle for that twerpy girl? // Fine, but I won’t go easy on you! / This is for the PRINCESS DOLLSET!
+- `0x81EF69` JESSIE: I can’t believe I lost! / I guess I won’t be QUEEN for the / day, but you haven’t seen the last / of TEAM ROCKET!
+- `0x81EFF5` JESSIE: Get lost, twerp! I’m / going to win that DOLLSET for / myself! // What? You can’t challenge me! This / is a PRINCESS contest for GIRLS!
+- `0x81F07C`  Your secret ID is {V02}!
+- `0x81F0B9` I’m going to take this dollset / back to the CERULEAN GYM right / away!
+- `0x81F113` MON DOLL from / MISTY!
+- `0x81F12D` MISTY: You did it, {PLAYER}! // Thank you so much! As my / appreciation, you can have one of / the DOLLS I won!
+- `0x81F195` MISTY: Thank you so much for / your help, {PLAYER}! // Please help me win that dollset!
+- `0x81F26D` MON is balanced enough … // I know! Will you battle for me? / With your team I know I can win / the PRINCESS FESTIVAL! // Thank you so much, {PLAYER}!
+- `0x81F2F8` JAMES: JESSIE really wants to / win that DOLLSET! I wouldn’t stand / in her way! // She’s even borrowing my WEEZING / and making MEOWTH battle for her!
+- `0x81F38B` MEOWTH: Eh, I don’t see what the / big deal is about this DOLLSET. // But if it means that much to / JESSIE I’ll battle for her!
+- `0x81F405`  LITTLE KIDDLE PRE-SCHOOL
+- `0x81F464` Oh, I’m so glad you’re here! / We’ve been expecting you! // Please come in! All the children / are waiting for you in the / playground.
+- `0x81F598` MON really / like it too.
+- `0x81F5B4` {PLAYER} received the RARE CANDY / from the TEACHER!
+- `0x81F5E9` Thank you so much for entertaining / the children and helping TIMMY! // As my thanks, please accept this.
+- `0x81F753` MON. They’ll have so much fun! // Thank you so much!
+- `0x81F7A6` MON / trainer can’t make it? But I just / met with him. // SIGH!
+- `0x81F815` Thank you so much for your help!
+- `0x81F977` SLOWBRO: Slowbro …
+- `0x81F9EB` MON for the children to play / with?
+- `0x81FAB5` No MEOWTH can do what TIMMY says / it did! // He’s just a liar-liar-pants-on- / fire!
+- `0x81FB06` I guess TIMMY was telling the / truth after all! // I’m sorry I ever called him a / liar! His MEOWTH is great!
+- `0x81FBC3` MON today! Yay!
+- `0x81FD35` MON I want to meet! That / MEOWTH is my hewo! // I know! Maybe you could find it / for me! It must still be awound. // If you find it, then I can show / all my classmates that I’m telling / the twuth!
+- `0x81FEA6` MON LEAGUE!
+- `0x81FF0A` ROUTE 12 POLICE STATION
+- `0x81FF28` {PLAYER} released MEOWTH to TIMMY’S / care!
+- `0x81FF4E` Oh, you found MEOWTH! Thank you so / much!
+- `0x81FFF8` Oh, you won’t give me MEOWTH? / Waaaaah!
+- `0x820021` Please help me find the MEOWTH / that saved me fwom that BEEDWILL!
+- `0x820086` MOUNT HIDEAWAY
+- `0x82009A` {PLAYER} booted up the PC.
+- `0x8200D2` {PLAYER}: I’m late!   
+- `0x820192` Oops, wrong side…
+- `0x8201CD` MON LEAGUE match ended!
+- `0x8201F7` MON match on TV! / Gengar versus Nidorino! // Whoops! / Better get going!
+- `0x820250` It’s a posted notice… // If you’re confused, ask for HELP! / Press the L or R Button!
+- `0x82032A` MOM: {PLAYER}! / You should take a quick rest.
+- `0x820373` MON are looking great. / Take care now!
+- `0x82039B` MOM: Oh, {PLAYER}! / You woke up late, didn’t you? // You’d better hurry! // PROF. OAK, next door, will be / expecting you!
+- `0x82040A`  / PALLET TOWN / Shades of your journey await!
+- `0x82048D` Hey, wait! Aren’t you {PLAYER}?
+- `0x8204CD` MON from PROFESSOR OAK before / you leave! // Although I don’t know if he / has any left by now!
+- `0x820583` MON from PROFESSOR OAK before / you leave! // Although I don’t know if he / has any left by now!
+- `0x8205ED` MON? I didn’t think / PROFESSOR OAK had any left!
+- `0x820663` MON as data via PC.
+- `0x820760` {PLAYER}! / I’m glad I caught you! // I’m so proud of you! / You’re finally fulfilling your dream! // You’re starting your journey as a / trainer! // But I’ll miss you so much! // I brought you some traveling items. / There’s your running shoes …
+- `0x82083F` {PLAYER} received the / RUNNING SHOES from MOM.
+- `0x820869` {PLAYER} switched shoes with the / RUNNING SHOES.
+- `0x820895` Press the B Button to run. / But only where there’s room to run!
+- `0x8208D6` And a TOWN MAP… / and a handy FAME CHECKER!
+- `0x820902` {PLAYER} received the MAP and FAME / CHECKER from MOM!
+- `0x82097A`  BALLS. // Why doesn’t this one? / It’s a little weird …
+- `0x820A14` SEEL: Seel seel!
+- `0x820B87` MON trainer! // See ya later, {PLAYER}y-boy!
+- `0x820BD3` PIDGEOT: Pipidgeo!
+- `0x820BFB` MEOWTH: Meow!
+- `0x820C87` MON today!
+- `0x820CA9` MON! It was / so cute! // I think he headed for ROUTE 1 if / you’re looking for him.
+- `0x820DAF` MON LEAGUE HQ / INDIGO PLATEAU // PROF. OAK, please visit us! / …
+- `0x820DEA`  It’s like an encyclopedia, but the / pages are blank.
+- `0x820E7C` MON RESEARCH LAB
+- `0x820EB1` OAK: Hey! / Don’t go away yet!
+- `0x820F75` MON you want?
+- `0x820F97`  BALL’s empty!
+- `0x820FEF` SQUIRTLE’s already been taken by / someone who was on time …
+- `0x821091` MON you want?
+- `0x8210E0` That one was taken by a kid who / wasn’t late …
+- `0x8212FF` SPEAROW: Spearow!
+- `0x821311`  ress START to open the MENU!
+- `0x8213DD` MON you want?
+- `0x82141C` ROUTE 1 / PALLET TOWN - VIRIDIAN CITY
+- `0x821540`  BALL! But you don’t / have permission to take it.
+- `0x82159B` DEX is coming along? // Let’s have a look then!
+- `0x82162A` PROF. OAK’s rating:
+- `0x82172B` DEX is coming along? // Let’s have a look then!
+- `0x8217BA` PROF. OAK’s rating:
+- `0x8218CB` MON owned.
+- `0x82196F` DEX! // It’s magnificent! / Truly, this is a fantastic feat!
+- `0x8219FD` Hey, wait a minute, kid! // That’s my bike!
+- `0x821A26`  The SAVE option is on the MENU. / Use it regularly.
+- `0x821A82` OAK: It’s also known as the / electric mouse. // It’s usually shy, but can / sometimes have an electrifying / personality! // Shocking, isn’t it?
+- `0x821CAE` MON can escape. / You have to be lucky!
+- `0x821CFB`  BALLs from PROF. OAK!
+- `0x821D68` Good luck, {PLAYER}! / Your PIKACHU is sure to be a / handful! // There’s no time like the present, / though. // Get going and start training that / PIKACHU!
+- `0x821DF4` Do you want to give a nickname to / this {V02}?
+- `0x821E21` {PLAYER} received the {V02} / from PROF. OAK!
+- `0x821E64` Will you try to train this / electric mouse type?
+- `0x821EBB` MON I had have been given away / to trainers who were on time! // Well, there is one left … // But I think I should warn you that / there is a problem with this / last one.
+- `0x822016` MON training. // … … … // Hm, so you say you’re ready? All / right then, as you wish …
+- `0x8221AD` MON types have strong and / weak points against others.
+- `0x82220D` {PLAYER}: Go PIKACHU! / …???
+- `0x822224` PIKACHU ran up in a tree and / refused to battle!
+- `0x822256` Wild PIDGEY flew away!
+- `0x8223E4` A wild SPEAROW appeared and / attacked PIKACHU!
+- `0x822412`  What a beautiful view of PALLET / TOWN!
+- `0x822472` MON GYM
+- `0x8224B5` Hey, you can see your house from / up here!
+- `0x8225CF` You need to carry the flame of / MOLTRES to the main torch.
+- `0x82262F` WATER BATTLE FIELD
+- `0x8226A9` {PLAYER} grabbed PIKACHU / and made a run for it!
+- `0x8226D3`  You can see the PALLET RIVER from / here! // It empties into the ARCHIPELAGO / OCEAN, or so you’ve been told.
+- `0x8227E5` MON! / There’s one in VIRIDIAN CITY!
+- `0x822808`  Press START to open the MENU!
+- `0x82286D` MON thieves in our area. // Be on the lookout for suspicious / looking strangers!
+- `0x8228BA`  Oh, hey! / Have you ever jumped over a ledge?
+- `0x8228F3` It’s kinda scary, isn’t it? But / thrilling at the same time!
+- `0x822931` Well, be careful! It’s easy to / jump down, but a lot harder to / climb back up! // You’ll have to go find a slope if / you want to get back to where you / came from.
+- `0x8229F3` VIRIDIAN CITY  / The Eternally Green Paradise
+- `0x822A1F`  CHANSEY: Chaan! Sii!
+- `0x822A59`  / BALL! // Its electric power was charged by / a stray bolt of lightning. // PIKACHU used THUNDERSHOCK on the / attacking SPEAROW!
+- `0x822AD4`  / I go shopping in PEWTER CITY / occasionally. // I have to take the winding trail in / VIRIDIAN FOREST when I go.
+- `0x822B3F`  GUARD: Hey, kid, the BOSS is too / busy to accept any GYM BATTLES / right now!
+- `0x822B8F`  / The VIRIDINA GYM LEADER had some / important business to care to, but / he appointed a couple of his / workers to handle GYM BATTLES / while he’s away. // If you want to challenge them, / then you can enter.
+- `0x822C55` The boss ain’t accepting GYM BATTLES / now! So scram, punk!
+- `0x822CB9` Hi, there! / May I help you?
+- `0x822CD6` Please come again!
+- `0x822D24` MON and expand your / collection. // The more you have, the easier it / is to battle.
+- `0x822D73`  What did you think of my flowerbed / out back? // VIRDIAN is great for gardening. / They hold annual flower-show / competitions!
+- `0x822E32` MON / will need quick healing.
+- `0x822E4F`  This shop does good business in / ANTIDOTES, I’ve heard.
+- `0x823027` MON back to perfect health?
+- `0x82305E` MON for a / few seconds.
+- `0x823077` We hope to see you again!
+- `0x8230C2` MON to / full health.
+- `0x8230D8` It appears as if {V02} is playing / right now. / Go for it!
+- `0x82314E` MON. // There’s one in every town, and / it’s free!
+- `0x82317D`  Please feel free to use that PC in / the corner. // The receptionist told me so. / It’s so kind of her!
+- `0x8231DF`  How could TEAM ROCKET lose to such / a pipsqueak?
+- `0x823215` MON LEAGUE / Front Gate
+- `0x823230` MON LEAGUE / Front Gate
+- `0x823246`  ROUTE 2 / VIRIDIAN CITY - PEWTER CITY
+- `0x82336F`  / FLINT: Welcome to my rock shop! // Would you like to buy a rock as a / souvenir of your stay at the / stong-gray town of PEWTER?
+- `0x823404` FLINT: Welcome to my rock shop! // What? // You’re going to try to beat  / BROCK? Hahaha. // Now, would you like to buy  / a rock? Only $100!
+- `0x823487` Good luck with challenging BROCK. / Hahaha …
+- `0x8234CB` MON before attempting / capture! // When healthy, they may escape!
+- `0x823523` MON are weak and you / want to avoid battles, stay away / from grassy areas!
+- `0x823595` MON MARTS!
+- `0x823608` MON to catch them!
+- `0x82361B`  LEAVING VIRIDIAN FOREST / PEWTER CITY AHEAD
+- `0x823686` My battling skills are no better / than my sense of direction!
+- `0x8236C5` That girl over there was really / helpful. // She didn’t know the way out of the / forest, but I felt like I had so / much more energy after I talked to / her!
+- `0x823793` DEX evaluated!
+- `0x8237FC` TEAM ROCKET thwarted again??
+- `0x823832` It’s time TEAM ROCKET blasted off! // You may have won this round, but / we’ll be back!
+- `0x823899` RHYHORN: Rhyyyy!
+- `0x82394D` MACHOKE: Choke! Ma! Choke!
+- `0x823968`  POLIWRATH: WRATH!
+- `0x8239AB` A swarm of BEEDRILL is attacking! / Better take cover …
+- `0x8239E4`  / PEWTER CITY / A Stone Gray City
+- `0x823A59` {PLAYER}: Go, {V03}!
+- `0x823A65`  What? // The wild BEEDRILL that stole / {V02} is attacking in a fury!
+- `0x823AA4`  Did you see that BEEDRILL swarm / before? // I could hear the buzzing all the / way out here!
+- `0x823AFE` Buzzted!
+- `0x823B24` Do you hear that buzzing?
+- `0x823B40` A BEEDRILL swarm approaches! / Quick, get to my cabin!
+- `0x823BEB` I hope to be able to control a / swarm of BEEDRILL like that one / day! // Then I’d put the sting on anyone / who picks on me! Hehehe!
+- `0x823D10` You’re a TRAINER, right? // BROCK’s looking for new / challengers. Follow me!
+- `0x823D5B` If you have the right stuff, / go take on BROCK!
+- `0x824002`  / PEWTER has its own HYDRO ELECTRIC / PLANT. // It generates power for the whole / city!
+- `0x82405F` MON GYM / LEADER: BROCK // WINNING TRAINERS: / {RIVAL}, JACK, JOHN
+- `0x824104` CLEFAIRY came from the moon. / That’s what the rumor is. // They appeared after MOON STONES / fell on MT. MOON.
+- `0x824179` MON GYM / LEADER: BROCK // WINNING TRAINERS: / {RIVAL}, JACK, JOHN, {PLAYER}
+- `0x824209` MON so much!
+- `0x824402` BROCK, the GYM LEADER, has a lot / of responsiblity! // He has to take care of his younger / siblings because his no-account / father abandoned them!
+- `0x82448F`  Hi, there! / May I help you?
+- `0x8244C9`  / Haven’t you learned your lesson / yet? // Your PIKACHU is no match for me! // You may think you’re ready to / challenge me, but I can tell / you’re still a novice. // As GYM LEADER, though, I must / accept all challenges, so let’s / get this over with. // Let the match begin!
+- `0x8246B4` MON more powerful.
+- `0x824715` MON must know the / move FLASH to use it.
+- `0x82473F` {PLAYER}, you not only beat me in / battle, but also in being kind to / all POKeMON. // Honestly, I get more pleasure from / raising POKeMON than battling / them. // Someday maybe I hope to be a great / breeder.
+- `0x8247FD`  Please come again!
+- `0x824822`    FORREST: My older brother, BROCK, / watches over me and my brothers / and sisters. // I don’t need to be watched over, / though. Someday I’ll be as / powerful a trainer as he is.
+- `0x8248CD`  SALVADORE: My brother’s at the GYM / awaiting challengers right now.
+- `0x824911`  YOLANDA: Hi! Have you met my / brother? // He takes care of all of us!
+- `0x824954`  CINDY: Have you ever played with a / GEODUDE? // It can roll itself up into a ball / so you can push it around!
+- `0x8249C7` Wait! / Take this with you.
+- `0x8249E3` {PLAYER} received TM39 / from BROCK.
+- `0x824A6E` MON. // A TM can be used as many times as / you want. // A TM move can give your POKeMON an advantage … / TM39 contains ROCK TOMB. // It hurls boulders at the foe and / lowers its SPEED.
+- `0x824B1B` You don’t have room for this.
+- `0x824B39`  SUZIE: My brother should be coming / home soon.
+- `0x824B79` MON are neat, / aren’t they?
+- `0x824B94`  BILLY: I’m BILLY, BROCK’s brother!
+- `0x824BB8`  TILLY: BROCK’s a great brother! // He always looks after us, so we / don’t hardly miss our parents!
+- `0x824C9D` FLINT: Hold on a second, kid! // You’re not leaving without facing / BROCK, are you? // I thought you said you had what it / takes to beat him. Hahaha. // Well, get to it then! Let’s see / what you’ve got. Hahaha.
+- `0x824E04` MON TRAINER!
+- `0x824E25`  / FLINT: PEWTER CITY is gray. The / color of stone. / This town has always been famous / for stone. // The name’s FLINT, and you’re / standing on some of my / merchandise, young man. // These rocks are PEWTER CITY / souvenirs. Want to buy some?
+- `0x824FA0`  / Hahaha. Don’t tell me you plan on / challenging BROCK, the PEWTER CITY / GYM LEADER. // Hahaha. You really think you’ll / beat him? Hahaha.
+- `0x8250E1` Hi, glad to meet you! // …That’s unfriendly of you. / How about saying hi back? // So, come on, tell me about / yourself. // I’d love to hear your profile!
+- `0x825172` Please tell me more about / yourself next time!
+- `0x8251A2` Hi! / We meet again!
+- `0x8251B7` Tell me something good about / yourself. What’s your profile?
+- `0x8251F5` Would you like to change your / profile?
+- `0x82521E` What’s your profile?
+- `0x825235` Aww… Don’t be like that. / You can tell me your profile.
+- `0x82526E` A profile is written using four / words or phrases. // There’re plenty of words to choose / from for your profile. // The words and phrases are placed / in several convenient groups. // First, choose a group, then choose / a word or phrase. // …It’s easier than it sounds. / Why don’t you try it?
+- `0x825383` What are you like now? / I’d really like to know.
+- `0x8253B5` Okay, you like your profile the / way it is. // I think so, too.
+- `0x8253F3` Oh, I’ve heard that before… // My cousin, who lives far away, / always used to say that, I think.
+- `0x825452` Oh, you’ve decided not to? / You’re fickle, aren’t you?
+- `0x82548A` Hmhm… // Your profile really says something / about who you are. // Now that I know you better, it  / makes us better friends than ever!
+- `0x825572` MON LEAGUE.
+- `0x8255A4` MON REGIONAL CHAMPIONSHIP? // Huh? You don’t even have any / badges? You’re a long way off from / entering …
+- `0x82560A`  This weird guy just outside of / PEWTER sold me a rock! // I don’t know. I’m starting to / think it might be a ripoff.
+- `0x8257BB` MON back to perfect health?
+- `0x8257F2` MON for a / few seconds.
+- `0x82580B` We hope to see you again!
+- `0x825856` MON to / full health.
+- `0x82586C` It appears as if {V02} is playing / right now. / Go for it!
+- `0x825A8D` MON / trainer and they never heard from / him again. // His heartbroken mother tried her / best to hold things together, but / sadly she passed away. // BROCK’s the only one his little / brothers and sisters have left. // Hm … / So you think you can beat / BROCK? I may just know a way that / you can supercharge your PIKACHU. // This is the town’s HYDRO ELECTRIC / PLANT. Follow me.
+- `0x825C4B` FLINT: Come with me.
+- `0x825CC6` FLINT: With that LIGHT BALL, / your PIKACHU should have a shot at / taking out BROCK. // Good luck, kid … // You’ll need it.
+- `0x825D3B` {PLAYER} received the LIGHT BALL / from FLINT!
+- `0x825D67` FLINT: The river turns the / wheel to generate electricity. // I believe that it generated some / excess power at one time and / it formed itself into a high- / energy BALL. // I’m sure this BALL could give your / PIKACHU a power boost. // Here, take it.
+- `0x825E53`  Huh? PIKACHU’s electricity has set / off the sprinklers … // No matter. Let’s finish this / match.
+- `0x825EB0`  FLINT: I’ve decided to watch over / my children from now on and let / BROCK pursue his dreams.
+- `0x82603E` Let the match commence!
+- `0x8260A3` BROCK: Stop it all of you. This / is an offical match and we’re / going to finish it no matter what.
+- `0x826219` MON TRAINER I wanted to and / because I was such a failure I was / too ashamed to go back to my / family. // But it’s time I started taking / care of my family. BROCK, you go / fulfill your dreams and mine. // BROCK: Then it’s time I started / my journey to become the world’s / greatest breeder. // Thank you for everything, / {PLAYER}.
+- `0x826441` MON trainer. I want to become / the world’s best breeder. // But I can’t leave here, because I / have to look after my brothers and / sisters … // {PLAYER}, I want you to take the / BOULDERBADGE AND fulfill my dream.
+- `0x826506`  ROUTE 3 / MT. MOON AHEAD
+- `0x8266D5` MON / trainer and they never heard from / him again. // His heartbroken mother tried her / best to hold things together, but / sadly she passed away. // BROCK’s the only one his little / brothers and sisters have left. // Hm … / So you think you can beat / BROCK? I may just know a way that / you can supercharge your PIKACHU. // This is the town’s HYDRO ELECTRIC / PLANT. Follow me.
+- `0x826881` MON / stronger.
+- `0x826913` MON more powerful. // Go on, give it a try!
+- `0x826944` Did you come through VIRDIAN / FOREST too?
+- `0x82696F` Lost, lost, lost!
+- `0x826983` It’s easy to get lost in VIRDIAN / FOREST, isn’t it? I should have / brought a compass!
+- `0x8269D9` You want another bug battle? Bring / it on!
+- `0x826A60` MON / for my birthday! Wanna see?
+- `0x826A82` Couldn’t cut it!
+- `0x826A95` This may sound weird, but I bought / that RATTATA to feed to my EKANS!
+- `0x826B1B` Excuse me, sir!
+- `0x826B2D` Oh, darn!
+- `0x826B72` MON battle. // I’m much obliged.
+- `0x826B92` May I entreat you again, sir?
+- `0x826BF1` Will you provide my evolution / solution?
+- `0x826C1B` One step forward, two steps back.
+- `0x826C3F` I thought if I beat you my BUGS / would evolve.
+- `0x826C6F` My BUGS need some more experience / to evolve!
+- `0x826CE4` MON likes to suck blood! / Isn’t that awesome?
+- `0x826D13` That sucked!
+- `0x826D22` I caught ZUBAT as it was flying / out of a cave. It seemed really / disoriented.
+- `0x826D71` I vant to suck your blood! / Bwahaha!
+- `0x826DD6` How did you find me here?
+- `0x826DF2` I was hiding.
+- `0x826E02` I don’t like battling, so I was / trying to stay out of view.
+- `0x826E40` Oh, you found me again!
+- `0x826E99` My PUFFPUFF is so adorable! Go on, / take a look!
+- `0x826ECB` Adorable even in defeat!
+- `0x826EE6` It’s better for hugging than for / battling, I think.
+- `0x826F1A`  Oy, are my dogs barking! I just / came through MT. MOON and it was / no easy trek! // You should rest, too.
+- `0x826FA2` ZUBAT: Zui! Zui!
+- `0x826FB6` You have to go protect CLEFAIRY / and the MOON STONE! // Please stop whoever is causing the / trouble!
+- `0x827060` Ahhhh! Wild Zubat attack! / H-Help me!
+- `0x827097`  / MT. MOON / Tunnel Entrance
+- `0x82718C` Someone lit up the cave! I can see / where I’m going perfectly!
+- `0x8271CC` Oh! / I lost it!
+- `0x8271DD` Usually it’s so dark in here you / can’t see a SANDSHREW in front of / your face!
+- `0x827246` MON to / light up the tunnel!
+- `0x827264` Blackout!
+- `0x827270` I was going to use the HM-move / FLASH, but now it wasn’t necessary / with all these lights strung up!
+- `0x8272D3`  A weird couple came through here / demanding if I knew where the MOON / STONE was …
+- `0x827326` Good grief …
+- `0x827335` To think … the MOON STONE! // That’s just a legend, after all, / isn’t it?
+- `0x82740D` Fine, take the MOON STONE for / yourself!
+- `0x827435`  I think I took a wrong turn / somewhere. You know the way out of / here, kid?
+- `0x827482` You look lost, too.
+- `0x827498` Maybe I’ll have my ONIX dig my way / out of this mess!
+- `0x8274F9` MON, it will / be harder to beat me. That’s how / it goes, isn’t it?
+- `0x827553` It’s nice up here toward the top / of the mountain, isn’t it?
+- `0x827591` I’m not mad.
+- `0x8275A0` It’s too lovely to be upset about / losing.
+- `0x82761F` MON to / add to my team!
+- `0x827638` You beat me up!
+- `0x827665` MON / in MOUNT MOON.
+- `0x827691` I’m looking for fossils, but / haven’t found a single one.
+- `0x8276CA` I dig it!
+- `0x8276D4` Maybe there aren’t any fossils in / MT. MOON. That would be rather / disappointing.
+- `0x82773D` Go, go, go!
+- `0x82774B` Powered down …
+- `0x827780` MON there, kid.
+- `0x8277BE` Do you want to take the MOON STONE?
+- `0x8277E4` Obtained the MOON STONE!
+- `0x827814` CLEFAIRY: FAIRY CLEFF!
+- `0x82782B`  ROUTE 4 / MT. MOON - CERULEAN CITY // {C06} {RIVAL} was here! / {PLAYER} is a loser!
+- `0x8278C5` This is the top of MT. MOON! ZUBAT / don’t come up here …
+- `0x8278FF` Down and out.
+- `0x827943` MON either.
+- `0x8279D1` Excuse me! / There’s nothing more to see here. / It’s time for your to move along, / young man.
+- `0x827A3F` My mommy’s going to take me to see / the SENSATIONAL SISTERS perform at / the CERULEAN GYM!
+- `0x827A9B`  / Excuse me! / You look very suspicious to me … // Huh? Oh, I’m not the OFFICER JENNY / you met in VIRIDIAN. That was my / sister-in-law. // If you’ve met my sister-in-law / then that means you’ve probably / had some dealings with the police / in VIRIDIAN! // Now maybe you just stopped to ask / her for directions, or maybe you / found a wallet on the street and / turned it in to her … // Or maybe you’re a burglar who / broke out of jail!
+- `0x827C36` Huh? Oh, is that your TRAINER / CARD? // Well, that’s evidence enough for / me! I’m sorry I was suspicious … // But I really must find these / burglars. // The strange thing about it is that / they didn’t take any money - just / a massive vacuum and a giant hose. // But I really don’t have time to / play guessing games with you, / young man, so it’s time for you to / move along.
+- `0x827D98`  A shiny new BICYCLE!
+- `0x827DAE`  I came here to earn a CASCADE / BADGE, but the trainers just gave / it to me without battling. // I wish getting GYM BADGES was / always this easy!
+- `0x827E4D` MON GYM / LEADER: MISTY / The Tomboyish Mermaid!
+- `0x827E7A`  CERULEAN CITY / A Mysterious, Blue Aura Surrounds / It
+- `0x82805D` MON BADGES. // I see you have at least one. // Those BADGES have amazing secrets, / did you know?
+- `0x8280B9` Now then… // Which of the eight BADGES should / I describe?
+- `0x828112` MON increases a little bit. // It also lets you use the move / FLASH outside of battle.
+- `0x8281C2` MON of higher levels will / be unruly in battle, however. // It also lets you use the move / CUT outside of battle.
+- `0x828250` MON increases a little bit. // It also lets you use the move / FLY outside of battle.
+- `0x8282FE` MON of higher levels will / be unruly in battle, however. // It also lets you use the move / STRENGTH outside of battle.
+- `0x828393` MON increases a little bit. // It also lets you use the move / SURF outside of battle.
+- `0x828442` MON of higher levels will / be unruly in battle, however. // It also lets you use the move / ROCK SMASH outside of battle.
+- `0x8284E6` MON rise a little bit. // It also lets you use the move / WATERFALL outside of battle.
+- `0x828542` MON will obey you!
+- `0x828557` Come visit me anytime you wish.
+- `0x828577`  Those miserable thieves! // Look what they’ve done to my / store! // They not only stole a TM that / teaches the move DIG, but they / made off with some very valuable / equipment! // What a lot of rotten thieves!
+- `0x82863C`  OFFICER JENNY: We discovered that / the thieves were from TEAM ROCKET! // We recovered the goods, but the / culprits got away …
+- `0x82872C` MON! // What a dastardly yet absurd / scheme!
+- `0x828755`  This is my father’s store. He / rents equipment out to those who / need it. // Thank goodness the police found / the hose and vacuum that were / stolen!
+- `0x828802` There are some interesting sites / to see NORTH of CERULEAN. // I heard there might even be a GYM / up that way …
+- `0x828878` The checkpoint between VERMILION / and CERULEAN is closed off right / now. // It probably has something to do / with those thieves!
+- `0x8288F3`  LILY: I’m sorry, but if you want / an interview you have to, like, / call our manager.
+- `0x828947`  VIOLET: We’re the world famous / SENSATIONAL SISTERS. // We put on under-water performances / for our adoring fans every day!
+- `0x828A07`      BUTTERFREE: FREE!
+- `0x828A66` These bikes are way expensive! / This shop owner must be nuts!
+- `0x828B3B` DAISY: We may be hard on MISTY, / but she knows we love her.
+- `0x828BB2` {PLAYER} received TM03 / from DAISY.
+- `0x828BDC` You better make room for this!
+- `0x828C4E` MON saved us all / from TEAM ROCKET, and you defeated / MISTY, too! // Take the BADGE, {PLAYER}! / You deserve it!
+- `0x828CB4` DAISY: MISTY thinks she has / something to prove, but there / really is no comparison! // She can never match the / SENSATIONAL SISTERS’ grace and / beauty!
+- `0x828F27` MON that can / actually battle … // Good luck, little sister! You’ll / need it …
+- `0x828F75` MISTY: All right, DAISY! / If you don’t want to battle him, I / will! // I’m a CERULEAN CITY TRAINER, too! / I’m the fourth SENSATIONAL SISTER!
+- `0x829012` MISTY: Hold it right there!
+- `0x829042` {PLAYER} received the CASCADEBADGE / from GYM LEADER DAISY!
+- `0x829078` Would you like to take the BADGE?
+- `0x82909C` This is what you want, right? // You can have it! / Just take it. A badge is a badge.
+- `0x8290F2` A CASCADEBADGE!
+- `0x82923E` MON CENTER! // All we have left to battle with is / a GOLDEEN. So, like, there’s no / point in battling … // I know what you want … // SEEL!
+- `0x8292BE`  Hello, welcome to my BIKE SHOP! // So how about it? Ready to buy a / brand new shiny bicycle?
+- `0x829328` You can’t afford my prices, kid.
+- `0x829359` Sorry, but I just can’t give my / bikes away. Maybe some other time.
+- `0x8293C2` Huh? PIKACHU doesn’t want to / battle MISTY! // It seems to consider her a friend. / Better take it out of the battle / …
+- `0x829433`  It’s a ridiculously priced / bicycle! // Want to steal it?
+- `0x82946C` Better not. It’s not worth the / hassle.
+- `0x829539` MON / TRAINER!
+- `0x829546`  OFFICER JENNY is watching you / carefully from afar. Better / reconsider.
+- `0x82958D`  Grass and caves handled easily! / BIKE SHOP
+- `0x829603` MISTY: I wasn’t planning on / battling you until you paid me / back for my bike, {PLAYER}, but / this is as good a time as any! // If you want that CASCADEBADGE / you’re going to have to beat me!
+- `0x829769` MON are ours for the taking! // This giant vacuum and hose we / stole should just do the trick!
+- `0x8297C6` JAMES: It’s time like these that / make me want to go straight! // JESSIE: We’re all washed up! We’ll / never come clean …
+- `0x82983C` It looks like TEAM ROCKET’s / blasting off again!
+- `0x82992A` I came to this pond to fish. But I / need a break. // How about you?
+- `0x829A7C` MON / you’ve seen over and over again, / try using REPEL.
+- `0x829AB2`  I stocked up on a bunch of POTIONS / to battle the GYM LEADER, but then / they just gave me a badge without / fighting! // To be honest, I’m not sure my / RATTATA could have won, anyway.
+- `0x829B76` MON GYM / LEADER: SENSATIONAL SISTERS / The Water Flowers of CERULEAN CITY
+- `0x829BBD`  There are a lot of trainers out / in this field! // It’s a great place to test your / skill and see how strong you are!
+- `0x829C9E` MON are ours for the / taking! // This giant vacuum and hose we / stole should just do the trick!
+- `0x829D41`  / Whoo! / Good stuff!
+- `0x829D56` I did my best. I have no regrets!
+- `0x829D78`  Hm? A battle? / Okay, I’ll play along!
+- `0x829DA0` How could I lose?
+- `0x829DF3` Let’s go! I won’t back down!
+- `0x829E12` Ow! / Stomped flat!
+- `0x829E65` I’m not that into battling, but / I’ll play.
+- `0x829E92` I lost, too!
+- `0x829EE0` I’m pitching a tent! Want to help?
+- `0x829F05` Whoa! / Too much!
+- `0x829F55` Impressive!
+- `0x829FAC` AJ: Today all my sacrfices and / hard work have finally paid off! // Now I can start winning badges.
+- `0x82A02C` My winning streak’s over. But I’ll / still be champ!
+- `0x82A0EC` MON little league anymore! // After I win 100 matches in a row / I’ll start competing for badges! // Let’s get started then!
+- `0x82A163` I lost?! How?
+- `0x82A173` Yeah, you can’t win so why try?
+- `0x82A1D2` MON LEAGUE // 100 WINS 0 LOSSES. // No longer accepting challenges.
+- `0x82A210`  BEEDRILL: Beez beez!
+- `0x82A23C` RATTATA: Rattata!
+- `0x82A24E`  I’m studying for my exams! I guess / I could take a break to battle!
+- `0x82A294` You worked hard!
+- `0x82A2A7` Hmmm… / I guess I need to study more!
+- `0x82A372` MON, they’re issue to you.
+- `0x82A38F` Oh, drat!
+- `0x82A3B0` MON based on / your test scores! I’m still a / C-student, though.
+- `0x82A445`  TECH are in / the middle of a fog-training / lesson!
+- `0x82A479` Short-sighted!
+- `0x82A4A0` MON’s / accuracy in difficult conditions.
+- `0x82A51E` I’m the lowest ranked student at / the TECH.
+- `0x82A54B` You’re something.
+- `0x82A58B` MON LEAGUE without / having to travel and collect / BADGES! // My friends were just trying to / help me reach that goal. // GISELLE is the student in charge / of this system. She’s in the / ADVANCED CLASS and she’s amazing!
+- `0x82A682`  exams! / Will you make the grade?
+- `0x82A6A5` Looks like I failed in battle!
+- `0x82A83F` MON! // I’m trying to learn all that I can / but it isn’t easy!
+- `0x82A893` I’m supposed to protect this TM / from other students reaching it. / If I do a good job, I’ll get an A / for the day!
+- `0x82A905` Don’t touch that TM!
+- `0x82A91C` Only people with a certain item / should be able to hack through the / tree to get that TM. // If they get it without cutting / down the tree, I’ll fail!
+- `0x82A9EE` Are you a new exchange student?
+- `0x82AA10` You aren’t a novice!
+- `0x82AA27` Maybe I could train with you some / time? My teach will give me extra / credit for learning from a skilled / trainer.
+- `0x82AAFD` MON! See?
+- `0x82AB09` Cute but not tough!
+- `0x82AB2A` MON is easier / than catching them!
+- `0x82AB4C`  We’re sharing notes! My / boyfriend’s really smart!
+- `0x82AB7F`  We’re going to have an exam soon, / so my girlfriend and I are / cuboning up!
+- `0x82ABCF` MON TECHNICAL INSTITUTE
+- `0x82AC00` I’m taking a midterm exam! It’s / really tough!
+- `0x82AC64` You already took the test!
+- `0x82AC96` MON TRAINER’s / exam. Want to take it?
+- `0x82ACBB`  Do you need a quick rest? / Here you go!
+- `0x82AD63` Congratulations! You got all the / answers correct!
+- `0x82ADD0` ! / You passed the test!
+- `0x82AE18`  / You can do better …
+- `0x82AE55` ! / You’ve got a lot to learn still.
+- `0x82AE97`  / You failed.
+- `0x82AEB4` You didn’t get a single question / right! You fail!
+- `0x82AEE8` The exam is now complete. Your / score is:
+- `0x82AF5B` MON deals damage?
+- `0x82AFBA` MON with / high catch rates?
+- `0x82B063` MON that can / learn the move HARDEN?
+- `0x82B0D6` MON / with the SPECIES name of ”MOUSE”?
+- `0x82B167` {PLAYER} received the TEACHY TV from the / TEACHER!
+- `0x82B1AC` TEACHY TV will show you how to do / a lot of things! // It’s a great teaching tool!
+- `0x82B201` Oh, you passed the test my student / was taking! You are very good, / aren’t you? // Here, take this as a reward!
+- `0x82B286` Oh, you failed the test? You / should study more …
+- `0x82B2B9` You’re a traveling TRAINER? Are / you any good?
+- `0x82B3AD` MON / STATUS problems during battles.
+- `0x82B3D3` Which topic do you want to read?
+- `0x82B421` MON will stay asleep even / after battles. // Use AWAKENING to awaken one / from sleep.
+- `0x82B489` MON’s health / steadily drops. // Poison lingers after battles. / Use an ANTIDOTE to cure poison!
+- `0x82B516` MON from moving. // Paralysis remains after battles. / Use PARLYZ HEAL for treatment.
+- `0x82B569` A burn reduces ATTACK power. / It also causes ongoing HP loss. // A burn remains after a battle. / Use BURN HEAL to cure a burn.
+- `0x82B6F3` MON and you’ve already won two / badges? // You sure were lucky! With as much / experience as you have, your / PIKACHU should at least be at / level 25, but it’s probably not / there yet. // PIKACHU tend to be hard to handle, / it says so in any beginning / manual. // What? You really didn’t know? And / you still got two badges? // How funny! // If you don’t let it evolve it can / make a great pet, especially for / little girls, but I’m sure you / already knew that, didn’t you? // Really? You didn’t? And you have / two badges? Hahahahahahahahaha!
+- `0x82B8F4` With my level of education / there’s no doubt I’m better than / you!
+- `0x82B937` Ohh, I lost!
+- `0x82B946` There’s some things you just can’t / learn in school, and that’s a good / lesson!
+- `0x82B99D` Oh, sorry! The path is temporarily / closed. // The police are investigating an / incident that happened in / CERULEAN.
+- `0x82BA17` It’s a motorboat.
+- `0x82BAB7` MON, they’re issued to you.
+- `0x82BAD3`  Maybe I could train with you some / time? My teacher will give me / extra credit for learning from a / skilled trainer.
+- `0x82BBFA` The path is open again! It’s safe / to move between CERULEAN and / VERMILION now.
+- `0x82BC48`  It’s a FISHING HOLE! Would you / like to use the OLD ROD?
+- `0x82BF3D` Oh! Your CHARMANDER is very weak! / How could you let it get into this / condition? // I’d better heal it right away!
+- `0x82C136` MON that he’s caught!
+- `0x82C1D0` UNDERGROUND PATH / ROUTE 6 - ROUTE 5
+- `0x82C3D9` MON / here. Please respect that.
+- `0x82C4C8` MON I know.
+- `0x82C57B` MON, but this / VILLAGE is too small. // The bulb on its back can’t grow. / It needs to go out into the world / now and I know you’ll take good / care of it. // Please do me this favor. Take / BULBASAUR with you on your / journey. // It will join you one one / condition: you have to battle it / first!
+- `0x82C694` Thank you for taking care of / BULBASAUR!
+- `0x82C6F2` I’m the FISHING GURU! // I simply looove fishing! / I can’t bear to go without. // Tell me, do you like to fish?
+- `0x82C7B1` {PLAYER} received the stray / CHARMANDER!
+- `0x82C7D5` CHARMANDER looks really weak from / the storm! // Would you like to take it?
+- `0x82C90F` MON? // I wasn’t gonna come back for it, / but now that I’ve seen what it can / do I’m real glad I ran into you! // The best thing is I didn’t have to / raise it meself! // Huh? You won’t give it back? Then / I suppose I’ll just have to take / it back!
+- `0x82C9FB`  Oh… / That’s so disappointing…
+- `0x82CA3C` No! / You’re kidding!
+- `0x82CA50`  Boy, that storm just whipped up / all of a sudden! What a downpour!
+- `0x82CA93`  Hello there, {PLAYER}! // How are the fish biting?
+- `0x82CB07` Grand! I like your style. / I think we can be friends. // Take this and fish, young friend!
+- `0x82CB60` {PLAYER} received an OLD ROD from / the FISHING GURU.
+- `0x82CB8E`  FRESHWATER POND // Open to all fishing. / No swimming allowed!
+- `0x82CD14` Fishing is a way of life! / It is like the finest poetry. // From the seas to rivers, go out / and land the big one, my friend.
+- `0x82CD8F` Oh, no! // I had a nice gift for you, but you / have no room for it!
+- `0x82CE31` VERMILION HARBOR
+- `0x82D04A` The SQUIRTLE won’t let you pass!
+- `0x82D081` {PLAYER}: Go, PIKACHU!
+- `0x82D092`  Sorry, kid, but I’m still out of / stock after that robbery. // Try again some other time …
+- `0x82D1D2` MON / TRAINERS. // They don’t have a TRAINER, so they / just run wild and play tricks on / the whole town! // It’s really kind of sad, because / if they had somebody to care about / them they wouldn’t have turned out / to be as bad as they are … // Please keep an eye out and be / careful! If you see them again let / me know.
+- `0x82D31F` Hold it right there!
+- `0x82D336` This SQUIRTLE appears to be the / gang leader! // It’s staring intensely into your / eyes as if it wants to battle!
+- `0x82D3BA`  / {PLAYER} received the SUPER POTION from / the store owner!
+- `0x82D48E` Oh no! PIKACHU was badly hurt by / SQUIRTLE!
+- `0x82D5F5` MON / TRAINERS. // They don’t have a TRAINER, so they / just run wild and play tricks on / the whole town! // It’s really kind of sad, because / if they had somebody to care about / them they wouldn’t have turned out / to be as bad as they are … // Please keep an eye out and be / careful! If you see them again let / me know.
+- `0x82D742` Hold it right there!
+- `0x82D759` This SQUIRTLE appears to be the / gang leader! // It’s staring intensely into your / eyes as if it wants to battle!
+- `0x82D819` MON / researcher.
+- `0x82D8C8`  / EPHONE! // Would you like to dial PROF. OAK’s / number?
+- `0x82D97D` Oh no! The SQUIRTLE got away!
+- `0x82D99D` The SQUIRTLE looks like it wants / to battle!
+- `0x82DE2B` MON. // Sorry, I just got held up by TEAM / ROCKET and lost all my / merchandise, so I’m a bit jumpy! // I did manage to save one SUPER / POTION. I can see it’s an / emergency, so it’s on the house!
+- `0x82DFF7` SQUIRTLE joined {PLAYER}’s / team!
+- `0x82E06C` MON! // It seems to want to join you on / your journey!
+- `0x82E0ED` {PLAYER} gave PIKACHU the SUPER / POTION! // PIKACHU’s wounds were healed!
+- `0x82E12F` Want to give it the SUPER POTION?
+- `0x82E171` It seems really weak!
+- `0x82E187`  We’re in the middle of a heated / battle! // We’re training to fight the GYM / LEADER.
+- `0x82E1DA` PIDGEY, use your PECK ATTACK! / Go!
+- `0x82E1FC`  VERMILION CITY / The Port of Exquisite Sunsets
+- `0x82E27C` It seems to be saying that it / will allow you to give PIKACHU the / medicine it needs to heal … // Only SUPER POTION will get the job / done, though.
+- `0x82E30C`  {PLAYER} received the SUPER POTION from / the store owner!
+- `0x82E3E1` MON fans welcome!
+- `0x82E406` I’m sorry, but the SQUIRTLE SQUAD / is still on the loose! // I can’t let anyone pass until / they’ve been caught!
+- `0x82E5A8` Better use PIKACHU!
+- `0x82E5BC`  OFFICER JENNY: Hang on a second!
+- `0x82E62C` I’m the FISHING GURU! // I simply looove fishing! / I can’t bear to go without. // Tell me, do you like to fish?
+- `0x82E697` Oh… / That’s so disappointing…
+- `0x82E6B6` Hello there, {PLAYER}! // How are the fish biting?
+- `0x82E6E2` Grand! I like your style. / I think we can be friends. // Take this and fish, young friend!
+- `0x82E73B` {PLAYER} received an OLD ROD from / the FISHING GURU.
+- `0x82E76B` Fishing is a way of life! / It is like the finest poetry. // From the seas to rivers, go out / and land the big one, my friend.
+- `0x82E91B` MON gang called the / SQUIRTLE SQUAD! // It was deserted by its trainer so / it runs wild and plays tricks / on the town! // If it had someone to care for it, / I don’t think it would be as bad / as it is. // We’ve been trying to catch it, but / it always gets away! // Be careful if you run into it / again and alert me right away!
+- `0x82EA4E`  Oh, no! // I had a nice gift for you, but you / have no room for it!
+- `0x82EAC0` MON / from the SQUIRTLE SQUAD have been / captured! // They all just turned themselves / in! // They’re not being punished, / though. They just needed something / more constructive to do with their / time, so I’ve appointed them the / town’s firefighters! // They seem to be really happy about / that! I don’t think the SQUIRTLE / SQUAD will be causing anymore / problems.
+- `0x82EDBE` BILL: This is BILL, PROF. OAK! / Good to hear from you!
+- `0x82F061` MON and then / some.
+- `0x82F12C` MON RESEARCHER, seeking / out all kinds of life on this / planet. // Even if our paths are different, I / think our goals are the same.
+- `0x82F1B0` There’s a phone right over / there …
+- `0x82F1D3`  This cave is really dark, isn’t / it?
+- `0x82F1FA` I didn’t win.
+- `0x82F6F7` MON / that I’m searching for!
+- `0x82F718` {PLAYER} pushed the button! / The KABUTO costume slipped off!
+- `0x82F75D` BILL: Oh, please! I really need / your help!
+- `0x82F879` Push the button?
+- `0x82F88F` BILL: Well, there’s no way I can / ignore a request from the great / PROF. OAK!
+- `0x82F923` Did I scare you?
+- `0x82F93F` MON are scary good!
+- `0x82F994` Wanna see my most crazy cool / BUTTERFREE?
+- `0x82F9BF` BUTTER-FAILED!
+- `0x82F9F3` MON made you strong!
+- `0x82FA3E` MON CENTER to / heal …
+- `0x82FB8F`  / My RATTATA is going to need all / the experience it can get to take / on LT. SURGE!
+- `0x82FBE2` Come on, RATTATA! Show it your / TACKLE ATTACK!
+- `0x82FE4D` MON TRAINERS / only! Okay, dude, here’s your / TICKET! // And they’re totally free! // COOOOOOL!
+- `0x82FEA6` {PLAYER} received an S.A. TICKET / from the dopey girls!
+- `0x82FF37` MON fan! // COOOOOOL! // Just take them and have a really / cool time! // Have a nice day, for sure!
+- `0x82FFEA` SEEL: Seel seel!
+- `0x830070` Welcome to the ST. ANNE! // Excuse me, do you have a ticket?
+- `0x8300CE` Great! / Welcome to the ST. ANNE!
+- `0x83011E` Sorry! // You need a ticket to get aboard.
+- `0x830148` Sorry, there won’t be any ships / for a while! // The ST. ANNE sunk during an / attempted TEAM ROCKET takeover! // I heard a young trainer drowned. A / shame really …
+- `0x8301F7` MON GYM / LEADER: LT. SURGE / The Lightning American!
+- `0x830229`  Aye! Don’t you love the sweet sea / smells of VERMILION BEACH?
+- `0x830267`  Did you see the ST. ANNE moored in / the harbor? // It’s supposedly the greatest ship / ever built! Nothing could ever / sink it!
+- `0x8302E3` Oh my! // I heard on the news that the ST. / ANNE was sunk during a terrible / storm! // What a disaster!
+- `0x830343`  I brought in my RATTATA to heal! // LT. SURGE’S RAICHU just obliterated / it in battle!
+- `0x830397`  Did you know you can battle / TRAINERS you’ve already fought / again? // Just use this!
+- `0x8303EB` Use that device and you’ll find / TRAINERS looking for a rematch. // You have to charge its battery to / use it, though.
+- `0x83045F` How do you use the VS SEEKER? / There’s nothing to it. // Use it like beep-beep-beep, and / TRAINERS around you will notice. // If any TRAINER wants a rematch, / it will let you know immediately. // Charge its battery and use it / while you’re on a road.
+- `0x830581` Thank you so much for showing me / your BULBASAUR! // It’s my absolute favorite of all / the three KANTO STARTERS!
+- `0x8305EF` I’ve always, always wanted to see / a real life BULBASAUR up close. // If you have one, will you show it / to me?
+- `0x83068E` Oh, I’m afraid that’s not a / BULBASAUR at all.
+- `0x8306BE` Oh, is that? / … It is! // A real honst to goodness / BULBASAUR! Wow, it’s so cool! // Thank you so much!
+- `0x830720` Oh, you don’t have a BULBASAUR to / show me? Oh, well …
+- `0x83078A` That was one wicked cool / CHARMANDER, man! // Thanks for showing it to me!
+- `0x830806` MON ever? // If you have one, could you show it / to me?
+- `0x83086E` Come on, now! That’s not / CHARMANDER!
+- `0x830895` Oh, wow! That orange skin! That / burning flame on the tip of its / tail! // That can only be a CHARMANDER! / Nothing can match its epicness, / don’t you think? // Thanks for showing it to me!
+- `0x83094A` Ah, I really wanted to see a / CHARMANDER. If you get one, please / show it to me!
+- `0x8309CD` I’m so glad I finally got to see a / real live SQUIRTLE! // It’s even cuter in person!
+- `0x830A21` It’s so adorible! So cute! I wish / I had one! // Huh? I’m talking about SQUIRTLE of / course! It’s the best of the three / KANTO STARTERS, for sure! // If you have one, will you show it / to me?
+- `0x830B0B` That’s not SQUIRTLE and you know / it! Don’t try to trick me!
+- `0x830B49` Oh, it is! It is! A SQUIRTLE! / Right before my very eyes! // Oh, how, how, how … // Words can’t express it! SQUIRTLE / is just so cute!
+- `0x830BCA` No SQUIRTLE? Bummer …
+- `0x830D23` MON / you’re training …
+- `0x830E2B` MON yourself, / it’s a great tool!
+- `0x830E4E` {PLAYER} received an EXP SHARE / from the CHAIRMAN.
+- `0x830F12` MON he loves the most up / close and personal! // Let me give you something as my / thanks!
+- `0x830FE6` MON with each / other. // Please spread the love to the / members of the FAN CLUB!
+- `0x831108` MON can be good or / bad. It depends on the TRAINER.
+- `0x831217` Oh, is that? / … It is! // A real honest to goodness / BULBASAUR! Wow, it’s so cool! // Thank you so much!
+- `0x831278`  Oh, is that? / … It is! // A real honest to goodness / BULBASAUR! Wow, it’s so cool! // Thank you so much!
+- `0x831351` What’s this? Another victim for / the emergency room?
+- `0x831387` Shocker!
+- `0x8313B6` Okay, I’ll open the lock! The LT. / won’t be happy I let you in, / though!
+- `0x8313FF` All right, I’ll open the first / electric lock. // You’re one step closer to facing / LT. SURGE!
+- `0x83158A` Okay, I’ll open the lock! The LT. / won’t be happy I let you in, / though!
+- `0x8315D3` All right, I’ll open the first / electric lock. // You’re one step closer to facing / LT. SURGE!
+- `0x83162D`  LT. SURGE taught me everything I / know! // You need strict training to even / begin to compare to his power!
+- `0x831697` Stop! / You’re very good!
+- `0x83183F` MON! I hope / you’re up to the challenge! // … … So you still want to battle, / eh? Oh, well!
+- `0x8318D3`  / The passengers are restless from / this long voyage. // You might be challenged by the / more bored ones!
+- `0x831980` MON really fought good / together! // Nice victory, {PLAYER}! / You’re no baby!
+- `0x831A0C` MON FLY / lightning-quick anytime, kid! // You’re special, kid! / Take this!
+- `0x831A54` {PLAYER} received TM34 / from LT. SURGE.
+- `0x831AC4` MAN: Well, I don’t give refunds. / You knew what you were getting!
+- `0x831B60` MON / - a MAGIKARP - for just $500! // So, you’ll buy it, am I right?
+- `0x831BA1`  Past this hall is the main deck. // If you feel like smelling the sea / air, that’s the place to be!
+- `0x831C74` MON’s SPEED lightning quick! // You’re special, kid! / Take this!
+- `0x831CB1`  time, kid! // You’re special, kid! / Take this!
+- `0x831D3D` MON / - a MAGIKARP - for just $500! // So, you’ll buy it, am I right?
+- `0x831D7E`  This ship, she is a luxury liner for / TRAINERS of the world! // At every port, we hold parties with / invited TRAINERS.
+- `0x831DF1`  TEAM ROCKET’s boss won’t appreciate / my utter failure!
+- `0x831E5F` How could I have lost?
+- `0x831E9C` MON, I’m still better than you!
+- `0x831EBC`  TEAM ROCKET shows no mercy! / I’ll masacre you, see!
+- `0x831EF2` I was the one massacred!
+- `0x831F0D` So I lost! / I still have my pride!
+- `0x831F77` MON / throughout my career! // Just try to beat them!
+- `0x831FAA` Argh! / How could I have lost!
+- `0x831FC9` You foiled our plans, but this / isn’t over!
+- `0x831FF4`  Whew! / Scrubbing decks is hard work!
+- `0x832056` Getting jiggy with it!
+- `0x83206F` Tell me, is it better to train a / MAGIKARP or to fillet it?
+- `0x8320AA`  The ship’s rocking pretty hard! I / think I’m going to be sick …
+- `0x8320FB` Snivel… Sniff… // I only get to peel onions… / Snivel…
+- `0x83212D`  They say one man’s trash is / another man’s treasure. // If you find anything in a trash / can that you want, feel free to / take it. It was thrown out for a / reason!
+- `0x832245` MON like them more / than people …
+- `0x832266`  Please excuse me! / I have some food to prepare.
+- `0x83236F` ed in / onions? // Bon appetit!
+- `0x83238A`  It’s a tough job catering to a / bunch of spoiled rich / cruise-goers.
+- `0x8323CE`  PASSENGERS aren’t supposed to be / back here. // Why aren’t your mommy and daddy / keeping and eye on you?
+- `0x8324D9` Astonishing Tales of the Sea / The CAPTAIN’s reading this!
+- `0x83254E` MON! / Want to see?
+- `0x832562` Waah! I lost!
+- `0x832591` CAPTAIN: All that commotion! / What’s going on?
+- `0x8325C1` CAPTAIN: Huh? // What was that? / Could the ST. ANNE be in trouble?
+- `0x832602` I’d better go check this / out! // But don’t worry, there’s nothing / to be concerned about! // The ST. ANNE is unsinkable!
+- `0x832674`  He just doesn’t listen … / I told that boy no battling on the / cruise ship!
+- `0x8326D2`  / Mommy wanted to take me on this / cruise to get a break from / battling, but I can’t seem to help / myself!
+- `0x832739`  Take a look at the smooth skin on / my CHARMANDER! // That shows how healthy it is!
+- `0x832789`  Look at the flame on my / CHARMANDER! // There’s orange mixed in with red! / Cool, huh? Check it out!
+- `0x8327E9`  Hehe! / Check out the hard shell on my / SQUIRTLE! Pretty tough, huh? / Hehe!
+- `0x832832`  We’re a retired couple! We saved / up for years to go on this / wonderful cruise!
+- `0x832881`  What a wonderful trip! It almost / makes up for forty years of / backbreaking labor …
+- `0x8328D4`  A battle? I say, how riveting!
+- `0x8328F6` A jolly good show!
+- `0x83290B` You know, young chap, you’re quite / the battler.
+- `0x832954` I’m very well-off …
+- `0x83296A` Oh bother …
+- `0x8329E9` MON CENTER, too, but / I haven’t the energy anymore …
+- `0x832A36` Ahoy there!
+- `0x832A44` I was just careless!
+- `0x832A5B` Passengers aren’t supposed to be / up here. // This is the crew’s deck!
+- `0x832AC0` Well, well! A lost little boy for / me to play with!
+- `0x832AF5` What fun!
+- `0x832B01` Would you like to play some more, / little boy?
+- `0x832B48` My grandfather is a little, well, / strange …
+- `0x832B7F` Please excuse him. He’s becoming / senile in his old age.
+- `0x832BB7`  I come from the ORANGE / ARCHIPELAGO. It’s like an island / vacation every day!
+- `0x832C04`  I’m sorry young man, but this / isn’t your cabin. // I understand. The ST. ANNE is so / big, it’s easy to get lost.
+- `0x832C8B` All right, let’s set sail!
+- `0x832CC0` MON … / They can both be harsh mistresses.
+- `0x832D02` Do you like going out to sea?
+- `0x832D22` To ease my loss: a song …
+- `0x832DB8` I came inside to get away from / those darned landlovers!
+- `0x832DF2` Belly up!
+- `0x832DFE` When I’m around folks who don’t / understand the majesty of the sea, / I feel like a fish out of water!
+- `0x832E7B` I started my sailor career when a / gentleman off of ROUTE 5 gave me / my first FISHING ROD!
+- `0x832ED6` I love playing with my ROD!
+- `0x832EF4` Do you think he’s still there, / inspiring future sailors with his / hand-me-down RODs?
+- `0x832F48`  What are those goons out there / doing? They tried to steal away my / precious ODDISH!
+- `0x832F9C`  Are you tired? // You should remember to visit the / ST. ANNE’s nurse if you’re feeling / faint …
+- `0x833417` No? You say no? I’m only doing this / as a favor to you!
+- `0x833450` You’ll need more money than that!
+- `0x833474` Do you want to give a nickname to / this {V02}?
+- `0x8334C7` MON, it looks like.
+- `0x8334DD` {PLAYER} paid an outrageous $500 / and bought the MAGIKARP…
+- `0x833513` {V03} was transferred to / OAK’s LAB. // It was placed in  / BOX “{V02}.”
+- `0x833552` {V03} was transferred to / OAK’s LAB. // It was placed in  / BOX “{V02}.”
+- `0x833591` BOX “{V04}” on / OAK’s LAB was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x8335D3` BOX “{V04}” on / OAK’s LAB was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x833617` SQUIRTLE: SQUIRTLE, SQUIRT!
+- `0x8336F7` MON / goldmine! // A MAGIKARP lays 1,000 eggs at a / time! Each of those MAGIKARP lays / 1,000 more. 1,000 times 1,000 / equals 1 MILLION! // You can sell one MAGIKARP for / $500! In three generations you / have tons of money! // So how about it? Would you like to / be a very rich man?
+- `0x8337FF`  I was given a ticket for free by / two odd young girls. // I feel like the king of the world!
+- `0x83398D`  BALLs / he lost!
+- `0x833B01` MON / you’ve been training? // You’d better find them before you / leave the island then …
+- `0x833B61` It’s a giant PIKACHU! // … … … // Wait, it’s a machine!
+- `0x833BD9` I am one of NASTINA’S POOL BOYS.
+- `0x833C97` That SPELL TAG will ward off evil / spirits! Use it wisely …
+- `0x833CE6` MR. PSYCHIC’S HOUSE
+- `0x833D00` I work for NASTINA’s construction / project! // We’re building a new world-class / hotel! // If you look off to the horizon you / can just see it.
+- `0x833D87`  t’s hard work, but it will / be worth it …
+- `0x833DB5` Oh no! Those darned TENTACOOL are / back! // They’ve been causing trouble for / the hotel project trying to / demolish it!
+- `0x833E27`  , do something!
+- `0x833E3A` The wild TENTACRUEL is attacking / in an intense rage!
+- `0x833E7F` The TENTACRUEL seems to be issuing / a warning. // If the construction project / doesn’t stop, it will return to / take its revenge … // The TENTACRUEL faded into the sea.
+- `0x833F1F`  SILPH CO. OFFICE BUILDING
+- `0x833F57` Now that we know that our / construction is destroying the / TENTACOOL’s environment, we can’t / continue the project. // Now my job is to fairy guests / across the ocean to MAIDEN’S PEAK. // Would you like to come?
+- `0x83406B` My construction project might be / halted, but I won’t rest until / every last TENTACOOL has been / exterminated! // That giant TENTACRUEL will be the / first to go!
+- `0x834106`  over to me!
+- `0x834172` INDIGO STADIUM
+- `0x83419D` {PLAYER} received a GOLD NUGGET from / NASTINA!
+- `0x8341F7` NASTINA: Ha ha! Now I can / exterminate this thing myself! // Here’s a little reward for your / trouble …
+- `0x834268` What? That’s not that dastardly / TENTACRUEL!
+- `0x8342AB` What? You mean you won’t hand / over that dastardly TENTACRUEL?
+- `0x8342EB` Ah, so you’ve taken care of that / TENTACRUEL, eh? // Then hurry up and hand it over!
+- `0x834348` Those TENTACOOL will be dealt with / one way or the other …
+- `0x834392` No?!?! // Hurmph! I guess you’re a kid that / can’t be bought …
+- `0x8343CF` Wonderful! // If you bring the me the / TENTACOOL’s gang leader, / TENTACRUEL, I’ll give you a / fabulous reward!
+- `0x83443A` I’m NASTINA! // I’m constructing what will become / the world’s greatest resort! // But only if those TENTACOOL stop / interfering with construction! // I don’t even know why such / despicable creatures exist! // I was hoping you might be able to / help me take care of my little / problem. // Do you have the skill to handle a / TENTACOOL extermination project? // Of course, I’ll give you a / wonderful reward!
+- `0x834676` So everything turned out just as I / predicted! // Obviously you’ve seen the ghost of / the maiden! // All men who pass this way fall / under her spell. // There’s only one thing to do. Take / this!
+- `0x834734`  / {PLAYER} received the SPELL TAG from the / old lady!
+- `0x834786` SAFFRON INSANE ASYLUM
+- `0x8347B4` Something’s happening … / The ghost of the maiden is / appearing!
+- `0x834876` GASTLY: Sometimes I’m the ghost / of the 2,000 year old maiden …
+- `0x8348B5`  ometimes I’m the mysterious old / woman … // But no matter what the disguise / I’ll be awfully GASTLY! // Whatever happens, don’t forget the / ghost of the maiden! // She and the old lady will return / next year, too …
+- `0x8349C6` Please enjoy your stay!
+- `0x834A18` Welcome to SLIPH CO! / Do you have an appointment?
+- `0x834ABF` MON’s picture flashed on / the screen!
+- `0x834B62` Congratulations, winner! / You just so happen to be the one / millionth visitor to SAFFRON CITY! // Please follow us to the grand / prize room!
+- `0x834BE9`  The WARP PAD. / If you’re tired of walking or / driving try out one of SILPH’s / brand new WARP PADs. // Only $1,000,000 per pad.
+- `0x834C90` It’s BUTTERFREE’s mating dance!
+- `0x834CBF`  / I like playing out in the the / streets! It’s so fun!
+- `0x834CFF` Awww! / Oh, well…
+- `0x834D83`  SAFFRON CITY’s a nice place to / live. // You just have to be a bit macabre / to enjoy the town’s aura!
+- `0x834DE5`  TRAINER TIPS // FULL HEAL cures all ailments like / burns, paralysis, poisoning, / freezing, and sleep. // It costs a bit more, but it’s more / convenient than buying other items.
+- `0x834F17` MON! // Can you imagine?
+- `0x834F94` MON weren’t strong / enough, but I tell you my EKANS / would wipe the floor with her!
+- `0x834FE6`  SAFFRON CITY / Shining, Golden Land of Commerce
+- `0x835015`  Have you ever teleported? / It’s really amazing!
+- `0x835045`  … … … ? / Huh? // It’s not a person! / It’s a giant doll!
+- `0x835079`  The TV’s off. It doesn’t look like / there’s been electricity in this / house for years!
+- `0x8350DA` Let’s see just how good you are!
+- `0x8350FB`  SILPH has made so many innovative / products! // They created the video telephone / system, and the teleport pads. // Soon I think those products will / be world-wide.
+- `0x835198`  I’m saving up my allowance so I / can buy a teleport pad at the / CELADON DEPT. STORE! // It’s a lot of money, but maybe if / I save long enough I can get it.
+- `0x83524F` I never foresaw this!
+- `0x8352AE` MON / from appearing. // MAX REPEL stays effective longer / than SUPER REPEL.
+- `0x8352F5`  I saw a little girl running around! // I thought I saw her run into the / local GYM!
+- `0x835351` My dear sweet little MEOWTH got / sick, so I brought it to the / CENTER.
+- `0x8353A8` MON have souls? / I wonder … // If so, is it right to force them / to battle based on our blood / thirsty whims? // Well, I guess that’s for the / politicians to decide …
+- `0x8354EF` Oh. You’ve failed to foresee which / hand was holding the TM. // That is disappointing. Perhaps you / aren’t the psychic I foretold you / to be …
+- `0x835580` Hehehehehe!
+- `0x83564D` Hehehehehe!
+- `0x8356DA` MON? / Well, show it to me!
+- `0x8356F9` That wasn’t even my best shot. / You are no match for my psychic / power. Be my friend. You promised / I could play with you!
+- `0x835771`  Oh, very good! Now let’s just see / if you’re guessing or if you / really are using your mind’s eye. // Pick again!
+- `0x835808` Splendid! Splendid! // One final test! Try again and see / what you find …
+- `0x83589D` {PLAYER} received TM29 / from MR. PSYCHIC.
+- `0x8358C2` You already know, don’t you? / TM29 is PSYCHIC. // It’s an attack that may also lower / the target’s special stats.
+- `0x83592F`  Have you ever danced with the / devil in the pale moon light?
+- `0x8359AC` {PLAYER} received TM04 from / SABRINA.
+- `0x8359CB`  Hey, there, miss! Aren’t you a / pretty thing? // Will you be my date to the senior / prom? // You can be my sweet angel. I will / treat you well. So help me …
+- `0x835A69` Your BAG is full of other items.
+- `0x835A8C` Thank you, {PLAYER}. / I finally feel like msyelf again.
+- `0x835ABD`  Ah, you truly are a master of ESP! / You are very gifted my lad! // As a reward and to encourage you / to continue your pursuit of / psychic studies, I present to you / this TM!
+- `0x835B72` Ah, good! // I hold in one of my hands a / wonderful TM! // If you can correctly predict three / times in a row which hand I hold / it in, it is yours! // Begin!
+- `0x835C07` I see. Very few have the psychic / perception I have …
+- `0x835C3E` Ah, welcome! I have extrasensory / perception. // If you can prove your powers of / ESP, I’ll give you something / wonderful. // Ready?
+- `0x835CBA`  Hehe! Can you imagine! // I’m playing a game where you / capture animals inside balls and / train them! // I wish reality were this much fun!
+- `0x835D3F`  NURSE RATCHED: Hello. // You shouldn’t be here. This is an / insane asylum. Only crazy people / come here. // You aren’t crazy, are you? // Then I suggest you move along / before I have you committed!
+- `0x835E9C` If you lose, you’ve got to hand / over all your valuables!
+- `0x835ED7` Stolen goods!
+- `0x835EE7` There’s no police department in / SAFFRON CITY, so I’m not worried / about being caught …
+- `0x835F3F` This time your valuables are mine!
+- `0x835FBD` Betcha won’t win this battle!
+- `0x835FDD` I should cut my losses …
+- `0x835FF8` The thrill of battle … / It’s amplified when wages are / staked!
+- `0x836037` Double or nothing!
+- `0x83608B` Boo! // Did I scare you?
+- `0x8360A3` I think that battle was much too / scary!
+- `0x8360CD` These woods are kinda scary, aren’t / they? // This deep fog hangs over them and / never leaves.
+- `0x836129` Boo! / Scared you once, shame on me. / Scared you twice, shame on you.
+- `0x8361AD` MEOWTH is so cute, meow, meow, / meow!
+- `0x8361D4` Meeeeyow!
+- `0x8361E0` I think PIDGEY and RATTATA are / cute, too!
+- `0x83620C` MEOWTH and PERSIAN are so cute, / meow, meow, meow!
+- `0x836287` JAN: Wonder twin powers activate!
+- `0x8362AB` JAN: We lost!
+- `0x8362F7` MON, please.
+- `0x836306` JAN: KATE’s my twin sister. Can / you tell us apart?
+- `0x83633B` JAN: The power of twins will not / be defeated again!
+- `0x8363B8` KATE: Two on two! Let’s go!
+- `0x8363D6` KATE: Double down!
+- `0x836402` MON for a / double battle, silly.
+- `0x836424` KATE: JAN’s my twin, but we have / different personalities.
+- `0x836460` KATE: Another two on two battle / coming up!
+- `0x8364CC` Ready for a battle? Your odds are / not good, friend.
+- `0x836502` I forgot to factor in the / handicap!
+- `0x83653E` MON aren’t / very good …
+- `0x836557` The odds are not in your favor / this time, friend.
+- `0x8365CA` A hard-fought battle? Bet on it!
+- `0x8365ED` I have to fold.
+- `0x8365FF` Good thing I didn’t wager much on / that victory.
+- `0x836631` You think you’ll win again? Wanna / bet?
+- `0x836699` Getting through those woods was / scary!
+- `0x8366C2` Looks like I’m out of the woods / now!
+- `0x8366E9` These woods are haunted! / Eek! // That tree touched me! It’s / possesed!
+- `0x836736` MON die, do they become / GHOSTS? // Maybe that’s one of life’s / mysteries …
+- `0x836832` MON in distress …
+- `0x836844`  My RATTATA died in battle! It was / overmatched … // It comforts me to think it might / have become a GHOST.
+- `0x8368B6` LAVENDER TOWN / The Noble Purple Town
+- `0x8368E9` MON TOWER / The abandoned mansion
+- `0x836953` MON TOWER! // But no one ever goes there!
+- `0x83699C` MON TOWER / is haunted. // I think the jovial spirit of MR. / FUJI, its former owner, attracts / equally spirited ghosts …
+- `0x836AAA` MON! // Please raise it well!
+- `0x836AED` MON / that has been treated so badly. // It needs a kind trainer like you!
+- `0x836B60` MON very well. // You should it with more love.
+- `0x836BFD` MON here and look after it? // They really need a good, kind / trainer.
+- `0x836D07` MON well?
+- `0x836D68` MON refused to go with / you!
+- `0x836D86` It’s a RATTAT that was abused by / its trainer. // Would you like to adopt it?
+- `0x836E65` You adopted the abused RATTATA!
+- `0x836EA9` MON! You / can’t adopt any right now …
+- `0x836F14` It’s a RATTATA that was abused by / its trainer. // Would you like to adopt it?
+- `0x837055` MON, you fiend? // It recoils in fear at the / slightest touch! You must be very / cruel to it …
+- `0x8370BB` This {V02} is very unhappy with / you. // Could you try to be kinder to it?
+- `0x83710B` You must not have trained this / {V02} for very long. // It isn’t used to you yet. It seems / uncertain how to react to your / commands. // Try to gain its trust by being / kind to it.
+- `0x8371BF` Your {V02} is really starting / to like you! // It thinks of you as a very good / friend!
+- `0x837240` MON I’ve had to / take into this shelter had kind- / hearted trainers who had cared for / them like you have cared for this / {V02}!
+- `0x8372CC` Oh, how wonderful! // {V02} seems to love you very / much! // It won’t leave your side for a / moment and trusts you with its / life!
+- `0x8373F4` MON! It / makes my heart leap with joy!
+- `0x837457` MON is / with you …
+- `0x83749A` MON by how happy / they are. // Would you like to know how much / {V02} cares for you?
+- `0x83751B` MON by how happy / it is. // Would you like to know how much / {V02} cares for you?
+- `0x837651` It’s a PIDGEY that was abused by / its trainer. // Would you like to adopt it?
+- `0x8376C2` You adopted the abused PIDGEY!
+- `0x83777F` It’s an ODDISH that was abused by / its trainer. // Would you like to adopt it?
+- `0x8377F1` You adopted the abused ODDISH!
+- `0x83787B` MON ADOPTION HOUSE
+- `0x8378AE` It’s a SPEAROW that was abused by / its trainer. // Would you like to adopt it?
+- `0x8378FD` PIKACHU: {C06} Pika …
+- `0x837920` You adopted the abused SPEAROW!
+- `0x837955` I adopted my PIKACHU from the / ADOPTION HOUSE. // It was treated so poorly by its / former trainer that it’s terribly / frightened of humans!
+- `0x837B95` MON’s nickname should / I critique?
+- `0x837BB9` I see. / Do come visit again.
+- `0x837BD7` {V02}, is it? / That is a decent nickname! // But, would you like me to give it / a nicer name? // How about it?
+- `0x837C3D` Now, now. / That is merely an EGG!
+- `0x837C60` {V02}, is it? / That is a truly impeccable name! // Take good care of {V02}!
+- `0x837CA4` Ah, good. Then, what shall the new / nickname be?
+- `0x837CF2` MON / shall be known as {V02}! // It looks no different from before, / and yet, this is vastly superior! // How fortunate for you!
+- `0x837D86` MON / shall be known as {V02}! // It is a better name than before! / How fortunate for you!
+- `0x837E49` MON. // They’re effective over the course / of a single battle. // X ATTACK, X DEFEND, X SPEED,  / and X SPECIAL are what I’m after. // Do you know where I can get them?
+- `0x837F30` MON … / Wait, it’s a doll!
+- `0x837F57` UNDERGROUND PATH / ROUTE 17 - ROUTE 11
+- `0x837FB5` Anything left inside is moldy and / warm.
+- `0x83806E` I dropped my donut somewhere. I / hope someone finds it and returns / it to me so I can scarf it down.
+- `0x838104` CELADON CITY / The City of Rainbow Dreams
+- `0x838143` Find what you need at the / CELADON DEPT. STORE!
+- `0x83817C` 1F: SERVICE COUNTER
+- `0x8381CB` MON playfully snatched / {PLAYER}’s hat from his head!
+- `0x8381FF` MON LOVERS CLUB / Official PLC Members Only
+- `0x838250` MON calmed down. It / finished the TASTY DONUT and fled / from the scene …
+- `0x8382AF` MON is attacking / in a rage!
+- `0x838379` ITEM FINDER $1,000,000
+- `0x8383B4` GO-GOGGLES $1,000,000
+- `0x8383FF` MON in / fancy outfits!
+- `0x838436` SILPH SCOPE $1,000,000
+- `0x83848B` MON dropped {PLAYER}’s / hat. // {PLAYER} put his hat back on.
+- `0x8384CB` MON GYM / LEADER: ERIKA / The Nature-Loving Princess!
+- `0x838510` I bought some perfume for my / girlfriend! // It smells like the sea!
+- `0x838558` It grabbed the tasty donut and / began eating it!
+- `0x838588`  WARP PAD $1,000,000
+- `0x8385B6` MON is furious that you / would try to catch it!
+- `0x83863D` This GYM doesn’t allow anyone / inside who says that perfume is a / stinky ripoff! // So you see, young man, you’re the / stinker!
+- `0x8386D9` MON LOVERS CLUB! // Only official members are allowed / in.
+- `0x83875D` This GYM doesn’t allow anyone / inside who says that perfume is a / stinky ripoff! // So you see, young man, you’re the / stinker!
+- `0x8388BA`  / This GYM doesn’t allow anyone / inside who says that perfume is a / stinky ripoff! // So you see, young man, you’re the / stinker!
+- `0x838935`  5F: DRUGSTORE
+- `0x8389FA` Table for one?
+- `0x838A1D` TRAINER TIPS // X ACCURACY boosts the accuracy of / techniques. // DIRE HIT jacks up the likelihood / of critical hits. // Get your items at the CELADON / DEPT. STORE!
+- `0x838ADD` MON / from status-reduction moves during / battle. // Get your items at the / CELADON DEPT. STORE!
+- `0x838BBF` VULPIX: VULLL!
+- `0x838BE4`  / 1F: SERVICE COUNTER // 2F: TRAINER’S MARKET // 3F: LUXURY ITEMS // 4F: TM SHOP // 5F: DRUGSTORE // ROOFTOP SQUARE: VENDING MACHINES
+- `0x838C5A`  Hello! / Welcome to CELADON DEPT. STORE. // The board on the right describes / the store layout.
+- `0x838D29` MON on this / floor!
+- `0x838D87`  BALL doesn’t do, but / it’s just cuter.
+- `0x838DAE`  Top-Grade Items for TRAINERS! // 2F: TRAINER’S MARKET
+- `0x838F11` I’m sorry, but you don’t have / enough money.
+- `0x838F3D`  This is a free lounge for resting. / Feel free to watch some boob tube / and relax.
+- `0x838F8E`  I’m watching a basketball game - / the FUCHSIA FEAROW against the / PEWTER TAUROS. // It’s going down to the wire!
+- `0x839002` MON LEAGUE MATCH! / It looks exciting …
+- `0x839028`  3F: LUXURY ITEMS // The finest things KANTO has to / offer.
+- `0x839079` MON an assortment / of attacks! // 4F: TM SHOP
+- `0x8390A6` See those posters? / Those are pictures of all the / children who have disappeared / recently!
+- `0x83912E` ROOFTOP SQUARE: / VENDING MACHINES
+- `0x83914F`  GROWLITHE: GROWL! GROWL!
+- `0x83924E` MON’s / brain, and wammo! // The move will be imbedded into its / memory just like that. // Pretty neat, huh?
+- `0x8392B2`  I wanted the TM for HYPER BEAM, / but they don’t have it. // They only have a bunch of really / weak moves.
+- `0x8393AF` DROWEE: DROWZEE!
+- `0x8393F8` MON stat / enhancers. // PROTEIN increases the base ATTACK / power. // IRON increases the base DEFENSE / stat.
+- `0x839518` MON. // CARBOS enhances the base SPEED / stat.
+- `0x839654` A vending machine! / What does it have?
+- `0x83967C` Not thirsty!
+- `0x83968B` A can of {V02} popped out!
+- `0x8396A5` Oops, not enough money!
+- `0x8396BF` There’s no more room for stuff!
+- `0x8396DF`  BURP! // Excuse me. I just had a full can / of soda, and I’m a little gassy.
+- `0x839C8B` Which floor do you want?
+- `0x839D90` MON the most wonderful / creatures in the world? // Don’t answer that! Anyone who says / ”no” would get quite the slap from / me!
+- `0x839E46` MON. // Care to join in?
+- `0x839E68` Feel like taking a nap? Just talk / to HYPNO and take a snooze!
+- `0x839F25` MON. // I hope you’re up for the / challenge!
+- `0x839F5A` Well, I never! / Humph!
+- `0x83A06B` MON LOVERS CLUB / then!
+- `0x83A11A` MON LOVERS / CLUB only. // Please step away.
+- `0x83A164` MON LOVERS CLUB GUARD. / Only official members are allowed / past this point.
+- `0x83A1FE` There’s a mansion on the roof of / the club! // The members go there to relax and / get away from the pressures of / urban life.
+- `0x83A276`  Thank you so much for all your / help! Now we can continue using / HYPNO for our insmonia!
+- `0x83A2DA` Please, by all means, use DROWZEE / to cure the children of HYNOSIS.
+- `0x83A4E3` MON? // Maybe there’s a side effect to / HYPNO’s abilities we weren’t aware / of, and it’s affecting the / children … // Somehow we’ve accidentally caused / a terrible situation. // Say, I know! What if we use / DROWZEE to cure the children? // DROWZEE can use DREAM EATER to / snap the children out of their / hypnotic trance! // Go ahead and take DROWZEE and help / the children.
+- `0x83A642`  Would you like to take the / DROWZEE?
+- `0x83A784`  Now, that’s not DROWZEE! // Don’t forget, we only lent it to / you to help the children.
+- `0x83A85F` MEOWTH: ME-OW!
+- `0x83A911`  Now, that’s not DROWZEE! // Don’t forget, we only lent it to / you to help the children.
+- `0x83A9B7` MON LOVER’S / CLUB can commence!
+- `0x83A9E3` You did it! The children were / completely cured of their / hypnosis! // Thank you so much for your / trouble. As a reward, let me give / you something.
+- `0x83AA9C` MON LOVER!
+- `0x83AAA9` That spoon got all twisted up when / HYPNO’s PSYCHIC ATTACK hit it! // I think there’s something special / about it … // All right then, I’ll just be / taking DROWZEE back now …
+- `0x83AB51` DROWZEE is using DREAM EATER to / counter the HYPNOSIS attack of / HYPNO!
+- `0x83AB99` The children snapped out of / hypnosis and returned home to / their parents!
+- `0x83ACF8` MON LOVER’S / CLUB can commence!
+- `0x83AD6E` Now, that’s not DROWZEE! // Don’t forget, we only lent it to / you to help the children.
+- `0x83AFBA` MON? // Maybe there’s a side effect to / HYPNO’s abilities we weren’t aware / of, and it’s affecting the / children … // Somehow we’ve accidentally caused / a terrible situation. // Say, I know! What if we use / DROWZEE to cure the children? // DROWZEE can use DREAM EATER to / snap the children out of their / hypnotic trance! // Go ahead and take DROWZEE and help / the children.
+- `0x83B12E` MON / LOVER’S CLUB’S DROWZEE!
+- `0x83B16D` {PLAYER} shook off the hypnosis! // For a second you really thought / you were a SEEL!
+- `0x83B1D0` HYPNO: HYP-NO!
+- `0x83B1DF`  I work as an executive in a big / office! // Sometimes I have to work very late / hours. // That’s why I love HYPNO so much!
+- `0x83B253`  HYPNO is emitting SLEEP WAVES! // {PLAYER} fell into a deep, relaxing / sleep.
+- `0x83B467` MON / how to do it! // Want me to teach one of yours?
+- `0x83B4A4` MON wants to learn / DREAM EATER?
+- `0x83B4CF` This move can only be learned one / time. Is that okay?
+- `0x83B526` That’s great! I bet he thought / you smelled wonderful!
+- `0x83B585` MON started acting so / strangely three days ago. // I can’t understand what would / cause it!
+- `0x83B5E6` MON at this CENTER are in / terrible shape! // They’re all so lifeless!
+- `0x83B658` So then he says maybe we can / both go together …
+- `0x83B688`  Get a whiff of this!
+- `0x83B6A0` Stinky!
+- `0x83B6DE` MON? // I’m giving my PSYDUCK the works!
+- `0x83B724` MON are simply stunning all / dolled up in jewelry and make-up!
+- `0x83B792` ERIKA’S taught me everything I / know.
+- `0x83B7B9` I need more education.
+- `0x83B7ED` My SLOWPOKE will be the belle of / the ball!
+- `0x83B894` WOMAN: I’m sorry, but the GYM / isn’t open right now. // The GYM LEADER, ERIKA, isn’t in at / the moment. // I’m sure when she gets back she’ll / be happy to accept your challenge.
+- `0x83B93D`  If you hate perfume so much, I / don’t think you’d want to buy any / of our INCENSE. // Have a good day.
+- `0x83BA16` Oh, it seems I’ve been pwned …
+- `0x83BA37` I guess I have more to learn from / ERIKA.
+- `0x83BA60`  It stinks to lose, but it smells / wonderful in here, doesn’t it? // That’s because we manufacture / perfume for ERIKA’S shop here.
+- `0x83BB1F` MON. // Did you know that they’re weak to / FLYING and FIRE types?
+- `0x83BB5D`  JAMES: Great wig! // JESSIE: Not even your own mother / would recognize you in this / outfit! // MEOWTH: Talk about dressing for / success! // That getup will get you into the / GYM easy! // Let’s go!
+- `0x83BC5A` You didn’t need training …
+- `0x83BC97` Good evening! We’d like to enroll / our daughter {PLAYER}ey in your / training classes! // WOMAN: That’s wonderful! You like / perfume I’m sure … // Great! Then I’m sure you’ll be / accepted! Please come in.
+- `0x83BD5E` MON … // They’re powerful against WATER and / ROCK types. Remember that, little / girl.
+- `0x83BDAF`  This is a training school for / girls only. // No boys allowed!
+- `0x83BE62` MON TRAINER.
+- `0x83BE6F`  I’m one of ERIKA’S top TRAINERS. / Let’s rumble!
+- `0x83BEA1` You’re tough!
+- `0x83BEB1` You’re no novice, are you little / girl?
+- `0x83BF84` Are you really a beginning / trainer, little girl? // I think you’re too good to just be / learning …
+- `0x83C474` MON skills are stinking / up this GYM even worse than GLOOM! // Thanks for helping us sneak into / the GYM so we could steal this / SECRET PERFUME FORMULA! // And now TEAM ROCKET’s going to go / out with a bang! // The BLAST BALL’s detonated. TEAM / ROCKET’s blasting off again!
+- `0x83C75B` MON! // Without it you’ll never become a / great trainer like me! // Now I’m going to give you a lesson / in empathy!
+- `0x83C7CE` MON! // Without it you’ll never become a / great trainer like me! // Now I’m going to give you a lesson / in empathy!
+- `0x83C842` Thank you, {PLAYER}! // You not only beat me, but you / saved GLOOM!
+- `0x83C8AD` ERIKA: Excuse me, little girl, but / your hair seems crooked. // Hey, wait a minute! You’re not a / little girl at all. That’s a wig!
+- `0x83C962` MON wails / from inside the GYM … // You can’t just abandon it!
+- `0x83C9D9` It’s ERIKA’S GLOOM! // It looks terribly frightened, yet / it’s not realeasing its intense / odor. It must trust you! // Would you like to bring it with / you?
+- `0x83CA72` {PLAYER} picked up ERIKA’S GLOOM in / his arms to make a rush for the / exit!
+- `0x83CAB6`  ERIKA: Quick, everyone get out! / The whole GYM is an inferno!
+- `0x83CD60` MON / up to Lv. 50 obey you. // Please also take this with you.
+- `0x83CD9D` {PLAYER} received TM19 / from ERIKA.
+- `0x83CE0E` MON. // Wouldn’t you agree that it’s a / wonderful move?
+- `0x83CE4F` You should make room for this.
+- `0x83CE73` {PLAYER} received the RAINBOW BADGE / from ERIKA!
+- `0x83CE9F` Oh, you saved GLOOM! / Thank you, {PLAYER}! // With deep gratitude, I present you / with this RAINBOW BADGE.
+- `0x83CFC0` Boy, am I fuller than a SNORLAX! // My eyes were bigger than my stomach, / I guess! // Here, you can have the rest.
+- `0x83D02C`  VULPIX: VULLL!
+- `0x83D0C7` Good evening! We’d like to enroll / our daughter {PLAYER}ley in your / training classes! // WOMAN: That’s wonderful! You like / perfume I’m sure … // Great! Then I’m sure you’ll be / accepted! Please come in.
+- `0x83D1A7` {PLAYER} received some LEFTOVERS!
+- `0x83D1F6` Make room for this!
+- `0x83D20A`  If you hate perfume so much, I / don’t think you’d want to buy any / of our INCENSE. // Have a good day.
+- `0x83D26D`  Munch… // I can’t get enough of this tasty / food!
+- `0x83D29C`  I don’t usually eat out, but the / food’s delicious!
+- `0x83D2D0`  Would you like to place an order? // Hm? Not hungry …
+- `0x83D32F` MON to / stay in my hotel.
+- `0x83D348`  We just got into town. CELADON is / a great family vacation spot!
+- `0x83D389`  I could use a vacation. Our son is / quite a handful.
+- `0x83D3BE`  VROOM! VROOM! / Let’s play! Let’s play! // Will you play with me?
+- `0x83D439` Rock and roll! / That’s my strategy!
+- `0x83D45E` Rock me hard, kid!
+- `0x83D476` MON LAB
+- `0x83D501` VULPIX: VULLLLLPIX! // VULPIX used FIRE SPIN on TEAM / ROCKET!
+- `0x83D6B9` We’re not through yet! / Hand over PIKACHU!
+- `0x83D71F` MON catching mission!
+- `0x83D737` Down and out.
+- `0x83D75D` How many times do I have to tell / ya’? Don’t drop your guard! // Keep your gloves up, HITMONCHAN, / ’cause fightin’ smart hurts less / than fightin’ stupid! // I declare HITMONCHAN the winner of / this fight.
+- `0x83D890` It’s a wild HITMONCHAN! / Would you like to try to catch it?
+- `0x83D8E5` MON are / causing some trouble for a / construction company …
+- `0x83D921` I’ve got a tough mission ahead of / me …
+- `0x83D951` {PLAYER}, thank you for your help! / Please take this as my thanks!
+- `0x83D991` {PLAYER}, thank you for your help! / Please take this as my thanks!
+- `0x83DA60` Belly bump!
+- `0x83DA6E` Over already?
+- `0x83DA7E` What’s the point of battling if / you can’t have a lark?
+- `0x83DAB7` Jiggle my belly!
+- `0x83DBD6` A wayward trainer? I’d better take / advantage!
+- `0x83DC06` Oh, I’ve been taken advantage of!
+- `0x83DC2A` I thought I could beat you …
+- `0x83DC49` Gotten lost again? This time I / have you!
+- `0x83DC8B` Rough and tumble!
+- `0x83DC9F` Too rough!
+- `0x83DCAC` You sure sent me for a tumble, / kid!
+- `0x83DCD2` Rougher and tumbler!
+- `0x83DDF4` I’ve started a BUG collection! / Want to see?
+- `0x83DE22` My BUGS!
+- `0x83DE2D` BUGS are awesome, aren’t they? My / sister hates them.
+- `0x83DE64` Wanna check out my BUGS again?
+- `0x83DE83`  ROUTE 9 / CELADON CITY - GRINGEY CITY
+- `0x83DF14` ANTHONY: I’ll be in the gym / taking on challengers! I’ll be / waiting for ya!
+- `0x83DF9F` This is the P1 CHAMPIONSHIP! // You’re only worthy of entering if / you can best me in battle!
+- `0x83DFFB` You’re quite the fighter …
+- `0x83E0BB` The P1 CHAMPIONSHIP hasn’t started / yet. You’ll have to wait a bit // to enter.
+- `0x83E179` MON! // It’s blocking the exit and the / seawater intake!
+- `0x83E219` ORANGE INLET AIRSHIP HANGAR
+- `0x83E3A2` MON can hang on / until it gets turned back on / again.
+- `0x83E411` MON were on the verge of / … I don’t even want to think / about it!
+- `0x83E451`  I found a NUGGET on my way from / DIGLETT’S CAVE! // It’s worth a pretty penny, too! / I can’t wait to sell it!
+- `0x83E549` Be very, very quiet. I’m hunting / DIGLETT!
+- `0x83E71B` {PLAYER} received a MAGNET from the / POWER PLANT worker!
+- `0x83E832` Were you called in to help get rid / of the DIGLETT, too?
+- `0x83E86C` What a drag!
+- `0x83E976` MON for us / and get rid of it?
+- `0x83E996` Ack! Here it comes now! / Do something!
+- `0x83E9BE` Thanks for getting rid of that / MUK! // Now GRINGY CITY has power again!
+- `0x83EA05` You did it! // Now that the MUK’S gone, the / power’s working again! // As our thanks, please take this!
+- `0x83EA7E`  / Out of the hunt …
+- `0x83EB7F` MON won’t / come out of their balls!
+- `0x83EBBE` Haha! // Your first opponent shall be / your last!
+- `0x83EBEE` Oof! / I give up!
+- `0x83EC00` I won’t lose. Watch and see!
+- `0x83EC1F` You nailed me!
+- `0x83EC33` I’ve trained for this moment my / entire life! // I’m destined to be the P1 CHAMP!
+- `0x83EC8A` But … my destiny!
+- `0x83ED15` MON a / nice, healthy massage.
+- `0x83ED4D` VENONAT: VENO-NAT!
+- `0x83ED67` I give up!
+- `0x83ED74` ANTHONY: So you made it to the / finals, eh? // That’s pretty impressive, but you / won’t get any farther!
+- `0x83EE02` MON TRAINER? // Then please, if you’re passing / through DIGLETT’S CAVE, help us by / defeating as many DIGLETT as you / can! // If you do I’ll reward you with a / wonderful prize!
+- `0x83F01F` MON / TRAINER who’s traveling through / the area to help us get rid of / these DIGLETT!
+- `0x83F07A`  I still haven’t caught any DIGLETT / …
+- `0x83F0A0`  DIGLETT are tough to find. // They just burrow into the ground / as quick as you can dig them up!
+- `0x83F100` DIGLETT hunting is hard!
+- `0x83F119`  There are mountains all around, / but there won’t be if this / construction crew keeps blowin ’em / to bits!
+- `0x83F183` Ka-boom!
+- `0x83F18E` I don’t think they respect nature / much. I think I’m with the DIGLETT / on this one …
+- `0x83F1E3` This construction crew should / think more about what they’re / doing to the environment.
+- `0x83F25E` MON were fully / healed.
+- `0x83F3AB` MON a / nice, healthy massage.
+- `0x83F3E3` Don’t be silly, {PLAYER}! / I can’t massage an EGG!
+- `0x83F477` MON a massage for / free. // How about it?
+- `0x83F49F` Which one should I massage?
+- `0x83F4BD` SUZY: All right, I’ll have it / relaxed and happy in no time.
+- `0x83F51C` SUZY: All done! / Doesn’t it look so happy and / healthy now, {PLAYER}?
+- `0x83F5BD` MON regularly, {PLAYER}.
+- `0x83F5EF` DIGLETT: DIGLETT DIG! DILETT / DIG! DILGETT DIG! DIGLETT DIG!
+- `0x83F630` It’s the DIGLETT! // They appear to be plowing the / ground. This mountain range seems / to be their backyard! // Could all the forests in the world / be beautiful gardens made by the / DIGLETT like this one? // If the dam construction were to / continue, the entire forest would / be destroyed!
+- `0x83F743`  Haven’t you stopped the DIGLETT / yet? // We need to restart our / construction as soon as possible!
+- `0x83F801` TEAM ROCKET busted up again!
+- `0x83F81E`  Prepare to face the power of / poison!
+- `0x83F8CF` MON, though …
+- `0x83F8DF` Poison power! / I has it!
+- `0x83F965` MON to protect me.
+- `0x83F97A` Darn it!
+- `0x83F98C` MONneed more training, / don’t they?
+- `0x83F9B1` I’m going camping again!
+- `0x83FA0B` Hold on! / I’ve got to bug you!
+- `0x83FA2B` Oh bugger!
+- `0x83FA38` My uber-BUG lost! / How?
+- `0x83FA51` Oh, I see! // Now you want to bug me!
+- `0x83FAB5` Let’s play a little game, eh?
+- `0x83FAD5` Crapped out!
+- `0x83FAE4` I’ve given up the game. I’m all / washed up.
+- `0x83FB11` Another round? Well, I’ll be a / sport!
+- `0x83FB5C` What? The DIGLETT have built a / mountain garden here? // Then if we were to complete the / dam, the whole mountain forest / would be completely covered with / water … // Nothing could live here. This / project is cancelled. I won’t / build the dam. // As thanks for your help, please / take this.
+- `0x83FCBD` To enter the POISON CHAMBER / and the MASTER attack / the NINJA must turn SOUTH / and go BACK
+- `0x83FE72` MON battle / with me first!
+- `0x83FE95`  To enter the POISON CHAMBER / and the MASTER attack / the NINJA must turn SOUTH / and go BACK
+- `0x83FFC5` What a race! This could be a photo / finish!
+- `0x840001` PIDGEOT: Pidgeott-o!
+- `0x84001A` WIGGLYTUFF: Wiggly!
+- `0x840069` MON / MASTER of the FUCHSIA GYM. // The SOUL BADGE will be yours … / If you defeat me, of course.
+- `0x8400C6` You have beaten me. / This SOUL BADGE rightfully belongs / to you.
+- `0x840107` KOGA: AYA and I both have a lot to / learn about battle. // We will train even harder.
+- `0x840194` MON rises. // Ah! / Take this, too!
+- `0x8401B5` {PLAYER} received TM06 / from KOGA.
+- `0x8401D3` Sealed within that TM06 lies / TOXIC! // It is a secret technique dating / back some four hundred years.
+- `0x840237` Make space for this, child!
+- `0x840253`  KOGA: My sister, AYA, still has a / lot to learn. // You will not be permitted to leave / this venerable mansion unless you / do battle with me.
+- `0x8402E0` KOGA: My sister, AYA, still has a / lot to learn. // You will not be permitted to leave / this venerable mansion unless you / do battle with me.
+- `0x84038C` PONYTA: PEIGH!
+- `0x840454` MON need more training, / don’t they?
+- `0x840483` Ready to return to the LARAMIE / RANCH now?
+- `0x8404C1` MON GYM / LEADER: KOGA // WINNING TRAINERS: / {RIVAL}, {PLAYER}
+- `0x840541` Ready? // … // … … // … … … // Go!
+- `0x84069E` {PLAYER} lost the race!
+- `0x84071F` MON / CHALLENGE CHAMPION! // Let’s give a big hand for its / trainer LARA LARAMIE and for the / winning rider: {PLAYER}!
+- `0x840805`   / REST HOUSE
+- `0x8408FA` CENTER AREA
+- `0x840A46` MON / RACE with PONYTA?
+- `0x840ADD` SAFARI ZONE / WARDEN’S HOME
+- `0x840BA7` MON TRAINER! // As my thanks for your help, please / take this!
+- `0x840C30` All right, {PLAYER}! / Good luck!
+- `0x84160A` {PLAYER}! / It seems like PONYTA trusts you. // Maybe you could enter the race for / me and ride PONYTA for me! // Please give it a try! I’ll be / waiting for you inside the ranch.
+- `0x84175C` My arm was injured when PONYTA was / spooked by DARIO! // With my arm hurt, I won’t be able / to enter the race with PONYTA! // What will I do?
+- `0x84186F` {PLAYER}! / It seems like PONYTA trusts you. // Maybe you could enter the race for / me and ride PONYTA for me! // Please give it a try! I’ll be / waiting for you inside the ranch.
+- `0x8419B2` My arm was injured when PONYTA was / spooked by DARIO! // With my arm hurt, I won’t be able / to enter the race with PONYTA! // What will I do?
+- `0x841AF4` MON RACE / tomorrow! // Just get ready to lose, LARA!
+- `0x841C5C` MON, / and I’m entering with my PONYTA!
+- `0x841C84` You little sidewinder!
+- `0x841C9D` He’s good …
+- `0x8425A6` PONYTA is extremely agitated!
+- `0x8425C6` PONYTA calmed down …
+- `0x8425E4` {PLAYER} tried to calm down / PONYTA.
+- `0x842604` PONYTA seems really spooked! Would / you like to try to calm it down?
+- `0x84269C` FUCHSIA CITY / Behold! It’s Passion Pink!
+- `0x842752` MON / you can catch there.
+- `0x84279D` I was looking for the FUCHSIA CITY / GYM, but I can’t find it anywhere!
+- `0x842817` MON! // I heard there were even DRATINI / there…
+- `0x8428E5` MON move learn from mama / KANGASKHAN. // You want learn it?
+- `0x842929` MON want learn / SUBSTITUTE?
+- `0x842946` TOMO use SUBSTITUTE when crawl up / in mama KANGASKHAN pouch!
+- `0x842984` No want learn SUBSTITUTE? Why not?
+- `0x8429A9` This move can only be learned one / time. Is that okay?
+- `0x842A63` MON for / a small price without breaking the / law!
+- `0x843434` He’s good …
+- `0x843440`  He’s good …
+- `0x8435CA` MON / becomes more likely to flee, but / easier to catch. // When you run out of time or SAFARI / BALLS, it’s game over for you!
+- `0x8436B3` Time’s up! Report directly back to / the SAFARI gate. // No loitering!
+- `0x8437A0` KOGA moved his GYM out of / FUCHSIA because he wanted more / privacy to do his training.
+- `0x8437F5`  You can’t buy SAFARI BALLS in a / MART. You can only get them when / you enter the SAFARI ZONE game.
+- `0x843880` MON in battle.
+- `0x84388F`  The WARDEN never leaves his post / at the SAFARI ZONE. He’s always / looking out for trouble!
+- `0x8438F8` Then get out of here!
+- `0x843910` That’ll be $500! // Now take your SAFARI BALLS!
+- `0x84393F` {PLAYER} received 30 SAFARI BALLS / from the Warden.
+- `0x84396E` When you run out of time or SAFARI / BALLS I’ll let you know! // Now get going!
+- `0x8439B9`  You back already, kid?
+- `0x8439DC` What? / A cheapskate!!!
+- `0x843A05`  / The WARDEN has a violent streak, / but it seems to work! // Nobody ever breaks the rules!
+- `0x843A5B`  Two sneaky characters hopped the / fence to the SAFARI ZONE! // If the WARDEN finds out, they’ll / end up with another hole in their / heads!
+- `0x843AE1`  Have you visited GRINGEY CITY? // It’s an industrial city, but I / prefer the more rural feel of / FUCHSIA.
+- `0x843B6A` MON? // It’s a great strategy when you’re / in the SAFARI ZONE!
+- `0x843BA5`  I’m going to be a SAFARI ZONE / RANGER when I get older.
+- `0x843BDD`  I saw a bunch of DIGLETT carrying / some plants and trees through this / cave to the other side! // Why are they doing that?
+- `0x843C54`  If you head SOUTH you come to / SUNNY TOWN. // But there’s a new bridge under / construction, so you need a bike / to cross it …
+- `0x843CEB` MON / would be happier if I released / them into the wild again … // Do you ever think about that?
+- `0x843D50` MON in the SAFARI ZONE / have been transported from far off / regions. // They aren’t native to KANTO.
+- `0x843DB0`  It’s an extensive gun collection. // Better not play with them … / You’ll shoot your eye out!
+- `0x843E8C` I’m the FISHING GURU’s older / brother. // I simply looove fishing! / I can’t bear to go without. // Tell me, do you like to fish?
+- `0x843F07` Oh… / That’s so disappointing…
+- `0x843F26` Hello there, {PLAYER}! // How are the fish biting?
+- `0x843F52` Grand! I like your style. / I think we can be friends. // Take this and fish, young friend!
+- `0x843FAB` {PLAYER} received a GOOD ROD from / the FISHING GURU’s brother.
+- `0x844088` Oh, no! // I had a gift for you, but you have / no room for it!
+- `0x844195` MON forget their / moves. // Would you like me to do that?
+- `0x8441D7` MON should forget a / move?
+- `0x8441F3` Which move should be forgotten?
+- `0x844215` Hm! {V02}’s {V03}? / That move should be forgotten?
+- `0x844243` Come again if there are other / moves to be forgotten.
+- `0x84427A` What? / No EGG should know any moves.
+- `0x8442A0` {V02} seems to know only one / move…
+- `0x8442C2` It worked to perfection! // {V02} has forgotten / {V03} completely.
+- `0x8442FB`  TRAINER TIPS // Press START to check / remaining time.
+- `0x84432E`  AREA 1 / WEST: CENTER AREA
+- `0x844348`  TRAINER TIPS // The remaining time declines only / while you walk.
+- `0x844387`  RESTRICTED AREA / Keep out!!! / - The WARDEN
+- `0x8443C3` MON hide in tall grass. // Zigzag through grassy areas to / flush them out.
+- `0x8446C4` MON lately! // I’ll be looking forward to your / latest haul.
+- `0x844842` MON / becomes more likely to flee, but / easier to catch. // When you run out of time or SAFARI / BALLS, it’s game over for you!
+- `0x8449B6` MON in the lake will be …
+- `0x8449D5` It’s the legendary DRAGONAIR! // It’s throwing the bomb back at / TEAM ROCKET!
+- `0x844B39` MON in the lake will be …
+- `0x844B58` It’s the legendary DRAGONAIR! // It’s throwing the bomb back at / TEAM ROCKET!
+- `0x844BB0` REST STOP // If you’re tired, take a break / and have a drink!
+- `0x844BF5` It’s a notice. // Watch out for discarded items.
+- `0x844C2E` ROUTE 19 / FUCHSIA CITY - SUNNY TOWN
+- `0x844CAA` WARDEN: Thanks to you I was able / to see my beloved DRAGONAIR again / one last time. // Now I’m even more determined to / protect it from greedy TRAINERS!
+- `0x844D3F` {PLAYER} received TM02 from the / WARDEN!
+- `0x844D66` WARDEN: This is … the same / DRATINI I met all those years ago. // You’ve grown so well …
+- `0x844DC0` TEAM ROCKET: We’re blasting off / again!
+- `0x844DFA` REQUEST NOTICE / Please be on the lookout for / poachers. // If any trespassers are discovered / please contact the WARDEN.
+- `0x844E86` MON is / great exercise! // Believe me, I need it.
+- `0x844EB8` What the --
+- `0x844EC4`  Legend has it that KOGA captured / his VENOMOTH as a VENONAT right / here in the SAFARI ZONE.
+- `0x844F24` TEAM ROCKET: You never know who / wins until the round ends, twerp! // The Electric Bomb to turn the / tables!
+- `0x844FAB` TEAM ROCKET: You never know who / wins until the round ends, twerp! // The Electric Bomb will turn the / tables!
+- `0x8450AE` MON here is fun! // I threw some bait at a SCYTHER to / lure it in, then WHACK! // I nailed it right between the eyes / with a rock!
+- `0x845129`  I want to catch a CHANSEY, but the / odds of finding one are no better / than its name implies.
+- `0x845186`  I added some neato BUGS to my / collection. But I accidentally / caught a bunch of TAUROS along / the way …
+- `0x8451ED`  I added some neato BUGS to my / collection. But I accidentally / caught a bunch of TAUROS along / the way …
+- `0x8452B2`  FOUND, but the more / underhanded ones keep them for / themselves …
+- `0x8452F3`  Are you looking for DRATINI? // Find the last region of the SAFARI / ZONE hidden way back. Legend has / it that DRATINI once appeared in / the lake there.
+- `0x845386`  I was nearly gored by wild TAUROS! / Maybe it’s all this red I’m / wearing …
+- `0x8453D0`  Two criminals came by with a -- // I can’t say anything! I don’t want / to end up strapped to that / tickle machine again! // The horror. The horror …
+- `0x845474` I caught a rare CHANSEY! Will you / trade me a RATTATA for it?
+- `0x8454B3` Ha! Just kidding! I’m not that / stupid.
+- `0x8454DA`  {PLAYER} received the DRAGON / SCALE from the WARDEN!
+- `0x845547` That TM contains a move called / DRAGON CLAW. // It’s a really powerful DRAGON-TYPE / MOVE.
+- `0x84559E` {PLAYER} received the TM02!
+- `0x8455B6` I was appointed by the WARDEN to / watch over this area of the SAFARI / ZONE. // I was taking a nap when I heard a / huge explosion. // I hope everything turned out okay, / or the WARDEN will put a bullet in / my head! // If you promise not to tell him I / was sleeping on the job, I’ll give / you this TM I found.
+- `0x8457DF` TRAINER TIPS // Press the B Button to stay in place / while on a downward slope.
+- `0x845883` Now it’s my turn to show you!
+- `0x8458A3` Taken out!
+- `0x8458B0` I’m a member of the notorious / BRIDGE BIKE GANG! // We rule these roads!
+- `0x845907` Run down!
+- `0x845940` MON. // That’s a real biker for ya’!
+- `0x845964` Another big bridge bike battle? / I’m game!
+- `0x84598E`  Another chance to show you what a / bad biker I am!
+- `0x845A02` BIKE GANG rule number one: / There is no BIKE GANG!
+- `0x845A36` Hey, my bike!
+- `0x845A46` Did you knick my bike, kid?
+- `0x845A64` Like I said, there is no BIKE / GANG!
+- `0x845AC9` You on the way to SUNNY TOWN?
+- `0x845AE9` Crash and burn!
+- `0x845AF9`  If you go this way PIKACHU will / follow you! // You’d better go in the opposite / direction …
+- `0x845B75` On the road again!
+- `0x845BC9` Don’t think you’re a biker just / because you have a BIKE!
+- `0x845C04` You outdid me!
+- `0x845C15` I guess you’re not such a bad / biker after all.
+- `0x845C46` I’m still a better biker than / you’ll ever be!
+- `0x845CB5` The end of the bridge is up ahead!
+- `0x845CDA` End game.
+- `0x845CE6` I rode all the way from FUCHSIA. / Impressed?
+- `0x845D14` Almost … / there …
+- `0x845D25`  Enjoy your ride on the BIKE PATH!
+- `0x845D63` BIG RIDDLE INN
+- `0x845E3D` {PLAYER} was given the BICYCLE / to keep!
+- `0x845E68`  The door’s locked!
+- `0x845ED2` You can use my PORYGON to enter / the DIGITAL WORLD. // Ready? Then … / Off you go!
+- `0x845F1F`  PORYGON: 010100000100111101010010 / 010110010100011101001111010011100 / 0100001
+- `0x845FEC`  DOLL / as a present from SANTA CLAUS!
+- `0x846034` MIKEY: I’ve decided to tell my / brothers that I want to be an / EEVEE trainer! // That way we’ll really be the EEVEE / BROTHERS!
+- `0x8460C2` EVOLUTION MOUNTAIN
+- `0x8460FC` MIKEY says he wants to be an EEVEE / TRAINER. // If he felt that way about it he / should have told us sooner!
+- `0x846164`  The circus came to town! / I hope the show will be good!
+- `0x8461B7` MON are pretty strong! // Maybe you should think about / evolving them. // Try this!
+- `0x846219` Show stopper!
+- `0x846253` If MIKEY wants to be an EEVEE / TRAINER, than he should do it!
+- `0x8462A5` Did you know? / MR. MIMEs are nature’s clowns!
+- `0x8462DF` Now we really are the four EEVEE / BROTHERS!
+- `0x84630A`  EEVEE: Ooheevee!
+- `0x8463D4` I’m still looking forward to the / circus.
+- `0x846457` The circus? / I hope there aren’t any clowns!
+- `0x846485` I’m afraid of clowns!
+- `0x84649D` I can’t even stand to look at a / MR. MIME!
+- `0x8464F2` If you won’t join us, then I’ll / make sure you don’t join anybody / else!
+- `0x846539`  I heard you beat the YAS GYM / LEADER! // You must be a tough kid to beat / ’im! // Now let me take you on!
+- `0x8465DB` Clowns. Why did it have to be / clowns?
+- `0x846642` I just came from the show. / It wasn’t very good.
+- `0x846674` My act was stale too!
+- `0x846692` It ain’t possible!
+- `0x8466A5`  There was only one magician and he / didn’t know very many tricks.
+- `0x8466E9` The show was a big letdown!
+- `0x846746` I’m from NEON TOWN. / Check out my wheels!
+- `0x846794` SNORLAX woke up! // It attacked in a grumpy rage!
+- `0x8467C5` SNORLAX calmed down. / It gave a huge yawn… / And returned to the mountains.
+- `0x84681D` Huh? The twerp! Stay out of / this!
+- `0x84683F`  This is the first time my / SCYTHER’s been frightened so / badly!
+- `0x84687E`  Lost it!
+- `0x846888`  EXEGGCUTE: EX-EGG-CUTE!
+- `0x8468A3` YAAAAHHH!
+- `0x8468AF` We lost!
+- `0x8468D5` I travel the dirt roads to / wherever they take me.
+- `0x846909` I’m on the road again!
+- `0x846961` I’m one of the entertainers from / the traveling circus.
+- `0x84699A` Dropped the ball!
+- `0x8469AE` We’ve been getting poor reviews on / account of that no-account hack, / MELVIN!
+- `0x8469FC` Time for another performance!
+- `0x846A5B` Shall we battle?
+- `0x846A78` I came to see the show, but you’re / the one who showed me.
+- `0x846AB4` Shall we have another go?
+- `0x846B0F` Let’s ride!
+- `0x846B1D` Good riddance.
+- `0x846B2E` Riding is a way of life.
+- `0x846B49` We ride again!
+- `0x846B71` We’re toast!
+- `0x846BBF` Fly, my pretties! Fly!
+- `0x846BD8` What a world!
+- `0x846BE8` I’ll get you, kid, and your little / PIKACHU, too!
+- `0x846C1B` Fly again!
+- `0x846C67` I need something to do to pass the / time before the show starts. // Let’s battle!
+- `0x846CB7` You showed me.
+- `0x846CC8` I guess that passed the time.
+- `0x846CE8` Let’s have another battle before / the show starts!
+- `0x846D5B` Let the battle begin!
+- `0x846D89` MON battling is but / a stage and all the TRAINERS / merely actors.
+- `0x846DCB` Another battle? / Chapter Two!
+- `0x846DE8`  HYPNONSIS commands you to bring / an EXEGGUTOR to MELVIN before you / leave the forest!
+- `0x846E94` TRAINER TIPS // Use SELECT to switch items in the / ITEMS window.
+- `0x846F66` What a punk, interrupting my / argument like that!
+- `0x846F99` Punked!
+- `0x846FA3` Get lost, punk!
+- `0x847010` Another interruption?
+- `0x8470CB` OUTDOOR STAGE
+- `0x84729A` MON! // How about it?
+- `0x8472C1` MON that gets / the chance to learn SOFTBOILED?
+- `0x8472F1` There you go! / Thanks again!
+- `0x84730F` If you decide you want to learn / it, just come back anytime!
+- `0x84734D` This move can only be learned one / time. Is that okay?
+- `0x847388`  PARAS has returned! It looks so / much more confidant in itself. // Huh? What’s it doing?
+- `0x847450` This PARAS will be your opponent! // I’d like for my PARAS to evolve / into PARASECT very soon, but it’s / very cowardly! // But if I can get it to evolve, I / can make a new POTION from its / mushroom! // Please battle with it so it will / evolve!
+- `0x847538` PARAS, wait!
+- `0x847545`  You hurt ’em!
+- `0x847568` MELVIN’S EXEGGCUTE used / HYPNOSIS! … {PLAYER} seems to be / greatly affected by it …
+- `0x84764C` {PLAYER} has no choice but to / obey the HYPNOTIC command!
+- `0x8476A5` Oh no! / PARAS ran off after it lost! // Please help me find it!
+- `0x8476E1`  Back off before I hurt you!
+- `0x847700` Don’t make me hurt you again!
+- `0x8477EA` Rev it up!
+- `0x8477F7` Shut down!
+- `0x847804` Grrrrr …
+- `0x84780F` Rev it up again!
+- `0x8478FC` {PLAYER} has no choice but to / obey the HYPNOTIC command!
+- `0x8479A4` Hey! Watch where you’re going, you / jerk!
+- `0x8479CD`  How dare you!
+- `0x8479DE` What the -
+- `0x8479EB` Get out of here before I box your / ears!
+- `0x847A15` We’re off again!
+- `0x847A67` Hey, who do you think you are? // Get outta my face!
+- `0x847A9B` Step off!
+- `0x847AA7` Hey, you shut up, okay?!
+- `0x847AC2` Stay outta my face I said!
+- `0x847B1E` Hey! / Watch it, buddy!
+- `0x847B36` Knock it off!
+- `0x847B46` No, how about you shut up, / okay?!
+- `0x847B6A` Watch out!
+- `0x847BBD` I got beat by a snot-nosed / kid!
+- `0x847C18` Kid, do you want to play?
+- `0x847C34` {PLAYER} received 10 COINS / from the man.
+- `0x847C59` Wins seem to come and go. / Nothing’s a sure thing.
+- `0x847C8D` Oops! / Don’t have the COIN CASE!
+- `0x847CAF` You don’t need my COINS!
+- `0x847CC8`  These slot games… / Win or lose, it’s only by luck.
+- `0x847D26` Stop runnin’ into me, punk!
+- `0x847D42`  Games are scary! / It’s so easy to get hooked!
+- `0x847DEF` What’s up? / Want some COINS?
+- `0x847E0D` {PLAYER} received 20 COINS / from the nice guy.
+- `0x847E5B` MON I want!
+- `0x847E69` Oops! / Don’t have the COIN CASE!
+- `0x847E8B` You have lots of COINS!
+- `0x847FD7` Welcome to NEON GAME CORNER! // Do you need some game COINS? / Would you like to buy some?
+- `0x84802F` No? / Please come play sometime!
+- `0x848050` Oh, I’m sorry. / You don’t have a COIN CASE.
+- `0x84807D` Whoops! / Your COIN CASE is full.
+- `0x84809F` You can’t afford the COINS.
+- `0x8480BD` Thank you. / Here are your COINS!
+- `0x848215` We exchange your COINS for prizes.
+- `0x84823A` A COIN CASE is required…
+- `0x848255` Which prize would you like?
+- `0x848273` So, you want the {V02}?
+- `0x84828A` Sorry, you’ll need more COINS / than that.
+- `0x8482B5` Too bad! / The BAG is full…
+- `0x8491B0` We exchange your COINS for prizes.
+- `0x8491D5` A COIN CASE is required…
+- `0x8491F0` Which prize would you like?
+- `0x84920E` So, you want the {V02}?
+- `0x849225` Sorry, you’ll need more COINS / than that.
+- `0x849250` {PLAYER} obtained / the {V02}!
+- `0x849266` Do you want to give a nickname to / this {V02}?
+- `0x8492BD` MON BOXES are full and / can’t accept any more!
+- `0x8492ED` {V03} was transferred to / Someone’s PC. // It was placed in  / BOX “{V02}.”
+- `0x84932F` {V03} was transferred to / BILL’S PC. // It was placed in  / BOX “{V02}.”
+- `0x84936E` BOX “{V04}” on / Someone’s PC was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x8493B3` BOX “{V04}” on / BILL’S PC was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x849565` Okay, a TM of {V03} / is what you want?
+- `0x84959E` You need to take JIGGLYPUFF to / NEON TOWN!
+- `0x8495CB`  / Move along! There’s no fighting / here!
+- `0x849626` {PLAYER} picked up JIGGLYPUFF / to take to NEON TOWN!
+- `0x849656` Maybe the citizens of NEON TOWN / could stay awake during / JIGGLYPUFF’s song. // Want to take JIGLLYPUFF to NEON / TOWN?
+- `0x84971D` JIGGLYPUFF ran off in a rage!
+- `0x84973D` Everyone in town fell asleep!
+- `0x84975D` JIGGLYPUFF began singing!
+- `0x849789` A slot machine! / Want to play?
+- `0x84981D` VICTORY ROAD / To the INDIGO PLATEAU
+- `0x849857` A COIN CASE is required…
+- `0x8498C3` HOLLYWOOD BOULEVARD
+- `0x84991F` Buried!
+- `0x849943` It’s a rugged rock! // You probably need a tool to smash / it.
+- `0x849984`  / I want to resurrect a KABUTO!
+- `0x8499A5` I’m still on the hunt for fossils!
+- `0x8499C8`  Can you dig it?
+- `0x8499E2` Digging up fossils is the life!
+- `0x849A04` Dig this!
+- `0x849AD6` MON - / AERODACTYL!
+- `0x849BF9` AERODACTYL became sleepy …
+- `0x849C16` The wild JIGGLYPUFF appeared! / It began to sing …
+- `0x849C51` Your CHARIZARD is furious at the / wild AERODACTLY!
+- `0x849E3F` MON CENTER? // … … … // Well, it’s true, there isn’t a / CENTER near here. // Okay! It’s not my speciality, but / DOCTOR PROCTOR will do his best to / help!
+- `0x849F6D` MON CENTER? // … … … // Well, it’s true, there isn’t a / CENTER near here. // Okay! It’s not my speciality, but / DOCTOR PROCTOR will do his best to / help!
+- `0x84A066` It’s a pair of empty caskets.
+- `0x84A084`  What a revolting development!
+- `0x84A193`  You’re not running properly!
+- `0x84A1BA`   JAMES: Thank you … / GROWLIE.
+- `0x84A1FD` JAMES: GROWLIE!
+- `0x84A213` JESSIEBELLE: I’ve got you now / JAMES!
+- `0x84A293` MON can / be heard from within the forest! // It sound unusual and rare!
+- `0x84A2D7`  It’s a rare FARFETCH’D. / It’s running away into the forest!
+- `0x84A35A` All relaxed and ready to fish!
+- `0x84A4CE` For helping me realize / FARFETCH’D’s true power, please / take this.
+- `0x84A512` {PLAYER} received the STICK!
+- `0x84A52D`  / I never thought FARFETCH’D had / attacks like that …
+- `0x84A599` For helping me realize / FARFETCH’D’s true power, please / take this.
+- `0x84A5DD` {PLAYER} received the STICK!
+- `0x84A5FB` Hey, hold up, kid! / Let me see what you’re made of!
+- `0x84A699` Showed me …
+- `0x84A731` FARFETCH’D: FAR-HAR-HAR FETCH’D!
+- `0x84A81D` MON’s great!
+- `0x84A82C` Hey, kid, hold up! / Let’s have another go!
+- `0x84A8C0` It’s your pajamas! / Would you like to change into / them?
+- `0x84A919`  BULBASAUR evolved! // But yours doesn’t seem to be / evolving …
+- `0x84A957` It’s the BULBASAUR’S EVOLUTION / FESTIVAL! // It looks like VENUSAUR has / summoned the BULBASAUR for them to / evolve …
+- `0x84AAB9` {PLAYER} changed into his / pajamas.
+- `0x84AB9A` MANKEY: Meee-ankey!
+- `0x84AD0F` I take my lovely ODDY with me / wherever I go!
+- `0x84AD3C`  TEAM ROCKET’S JAMES purchased a / MAGIKARP!
+- `0x84AEAF` JAMES: You say this MAGIKARP is / a gold mine? // I can make how much? / Billions?!?! // Rich! Rich! // I’ll take it!!!
+- `0x84AF4D` … … … ? / Huh? // It’s not a person! / It’s a giant doll!
+- `0x84AF80`  MAGMAR: Mag-mar!
+- `0x84AFA0` JESSIE: I’ll deal with this / thing later!
+- `0x84B047` BALL, go!
+- `0x84B166` I lost the dolls …
+- `0x84B212`   My honored brother, KOGA, is the / FUCHSIA CITY GYM LEADER! // He resides hidden in this mansion.
+- `0x84B296` {PLAYER} changed from his pajamas / into his traveling clothes.
+- `0x84B2E7` You can’t go to bed until you / change into your pajamas first.
+- `0x84B393` BROCK: Stop it all of you. This / is an offical match and we’re / going to finish it no matter what.
+- `0x84B584` Would you like a re-test?
+- `0x84B680` MOE: Look at how much business has / picked up! // Everyone told me what nice things / you said about my restaurant! // Please, take this as my thanks! / You can use it to find valuable / items that may have been lost in / the beach!
+- `0x84B796` Would you like to take the WILD / MEOWTH?
+- `0x84B850` {PLAYER} received the ITEM / FINDER from MOE!
+- `0x84B896` I’m on my way back to FUCHSIA. // It’s a lot tougher going back than / it is leaving … // I don’t know if I have the leg / strength!
+- `0x84B984` What a beautiful island!
+- `0x84B9E6` {PLAYER} took the MEOWTH! / Better bring it to TIMMY …
+- `0x84BA9C` MON / from harm!
+- `0x84BC37` Catch this!
+- `0x84BE48` bould / before it could strike! // Could it be … / the MEOWTH that saved TIMMY?
+- `0x84BEF4` Dropped the ball.
+- `0x84C15C` MON / to battle her with.
+- `0x84C191` {PLAYER} received the THUNDER / STONE from NURSE JOY!
+- `0x84C1F0` What? // A loose boulder is tumbling down / the cliff!
+- `0x84C222`  A wild MEOWTH broke the boulder / before it could strike! // Could it be … / the MEOWTH that saved TIMMY?
+- `0x84C362`  / Huh? What? / Outta the way kid!
+- `0x84C3C6` MON will make you stronger / than me? // You’d better come back with your / whole team.
+- `0x84C444` All right then, let’s see what / you’re made of!
+- `0x84C475` Impressive …
+- `0x84C49C` Would you like to give MEOWTH to / TIMMY?
+- `0x84C6A2` MON take / on an armed opponent unless it has / special training. // GROWLITHE UNIT, withdraw!
+- `0x84C6FF` Hold it!
+- `0x84C728` Stop thief!
+- `0x84C789` OFFICER JENNY: It takes great / skill to defeat my police trained / K-9 UNIT! // I think you’ve earned yourself a / reward!
+- `0x84C7FE` {PLAYER} received TM20 from / OFFICER JENNY!
+- `0x84C856` MON like my / GROWLITHE?
+- `0x84C889` MON to / take on my K-9 UNIT!
+- `0x84C93F` You ruined the shot!
+- `0x84CA27` You ruined the shot!
+- `0x84CA91` TODD: I’m sorry for all the / trouble I caused! I had no idea / the elderly couple that hired me / was really TEAM ROCKET! // As thanks for your help, would / you like me to take a picture of / your POKeMON TEAM and put it on / your TRAINER CARD?
+- `0x84CB79`  ll! // Maybe I’ll see you there …
+- `0x84CB9B` TEAM ROCKET: Let’s get out of / here!
+- `0x84CBC1` TEAM ROCKET: Hey, shutterbug! You / tricked us! // We wanted you to take PIKACHU, not / take its picture! // It looks like we’ll have to do the / job ourselves!
+- `0x84CC58` That’s a great picture of PIKACHU! / The elderly couple will think its / perfect!
+- `0x84CCA8` Okay, that’s perfect! / Now, hold still PIKACHU …
+- `0x84CCE4` Huh? That’s not PIKACHU!
+- `0x84CCFF` Great, thank you! // First, show me your PIKACHU so I / can take its picture …
+- `0x84CD4B` You won’t? But then I’ll never / capture PIKACHU for the elderly / couple …
+- `0x84CEA1` MON naturally, not posing!
+- `0x84CEBC`  , will you let me take a / picture of your PIKACHU so I can / fulfil the elderly couples / request?
+- `0x84D056` MON LEAGUE!
+- `0x84D0D3` MON / LEAGUE!
+- `0x84D0DF`  I’m so way smart! I’m sure I’ll / pass the test with flying colors!
+- `0x84D129` First choose the type of print you / want …
+- `0x84D19E` A big smile for the photo, please! / Three… Two… One… // Flash!
+- `0x84D1E4` MON print is ready! / Check your TRAINER CARD.
+- `0x84D2F3` MON TEAM to put on your / TRAINER CARD?
+- `0x84D31B` Ah, no? Too bad …
+- `0x84D3B7` There you go! Your print is all / set! Check the back of your / TRAINER CARD!
+- `0x84D401`  NURSE JOY: I came here for the / exam because my work keeps me too / busy to travel very much. // It’s perfect for people whose age / or health keeps them from / traveling around! // I really hope I pass! I heard the / exam is brutal!
+- `0x84D508` MON, but not much about / other types … // Do you think that will be enough / to pass?
+- `0x84D590` MON TRAINER. // I’ve been studying for weeks!
+- `0x84D5FC` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84D6E6` MON / LEAGUE ADMISSIONS EXAM! If you / want to prove you’ve got skill, / you should admit as well! // Maybe I’ll see you there …
+- `0x84D77F` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84D824` MON / LEAGUE!
+- `0x84D871` MON LEAGUE admissions exam?
+- `0x84D88F` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84DB2D` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84DBD2` MON / LEAGUE!
+- `0x84DC1F` MON LEAGUE admissions exam?
+- `0x84DC3D` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84DF4D` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84DFF2` MON / LEAGUE!
+- `0x84E03F` MON LEAGUE admissions exam?
+- `0x84E05D` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84E3A9` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84E44E` MON / LEAGUE!
+- `0x84E49B` MON LEAGUE admissions exam?
+- `0x84E4B9` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84E832` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84E8D7` MON / LEAGUE!
+- `0x84E924` MON LEAGUE admissions exam?
+- `0x84E942` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84EEFD` You got every question correct! // Amazing! Contratulations! // You may advance to the battle / exam!
+- `0x84EF6E`  on the written / test! Well done! // You may proceed to the battle / exam!
+- `0x84EFC8`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x84F067`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x84F0F3` You only got two questions right! // It is now impossible for you to / pass the exam.
+- `0x84F146` You only got one question right! // It is now impossible for you to / pass the exam.
+- `0x84F1D4` You didn’t get a single question / right! // It is now impossible for you to / pass the exam.
+- `0x84F22D` Now let’s take a short break to / see how well you are doing. // Your score is …
+- `0x84F285` KOFFING was first discovered in a / public bathhouse?
+- `0x84F2FB` The only attack MAGIKARP orignally / knows is SPLASH?
+- `0x84F33B` HITMONLEE is also known as the / PUNCHING DEMON?
+- `0x84F376` NINETALES evolves from VULPIX only / by use of the FIRE STONE?
+- `0x84F411` Question 1: / LICKITUNG’S tongue is twice the / length of its body?
+- `0x84F4BC` MON in the / exam. // Is that all right?
+- `0x84F584` The first battle is finished.
+- `0x84F5BE` Let the second battle begin!
+- `0x84F5DD` The second battle is finished.
+- `0x84F618` Let the final battle begin!
+- `0x84F636` The third battle is done.
+- `0x84F6F3` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x84F798` MON / LEAGUE!
+- `0x84F7E5` MON LEAGUE admissions exam?
+- `0x84F803` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x84FDBE` You got every question correct! // Amazing! Contratulations! // You may advance to the battle / exam!
+- `0x84FE2F`  on the written / test! Well done! // You may proceed to the battle / exam!
+- `0x84FE89`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x84FF28`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x84FFB4` You only got two questions right! // It is now impossible for you to / pass the exam.
+- `0x850007` You only got one question right! // It is now impossible for you to / pass the exam.
+- `0x850095` You didn’t get a single question / right! // It is now impossible for you to / pass the exam.
+- `0x8500EE` Now let’s take a short break to / see how well you are doing. // Your score is …
+- `0x850146` KOFFING was first discovered in a / public bathhouse?
+- `0x8501BC` The only attack MAGIKARP orignally / knows is SPLASH?
+- `0x8501FC` HITMONLEE is also known as the / PUNCHING DEMON?
+- `0x850237` NINETALES evolves from VULPIX only / by use of the FIRE STONE?
+- `0x8502D2` Question 1: / LICKITUNG’S tongue is twice the / length of its body?
+- `0x85037D` MON in the / exam. // Is that all right?
+- `0x850445` The first battle is finished.
+- `0x85047F` Let the second battle begin!
+- `0x85049E` The second battle is finished.
+- `0x8504D9` Let the final battle begin!
+- `0x8504F7` The third battle is done.
+- `0x8505E9` You have failed the ADMISSIONS / EXAM. I’m sorry, but you cannot / take it again.
+- `0x85068E` MON / LEAGUE!
+- `0x8506DB` MON LEAGUE admissions exam?
+- `0x8506F9` It is a very difficult exam. Very / few who sign up actually pass, so / I understand your hesitancy.
+- `0x850CB4` You got every question correct! // Amazing! Contratulations! // You may advance to the battle / exam!
+- `0x850D25`  on the written / test! Well done! // You may proceed to the battle / exam!
+- `0x850D7F`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x850E1E`  on the written / exam, however, you may still pass / the exam if you do well in the / battle exam. // You may proceed to the second exam / session.
+- `0x850EAA` You only got two questions right! // It is now impossible for you to / pass the exam.
+- `0x850EFD` You only got one question right! // It is now impossible for you to / pass the exam.
+- `0x850F8B` You didn’t get a single question / right! // It is now impossible for you to / pass the exam.
+- `0x850FE4` Now let’s take a short break to / see how well you are doing. // Your score is …
+- `0x85103C` KOFFING was first discovered in a / public bathhouse?
+- `0x8510B2` The only attack MAGIKARP orignally / knows is SPLASH?
+- `0x8510F2` HITMONLEE is also known as the / PUNCHING DEMON?
+- `0x85112D` NINETALES evolves from VULPIX only / by use of the FIRE STONE?
+- `0x8511C8` Question 1: / LICKITUNG’S tongue is twice the / length of its body?
+- `0x85126E` MON in the / exam. // Is that all right?
+- `0x85133B` The first battle is finished.
+- `0x851375` Let the second battle begin!
+- `0x851394` The second battle is finished.
+- `0x8513CF` Let the final battle begin!
+- `0x8513ED` The third battle is done.
+- `0x85156D` MON you / borrowed for the exam now.
+- `0x85162B` MON you / borrowed for the exam now.
+- `0x8516E8` MON you / borrowed for the exam now.
+- `0x8517A5` MON you / borrowed for the exam now.
+- `0x851883` MON you / borrowed for the exam now.
+- `0x85192C` MON you / borrowed for the exam now.
+- `0x8519C0` MON you / borrowed for the exam now.
+- `0x8519E5` Your testing is complete. Allow me / to issue your results …
+- `0x851A22` Let the second round of exams / begin!
+- `0x851C35` MON / to battle with!
+- `0x851C8E` MON, and must battle me three / times. // If you can defeat me all three / times, you will earn a perfect / score. // If you fail to defeat me the first / time, you will fail the second / exam. // Ready?
+- `0x851DBD` RAPIDASH: Prrreigh!
+- `0x851DED` MON must be kept / with me.
+- `0x851E0B` NINETALES: Nine!
+- `0x851E1E` Please speak with the EXAM / INSTRUCTOR before you leave.
+- `0x851E81` There’s a sign on the door. / It says: CLOSED
+- `0x851F4C` MON isn’t ready yet. // We’re still … eh … training it! // Just give us a little more time.
+- `0x852045` Thank you for participating in the / exam.
+- `0x85206E`  Thank you! // We’ll take very good care of your / {V02}! // You won’t even miss it! Hehe!
+- `0x852112` MON if / you’ll only have an EGG to battle / with …
+- `0x852163` MON / you want to leave with us!
+- `0x8521A8` MON to become stronger?
+- `0x85228C` MON / with us?
+- `0x8522B3` MON for / unsuspecting TRAINERS! // You should really give it a try. / We work miracles!
+- `0x852305`  So, you don’t have a / {V02}, eh?
+- `0x85239E` MON, I’ll give you / a berry! // Today I’d like to see a / {V02}!
+- `0x8523E2` Hold on! / That’s not {V02}!
+- `0x852451` So, you don’t have a / {V02}, eh?
+- `0x8524E9` MON, I’ll give you / a berry! // Today I’d like to see a / {V02}!
+- `0x85252D` Hold on! / That’s not {V02}!
+- `0x8525C2` Ah, it’s a {V02}! // Wonderful! Here’s your berry!
+- `0x8525FD` So, have you found a / {V02} to show me yet?
+- `0x852625`  The computer is shut off.
+- `0x852683` MON must be kept / with me.
+- `0x852713`  The computer is shut off.
+- `0x852735` {PLAYER} received the / {V02} from the CHEF!
+- `0x8527FA` A secret passage opened!
+- `0x852815` The computer has a message on the / screen: // SECRET HOLDING AREA HAS BEEN / CLOSED. WOULD YOU LIKE TO OPEN IT? // Click YES?
+- `0x852967` This is a low point!
+- `0x8529BE` MON for yourselves … // We’re blasting off again!
+- `0x852A49` MON for / yourself! // JESSIE: You’ll have to get through / us first!
+- `0x852A91` JAMES: Oh, look! It evolved into / a VICTREEBELL!
+- `0x852AC6` JESSIE: Breaking into this / BREEDING CENTER was genius! It’s / a burglar’s dream! // JAMES: Oh! I just remembered! This / is the BREEDING CENTER where I / left the WEEPINBELL I caught the / other day … 
+- `0x852BAE` Good luck with the exam!
+- `0x852BF6` MON for you if you / like?
+- `0x852CD5` MON / you gave them for daycare.
+- `0x852CF9` TEAM ROCKET is launching away / again!
+- `0x852D37` MON back!
+- `0x852D43` Love power?
+- `0x852D74` {PLAYER} received TM42 from / OFFICER JENNY!
+- `0x852DB8` Ahoy! / This ship sets sail to the famous / resort of CINNABAR ISLAND!
+- `0x852E23`  /  / The boat isn’t leaving quite yet. / Come back a little later.
+- `0x852E64`  Ahoy! / This ship sets sail to the famous / resort of CINNABAR ISLAND!
+- `0x852EAA` The boat isn’t leaving quite yet. / Come back a little later.
+- `0x852F58` MON you borrowed.
+- `0x852FC1` MON to / you.
+- `0x8532BA` MON, / we can’t let you leave!
+- `0x8533BB` MON to / their trainers and pursue the / criminals at once! // As my thanks, please take this.
+- `0x853413`  Hey, look! // What’s a loser like you doing / trying to get on this boat? // Huh? You want to go to CINNABAR / ISLAND to get a BADGE? // {PLAYER}! / You’re clueless as usual! / Only tourists go to CINNABAR / ISLAND - it’s a resort! // I earned so many BADGES already / that I’m taking a break to work on / my tan! // If you’re heading to CINNABAR to / get a BADGE, you’ll see that / you’re wasting your time. // CINNABAR ISLAND doesn’t even have / a GYM! // See ya, {PLAYER}y!
+- `0x85363C` Ahoy! / This ship sets sail to the famous / resort of CINNABAR ISLAND!
+- `0x853681` The boat isn’t leaving quite yet. / Come back a little later.
+- `0x8536DC` We’re ready to set sail! / Would you like to ride to CINNABAR / ISLAND now?
+- `0x853726` If you’d like to head to CINNABAR, / just let me know!
+- `0x853771` All right! Let’s set sail! // All aboard!
+- `0x8537B5` MON / back you’ll need room in your / PARTY!
+- `0x8537FD` CINNABAR ISLAND / The Fiery Town of Burning Desire
+- `0x853843` MON GYM / LEADER: BLAINE / The Hotheaded Quiz Master!
+- `0x8538BE` If you need a place to stay, try / out my BIG RIDDLE INN.
+- `0x85395A` MON! // That’s why he abandoned the GYM. / If you’re looking for a BADGE, / you’ve come to the wrong place.
+- `0x853B40` MON GYM? / It’s right where you put your / glasses … // In front of your eyes!
+- `0x853C2C` Hi! / I’m looking for a {V02}! // My {V03} is really hard to / train. // If you have a {V02}, / please trade it to me?
+- `0x853C90` Oh boy! Great!
+- `0x853CA1` How’s that {V03} of mine / doing? // {V02} is a bit hot to handle!
+- `0x853CDB` No? / Poo!
+- `0x853CE6` What the -- / That’s not a {V03}!
+- `0x853D4F` MON discoveries!
+- `0x853D70` HIMONCHAN: Hit-mon! Chan!
+- `0x855E15` MON fossils. / All the time, I study. // You! / Have you a fossil for me?
+- `0x855E5A` Aiyah! / You come again!
+- `0x855E73` I take a little time! / You go for walk a little while!
+- `0x855EAB` No! / Is too bad!
+- `0x855EBD` You late. / Where were you? // Your fossil is back to life! / It was {V02} like I think!
+- `0x855F87` MON live again!
+- `0x855FBC` {PLAYER} handed over the / {V03} to the weird doctor.
+- `0x856013` MON BOXES are full and / can’t accept any more!
+- `0x856043` {PLAYER} received the {V02} / from the doctor.
+- `0x856069` Do you want to give a nickname to / this {V02}?
+- `0x856096` {V03} was transferred to / Someone’s PC. // It was placed in  / BOX “{V02}.”
+- `0x8560D8` {V03} was transferred to / BILL’S PC. // It was placed in  / BOX “{V02}.”
+- `0x856117` BOX “{V04}” on / Someone’s PC was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x85615C` BOX “{V04}” on / BILL’S PC was full. // {V03} was transferred to / BOX “{V02}.”
+- `0x85619C`  CINNABAR HOT SPRING / Take a dip in the hot spring of / CINNABAR ISLAND - FREE!
+- `0x8561E9`  MOUNT CINNABAR / The oldest active volcano in the / entire KANTO region
+- `0x856238` MON CENTER is packed! / There’s nowhere else to stay on / the island! // Too bad no one was at the front / desk in the hotel up north …
+- `0x8562B7`  CINNABAR is the perfect vacation / spot! // Wouldn’t you agree?
+- `0x8562F3`  I was thinking of challenging the / GYM LEADER here, but the GYM’s / shut down. // Oh well …
+- `0x85634A`  Have you tried the HOT SPRING? // It’s so relaxing! / I could soak in it all day!
+- `0x8563CC`    Don’t they have any suntan oil for / sale?
+- `0x8563F8`  Too bad they don’t have miracle / potions for humans to make us all / better when we’re hurt …
+- `0x8564B6` MON LAB! // You deserve a big reward, so I’ll / let you in on a little secret … // BLAINE built a GYM that tourists / never see. // It’s in the place where / firefighters could never win.
+- `0x8565CC` MON LAB is under attack by / thieves!
+- `0x8565F0`  CINNABAR is so relaxing … / I just may retire here!
+- `0x856623`  Tourists come from all over the / world to visit CINNABAR ISLAND!
+- `0x8566E8` TEAM ROCKET: Beaten again! / Looks like TEAM ROCKET’s blasting / off!
+- `0x85676C` MON from this LAB! // This time you won’t stop us!
+- `0x85679E` It can’t be!
+- `0x8567AB`  It’s the face of a rock …
+- `0x8567FE` The rocks fell away to reveal / an opening in the wall!
+- `0x856836` Huh?! / The rock is loose!
+- `0x85686F` If it’s a battle you want, it’s a / battle you’ll get!
+- `0x85697A` I have burned down to nothing! / Not even ashes remain! // You have earned the VOLCANOBADGE.
+- `0x856A1B` {PLAYER} received TM38 / from BLAINE.
+- `0x856A46` Make space for this, child!
+- `0x856AA2` MON. // Here, you can have this, too!
+- `0x856AC7` BLAINE: So … / Ready to begin!
+- `0x856AE6` I applaud you. / You know it is foolish to battle / against me …
+- `0x856B40` MON / before we can battle.
+- `0x856C10` MON with you for this battle.
+- `0x856C33` I guess you solved my riddle! / Here’s another one for you … // It’s not a hat, but it keeps your / head dry. // If you wear it, it’s because you / already lost it. // The answer … // A wig!
+- `0x856D9A` … Do not want!
+- `0x856E98` I’m here to take the test! / Let’s get some practice in first!
+- `0x856ED7` I didn’t pass …
+- `0x856F4F` But … / I’m so smart!
+- `0x856FC5` MON / EXAM. // Will you help me decide?
+- `0x856FEA` An easy decision …
+- `0x85700A` TEAM ROCKET: Uh oh! / Looks like we planted the bomb a / little too close to home! // Looks like TEAM ROCKET’s freeze / blasting off again!
+- `0x85708F` TEAM ROCKET: We’re here to get / that MAGMAR for ourselves! // We just set off a freeze bomb to / ice this volcano!
+- `0x857205`    ave my gym! / I don’t know how to thank you, / {PLAYER}. // Perhaps if I gave you …
+- `0x857251` What?! / I’m not just going to give you a / VOLCANOBADGE! // I was about to say that I’ll give / you another chance to battle me / for a VOCLANOBADGE. // Since my GYM has been wrecked by / those thieves, I hope you don’t / object if we hold our match on the / top of the volcano! // I’ll be waiting for you there.
+- `0x8573CC` CHARIZARD seems proud of itself / for its victory … // But it doesn’t seem to be any more / obedient …
+- `0x85745F` Huh? / It appears CHARIZARD really wants / to fight!
+- `0x857492` BLAINE: Let’s make our rematch a / one-on-one battle!
+- `0x8577B8` MON Intelligence Quotient - to / pass! // Keep that in mind if you’re taking / the exam.
+- `0x85780A`  I guess I’m just not ready for the / EXAM yet …
+- `0x85783B` Can we go again? If I win this / time, I’ll definitely decide to / take the EXAM!
+- `0x8578CA` I don’t need to pass that stinking / exam to beat you!
+- `0x857901` Another loss!
+- `0x857911` I didn’t pass the EXAM, so I’m / just going to take the boat to / the resort at CINNABAR.
+- `0x8579AF` MON aren’t very strong.
+- `0x8579C9` I was not being facetious.
+- `0x8579E6` I’m thinking of leaving them at / the DAYCARE so they can get / stronger.
+- `0x857A2E` I heard the DAYCARE might not be / legit. Be careful!
+- `0x857AA3` This ROUTE is so long! I’ve been / walking forever!
+- `0x857AD7` I need a break …
+- `0x857AEA` I’m going to lounge in the HOT / SPRINGS at CINNABAR ISLAND!
+- `0x857BCA` So … / Would you like to sail back to / ROUTE 20?
+- `0x857BFA` If you’d like to return to ROUTE / 20, just let me know.
+- `0x857CBC` MON must be WITHDRAWN inside / it …
+- `0x857CEC` That’s cold!
+- `0x857DA0` Ah, the sea! / An old man like me can’t hope to / set sail like he used to.
+- `0x857DFD` WARTORTLE: War! Wartortle!
+- `0x857E1B` The current is too strong to swim.
+- `0x857E42` The water is calm. / Would you like to SURF?
+- `0x857E82` The water is calm… / Would you like to use the RAFT?
+- `0x857EF4` Smell the sea air, lad! / Taste the salty dew on your lips! // Enjoy your time on the ocean’s / surface, as I did mine!
+- `0x857F67` Ah, a lad who can’t understand the / beauty of the ocean …
+- `0x858043` BLASTOISE: Blast! Stoise!
+- `0x85806A` Ah, a child after my own heart! / I’m too old to go sailing. // Here, take this old RAFT I used to / sail on as a child, and use it to / extend your love of the ocean.
+- `0x85810B` {PLAYER} received the RAFT / from the old man!
+- `0x858134` I see you’re a highly skilled / TRAINER! // Tell me, are you a child whose / heart belongs to the ocean’s deep?
+- `0x8582D5` It’s a wild WARTORTLE! / It looks agitated and worried. // Something bad must have happened / …
+- `0x858376` MON / king, BLASTOISE!
+- `0x8583D7` It’s a wild WARTORTLE! / It looks agitated and worried. // Something bad must have happened / …
+- `0x858592` MON / king, BLASTOISE!
+- `0x8586AE` I’m swimming to CERULEAN CITY!
+- `0x858726` {V02} seems pleased with / the results of the mission! // {V02}’s STATS increased!
+- `0x858779` BLASTOISE looks awake and / refreshed!
+- `0x8587A0` JIGGLYPUFF ran away …
+- `0x8587B8` JIGGLYPUFF was caut in BLASTOISE’s / canon! // It looks upset …
+- `0x858801` MON woke up!
+- `0x858810` Coult it be??? / JIGGLYPUFF!
+- `0x858840`  FLUTE to try / to wake it up?
+- `0x85885F` That’s odd … // An unusual but familiar sound can / be heard coming from inside the / shell.
+- `0x8588CC` MON in your / PARTY!
+- `0x85894E`  WARTORTLE seems distressed … / But you can’t understand what it’s / saying …
+- `0x858A6D` MON’s ruler, BLASTOISE! // Maybe you could do something to / help … 
+- `0x858AC3` I don’t mind swimming, but I don’t / have much of a choice - there’s no / boat!
+- `0x858B65` Can’t you see that I’m fishing, / kid?
+- `0x858B8C` I fished up trouble!
+- `0x858BA3` Fishing’s not for slackers - it / takes patience and diligence.
+- `0x858C22` Wanna see some magic?
+- `0x858C43` It takes real skill to win with / nothing more than MAGIKARP.
+- `0x858CC0` Don’t touch my floatie!
+- `0x858CDA` Glub, glub!
+- `0x858CE8` I can’t swim yet, so I still need / my floaty tube.
+- `0x858D5B` I took a dip in the river and now / I’m out in the ocean!
+- `0x858D95` I should head back.
+- `0x858DAB` I shouldn’t swim much farther, or / I might not make it back to / CERULEAN.
+- `0x858DF3`  RING RING RING! / RING RING RING! // … A phone is ringing!
+- `0x858E2A`  DAISY: Oh, wow! / Are we glad we caught you, / {PLAYER}! // You remember us, right? The / SENSATIONAL SISTERS of CERULEAN / CITY? // We’re totally looking for our / little sister, MISTY. // We know you see her from time to / time on your journey. // If you see her, could you give / her a message for us? // We really need her back at the / CERULEAN GYM, ASAP! // Thanks a lot, {PLAYER}!
+- `0x859046`   MISTY: Huh? / My sisters are looking for me? // I only came here so my HORSEA / could use the pool at the CERULEAN / GYM to get some exercise. // I wonder what my sisters could / want? // I guess I better find out …
+- `0x859140` DAISY: Oh, well! / It’s, like, totally your loss!
+- `0x859172` DAISY: Oh, hi, {PLAYER}! // We’re putting on an amazing / underwater performance! // It’s called THE MAGICAL MERMAID! // But if you want to see the show / you have to buy a ticket!
+- `0x859216` So how about it? / Want to buy a ticket to the show? / Only $500!
+- `0x859293` DAISY: Oh, well! / It’s, like, totally your loss!
+- `0x8592C5` DAISY: Oh, hi, {PLAYER}! // We’re putting on an amazing / underwater performance! // It’s called THE MAGICAL MERMAID! // But if you want to see the show / you have to buy a ticket!
+- `0x859369` So how about it? / Want to buy a ticket to the show? / Only $500!
+- `0x85940F` DAISY: Oh, well! / It’s, like, totally your loss!
+- `0x859441` DAISY: Oh, hi, {PLAYER}! // We’re putting on an amazing / underwater performance! // It’s called THE MAGICAL MERMAID! // But if you want to see the show / you have to buy a ticket!
+- `0x8594E5` So how about it? / Want to buy a ticket to the show? / Only $500!
+- `0x859584` DAISY: Oh, like, sorry! / But you just don’t have enough / cash to buy a ticket to our show.
+- `0x8595DF` DAISY: Great! It’s a really great / show, you’ll see! // It’s about to start, so come on / in, quick!
+- `0x8597E4` LADIES and GENTLEMEN! / Thank you for your patience! // Our underwater ballet - THE / MAGICAL MERMAID - performed by the / exciting and talented CERULEAN / SISTERS is about to begin! // Now presenting our famous / underwater star in her glorious / return to CERULEAN CITY - MISTY!
+- `0x859926` MON in the / ballet! // Let’s get this show on the road!
+- `0x8599D1` MON BATTLE!
+- `0x8599DF` Looks like the show’s over for / TEAM ROCKET!
+- `0x859A10` TEAM ROCKET: Our performance was / a flop! // TEAM ROCKET’s blasting off again!
+- `0x859B9C` MON a / lot easier!
+- `0x859BB0` {PLAYER} received the SUPER ROD / from MISTY!
+- `0x859BDA` MISTY: My sisters want me to / leave my STARMIE and HORSEA here / to perform in the show. // I just can’t say no … // By the way, if you’re heading back / to VIRIDIAN CITY, you’ll have to / travel back through MOUNT MOON. / There’s no other way to go. // Good luck, {PLAYER}!
+- `0x859D30` SOUTH to VIRIDIAN CITY
+- `0x859DFD` Huh? … … … // Your PICKAXE is missing! / CLEFAIRY must have stolen it!
+- `0x859E72` It’s a wild CLEFAIRY! / What could it be up to?
+- `0x859EB7` MON in MT. / MOON. // I’ve been training them really / hard!
+- `0x85A1FA` The rocket exploded out of the / mountain! // The PICKAXE fell out the / spaceship’s door!
+- `0x85A250` {PLAYER} retrieved the PICKAXE!
+- `0x85A26F` The rocket is taking off!
+- `0x85A2A1` The CLEFAIRY boarded the rocket!
+- `0x85A2C4` SEYMOUR: The CLEFAIRY are taking / off! And I’m going to go with / them!
+- `0x85A30B` They’ve done it! / They’ve torn through the rock / wall!
+- `0x85A344`  / But I trained them so well …
+- `0x85A3C0`  / SEYMOUR: {PLAYER}! / I knew the CLEFAIRY were from / OUTER SPACE! // They’ve built this spaceship so / they can return to the MOON! // … / Your PICKAXE? // Oh, the CLEFAIRY must have / borrowed it to burrow through the / wall.
+- `0x85A4C2` Prepare to be amazed!
+- `0x85A4DA` Shown up.
+- `0x85A4E6` {PLAYER} began to swim!
+- `0x85A55C` MON were eclipsed! / How’d yours get so strong?
+- `0x85A5E9` The current is weak. / Would you like to swim?
+- `0x85A70E` The battle’s over now. / You can enter.
+- `0x85A736` Only one TRAINER allowed in the / GYM at a time, kid!
+- `0x85A76C` {RIVAL}: I’m {RIVAL} OAK, from / PALLET! // I hereby request a battle with the / LEADER of this GYM!
+- `0x85A8E7` MON TRAINER!
+- `0x85A9CB` {RIVAL}: The building’s collapsing! / Let’s run for it!
+- `0x85AC36` MON a / lot easier!
+- `0x85AD45` MON, he / hasn’t been defeated.
+- `0x85AD92` TEAM ROCKET: Today something has / happened that will make you very / jealous! // We just got a big promotion! / Now we’re going to get the respect / we deserve … // Because the new LEADERS of this / GYM are the three of us! // Just moments ago we were put in / charge of this GYM and the EARTH / BADGE. // If you want it, you’ll have to / defeat us!
+- `0x85AED7` Hahahahahaha!
+- `0x85AFB6` It’s {RIVAL}! / … … …
+- `0x85B023` MON attack at once!
+- `0x85B039` You’re not getting that EARTH / BADGE, twerp!
+- `0x85B0C8` TEAM ROCKET dropped the EARTH / BADGE! // {PLAYER} received the EARTH BADGE from / TEAM ROCKET!
+- `0x85B11D` JESSIE: JAMES! Don’t tell me you / set the bomb to go off on our side / of the GYM! // TEAM ROCKET: Looks like TEAM / ROCKET’S blasting off again!
+- `0x85B1A9` TEAM ROCKET: I don’t care if it’s / cheating! We’re cheaters! // And now we’re going to set off our / secret weapon and blow away the / competition! // Hahahahahaha!
+- `0x85B246`  I started my journey not far from / here in a little town called / PALLET.
+- `0x85B290` You’re much stronger …
+- `0x85B2A7`  I didn’t want to battle if I was / going to lose …
+- `0x85B2F5` MON / LEAGUE TOURNAMENT!
+- `0x85B314` {RIVAL}: The building’s collapsing! / Let’s run for it!
+- `0x85B38D` TEAM ROCKET: Today something has / happened that will make you very / jealous! // We just got a big promotion! / Now we’re going to get the respect / we deserve … // Because the new LEADERS of this / GYM are the three of us! // Just moments ago we were put in / charge of this GYM and the EARTH / BADGE. // If you want it, you’ll have to / defeat us!
+- `0x85B4D2` Hahahahahaha!
+- `0x85B5B1` It’s {RIVAL}! / … … …
+- `0x85B61E` MON attack at once!
+- `0x85B634` You’re not getting that EARTH / BADGE, twerp!
+- `0x85B6C3` TEAM ROCKET dropped the EARTH / BADGE! // {PLAYER} received the EARTH BADGE from / TEAM ROCKET!
+- `0x85B718` JESSIE: JAMES! Don’t tell me you / set the bomb to go off on our side / of the GYM! // TEAM ROCKET: Looks like TEAM / ROCKET’S blasting off again!
+- `0x85B7A4` TEAM ROCKET: I don’t care if it’s / cheating! We’re cheaters! // And now we’re going to set off our / secret weapon and blow away the / competition! // Hahahahahaha!
+- `0x85B840` TEAM ROCKET: Let’s see just how / strong you are, little boy! // Let’s go!
+- `0x85B888` Grrrr! We won’t lose this time!
+- `0x85B924` MON GYM / LEADER: GIVOANNI // WINNING TRAINERS: / …
+- `0x85B960` MON GYM / LEADER: GIOVANNI // WINNING TRAINERS: / {PLAYER}
+- `0x85B9C5` I failed …
+- `0x85B9D6` The VIRIDIAN GYM is collapsing!
+- `0x85BB9C` MON LEAGUE / hasn’t begun yet … // Please come back later.
+- `0x85BBD2`  This tunnel is a trek!
+- `0x85BC13` ROCK TUNNEL / CINNABAR ISLAND - CERULEAN CITY
+- `0x85BC50` MR. MIME: MR. MIME!
+- `0x85BC76` That’s disappointing …
+- `0x85BC8D`  I couldn’t survive.
+- `0x85BD66` MON CENTER.
+- `0x85BDBB`  Would you like to picnic with me?
+- `0x85BDE0` Hit a rough spot!
+- `0x85BDF4` A rock tunnel isn’t very good for / a picnic, is it?
+- `0x85BE40` You want a tough fight kid? / You got it!
+- `0x85BE6A` Too tough!
+- `0x85BEB4` MON knows, the tougher it is / to beat.
+- `0x85BEF3` You ready for a resurrection / ruckus?
+- `0x85BF1A` Extinction!
+- `0x85BF35` MON resurrected from / fossils by a scientist on CINNABAR / ISLAND.
+- `0x85BF8E` Let’s kick it up a notch!
+- `0x85BFB1` That battle fizzled when it should / have sizzled.
+- `0x85BFFB` Gotta break through to the end!
+- `0x85C01D` Crushed!
+- `0x85C035` MON to break through / brittle rocks. It’s all about / STRENGTH!
+- `0x85C08B` Shall we dance?
+- `0x85C09D` A poor performance.
+- `0x85C0B3` I always beat HIKERS, because they / always use ROCK TYPES.
+- `0x85C106` Okay, let’s see what you got.
+- `0x85C126` Tunnel vision.
+- `0x85C137` When I get lost in a tunnel like / this, I just have my DUGTRIO dig / me out.
+- `0x85C1DA` MONS’ visage frighten / you?
+- `0x85C20E` I like to mix brains and brawn!
+- `0x85C230` The wrong mix!
+- `0x85C241` I guess it takes more than brains / and nerve - what am I missing?
+- `0x85C29B` Time to bring the heat!
+- `0x85C2B5` Chill out!
+- `0x85C2C2` The guys tell me I’m hot, but they / soon find out I’m much too hot to / handle!
+- `0x85C328` Ha! Let’s rumble!
+- `0x85C33C` You broke me and you beat me.
+- `0x85C35C` You’re as sturdy as a rock, kid! / I like your style.
+- `0x85C3A9` Egg-scuse me!
+- `0x85C3B9` Cracked!
+- `0x85C3C4` The yolk’s on me. / Hehe … oof.
+- `0x85C3FB` Hey, buddy, hold still! / I’m about to rock your world!
+- `0x85C433` That was amazing …
+- `0x85C448` Was that BATTLE as good for you as / it was for me?
+- `0x85C493` Wanna fight?
+- `0x85C4A8` I like to fight, but I hate to / lose. Grrrrrr!
+- `0x85C4D6`  Hey, hey … / You can’t walk away without a / battle first!
+- `0x85C50E`  You’re a though TRAINER. / You’ll have to be to make it / through ROCK TUNNEL.
+- `0x85C5A7` {PLAYER}’s HOUSE
+- `0x85C5B4` VIRIDIAN
+- `0x85C5C4` PEWTER
+- `0x85C5D2` CERULEAN
+- `0x85C5E2` VERMILION
+- `0x85C5F3` CELADON
+- `0x85C602` SAFFRON
+- `0x85C611` LAVENDER
+- `0x85C621` FUCHSIA
+- `0x85C630` CINNABAR
+- `0x85C642` INDIGO
+- `0x85C72F` Would you like to boot up the PC?
+- `0x85C76B` ICE BATTLE FIELD
+- `0x85C957` You can’t warp to a place you / haven’t been yet!
+- `0x85CA19` So … Would you like to warp to / {V02}?
+- `0x85CB1C` This show is really rolling!
+- `0x85CB3B` The WARP SYSTEM has been / initiated!
+- `0x85CCDF` You can’t warp to a place you / haven’t been yet!
+- `0x85CDBF` You can’t warp to a place you / haven’t been yet!
+- `0x85CDEF`  Would you like to start the WARP / SYSTEM?
+- `0x85CE81` So … Would you like to warp to / {V02}?
+- `0x85CF67` So … Would you like to warp to / {V02}?
+- `0x85CF8A`  PALLET
+- `0x85CFF6` Our circus is a great success / thanks to you, {PLAYER}!
+- `0x85D058` That MR. MIME’S tricks! / How does it do that?
+- `0x85D0E0` MON / CIRCUS and put on wonderful shows / again!
+- `0x85D10F` What a great battle!
+- `0x85D126` I know! // Maybe if you battle with it, MR. / MIME will be inspired to perform / again! // Let’s give it a try!
+- `0x85D1FD` MON TRAVELING / CIRCUS. // My MR. MIME refuses to perform / because of how hard I trained it, / so I thought I might be able to / catch another one … // I don’t know what I can do to / inspire my MR. MIME again.
+- `0x85D2C3` STELLA: Please stop! / Won’t you please let me capture / that MR. MIME?
+- `0x85D315` The MR. MIME ran away. / The invisible wall vanished …
+- `0x85D35B` It’s a MR. MIME! / It seems to be constructing an / invisible barrier!
+- `0x85D3B3` Huh??? / There appears to be an invisible / wall blocking your path …
+- `0x85D48D` MON / how to MIMIC?
+- `0x85D4B2` MOM should learn MIMIC?
+- `0x85D4CC` Maybe another time then.
+- `0x85D7A0` MON journey! // That remimnds me. You should go / see PROF. OAK about entering the / INDIGO LEAGUE CHAMPIONSHIPS. // I’m so proud of you, {PLAYER}!
+- `0x85D824`  What an improvement! / The show is great!
+- `0x85D84D`  SENSATIONAL!
+- `0x85D871` SENSATIONAL!
+- `0x85D9FB` MON CENTER. // You don’t have to thank me, I was / happy to do it.
+- `0x85DA39` py to do it.
+- `0x85DCC3` MON CORRAL out back! // We’d better check it out!
+- `0x85DEB4` MON you TRAINERS from PALLET / send me, they’ve become an / important part of my life!
+- `0x85DF22` {RIVAL}: Looks like I caught more / than you did, {PLAYER}!
+- `0x85DF79` MON than {PLAYER}.
+- `0x85DF9F` {PLAYER}: All right! / I beat {RIVAL}!
+- `0x85E05B` {RIVAL}: He can try, but even if / {PLAYER} had a year to train I’d / beat him with both hands tied / behind my back! // I’m not saying you’re a bad TRAINER, / {PLAYER}, it’s just you don’t / have what it takes to beat me!
+- `0x85E2C3` MON LEAGUE meets the same / place every year, atop the INDIGO / PLATEAU. // The TOURNAMENT hasn’t begun yet, / though, so that gives you some / time to train before it does.
+- `0x85E3B7` MON / TRAINERS get along?
+- `0x85E3D1` {RIVAL}: Well, now! / I’m not surprised you showed up / late, I’m surprised you showed up / at all!
+- `0x85E4BE` MON TRAINER to show up / today.
+- `0x85E513` MON LEAGUE, / too, {PLAYER}? // Why even bother? / There’s no way you’ll beat me!
+- `0x85E59A` Something’s happening at the OAK / CORRAL! // Better check it out.
+- `0x85E69D` MON BATTLE!
+- `0x85E81C` DEX for me. // I’m sure he could enlighten you to / the evolution solution! // Just follow the PALLET RIVER / south! // Thanks, {PLAYER}!
+- `0x85E8EB` MON LEAGUE, / {PLAYER}. // You just better make sure you / train as hard as I do! // See you then, {PLAYER}!
+- `0x85E944` We lost the showdown!
+- `0x85E95C` TEAM ROCKET: Why can’t good things / happen to bad people? // We’re blasting off again!
+- `0x85EA17` MON you / got stashed here, or you’ll have / to battle us!
+- `0x85EA50` TEAM ROCKET: Ha! / We followed you here so we could / steal your PIKACHU! // MEOWTH: We’re through pussy- / footing around, so hand over that / rat and make it snappy!
+- `0x85EC62` Huff puff huff!
+- `0x85EC74` I need to get to shore and dry / off.
+- `0x85EC9A` Another swim in the sun? / That calls for another battle!
+- `0x85ED13` Look out! / I’m trying to cast off!
+- `0x85ED37` Cast away …
+- `0x85ED77` Hold on! / I’m casting off again!
+- `0x85EDD8` I’ve been swimming so hard I’m / seeing stars!
+- `0x85EE07` Not stars … STARMIE!
+- `0x85EE1E` I’ve been training to ride the big / wave, the HUMUNGA-DUNGA, but I / need to take a break.
+- `0x85EE78` Stroke! Stroke! Stroke! / I’m still seeing stars!
+- `0x85EEE9` Check out my life aquatic!
+- `0x85EF06` I floundered!
+- `0x85EF2B` MON. / That’s because I like to make a / big splash!
+- `0x85EF5E` Time for another water war!
+- `0x85EFD5` MON. / Now I’m lost ashore!
+- `0x85EFF8` My bird calls won’t get me to the / mainland, will they?
+- `0x85F031` My FEAROW’s still too tired to FLY / me off this island!
+- `0x85F0A9` Hey you! / Check out these bad boys!
+- `0x85F0CE` Whatcha gonna do?
+- `0x85F0E2` GYARADOS look mean, but they’re / fiercly loyal!
+- `0x85F134` MON again?
+- `0x85F13F`  A picture of PROF. WESTWOOD’s / great-great grandfather, WESTWOOD / the FIRST.
+- `0x85F18B`  It’s a picture of PROF. WESTWOOD’s / great grandfather, WESTWOOD the / SECOND.
+- `0x85F1D7`  This is a picture of PROF. / WESTWOOD’s grandfather, WESTWOOD / the THIRD.
+- `0x85F21F`  A picture of PROF. WESTWOOD’s / father, WESTWOOD the FOURTH.
+- `0x85F25B`  It’s a picture of PROF. WESTWOOD - / WESTWOOD the FIFTH. // It isn’t a very good likeness …
+- `0x85F2CF` SEAFOAM ISLANDS
+- `0x85F337` MON / SYMPOSIUM, I’ll go down as the / most renowned researcher in / history!
+- `0x85F3D2` Sorry, but you need the TROPIC / PASS in order to board the ship to / sale the ORANGE ARCHIPELAGO.
+- `0x85F448` Sorry, but you need the TROPIC / PASS in order to board the ship to / sale the ORANGE ARCHIPELAGO.
+- `0x85F4A7`  Congratulations on winning the / grand prize in our raffle! // I hope you enjoy your BLIMP RIDE!
+- `0x85F56C` {PLAYER} received the HEART SCALE / from WESTWOOD THE FIFTH!
+- `0x85F6A3` MON RESEARCHERS. // At the moment I’m solving a real / life mystery, slowly but surely. // I want to discover why SHELLDER / attaches to SLOWPOKE to cause it / to evolve into SLOWBRO. // I’ve been researching with my / SLOWPOKE. You may have seen it / fishing on the beach. // If I can understand why SLOWPOKE / evolves into SLOWBRO, I’ll have / earned the right to call myself a / WESTWOOD!
+- `0x85F898` Yes, it’s your SHELLDER, why / should you release it?
+- `0x85F90F` Amazing! / SLOWPOKE and SHELLDER evolved into / SLOWBRO!
+- `0x85F946` {PLAYER} released {V02}! / It instantly clamped onto / SLOWPOKE’s tail!
+- `0x85F98D` Releasing {V02} won’t have / any effect.
+- `0x85F9B3` Would you like to release SHELLDER / to WESTWOOD the FIFTH’s SLOWPOKE?
+- `0x85FA15` SLOWBRO: Slow … / Bro …
+- `0x85FA2F` PUKA: Pikaaaaa …
+- `0x85FA47` The current is too rough! / The RAFT is careening out of / control!
+- `0x85FA87`  It’s a picture of VICTOR as a / young boy.
+- `0x85FAB4` Yes, it’s your SHELLDER, why / should you release it?
+- `0x85FB2B` Amazing! / SLOWPOKE and SHELLDER evolved into / SLOWBRO!
+- `0x85FB62` {PLAYER} released {V02}! / It instantly clamped onto / SLOWPOKE’s tail!
+- `0x85FBA9` Releasing {V02} won’t have / any effect.
+- `0x85FBCF` Would you like to release SHELLDER / to WESTWOOD the FIFTH’s SLOWPOKE?
+- `0x85FCA7` The RAFT can’t hold {PLAYER} / out of the water any longer! // {PLAYER} lost consciousness …
+- `0x85FCF9` The current is too rough! / The RAFT is careening out of / control!
+- `0x85FD3B` The RAFT can’t hold {PLAYER} / out of the water any longer! // {PLAYER} lost consciousness …
+- `0x85FDA4`  /  / It’s a picture of VICTOR as a / young man with PUKA!
+- `0x85FDD9`  It’s a picture of VICTOR as a / young boy with JAN.
+- `0x85FE0C`  It’s a picture of VICTOR as a / young boy with JAN.
+- `0x85FE3F`  A picture of someone {PLAYER} / has never seen before.
+- `0x85FF4D` VICTOR: It’s time. / Humunga-Dunga is coming! // It’s a wave that only comes every / twenty years. Puka and I have to / surf it!
+- `0x8606E6` MON. // Puka came to me from the sea. I / found it afloat on a piece of / wood, and from that day on, Puka / and I have never been apart. // There’s something special about / Puka. It can feel the waves in its / body. // It can sense when a big wave is / headed our way. Over the last / twenty years we’ve surfed every / big wave that’s come our way. // But we’re wating for the big wave / - Humunga-Dunga. // It only comes once every twenty / years. When I was just a boy, the / best surfer I knew was Jan, and he / managed to surf Humunga-Dunga and / place his flag at the peak of / ocean’s mountain and become a / legend. // I started surfing because I wanted / to be just like him.
+- `0x860964` Twenty years later I challenged / the big wave. // But Humunga-Dunga beat me, and it / was the biggest disappointment of / my life. // I never wanted to surf again, that / is, until I found Puka. // If it weren’t for Puka, I don’t / know where or what I’d be! // Since then Puka and I have teamed / up and conquered every kind of / wave you can imagine. // There’s just one left: / Humunga-Dunga!
+- `0x860BA8` HUMUNGA-DUNGA is approaching! / VICTOR and Puka are going to / challenge it!
+- `0x860BF3` VICTOR planted his flag on the / mountaintop alongside JAN’s!
+- `0x860C98` Hey, you there! // Let’s have a match, unless you’re / afraid to lose!
+- `0x860CDC` Ugh! Oh nooooo!
+- `0x860CEE` I was looking for a challenge from / a tough TRAINER, and I found it!
+- `0x860D4B` MON, but / the nurse isn’t anywhere to be / found!
+- `0x860DCD` I can’t wait to get to NEW ISLAND!
+- `0x860E4B`  / Puka and I finally accomplished / our lifelong dream! // So how’s about a battle to see / just how good a TRAINER you are?
+- `0x86151C` Now you’ll see that Puka’s no / ordinary PIKACHU …
+- `0x86154F` Not too bad, kid.
+- `0x861563` You’re a pretty strong TRAINER. / You remind me a lot of myself and / Puka when I was a kid. // Whatever happens, and no matter / how many defeats you may face, / remember never to give up. // It’s taken me forty years to / accomplish my dream, but it was / well worth the sacrifice. // You can do it too …
+- `0x8618D8` There is a note asking if you / would like to attend. // How do you want to respond?
+- `0x861A61` MON / TRAINER at his palace on NEW / ISLAND. // A chartered fairy will leave from / OLD SHORE WHARF to take you to the / island this afternoon. // Only TRAINERS who present this / invitation will be admitted. // If you decide to attend, you must / decide at once. My master awaits / you.
+- `0x861BD4`  /  / I took a detour here from / DIGLETT’S TUNNEL, but I seem to / have forgotten why I changed / course …
+- `0x861C36`  That storm came up so quick, I / guess I took cover in this wharf / …
+- `0x861CA9` {PLAYER} received the NEO TICKET / from the DRAGONITE!
+- `0x861DB6` MON MASTER!
+- `0x861DC4` This ferry goes to NEW ISLAND, but / there’s nothing there really …
+- `0x861E42` MON / TRAINER in the world?
+- `0x861E6A` MON TRAINER can be / strenuous. Sometimes it takes you / to places you don’t even remember / going to …
+- `0x861ECC`  OLD SHORE WHARF
+- `0x8620BE` MON CENTER’s been / closed. // The nurse in charge of the CENTER / disappeared last month. If you see / her, please let me know.
+- `0x862138` Incredible! That fierce storm / lifted as quickly as it appeared! // It’s so good to have things clear / again!
+- `0x862208` {PLAYER} grabbed onto the back / of {V02} and began to swim!
+- `0x86226D` MON / to help guide your way, though.
+- `0x862465` The ocean is too rough! / {PLAYER}’s RAFT was splintered / to pieces! // {PLAYER} was consumed by the / waves …
+- `0x8624C3` The waves are crashing and the / current is extremely powerful! // Your only way to get to NEW ISLAND / is to use the RAFT, though … // Would you like to use the RAFT?
+- `0x862561`  The door shut and locked behind / {PLAYER}!
+- `0x862667` I’m sorry, but you don’t have an / invitation. // You must leave the island at once.
+- `0x8626DF` {PLAYER} flashed the NEO TICKET.
+- `0x8626FC` Very well, you may enter. // … Hm? / No, I’m not the missing nurse. / I’ve always dwelt on this on this / ISLAND and have always been in the / service of my MASTER. // Please, enter …
+- `0x8627A8` My MASTER bids you welcome to NEW / ISLAND. // Will you kindly present your / invitation?
+- `0x862800` {PLAYER} pulled himself up out / of the water.
+- `0x862827`  ROUTE 21 / East to SEAFOAM ISLANDS
+- `0x86288E` VILEPLUME: Vile plume!
+- `0x8628A9` VAPOREON: Vaporeon!
+- `0x8628CD` CHARIZARD: Chaaaaarrrr …
+- `0x862A4D`  BALLS and join the / others. // It will not be long before my / MASTER’s intentions are clear.
+- `0x862AF8` MON are weak, I can / heal them for you if you like.
+- `0x862B67` STER / arrives.
+- `0x862D10` What took you so long? / It was a breeze for me! I rode / here on my PIDGEOT! // So come on! Let’s have a battle / and see how strong we are before / his MASTER TRAINER shows!
+- `0x862DB7` Blown away!
+- `0x862DC5` That was quite a battle! / I hope this MASTER TRAINER is as / much of a challenge as you were!
+- `0x862E42` It was no problem getting through / that storm for me! / I rode over on GYARADOS’ back! // Come on, let’s have a battle to / warm up for this MASTER TRAINER!
+- `0x862F2C` MON there is.
+- `0x862F73` MON yet, / have you? // Allow me to introduce you!
+- `0x862FA3` Goodbye!
+- `0x862FF4` MON MASTER!
+- `0x863000`  XANADU NURSERY
+- `0x863039` MON yet, / have you? // Allow me to introduce you!
+- `0x863069` Goodbye!
+- `0x8630BA` MON MASTER!
+- `0x86319E` This is not possible!
+- `0x8631B6` As the victor I now claim my / prize!
+- `0x863229` MON TRAINERS I too / began with CHARMANDER, SQUIRTLE, / and BULBASAUR. // But for their evolved forms I used / their genetic material to clone / even more powerful copies! // Let me show you just how powerful / my clones are!
+- `0x8634CC` MON can / never be friends. // I can never be conquered! My / powers are too great! None of you / can best me as a trainer!
+- `0x863595` MON on earth. // This is the ruler of new island / and soon the whole world: // MEWTWO!
+- `0x863660` MON MASTER on earth.
+- `0x863999` MON on earth. // This is the ruler of new island / and soon the whole world: // MEWTWO!
+- `0x863BCE` The trick is to avoid defeat by / not losing.
+- `0x863C0E` PIKACHU: Pika!
+- `0x863C21` MEWTWO: Do not attempt to defy / me. What I desire I will have.
+- `0x863C6D` GOLDUCK: Goldook!
+- `0x863C8F` You must climb many hills before / you reach the apex of a mountain.
+- `0x863CD4` This hill you have conquered.
+- `0x863D05` MON seem pumped up to / battle!
+- `0x863D3C` Check out this pink explosion!
+- `0x863D93` MEWTWO: Humans, you have served / my purpose. // I am sparing your lives … / For the moment.
+- `0x864921` NIDOQUEEN: Nido!
+- `0x864A63` MEWTWO doesn’t seem to notice you! / It is completely fixated on / destroyng MEW!
+- `0x864C20` MEWTWO: Human, you have served / my purpose. I am sparing your life / for the moment. // But you cannot escape your fate. / The hour of my vengeance draws / near.
+- `0x864CD1` MEW doesn’t seem to notice you. / It is completely focused on MEWTWO / …
+- `0x864DE2` {PLAYER}: Run, {V02}!
+- `0x864E14` MON’s DNA to make clones for / myself. // They will remain safe on this / island with me while my storm / destroys the planet! // Do not attempt to defy me. / This is my world now!
+- `0x864F4D` All right, all aboard!
+- `0x865635` Would you like to return to OLD / SHORE WHARF?
+- `0x8656C6` MEWTWO: Can it be? / Mew!
+- `0x8656E3` MEWTWO: So finally we meet! // I may have been cloned from your / DNA, but now I will prove that / MEWTWO is better than the / original, superior to MEW! // This world is too small for two of / us!
+- `0x8657AD` MEWTWO: It is useless to / challenge me!
+- `0x865882` MON. // Better get some out of STORAGE / first.
+- `0x865B04`  The ferry to NEW ISLAND is / running! // Would you like to go to NEW / ISLAND?
+- `0x865B4F` I’m sorry but the ferry is not / running due to the inclimate / weather.
+- `0x865BA8` The clones have all escaped!
+- `0x865BE2` MON from the cloning machine!
+- `0x865C00`  oning machine!
+- `0x86603C` MON look like / they’re ready to fight to the / death!
+- `0x866087` {PLAYER}: Stop!!!!
+- `0x8660C9` MON evolve. / It has a thunderbolt pattern.
+- `0x866245` {PLAYER}’s memory of MEWTWO and its / clones was erased!
+- `0x8662BF` MON … // I pitted them against each other, / but not until they set aside their / differences did I see the true / power they all share deep inside. // I see now that the circumstances / of one’s birth are irrelevant. // It is what you do with the gift of / life that determines who you are.
+- `0x8663F5` MONs’ tears!
+- `0x866537` {PLAYER}: It’s not going to end / like this, MEWTWO! // We won’t let it!
+- `0x866590` {PLAYER}: You can’t do this. / I won’t let you!
+- `0x8665C8` MON are moved by / {PLAYER}’s sacrifice! // Their tears are swirling around / {PLAYER} and restoring him to life!
+- `0x866629` {PLAYER} was turned completely / to stone!
+- `0x8666CD` PIKACHU is trying to shock / {PLAYER} back to life!
+- `0x8666FE` PIKACHU: Pika pi!
+- `0x866720` MEWTWO: Fool! / Trying to stop our battle …
+- `0x86674A`  A bag of FERTILIZER for helping / plants grow. Your mother asked / yout to pick it up.
+- `0x86679E`  {V02} seconds have passed!
+- `0x8669C9` MON / stay healthy until my MASTER / arrives.
+- `0x866D14` {PLAYER} gave the FERTILIZER / to MOM!
+- `0x867353` MON / explore the nursery.
+- `0x867387` GLOOM: Gloom gloom!
+- `0x8673D8` MON are fighting their / clones like their lives depend on / it!
+- `0x8674B7` FLORINDA: POTTER and I are in love / with each other, and are going to / run this nursery together! // Thank you so much for everything, / {PLAYER}!
+- `0x86753D`  Great job, {PLAYER}!
+- `0x86756A` MON ATTACKS cannot weaken / me! // My powers are too great! No / TRAINER can conquer me!
+- `0x867603` MON then / there’s no reason I can’t capture / you! // Go RHYHORN!
+- `0x867875` {PLAYER} recieved the FERTILIZER / from FLORINDA!
+- `0x8678DC` Huh? / Something’s wrong with / {V02}!
+- `0x867955` MON was completely healed / of its POISON by GLOOM’s nectar! // It seems very appreciative / of GLOOM’s help!
+- `0x8679E9` You cannot compete with my MASTER. / It is futile to try.
+- `0x867A4B` {PLAYER}: PIKACHU!
+- `0x867B49` MON to / work around the house it would / toughen them up! // … … … // Well, if you’re sure you have / training to do. // Still, could you do me a favor, / {PLAYER}? // Would you go to the XANADU NURSERY / in VIRIDIAN CITY and pick up some / FERTILIZER for me? // Thank you, {PLAYER}!
+- `0x867D82` You may mingle with the other / TRAINERS until my MASTER has / arrived …
+- `0x868163` MON into / my house!
+- `0x868178` The sign indicates this is a rare / plant.
+- `0x8681A3` Want to let {V02} / smell it?
+- `0x86820F` FLORINDA: {PLAYER}! / Before you came, I didn’t think I / could do very much of anything. // But you helped me believe in / myself. Now I feel ready to run / this nursery for my family, if one / special guy is there to share it / with me … // I only hope POTTER feels the same / way about me that I do about him! // {PLAYER}! / I know you came to pick up some / FERTILIZER. // Please, take this free of charge / as my thanks for your help!
+- `0x86839D` Now we’ll see just what kind of / TRAINER I am …
+- `0x8683CE` Oh, what an amazing battle!
+- `0x86842F` MON criminals? // Then the LEAF STONE must be a / fake! No wonder GLOOM didn’t / evolve! // But then … / I was wondering, do you think you / would battle my GLOOM, so I could / test how strong it really is?
+- `0x86851F` MON’s POISON.
+- `0x868560` MON. // Would you like to feed it to / it?
+- `0x8685BC` MOM: Oh, {PLAYER}! / Thank you for picking up the / FERTILIZER!
+- `0x86890F` MON. I can’t even help my / GLOOM evolve into VILEPLUME! // If I can’t do that, how will I / ever be able to run a huge / nursery? // I even bought a LEAF STONE from / a guy who wore his hair kind of / long, and a girl with big hair, / and a MEOWTH that knew how to / talk.
+- `0x868A2A` I want to use it to plant BERRIES / in the front yard! // I’ll be tending to them often, so / feel free to stop and see how / they’re growing! // When they’re ripe, I’ll pick some / for you! // Thank you, {PLAYER}!
+- `0x868DA9` {PLAYER} received the {V02} / from MOM!
+- `0x868DC8` MOM: I hope that BERRY helps you, / {PLAYER}!
+- `0x868DF0` MOM: I hope those BERRIES help / you, {PLAYER}!
+- `0x868E1A` Stop by after some more time has / passes to see if any new BERRIES / have grown.
+- `0x868E6A` MOM: {PLAYER}! / A new BERRY has grown from the / BERRY TREES I planted!
+- `0x869058` Which system would you like to / start?
+- `0x86913C` MOM: {PLAYER}! / Some new BERRIES have grown from / the BERRY TREES I planted!
+- `0x86966D` MON LEAGUE / right now, so you can’t come / through.
+- `0x869962` MON TRAINER, too? // I’m looking for a good BATTLE! Why / don’t we skip the small talk and / get right to the fun!
+- `0x8699D0` Whew! That was thrilling!
+- `0x8699EA`  I tried auditioning my RAICHU for / the part in MR. SCHPIELBUNK’s / movie, but that WIGGLYTUFF was too / much of a prima donna!
+- `0x869BFF` MON, meet me at the stage up / ahead.
+- `0x869CA4` SCHPIELBUNK: Cut! Cut!! CUT!!! // Fabulous! I loved it!!!
+- `0x869D57` KATRINA: Mr. SCHPIELBUNK is a / well-known director. I almost saw / one of the movies he made once!
+- `0x86A00B` MON, meet me at the stage up / ahead.
+- `0x86A313`  / WARP SYSTEM
+- `0x86A501` {PLAYER} booted up the PC.
+- `0x86A60E` Which PC should be accessed?
+- `0x86A9D4` MON as have been discovered in / the KANTO REGION! // Congratulation, {V02}!
+- `0x86AA44` MON, I don’t know what to do / with them all! // Keep at it, {V02}!
+- `0x86AAA9` MON, / {V02}! // Try searching unexplored areas for / some rare types you might have / missed.
+- `0x86AB28` DEX! / Thank you for all your hard work, / {V02}! / Please keep at it!
+- `0x86AE22` MON as have been discovered in / the KANTO REGION! // Congratulation, {V02}!
+- `0x86AE92` MON, I don’t know what to do / with them all! // Keep at it, {V02}!
+- `0x86AEF7` MON, / {V02}! // Try searching unexplored areas for / some rare types you might have / missed.
+- `0x86AF76` DEX! / Thank you for all your hard work, / {V02}! / Please keep at it!
+- `0x86B270` MON as have been discovered in / the KANTO REGION! // Congratulation, {PLAYER}!
+- `0x86B2E0` MON, I don’t know what to do / with them all! // Keep at it, {PLAYER}!
+- `0x86B345` MON, / {PLAYER}! // Try searching unexplored areas for / some rare types you might have / missed.
+- `0x86B3C4` DEX! / Thank you for all your hard work, / {PLAYER}! / Please keep at it!
+- `0x86B45A` DEX, {PLAYER}!
+- `0x86B4B2` MON to / expand it!
+- `0x86B535` DEX if you keep at it!
+- `0x86B5B3` DEX entries now!
+- `0x86B699` MON yet. // Keep at it. I’m sure you’ll catch / more if you try hard.
+- `0x86B705` MON Caught: {V03}
+- `0x86B716` Closed link to PROF. OAK’s PC.
+- `0x86B757` DEX rated?
+- `0x86B775` DEX Rating / System …
+- `0x86B78B` Accessed PROF. OAK’s PC …
+- `0x86B7A7` What would you like to do?
+- `0x86B7C4` Accessed {PLAYER}’s PC.
+- `0x86B7D8` Accessed OAK’S LAB.
+- `0x86B7F2` MON Storage System Opened.
+- `0x86B89B` MON needs a certain charisma / to star in this picture! // Your {V02} just doesn’t have / the intangibles I need. It’s / certainly not suave and / charismatic enough for / WIGGLYTUFF’s standards!
+- `0x86B9E0` MON, too, for the / price of just one YELLOW SHARD. // How about it?
+- `0x86BA43` OAK’S LAB
+- `0x86BA59` PROF. OAK’S PC
+- `0x86BA6A` LOG OFF
+- `0x86BC0B` MON has what / it takes …
+- `0x86BC6D` MON, my / new film will be sure to be a / blockbuster success!
+- `0x86BD4F` MON that is more / beautiful than it is!
+- `0x86BDF8` MON with a more / domineering appearance.
+- `0x86BE83` MON that can take / direction for this role. // Your {V02} is just too … / How can I put this gently? // Dumb! It’s simply not smart enough / for the role!
+- `0x86BFC4` MON just / won’t do!
+- `0x86C2FE` MON IN LOVE!
+- `0x86C30D` {PLAYER}’s {V02} filmed / SCHPIELBUNK’s movie, just as it / was directed.
+- `0x86C352` SCHPIELBUNK: Fabulous! Your / {V02} was the perfect / casting choice! // To show my gratitude for you, / please take this wonderful TM as / payment!
+- `0x86C3DB` {PLAYER} received TM50 / from SCHPIELBUNK!
+- `0x86C3FE`  TOUGH TIM: Sorry, youngun, but you / don’t have the goods to pay me for / my services …
+- `0x86C494` MON do you want me to / toughen up for ya’?
+- `0x86C517` MON’s as tough / as it can possibly get already.
+- `0x86C5FA` {V02}’s TOUGHNESS was / increased!
+- `0x86C6E6` MON, / for the just the small price of / one STAR PIECE? // Does that sound good to you?
+- `0x86C753` THEATER EXIT / This is an exit only!
+- `0x86C7FA` CUTE CAITLYN: Oh, you don’t have / any STAR PIECES to pay me for my / cute-ification … // So sorry!
+- `0x86C87A` MON should I make all / cutsey-wootsy?
+- `0x86C8C7` MON couldn’t possibly get any / cuter than it already is.
+- `0x86C901` {V02}’s CUTENESS was / increased!
+- `0x86C920` CUTE CAITLYN: Doesn’t it look / adorable? // Come back with another STAR PIECE / any time and I’ll be happy to / perform my cute magic!
+- `0x86C9DC` MON totally awesome. // Just tickle my palm with one RED / SHARD, and I’ll beef up its / COOLNESS. What’ya say?
+- `0x86CA47` COOL CARL: Sorry bud, but you / don’t got the dough to get in the / show. For sho’.
+- `0x86CAD0` MON you want to be / wicked cool like.
+- `0x86CB0B` MON’s cool / enough already, dig?
+- `0x86CB2D` {V02}’s COOLNESS was / increased!
+- `0x86CBCC` MON’s epicness level.
+- `0x86CCF6` MON / for you, for just the price of one / BLUE SHARD. // Would you like me to do that for / you?
+- `0x86CD51` BEAUTIFUL BELLE: It would seem you / don’t have any BLUE SHARDS. // Sorry, I don’t offer my services / pro bono.
+- `0x86CDF2` MON you would like / for me to beautify.
+- `0x86CE35` MON is / beautiful, there’s really nothing / more I could to make it more / attractive.
+- `0x86CE89` {V02}’s BEAUTY was / increased!
+- `0x86CF3D` MON for you / again.
+- `0x86D05B` MON’s intellecutal capacity as / well, for a small payment of one / GREEN SHARD. // What say you to my little / experiment?
+- `0x86D0D0` SMART SID: You do not have / sufficient funds to procure my / services.
+- `0x86D171` MON whose / cerebral abilities you wish to / enhance.
+- `0x86D211` MON any smarter.
+- `0x86D224` {V02}’s SMARTNESS was / increased!
+- `0x86D244` SMART SID: Its intelligence is / oozing through its cerebral / cortex! // Should you procure any more GREEN / SHARDS, you may solicit my / services again.
+- `0x86DA32` The movie ended.
+- `0x86DA45` The movie began to play.
+- `0x86DB30` MON IN / LOVE is about to begin! // Please have a seat and enjoy the / show.
+- `0x86DBD2` Did you want to go camping with / me?
+- `0x86DC1A` You can use my sleeping bag.
+- `0x86DFD8` You hit something!
+- `0x86DFED` {PLAYER} found one {V02}!
+- `0x86E00A` You have no room for this item!
+- `0x86E369` SCHPIELBUNK: Sorry, you can’t exit / through the rear right now. // Try using the front exit.
+- `0x86E3C2`  It’s okay, there’s room enough for / two.
+- `0x86E40D` MEOWTH: Where are we?
+- `0x86E481` JAMES: What is this place?
+- `0x86E5A3` My pinkies got punked!
+- `0x86E651` I need a challenge!
+- `0x86E68B` Weeded out.
+- `0x86E7AD` The main torch has been lit!
+- `0x86E7EA` GRASS BATTLE FIELD
+- `0x86E824` ROCK BATTLE FIELD
+- `0x86EE05` RATICATE: Rrrrraticate!
+- `0x86EEE6` SCHPIELBUNK: I’ll be premiering my / new movie at the CELADON THEATER / on HOLLYWOOD BOULEVARD. // I would love for you to attend the / premier!
+- `0x86EF6E`  MEOWTH: Looks like this part of / town’s fallen on hard times. // But times were always hard here, / at least for me. // I used to be a street MEOWTH. I / joined a gang of MEOWTHS led by a / PERSIAN, and they helped me / survive. // But then I met her … // MEOWZIE was a MEOWTH like no / other! But she didn’t want what a / dirty old street MEOWTH had to / offer. // She wanted diamonds and elegance - / things only a human could offer. // So I learned how to stand on two / feet, just like a human, and I / learned to talk human talk, too! // But even that didn’t impress her! / She thought I was just a freak / street MEOWTH! // But I’d show her! I’d joing TEAM / ROCKET and become the richest and / most powerful MEOWTH in the world! // That was the last time I ever saw / MEOWZIE.
+- `0x86F355` Hey, you there! // Let’s have a match, unless you’re / afraid to lose!
+- `0x86F399` Ugh! Oh nooooo!
+- `0x86F3F9`    t the PERSIAN took you / in when you were down and out and / it wouldn’t be right to leave for / me? // … … What! // You’d never want to be with me / anyway because I’m still nothing / but a walking, talking freak / MEOWTH! // SIGH! // It looks like MEOWTH is blasted / down again …
+- `0x86F509` MEOWTH: MEOWZIE, I’m okay!
+- `0x86F529` MEOWTH: Nice try!
+- `0x86F552` TEAM ROCKET: Prepare for trouble / and make it double! // We may be mean and nasty, but we / never turn our backs on a teammate / in trouble! // … As long as we’re not exposed to / any actual physical danger. // We can’t let anything bad happen / to our little buddy, because we’re / more than teammates … we’re / friends! // We’ll handle these scruffy looking / MEOWTH! You take care of PERSIAN!
+- `0x86F6CE` MEOWTH: Hiya, bud. / So you want me to join the old / gang again, eh? // No thanks, pal. I’m sticking with / TEAM ROCKET! // MEOWZIE’S TRAINER might have / abandoned her, but that doesn’t / mean she has to keep hanging out / with you MEOWTH thugs! // This cat’s coming with me!
+- `0x86F7CF`  SCHPIELBUNK: Well, what did you / think? // I’ve done it again, haven’t I? / I’ve given birth to another / cinematic masterpiece!
+- `0x86FA98` MOM: By the way, {PLAYER}, / I heard a rumor going around that / BRUNO of the ELITE FOUR is / training at MOUNT HIDEAWAY just / west of VIRIDIAN CITY on ROUTE 18. // It must be a really good place to / train, so I thought I’d tell you / about it.
+- `0x86FB7A`  I was looking for a challenge from / a tough TRAINER, and I found it!
+- `0x86FBBF`  I was going to pitch a tent, but / I’ll take a break for a battle.
+- `0x86FC03` Too campy!
+- `0x86FC10` I’ll just stick to tents from now / on.
+- `0x86FC38` I’m till working on my tent, but / I’ll take a break to battle.
+- `0x86FCD2` I reckon climbing through these / mountains can tucker a youngun / out. // How about taking a quick rest?
+- `0x86FD38` I reckon you’re heading up the / mountain. // Then I reckon you’ll run into the / giant ONIX up yonder. // Don’t worry, it may be overgrown, / but it’s as gentle as can be.
+- `0x86FDEC` MON hurt? / Here, let me heal them for you.
+- `0x86FF20` MON? // I’ll tell you, if you follow me.
+- `0x8704A2` MOM: By the way, {PLAYER}, / I heard a rumor going around that / BRUNO of the ELITE FOUR is / training at MOUNT HIDEAWAY just / west of VIRIDIAN CITY on ROUTE 22. // It must be a really good place to / train, so I thought I’d tell you / about it.
+- `0x870584`  MOM: By the way, {PLAYER}, / I heard a rumor going around that / BRUNO of the ELITE FOUR is / training at MOUNT HIDEAWAY just / west of VIRIDIAN CITY on ROUTE 22. // It must be a really good place to / train, so I thought I’d tell you / about it.
+- `0x8706BB` Something is wrong with your / BULBASAUR! // It seems to be struggling and its / bulb is glowing brightly!
+- `0x870752` It’s a pair of caskets! // JAMES’ parents have passed away!
+- `0x87078B`  Many hills make a mountain. / Each one ascended brings you / nearer to the top.
+- `0x87082C`  BALL, go!
+- `0x87094F` MON. // I look forward to the day when we / face each other in battle, / {PLAYER}. // Be well!
+- `0x8709A0` BRUNO: You should be fine now, / ONIX. // What do you think, ONIX? / You wanna come along with me?
+- `0x870A09` BRUNO: What’s this? / A SANDSLASH stuck between ONIX’S / crevices!
+- `0x870A51` BRUNO: ONIX. / There is no reason to fear me. // Now please let me know what you / are feeling. // … // … … // … … …
+- `0x870ABF` BRUNO: ONIX! / Tell me why are you acting this / way?
+- `0x870AF3` It’s the giant ONIX! / It’s attacking in a fury!
+- `0x870C2A` MON TRAINER like me!
+- `0x870C83`  / Prepare for a downpour of hurt!
+- `0x870F2D` MOPOLIS.
+- `0x870F84` {PLAYER} found a strange / artifact!
+- `0x871001` Your {V02} knocked the / THUNDERSTONE away! // It refuses to evolve!
+- `0x87105F` BROCK: You’ve really gotten / stronger, {PLAYER}! // Thanks for the sparring session. / I’m sure we’ll meet again soon.
+- `0x8710CC` BROCK: Maybe some other time then / …
+- `0x8710F2` BROCK: Hey, {PLAYER}! / I was just passing through MT. / HIDEAWAY to test my strength / against some of the powerful ONIX / that are here. // So how about it? Let’s have a / rematch and see who the stronger / TRAINER is now!
+- `0x8711CA` MOPOLITAN statue of an / ANCIENT JIGGLYPUFF.
+- `0x8711F5`  All dried up.
+- `0x87121C` It looks like a dark-colored / object …
+- `0x8713DE` JESSIE: We were exploring the / RUINS and then suddenly we were / trapped here …
+- `0x8714C1`  BALLS? // Is that what we’ve been trapped / in?
+- `0x871508`  BALL? // If EVE is right, we’ve stumbled / upon an amazing historic / discovery!
+- `0x871553`  It appears to be a trigger. / Would you like to push it?
+- `0x87158B`  Huh? Something’s happening! / {PLAYER} is being warped!
+- `0x87165B` MOPOLIS! // That will be the next mystery I / try to tackle!
+- `0x8717F3` MOPOLIS! // Isn’t it exciting?
+- `0x8718D7` MOPOLIS at age / nine! // Our little EVE is a ARCHEOLOGICAL / SAVANT!
+- `0x871A53` MON / from the past?
+- `0x871AC4` MON are fighting / with each other! // If they keep this up they’ll / destroy the entire mountain and / any nearby town! // They have to be stopped somehow!
+- `0x871BF0` {PLAYER} received the / DOME FOSSIL from EVE!
+- `0x871C5B` MON. // Please take this FOSSIL as a / reward.
+- `0x871D07` MON! // I wouldn’t mind if you left one / here with me to keep me company / for a time. // It would only benefit you, of / course. I promise it will get / plenty of EXPERIENCE while you’re / away. // How about it?
+- `0x871E0C` MON I’ve been watching back?
+- `0x871E60` GUY: Prepare to get double-teamed!
+- `0x871E89` OAK: Okay, here you are, / {PLAYER}.
+- `0x871EA8` {PLAYER} got {V02} back / from PROF. OAK.
+- `0x871EEF` MON back / if you’ve got no room for it.
+- `0x871F3F` GUY: We lost.
+- `0x871F6A` MORO ISLAND
+- `0x871F78` Great! // Which one I should I look after?
+- `0x871FA2` Fine, I’ll look after your / {V02} for a while.
+- `0x871FCF` Come see me in a while.
+- `0x871FF4` OAK: Maybe some other time.
+- `0x87201E` OAK: Now get going, {PLAYER}. / And remember, no matter what, / always do your best.
+- `0x8720AA` MON / with you.
+- `0x8720F8` MON TECHNICAL / INSTITUTE of TRAINING
+- `0x872159` MON I was looking after for / you.
+- `0x8723BA` MON LEAGUE now you should quit / and go home! // …
+- `0x8723E8`  ut if you want to compete, I / suggest you leave right now.
+- `0x8724C9` MON any longer? // Please don’t go, MAROWAK!
+- `0x872637` MON / LEAGUE. // As we were coming out of the / mountains toward the INDIGO / PLATEAU, we were intercepted by a / trap and had our BADGES stolen! // Our dream stolen by a talking / MEOWTH!
+- `0x872720` OTOSHI: So then … / Let us battle!
+- `0x8727FD` MON LEAGUE match? // Lose your BADGES now, or lose them / later.
+- `0x872935` MON BADGES to the one who / triumphs. // Do you accept?
+- `0x872974` You cannot fool me. I know you / have collected all eight BADGES to / compete.
+- `0x8729C1` Well, then. / I, OTOSHI, challenge you.
+- `0x872A4A` MON LEAGUE COMPETITION. // Am I correct in saying so?
+- `0x872ADF` MEOWTH: Sorry to say, but we ain’t / got the BADGES. // That kid ain’t the only vicitm / around here …
+- `0x872BC8` All right! / Prepare to board!
+- `0x872BE7` TEAM ROCKET: We lost the battle of / the BADGES, but we’ll be back! // TEAM ROCKET’s blasting off again!
+- `0x872C4D` {PLAYER} obtained the stolen / BADGES from TEAM ROCKET!
+- `0x872C7F` JESSIE: My chance at stardon was / stolen from me! // JAMES: Please don’t mention / stealing …
+- `0x872D45` MON / BATTLE!
+- `0x872D57` JESSIE: My moment in the spotlight / is over … // MEOWTH: We can steal more BADGES / and be rottener as a team than as / individuals. // JESSIE: All right … / As long as I’m the rottenest!
+- `0x872E08` JESSIE: What are you two doing / here? // JAMES: You stole from your own / teammates, JESSIE! // You’ve disgraced the disgraceful / TEAM ROCKET!
+- `0x872E9C` JAMES: When we weren’t looking, / JESSIE took off with our stolen / BADGES! // We’re being honest for once. We / don’t have the BADGES!
+- `0x87302A` MON LEAGUE. // Perhaps we shall meet you there …
+- `0x87305A` {PLAYER} received the THICK CLUB / from OTOSHI!
+- `0x873105` MON LEAGUE will come true! // Please, take this ITEM as a token / of my deep gratitude.
+- `0x8731AA` MON LEAGUE?
+- `0x8731C5` OTOSHI: My BADGES! / You retrieved them from those / bandits for me!
+- `0x873208` OTOSHI: Without those BADGES, / MAROWAK will never return to my / side! // If only I could track down those / thieves …
+- `0x87337B`  BALLS {PLAYER} / was carrying are missing! // Where could they have gone?
+- `0x8733BD` {PLAYER} slowly regained / consciousness …
+- `0x8733F8` But if you want to compete, I / suggest you leave right now.
+- `0x87355D`  / PROFESSOR IVY’S LABORATORY
+- `0x8737A9`    {PLAYER} received HEART SCALE / for his courage in releasing his / BUTTERFREE!
+- `0x8737F3`  I can’t believe I lost the / TOURNAMENT!
+- `0x873982` No thanks …
+- `0x873A12` Would you like to return to PORTA / VISTA?
+- `0x873AAF` MON’s / BEAUTY better than a scarf! // So which one can I get for you / today?
+- `0x873B02`      I’m going to demolish the / competition!
+- `0x873D5E` It’s hard work, but it will / be worth it …
+- `0x873D88`  If you love them, let them go - / that’s what they say. // You are a true romantic, then! / Take this for your courage in / letting go of a trusted friend so / that it can fall in love.
+- `0x873E93` Would you like to purchase anymore / of my scarves?
+- `0x873F6E` BUTTERFREE: Freeeeeeee?
+- `0x873F90` Maybe there’s something that can / be done to make {V02} / more attractive to the mate it / spied …
+- `0x873FF1` {V02} has been totally / rejected! // It looks devastated …
+- `0x874163`  eceived the / {V02}!
+- `0x8741AF`  s good to do business with you. / Can I interest you in another / SCARF?
+- `0x8741F7` Sorry, you don’t have enough / money.
+- `0x87421D` For that {V02} it will cost / $1,000. // Okay?
+- `0x87424F` RED SCARF
+- `0x87425B` BLUE SCARF
+- `0x874268` GREEN SCARF
+- `0x874276` YELLOW SCARF
+- `0x874285` PINK SCARF
+- `0x87434A` MON! // We’re thieves, not exorcists! / Time for TEAM ROCKET to blast off / again!
+- `0x874398` Scared straight!
+- `0x8743A9`  Should BUBLASAUR learn SOLAR BEAM?
+- `0x874526` MON to face us.
+- `0x874629` MON / TOWER to set a trap for you. // Time to face your fears!
+- `0x874716` MON are the best! / You can’t go wrong if you think / pink!
+- `0x874872` The inscription on the statue / inside that mansion is rather / cryptic, isn’t it? // I’m not sure, but I think it / refers more to the STATUE itself / than anything.
+- `0x874A1E` MEOWTH: What??? / You say that the PERSIAN took you / in when you were down and out and / it wouldn’t be right to leave for / me? // … … What! // You’d never want to be with me / anyway because I’m still nothing / but a walking, talking freak / MEOWTH! // SIGH! // It looks like MEOWTH is blasted / down again …
+- `0x874BFE` MON with the / crack of my whip. // A loss equals twenty lashings a / piece!
+- `0x874C55` BULBASAUR didn’t learn SOLAR BEAM.
+- `0x874C99` BULBASAUR learned SOLAR BEAM!
+- `0x874CB9` Should BULBASAUR forget / {V02} to learn SOLAR BEAM?
+- `0x874CF9` That’s not BULBASAUR!
+- `0x874D47` MON LEAGUE / ADMISSIONS EXAM! // That means I qualify for the / LEAGUE TOURNAMENT!
+- `0x875312` The VENUSAUR seems to want to / teach your BULBASAUR the move / SOLAR BEAM. // Should BULBASAUR learn SOLAR BEAM?
+- `0x8753D4` I’m not as good a TRAINER as I am / a JUGGLER. // Maybe that’s why I haven’t / qualified for the LEAGUE / TOURNAMENT.
+- `0x875441`  GUY: You’re just a third wheel.
+- `0x875488` Should BUBLASAUR learn SOLAR BEAM?
+- `0x8754FD` Which move should be forgotten to / learn SOLAR BEAM?
+- `0x87586A` MON / journey from PALLET TOWN, I’ve / been hit with one impediment after / another.
+- `0x8758CC` What??? // Toxins from the hotel construction / have seemed to seep into the / ocean! // It’s causing the TENTACOOL to / mutate!
+- `0x875951`  / That TENTACRUEL is a monster! / Please, try to stop it!
+- `0x875BDE` MON using it is / affected by an ailment, the power / of the attack doubles! // It’s a great counter measure / against volatile attacks.
+- `0x875D5A` BLAINE: You helped save my gym! / I don’t know how to thank you, / {PLAYER}. // Perhaps if I gave you …
+- `0x875DEE` Whipped!
+- `0x875DF7`  Another roadblock.
+- `0x875E49` MON are fierce! He’s on a / much higher level than losers / like us.
+- `0x875EA7` BLASTOISE looks cranky after being / woken up. // It attacked in a delirious rage!
+- `0x875EF7` BLASTOISE calmed down.
+- `0x875F50` MON of the same type? // That’s what the ELITE FOUR does, / isn’t it?
+- `0x875F99` MON couldn’t cut it. Maybe / I should think twice about / entering the TOURNAMENT.
+- `0x875FE8`  The main torch has been lit by the / flames of MOLTRES!
+- `0x876033` JIGGLYPUFF was caught in / BLASTOISE’s canon! // It looks upset …
+- `0x8760C2` That was a heated battle!
+- `0x8761ED` MON / living in it? // Only the most highly-skilled / TRAINERS come here to VICTORY ROAD / to train! // I’m sorry, but I can’t let a / trainer with your lack of / experience come through.
+- `0x8763AB` MON are / more than strong enough to handle / VICTORY ROAD! // Besides, I could use the warm up / before the LEAGUE begins. // See ya’ later, {PLAYER}, / if you ever make it to the INDIGO / PLATEAU.
+- `0x8764A7` MON TRAINER sandwich!
+- `0x8764BF` GAIL: And we were going so good.
+- `0x8764F3`  trois for us! We / like it strictly two on two.
+- `0x876524` GAIL: Well, we lost, but at least / we lost together.
+- `0x87657D` INDIGO PLATEAU MAIN TORCH
+- `0x87675C` Please, will you let me take a / picture of your PIKACHU so I can / fulfil the elderly couple’s / request?
+- `0x8767C1`  That’s a great picture of PIKACHU! / The elderly couple will think it’s / perfect!
+- `0x876AF0` MON aren’t strong / enough to pose a threat to me. // Come back when you’ve grown.
+- `0x876CC2`   {PLAYER} accepted the torch!
+- `0x876CDD` GOODSHOW: Very good! Good show! / No pun intended, of course. // Just carry the torch with honor to / the main torch and light it to / begin the LEAGUE COMPETITION!
+- `0x876D98` GOODSHOW: Well, if that’s how you / feel …
+- `0x876E49` MON LEAGUE competition is / all about spirit, and it sounds / like this young person has it! // We could use a spirited young man / like yourself to help deliver it / to the INDIGO STADIUM! // What do you say?
+- `0x876F1D` Huh? No, you can’t carry the / torch! // Only the official torchbearer is / allowed to carry it to the main / torch!
+- `0x877002` MON / MOLTRES! // Lighting the main torch is a huge / honor! // … … …
+- `0x8770BA` {PLAYER}: Maybe they’re all / here to cheer for me …
+- `0x877125` Here he comes!
+- `0x8771ED` I may not have won the LEAGUE, but / I gave it my all!
+- `0x87722D` I may have lost, but I’ll still be / CHAMPION some day …
+- `0x877306` The main torch was lighted by the / flames of MOLTRES!
+- `0x877341` MOLTRES is lighting the main / torch!
+- `0x877372` TEAM ROCKET: Fired away! / TEAM ROCKET’s blasting off again!
+- `0x8773C5` MOLTRES appeared from the flames / of the torch!
+- `0x87743C` MON LEAGUE until you turn it / over to TEAM ROCKET!
+- `0x877470` I think our plan backfired!
+- `0x87748E` Well, if you don’t want to hand it / over, then I guess we’ll just have / to take it!
+- `0x8774E2` TEAM ROCKET: We’ll take that torch / now, little boy. // The flame of MOLTRES now belongs / to TEAM ROCKET!
+- `0x8776C0` MON / LEAGUE! // Congratulations!
+- `0x877721` It’s the wheel that steers the / BLIMP!
+- `0x877756` You are the number one ranked / TRAINER in the KANTO REGION! // However, you could could not / defeat the ELITE FOUR and the / CHAMPION. // Due to your ranking, you may / battle the ELITE FOUR and CHAMPION / again without participating in the / LEAGUE CHAMPIONSHIP, but you must / wait until the next TOURNAMENT to / do so. // Come back when the COMPETITION / begins again to challenge the / ELITE FOUR again to become / CHAMPION of the KANTO REGION.
+- `0x877996` MON TRAINER / RANKING is: {V02} // When the LEAGE COMPETION begins / again, come back and rechallenge / it!
+- `0x877A02` Your second battle is against a / youngster named KEVIN. // He is a newcomer to the / competition like yourself, but he / is known for his steadfast / personality and speed. // You will be battling on the ROCK / FIELD for this round, so keep that / in mind.
+- `0x877BCC` MON / LEAGUE OFFICER when you’re ready / to begin.
+- `0x877C07` Your fourth round battle is / against a young woman named / JEANETTE FISHER. // She is known both for her elegance / and her unorthodox battle style. // This matchup will take place on / the GRASS FIELD, so please prepare / for those conditions.
+- `0x877DE7` MON tend to / battle far beyond their means, / showing the bond he shares with / them. // Good luck in your final / preliminary round!
+- `0x877EC2` MON BATTLES. // All battles from this point on / until the finals will take place / in the INDIGO STADIUM. // Your opponent will be ASSUNTA. She / is known for her strategic battle / style and determined personality. // If you win, you will advance into / the semifinals of the INDIGO / LEAGUE.
+- `0x877FE0` Your next battle will be against / MELISSA. // She is known for her gritty nature / and unfaltering confidence. // This is the last round before the / finals, so be prepared for an / intense battle.
+- `0x8780C8` MON LEAGUE COMPETITION. // If you win, you will be declared / the number one rated trainer in / the entire KANTO REGION and have / the opportunity to face the ELITE / FOUR and current INDIGO LEAGUE / CHAMPION in battle to be declared / LEAGUE CHAMPION! // Due to the importance of this / match, LEAGUE RULES prevent me / from revealing any information / about your competition. // Good luck, {PLAYER}!
+- `0x878245` Now that you have been beaten all / the competition in the INDIGO / LEAGUE, you have the opportunity / to battle each of the ELITE FOUR / and the CHAMPION. // Each battle will take place in a / different field. You may challenge / whichever of the ELITE FOUR you / wish in any order, but you cannot / battle the CHAMPION until all of / the ELITE FOUR have been defeated. // If you lose, you cannot / rechallenge them. // The matches will be full / six-on-six battles and no healing / items will be allowed. // LORELEI is the ICE expert. She can / be battle on the ICE FIELD. // BRUNO is the FIGHTING expert. He / can be battled on the ROCK FIELD. // AGATHA is the GHOST expert. She / can be battled on the GRASS FIELD. // DRAKE is the DRAGON expert. He can / be battled on the WATER FIELD. // The CHAMPION will be challenged in / the INDIGO STADIUM.
+- `0x878569` Your first opponent is MANDI. / He calls himself MANDI the / ASTOUNDING. // He is both a showman and a / magician, and his training style / reflect this. // Remember that you are battling on / the WATER FIELD, so be prepared / for an aquatic atmosphere.
+- `0x878873` MON. // No healing items of any sort are / allowed in these competitions. // As a result, you will be required / to store all healing items you may / have with you in your PC before / any LEAGUE BATTLE. // For your first battle, you’ve been / selected to battle on the WATER / FIELD. // Your opponent is MANDI. When / you’re ready for your battle, go / speak to the officer at the front / gate of the WATER FIELD. // If you need any more information, / just come see me.
+- `0x878A9A` MON / LEAGUE competition!
+- `0x878AB4` Congratulations! // You’ve collected the eight BADGES / required to enter the LEAGUE / competition!
+- `0x878B1E` I’m sorry, but you don’t have the / requisite number of BADGES needed / to enter the TOURNAMENT.
+- `0x878BA1` MON LEAGUE COMPETITION? // First let me check your / qualifications …
+- `0x878C11` MON / LEAGUE, you must come to the front / of the desk.
+- `0x878C8A` MON MASTER!
+- `0x878C96`  I didn’t win again, but if I keep / participating, there’s no telling / how far I can go.
+- `0x878CF9` This is the third time I’ve / entered the INDIGO LEAGUE / COMPETITION. // Each time I advance a little bit / farther, so I know I’m improving!
+- `0x878D7F`  I’m determined to be LEAGUE / CHAMPION when it’s all said and / done!
+- `0x878DC2`  ROUTE 1 RIVER // Feeling dry? / Have a SWIM in the ROUTE 1 RIVER!
+- `0x878F29` MON MASTER looks like! // It’s getting late. Time for my / first victory! // Gotta run, {PLAYER}y boy! // I think PALLET TOWN deserves at / least one TRAINER that’s not a / total embarrassment!
+- `0x878FD6`  You do not have any matches / schedule on this FIELD at this / time.
+- `0x8790DA` You may proceed into the BATTLE / FIELD to face your challenger. // Good luck!
+- `0x879183` But I’m MANDI the ASTOUNDING … / How could I lose?
+- `0x8791B6` ANNOUNCER: {PLAYER} has defeated / MANDI and will advance to the next / round! // Congratulations, {PLAYER}!
+- `0x87948D` You cannot bring any healing items / into battle with you, as they are / prohibited in LEAGUE COMPETITION. // This includes all POTIONS, / REVIVES, HEALING DRINKS, PP / RESTORERS, and in-battle stat / increasers such as X ATTACK. // Please deposit all such items in / your PC first, and then you may / proceed to battle.
+- `0x8795BA`   battle.
+- `0x879623` You are scheduled to face MANDI on / this FIELD. // Are you ready to begin the match?
+- `0x879F0D` MON / LEAGUE favorite, the ASTOUNDING / MANDI! // And in the green corner is / {PLAYER} from PALLET TOWN! // Let the match begin!
+- `0x879F82` MANDI: That is an unfortunate / choice of words, for this eager / little TRAINER will be no match / for me. // It’s showtime! Watch me work my / magic!
+- `0x87A0DB` PROF. OAK hung up the phone.
+- `0x87A149` PROF. OAK hung up the phone.
+- `0x87A168` So which one would you like to / recall?
+- `0x87A206` MON in battle, so think / hard about the one you want to / use. // Well then, good luck, / {PLAYER}! // {PLAYER}PROF. OAK hung up the phone.
+- `0x87A35B` MON to get ready / for his first battle. // So what do you think?
+- `0x87A5C3` MON / LEAGUE newcomer, KEVIN! // And in the green corner is the / newcomer from PALLET TOWN, / {PLAYER}! // Let the battle commence!
+- `0x87A63B` KEVIN: I’m not gonna go easy on / you! This battle is mine to lose!
+- `0x87A67F` What a letdown …
+- `0x87A694` ANNOUNCER: {PLAYER} has defeated / KEVIN and will advance to the next / round! // Congratulations, {PLAYER}!
+- `0x87A7FB` You are scheduled to face KEVINon / this FIELD. // Are you ready to begin the match?
+- `0x87A896` You are scheduled to face KEVIN on / this FIELD. // Are you ready to begin the match?
+- `0x87A9AB` MON LEAGUE THIRD ROUND / BATTLE is ready to go! // In the red corner is PETE / PEBBLEMAN of PEWTER CITY. // In the green corner is up-and- / coming sensation, {PLAYER}! // Let the battle begin!
+- `0x87AA5D` PETE: I’ve worked too hard to / lose now! No mercy!
+- `0x87AA91` My dreams have been shattered.
+- `0x87AAB2` ANNOUNCER: {PLAYER} has defeated / PETE and will advance to the next / round! // Congratulations, {PLAYER}!
+- `0x87AD93` MON / LEAGUE, there’s no way a loser / like you can! // Later, {PLAYER}!
+- `0x87ADD7`  / {RIVAL}: I can’t believe I lost …
+- `0x87AE3F` You are scheduled to face PETE on / this FIELD. // Are you ready to begin the match?
+- `0x87AF39` MON LEAGUE FOURTH ROUND / BATTLE is about to begin! // In the red corner we have JEANETTE / FISHER from CRIMSON CITY! // And in the green corner is the / TRAINER from the town of PALLET - / {PLAYER}!
+- `0x87AFF2` JEANETTE: I am honored to do / battle with you, but don’t take me / lightly.
+- `0x87B076` MON / battled.
+- `0x87B085` ANNOUNCER: {PLAYER} has defeated / JEANETTE and will advance to the / next round! // Congratulations, {PLAYER}!
+- `0x87B150` Please store any HEALING ITEMS in / your PC.
+- `0x87B1BE` You are scheduled to face JEANETTE / on this FIELD. // Are you ready to begin the match?
+- `0x87B32B` MON / inspect, huh? // It was nice meeting you. See you / later, {PLAYER}!
+- `0x87B46C` MON in a timely matter / will be disqualified from the / competition. // Thank you, and have a nice day!
+- `0x87B52F` MON / LEAGUE, too, huh? // Isn’t it exciting! I really want / to be a great TRAINER!
+- `0x87B7A3` The FIFTH ROUND will begin soon. // Don’t worry, I’ll be sure to let / you know when your next match is / and who your opponent will be.
+- `0x87B825`  RITCHIE: Did you hear, {PLAYER}? / We’re going to be battling against / each other in the fifth round. // Listen, {PLAYER}. / Because we’re friends, we should / promise each other to make this / the best battle we’ve ever had! / Okay? // I’ll see you when the match starts / at the INDIGO STADIUM.
+- `0x87B9E1` MON to those / thieves! // Thanks for saving me! I’m sure / we’ll be seeing each other, but I / got to go find out who my next / opponent is for the fifth round. // See you, {PLAYER}!
+- `0x87BA9A` TEAM ROCKET: Looks like TEAM / ROCKET’s blasting off again!
+- `0x87BAD6` RITCHIE: Take care of TEAM ROCKET! // ZIPPO, use FLAMETHROWER! / SPARKY, use THUNDERBOLT!
+- `0x87BB2D` RITCHIE: Go, SPARKY!
+- `0x87BB44` RITCHIE: Go, ZIPPO!
+- `0x87BB5F` RITCHIE: I’ll take care of these / crooks!
+- `0x87BB8F` RITCHIE: What? / You mean these people are really / from TEAM ROCKET? // They have to be stopped!
+- `0x87BC45` MON to get them inspected.
+- `0x87BDE6` MOM hung up the phone.
+- `0x87BF34` RITCHIE hung up the phone.
+- `0x87C0D4` MON MASTERS no matter what! // Well, {PLAYER}, I’m heading / home. I guess you should, too.
+- `0x87C2C4` {PLAYER}: Let’s go, {V02}! / Let’s get to INDIGO STADIUM!
+- `0x87C2F5` {PLAYER}: My only hope is to / fly there!
+- `0x87C319` {PLAYER}: I’ll never make it / to my match on time if I go by / foot! // But I promised RITCHIE!
+- `0x87C36F` TEAM ROCKET: We may not have / PIKACHU, but now you’ll never make / it to your match on time! // That’s what you get for defying / TEAM ROCKET! // Now we’re blasting off again!
+- `0x87C416` Another defeat!
+- `0x87C428` TEAM ROCKET: Have it your way, / then! We’ll do this the hard way!
+- `0x87C4E6` MON or / prepare to fight!
+- `0x87C505` RITCHIE: I need to tell you / something. And you’re not gonna / like it! // PIKACHU is mine!
+- `0x87C55D` RITCHIE: {PLAYER}!
+- `0x87C7E3` MON for / this LEAGUE MATCH.
+- `0x87C800` RITCHIE: You made it!
+- `0x87C818` {PLAYER}: RITCHIE! / Sorry I’m late!
+- `0x87C8EF` MON LEAGUE battle is about to / begin!
+- `0x87C919` RITCHIE: I don’t know what kept / you but I’m sure glad you made it / for the match! // Now are you ready for your biggest / battle ever?
+- `0x87C99C` It was a great battle! / Thanks, {PLAYER}!
+- `0x87C9C1` ANNOUNCER: {PLAYER} has defeated / RITCHIE and will advance to the / next round! // Congratulations, {PLAYER}!
+- `0x87CA1D`  You did not make it in time for / your match with RITCHIE. // As a result, he was declared the / winner and you have forfeited your / battle.
+- `0x87CBC3` You are scheduled to face ASSUNTA / for the sixth round in the INDIGO / STADIUM. // Are you ready to begin the match?
+- `0x87CC3E` You are scheduled to face MELISSA / for the semifinals in the INDIGO / STADIUM. // Are you ready to begin the match?
+- `0x87CCB8` The finals are ready to begin. // Are you ready to face your last / opponent in the INDIGO STADIUM?
+- `0x87CD22` RICTHIE: I guess one of us had to / lose, huh, {PLAYER}? // I’ll try to win my next match for / the both of us! // Wish me good luck!
+- `0x87CE6D` You cannot challenge the LEAGUE / CHAMPION until after you have / defeated all the ELITE FOUR. // Once the ELITE FOUR has been / defeated, return here to challenge / the CHAMPION.
+- `0x87CF22` The CHAMPION lies ahead. Are you / prepared to challenge him?
+- `0x87D126` MON seem exhausted! Their / health is lower than normal …
+- `0x87D32D` MON MASTERS no matter what! // Well, {PLAYER}, I’m heading / home. I guess you should, too.
+- `0x87D3B6` RICTHIE: I guess one of us had to / lose, huh, {PLAYER}? // I’ll try to win my next match for / the both of us! // Wish me good luck!
+- `0x87D50F`  To claim your free BLIMP RIDE, / just see the owner of the ORANGE / INLET AIRSHIP HANGAR. // Thank you for participating in our / raffle!
+- `0x87D593` Congratulations! / You’ve won the grand prize!
+- `0x87D5C2` Thank you for your entry! / Now let’s hold the raffle! // … / … / …
+- `0x87D5FF` Okay, then. Have a nice day!
+- `0x87D61E` Hello, we’re running a special / raffle! // The grand prize is a free / BLIMP RIDE to VALENCIA ISLAND! // It only costs a small price of / 50$ to enter the raffle. // Would you like to enter?
+- `0x87D6E5` You’re in the way!
+- `0x87D72D` MON LEAGUE, / {PLAYER}! // It’s amazing that you were able to / win! I’m really proud of you! // After I get stronger I’ll be back / to challenge you as the number one / trainer in the KANTO REGION. // That’s a promise!
+- `0x87D7F4` RITCHIE: I saw your loss from the / stands.
+- `0x87D855` MON / MASTERS! // Promise me we’ll both be back here / again the next time the LEAGUE / COMPETITION begins! // I know we both won’t stop until / we’re CHAMPIONS!
+- `0x87D8F5` RITCHIE: That was an amazing / match, {PLAYER}! // If I had to lose to someone, I’d / want it to be a friend like you. // Now go out there and when the / LEAGUE for both of us!
+- `0x87DAC5` MON LEAGUE quarerfinals / battle is ready to begin! // In the red corner is ASSUNTA, and / in the green corner is / {PLAYER}! // Let the battle begin!
+- `0x87DB4F` ASSUNTA: If you thought the / previous battles were tough, get / ready for an even bigger / challenge!
+- `0x87DBB2` You’re tougher than I expected. / Congratulations.
+- `0x87DBE5` ANNOUNCER: {PLAYER} has defeated / ASSUNTA and will advance to the / next round! // Congratulations, {PLAYER}!
+- `0x87DCAB` ANNOUNDER: Ladies and gentlemen, / this semifinal match is ready to / go! // In the red corner is MELISSA and / in the green corner is / {PLAYER} of PALLET! // Let the battle commence!
+- `0x87DD55` MELISSA: Prepare for the battle / of your life.
+- `0x87DD9A` MON are / marvelously strong!
+- `0x87DDB8` ANNOUNCER: {PLAYER} has defeated / MELISSA and will advance to the / next round! // Congratulations, {PLAYER}!
+- `0x87DEAF` MON LEAGUE! // This will determine the KANTO / REGION’s number one ranked / TRAINER, and who will be allowed / to challenge the ELITE FOUR for an / opportunity to become LEAGUE / CHAMPION! // In the red corner is the / formidable TRAINER - GIDEON! // And in the green corner is / {PLAYER}! // Let the match begin!
+- `0x87DFC9`  GIDEON: …
+- `0x87DFDA` ANNOUNCER: {PLAYER} has defeated / GIDEON and is now the number one / ranked TRAINER in the KANTO / REGION! // He will now have the chance to / challenge the ELITE FOUR and the / current LEAGUE CHAMPION! // Congratulations, {PLAYER}!
+- `0x87E118` ANNOUNCER: Ladies and gentlemen! // This is a CHAMPIONSHIP BATTLE / match! // In the red corner is the current / LEAGUE CHAMPION: SLATE! // And in the green corner is: / {PLAYER}! // Let this CHAMPIONSHIP BATTLE / begin!
+- `0x87E2F7` MON LEAGUE! // Let’s hear it one more time for / our new CHAMPION: / {PLAYER}!
+- `0x87E339`  : / {PLAYER}!
+- `0x87E3AD` TANGELO ISLAND / The sweet escape
+- `0x87E4C4` MON / LEAGUE. That’s quite an / accomplishment! // You should be happy for your / friend, because his dream is the / same as yours. // I think his match is almost over. / You should go talk to him and / offer your support. // You should want RITCHIE to win / just as much as you wanted to. // When the LEAGUE’s ended, come back / home to PALLET TOWN. // We’re excited to congratulate our / hometown hero on a fine / competition. // See you soon, {PLAYER}.
+- `0x87E6A0` Thank you for all your hard work, / {PLAYER}!
+- `0x87E725` You have defeated BRUNO! / Congratulations! // If you can beat the other members / of the ELITE FOUR, you can / challenge the CHAMPION!
+- `0x87E7A6` As the number one ranked TRAINER / in KANTO, you may face any of the / ELITE FOUR at any time. // If you lose to one of them, you / cannot challenge the others or / the champion.
+- `0x87E8C1` MON. // Would you like to challenge BRUNO / of the ELITE FOUR?
+- `0x87E8FB`  You have defeated LORELEI! / Congratulations! // If you can beat the other members / of the ELITE FOUR, you can / challenge the CHAMPION!
+- `0x87EA0D` MON! // Would you like to challenge / LORELEI of the ELITE FOUR?
+- `0x87EA49`  You have defeated AGATHA! / Congratulations! // If you can beat the other members / of the ELITE FOUR, you can / challenge the CHAMPION!
+- `0x87EB98` MON! // Would you like to challenge AGATHA / of the ELITE FOUR?
+- `0x87EBD3`  You have defeated LANCE! / Congratulations! // If you can beat the other members / of the ELITE FOUR, you can / challenge the CHAMPION!
+- `0x87ED13` MON. // Would you like to challenge LANCE / of the ELITE FOUR?
+- `0x87EE42` MON ELITE FOUR MATCH is / all set to begin! // In the red corner is the ELITE / FOUR’s BRUNO! // In the green corner is the / winner of the INDIGO LEAGUE / TOURNAMENT and the current number / one ranked TRAINER in KANTO: / {PLAYER}! // Let this ELITE FOUR BATTLE / begin!
+- `0x87EF41` BRUNO: It’s good to see you / again, kid. I see you took my / advice and have been training / well. // I won’t go easy on you, so prepare / for a tough fight!
+- `0x87EFD5` Why? How could I lose?
+- `0x87EFEE` ANNOUNCER: {PLAYER} has defeated / BRUNO of the ELITE FOUR and can / continue his CHAMPIONSHIP quest! // Congratulations, {PLAYER}!
+- `0x87F0F7` MON ELITE FOUR MATCH is / all set to begin! // In the red corner is the ELITE / FOUR’s LORELEI! // In the green corner is the / winner of the INDIGO LEAGUE / TOURNAMENT and the current number / one ranked TRAINER in KANTO: / {PLAYER}! // Let this ELITE FOUR BATTLE / begin!
+- `0x87F1F8` LORELEI: Hmm? Oh, so you wish to / challenge me, dear? // I warn you, I may seem gentle on / the surface, but in battle all my / sensibilites are frozen over, and / I become powerful and cold!
+- `0x87F2B0` How dare you!
+- `0x87F2C0` ANNOUNCER: {PLAYER} has defeated / LORELEI of the ELITE FOUR and can / continue his CHAMPIONSHIP quest! // Congratulations, {PLAYER}!
+- `0x87F3D6` MON ELITE FOUR MATCH is / all set to begin! // In the red corner is the ELITE / FOUR’s AGATHA! // In the green corner is the / winner of the INDIGO LEAGUE / TOURNAMENT and the current number / one ranked TRAINER in KANTO: / {PLAYER}! // Let this ELITE FOUR BATTLE / begin!
+- `0x87F4D6` AGATHA: So, child, you wish to / challenge me? // I warn you, I’m a tenacious / battler. A battle with AGATHA will / leave you with nightmares for the / rest of your life!
+- `0x87F579` Oh, ho! You’re something special, / child!
+- `0x87F5A4` ANNOUNCER: {PLAYER} has defeated / AGATHA of the ELITE FOUR and can / continue his CHAMPIONSHIP quest! // Congratulations, {PLAYER}!
+- `0x87F6E7` MON ELITE FOUR MATCH is / all set to begin! // In the red corner is the ELITE / FOUR’s LANCE! // In the green corner is the / winner of the INDIGO LEAGUE / TOURNAMENT and the current number / one ranked TRAINER in KANTO: / {PLAYER}! // Let this ELITE FOUR BATTLE / begin!
+- `0x87F845` MON before, you are in for / quite a shock! They’re virtually / indestructible! // Prepare to be defeated!
+- `0x87F8AB` … It’s over.
+- `0x87F8BA` ANNOUNCER: {PLAYER} has defeated / LANCE of the ELITE FOUR and can / continue his CHAMPIONSHIP quest! // Congratulations, {PLAYER}!
+- `0x87FB0F` Back off!
+- `0x87FB2A` GIDEON: This will be my finest / hour! I cannot … nay, WILL NOT be / defeated!
+- `0x87FD2B` I have been vanquished!
+- `0x87FD9D` MON LEAGUE! / How impressive! // You should come back home to / PALLET TOWN! // We’re throwing a big party for our / hometown hero! // See you soon, {PLAYER}!
+- `0x87FEFC` MON JOURNEY!
+- `0x87FF70` MON / LEAGUE!
+- `0x87FFAF` {PLAYER}: See you soon, / {V03}!
+- `0x87FFDB` MON LEAGUE.
+- `0x880544` You won’t get past me!
+- `0x88068D` MON / LEAGUE. That’s quite an / accomplishment! // You should come back home to / PALLET TOWN. // We’re excited to congratulate our / hometown hero on a fine / competition. // See you soon, {PLAYER}.
+- `0x88073C`  DAISY: {RIVAL} ran off to train / as soon as the LEAGUE ended. // It’s good to bask in your / accomplishments before you set off / on a new adventure, though. // Congratulations, {PLAYER}!
+- `0x880889` That isn’t {V03}!
+- `0x88089A` Please select {V03} / to release it.
+- `0x8808CB` {PLAYER}: Thanks for treating / {V02} for me, PROFESSOR!
+- `0x880AE2` MON MASTERS no matter what! // Well, {PLAYER}, I’m heading / home. I guess you should, too.
+- `0x880CA7` MON deserve it!
+- `0x880E53` MON / journey. // You can reach the ORANGE / ARCHIPELAGO by following the ROUTE / 1 RIVER east! // I’ve phoned ahead and arranged / transportation for you! // I’m counting on you! / Thanks, {PLAYER}!
+- `0x880F65` MON for you …
+- `0x880F75` TEAM ROCKET: Looks like TEAM / ROCKET’s blasted away again!
+- `0x880FB1` We lost the food fight!
+- `0x880FCB` TEAM ROCKET: What? / You couldn’t possibly battle on a / full stomach! // All right! Prepare to get your / just desserts!
+- `0x88103E` TEAM ROCKET: This time we’ve got / the recipe for success! // While your busy stuffing your / faces, we’ll just be taking your / PIKACHU!
+- `0x881195` OAK: Now let’s all enjoy the / party!
+- `0x88120C`  / BALL for me yet?
+- `0x881290` MON / LEAGUE.
+- `0x8812C0` {PLAYER}: Good job, {V03}!
+- `0x8812D4` The FEAROW is flying away as fast / as it can go!
+- `0x881377` TEAM ROCKET: This time we’ve got / the recipe for success! // While you’re busy stuffing your / face, we’ll just be taking your / PIKACHU!
+- `0x88141A` MON! // You need to take some out of / storage first.
+- `0x88144D` {PLAYER}: I’m sure the PIDGEY / will be fine on their own! // You’re better off with me anyway, / {V03}!
+- `0x8814A6`  I’m sorry, but you don’t have / enough BADGES to qualify for the / LEAGUE.
+- `0x8814FA` {PLAYER}: Looks like you’re / in charge now {V03}!
+- `0x881524` The FEAROW is attacking in a rage!
+- `0x88188C` The wild FEAROW got away …
+- `0x8818A7`  You’d better get the CASCADE BADGE / from DAISY before you leave.
+- `0x8818E8`  MANKEY: Ma-ankey!
+- `0x8819AB` {PLAYER} climbed onto / {V03} and flew into the sky!
+- `0x8819D7` The FEAROW is flying away into the / sky!
+- `0x881A0B` The FEAROW is furious with you and / {V03}!
+- `0x881A84` {V03} seems really intent / on protecting the PIDGEY of ROUTE / 1 from the SPEAROW!
+- `0x881AD3` The FEAROW has called forth a gang / of SPEAROW to defend it!
+- `0x881B11` The FEAROW seems furious with you! // Could it be the SPEAROW you / encountered the first day of your / journey has evolved?
+- `0x881BAC` It seems rather quiet here. // A little too quiet …
+- `0x881D1E` MON on ROUTE 1 from FEAROW?
+- `0x881D3F` {PLAYER}: Just to make sure / FEAROW doesn’t do something sneaky / and attack again, maybe it’s okay / if you stay here awhile and make / sure the PIDGEY are safe. // Okay, {V03}?
+- `0x881F9D` MON / LEAGUE. // You may now advance to the INIDGO / PLATEAU.
+- `0x8822E3`  / How’d you get up here?
+- `0x88246C` {PLAYER} boarded the BLIMP / to VALENCIA ISLAND!
+- `0x88253A` MON / inspected, huh? // It was nice meeting you. See you / later, {PLAYER}!
+- `0x88291A` MON CENTER / before you leave VIRIDIAN CITY, / young man!
+- `0x8829C8` YAMBERA TOWN
+- `0x8829EF` You can see the ROUTE 1 RIVER from / here! // It empties into the ARCHIPELAGO / OCEAN, or so you’ve been told.
+- `0x882A57`  I can’t talk to you from there.
+- `0x882A78`  Maybe I should just use the PC to / WARP back home.
+- `0x882B5B` MON / being transferred from this / CENTER, please take this as my / thanks.
+- `0x882D3F` ROUTE 20 FERRY / TO CINNABAR ISLAND
+- `0x882DAF` My conditioning’s in top form!
+- `0x882DD0` Huh? / Something’s not right…
+- `0x882DEE` The way I am now, I may have to / hold off on TRAINER TOWER…
+- `0x882E2B` Let’s have another battle. / My conditioning’s in top form!
+- `0x884CAB` MON / TRAINER!
+- `0x884CB8`  {PLAYER} received the / UP-GRADE from the SCIENTIST.
+- `0x885493` MOM: Oh, hello, {PLAYER}! // What’s that? Oh, you’ve earned / your first BADGE! // How wonderful! Won’t your father / be so proud? // … … … // Hmm? Oh, of course you didn’t / cheat, honey! // The sprinklers going off was just / a happy conincidence! // When fate smiles on you, you / should always smile back! If you / turn a cheek, it will frown at you / the next time. // Isn’t that a wonderful saying? I / just made it up! // Okay, {PLAYER}! / You’d better hurry up and get your / next BADGE! // Goodbye, dear!
+- `0x8856B6` {PLAYER} began piloting the / BLIMP toward the nearest land!
+- `0x886B80` MON / that I had to catch and train him! // Okay, {PLAYER}. / I should let you go. // Don’t forget to check in with me / again the next chance you get. // And don’t forget to change your / you-know-what every day!
+- `0x886CE4` When you’re ready to accept your / free BLIMP RIDE to VALENCIA / ISLAND, please let me know.
+- `0x886DAE` Did you enjoy your complimentary / BLIMP RIDE to VALENCIA ISLAND?
+- `0x886FF4` MON, enough? // Oh, well. I’ll be looking forward / to hearing about how you get your / next BADGE. // I’m sure it will be quite a / fantastic story. // Goodbye, {PLAYER}!
+- `0x88708B`  The SPEAROW of the forest heard / the wild SPEAROW’s cry as it was / captured! // The wild SPEAROW are coming to / help it!
+- `0x887111` The SPEAROW is furious at PIKACHU! // It’s calling to the other SPEAROW / for help!
+- `0x8871F8` MON! // Most were probably hiding when you / first entered, but now that you’ve / befriended HAUNTER, I’m sure / you’ll encounter some! // Good luck, {PLAYER}!
+- `0x887288` {PLAYER}! / Thank you so much for all your / trouble! // Please, take this to show my / gratitude for saving my daughter.
+- `0x8872F5` {PLAYER} received the / SILPH SCOPE from SABRINA’s father!
+- `0x88748F` MON and don’t make / mischief. // I’ll talk to you later, / {PLAYER}! Bye!
+- `0x8874FA` VALENCIA ISLAND / The port of grand beginnings
+- `0x8903E6` Thank you for saving ERICA’s GLOOM / from the fire! // You have our deepest gratitude.
+- `0x890447` It’s the wheel that steers the / BLIMP! // Would you like to try to land the / BLIMP?
+- `0x8905C0` Thank you for participating in our / raffle! // If you’d like to participate / again, please feel free!
+- `0x890623` Congratulations! / You’ve won a {V02} / from our raffle!
+- `0x890691` GASTLY: Gaaaaaaastly!
+- `0x8906A9` What? / It seems {V02} is / impressed with how you cared for / it in battle! // {V02} appears to respect / you now!
+- `0x89070C`  Sorry, but you don’t have enough / money to participate. // Have a nice day!
+- `0x8907A9`  MART, eh? // Very well, we have a special BLIMP / RIDE set up for you! // Are you ready to board?
+- `0x89C5C6` The FEAROW seems furious with you! // Maybe one of the wild SPEAROW / SPEAROW that came to help the / SPEAROW you captured on the first / day of your journey has evolved!
+- `0x89CD4E`   {V02} is pumped up to / win the competition!
+- `0x89CF2D` MON / there that he still has with him / today. // Don’t forget to call me when / you’ve gotten another BADGE. // I’ll talk to you later, / {PLAYER}!
+- `0x89CFD3` Welcome to the ORANGE INLET / AIRSHIP HANGAR! // Hmmm … No you can’t ride on a / BLIMP without the proper / clearance!
+- `0x89D041`  BROCK: I’m really excited about / visiting VALENCIA ISLAND! // I can’t believe how lucky I was to / have won that RAFFLE!
+- `0x89D16E`  / BALL. // There are some unusual markings on / it.
+- `0x89D51A` MON LEAGUE! // I’m so proud of you! / I’ll talk to you later.
+- `0x89D5B1` DAISY: The Underwater Ballet was, / like, a huge success! // Now we can keep the GYM running / and continue putting on / performances for our adoring fans!
+- `0x89D700` MON LEAGUE! // I’m so proud of you, honey! // Hurry home soon, {PLAYER}! / I’m so excited to see you again! // PROFESSOR OAK is looking forward / to seeing you again, too. // I’ll see you soon! / Goodbye, {PLAYER}!
+- `0x89D813` DAISY: {RIVAL} can be a bit / egotistical, but he does have a / caring side. // He just puts up a tough front.
+- `0x89D876`  WESTWOOD the FIFTH: {PLAYER}! / I saw the whole incident from my / window! // SLOWPOKE evolved into SLOWBRO when / you introduced SHELLDER to it! // Seeing it in-person made me / understand so much more clearly! // The reason SHELLDER and SLOWPOKE / bond with each other is because / it’s mutually beneficial! // It allows SLOWPOKE to stand / upright and use powerful moves / like the MEGA PUNCH, and it allows / SHELLDER to travel on land! // Thank you, {PLAYER}! / This is a monumental discovery! // As my thanks, please have this / rare SCALE!
+- `0x89DA66`  It’s a POISON BARB! / Better not smell it …
+- `0x89DD34` Sorry, but you didn’t win the / raffle. Thank you for / participating. // Have a nice day!
+- `0x89DDDD` MON Vacation Destination!
+- `0x89DE39`  MART, too? // I didn’t know they were giving out / more than one GRAND PRIZE. That / seems kind of strange, doesn’t it?
+- `0x89DF29` Sorry, you don’t have room for / this! // Feel free to enter the raffle / another time!
+- `0x89E0B5` {PLAYER} hung up the phone.
+- `0x89E22B` GROWLITHE: Grrrrrrrowlithe!
+- `0x89E24C` There you go! / All fresh and ready to battle!
+- `0x89E28A` {PLAYER} received the {V02} / from the RAFFLE MAN!
+- `0x89E35D` PROF. IVY: Thank you for all your / help, {PLAYER}!
+- `0x89E3E9` TEAM ROCKET: Time to hit the eject / button on this plan! // We may have lost, but now you’ll / never land this bag of gas! // TEAM ROCKET’s bailing out again!
+- `0x89E47F`  {PLAYER} received the GS BALL / from PROF. IVY!
+- `0x89E4AA` PROF. IVY: Here it is, / {PLAYER}. // Make sure you get it to PROF. OAK / safely!
+- `0x89E84B` MON BATTLE!
+- `0x89E859` Looks like TEAM ROCKET’s messing / up again …
+- `0x89E98B`  / The water is too rough to swim!
+- `0x89EB6C` Congratulations on winning the / GRAND PRIZE. // Enjoy your BLIMP RIDE!
+- `0x89EBB1`  VALENCIA is a small ISLAND, but / it’s the first one you come across / when traveling from KANTO, so we / get a few tourists.
+- `0x89EC62` MISTY: Wow, that was a close one! / But it looks like we made it to / VALENCIA ISLAND! // I’m going to go have a look / around.
+- `0x89ECEB` BROCK: I’m going to check out the / ISLAND, too. // Thanks for landing the BLIMP for / us after TEAM ROCKET attacked, / {PLAYER}!
+- `0x89EFB0` MON. // We’ll take you to her right now!
+- `0x89F173` MON. // We’ll take you to her right now!
+- `0x89F28B` PROF. IVY: Pleased to meet you! / I’m PROFESSOR IVY. // So you’re the assistant PROF. OAK / sent to pick up the GS BALL? // It’s at my lab. I’ll meet you / there. // Come on, girls!
+- `0x89F337` GIRLS: PROFESSOR! / A friend of PROFESSOR OAK is here / to see you!
+- `0x89F379` PROFESSOR IVY: Very good, / GYARADOS! // I think you’re looking better and / stronger every single day!
+- `0x89F46C`  / We’ve tried everything to open the / GS BALL! // We hope PROF. OAK can figure it / out!
+- `0x89F4BE`  BROCK: I’ve decided to stay here / on VALENCIA ISLAND to conduct / research with PROF. IVY! // This ship needs a captain. / Cleaning to be done, food to be / made … it’s just like home! // I know this is what’s best for me. // Don’t forget, {PLAYER} … / Friends to the end!
+- `0x89F61B` MON / and breeding, and she’s beautiful, / too! // Her and her assistants remind me / so much of my family back in / PEWTER CITY …
+- `0x89F7FC`  BALL has us stumped! // I wish I could have uncovered the / secrets of the GS BALL myself, but / if anyone can solve its mysteries, / your friend PROF. OAK can.
+- `0x89F9DB`  BALL! // I’ll be waiting for you! Take care / and thank you!
+- `0x89FA16` It’s a video telephone! / Would you like to call PROF. OAK?
+- `0x8A0163` Hey, there! Nice ride!
+- `0x8A017C` Crash and burn!
+- `0x8A01FF`  / Hey, there! Nice ride!
+- `0x8A0219` Crash and burn!
+- `0x8A0229`  HITMONCHAN: Hit-mon-chan!
+- `0x8A0297` You too! We have your BLIMP trip / all set up to return you home! // All aboard!
+- `0x8A0305` We have your return trip all / ready! Hurry up and board the / BLIMP to return to ORANGE INLET!
+- `0x8A0613`  / The BLIMP is traveling through the / sky without a pilot! // The BLIMP is crashing onto a / nearby island!
+- `0x8A067B` TEAM ROCKET: Oh no! / Not JIGGLYPUFF! // TEAM ROCKET’S blasting off again!
+- `0x8A06C3` TEAM ROCKET: We’ve got you trapped / now, ROMEO! // Hand over that PIKACHU! / Let’s go!
+- `0x8A084F` MISTY: Crazy is right! / Never in a million years!
+- `0x8A0880`  a million years!
+- `0x8A0894` TEAM ROCKET: Welcome back to our / BLIMP, twerps! Now we’ll … // Hey, where’s the other twerp that / hangs around with you two? // JAMES: JESSIE, I think we’ve / actually captured a pair of very / romantic creatures! // JESSIE: Ahhh! You mean they’re / love birds!
+- `0x8A098A`  JIGGLYPUFF began to sing its / slumber song!
+- `0x8A09B6`  MISTY: It looks like we crashed on / a deserted ISLAND! // What if we have to eat bugs and / berries to survive? // I’m going to go look around to see / if this place is inhabited.
+- `0x8A0BF0` MON on TANGELO ISLAND, unless / we visit this PARK! // Thank you for showing it to us! / Come along now, dear!
+- `0x8A0C96`   / Gasp! / I need to take a breather!
+- `0x8A0E69` MON / THEME PARK! // Please come again!
+- `0x8A0F0E` MON if you like! // The cost to enter is only $500! // Would you like to enter?
+- `0x8A0F7B`  / So then, you ride again!
+- `0x8A0F95`  I was blinded by the light!
+- `0x8A0FC5` Okay! / Please enjoy your time in the / PARK! // When you’re ready to leave, just / return to the exit. Have a nice / time!
+- `0x8A1256` MON CENTER right away!
+- `0x8A1305` Hey, we don’t have to stand here / and be insulted! // Forget that LAPRAS! Who wants a / LAPRAS that won’t SURF anyhow!
+- `0x8A13BB` MON / aren’t very healthy! // You haven’t been training them / very well, have you?
+- `0x8A1418` Hold it!
+- `0x8A1423` We don’t need some stinkin’ LAPRAS / that won’t SURF anyway! // Let’s get outta here!
+- `0x8A1476` That hurt!
+- `0x8A1563` MON BATTLE will / teach you to butt into our / business, though!
+- `0x8A15A9` Come on! / Get up and get moving you stupid / lump! // You better listen or else!
+- `0x8A16F2` So then, you ride again!
+- `0x8A17CD` {PLAYER} received the LOST / LAPRAS!
+- `0x8A17FC` MON BATTLES are even more / breathtaking in the water.
+- `0x8A1833` A chance for my second wind!
+- `0x8A1864` LAPRAS seems to be saying it would / like to go with you on your / journey!
+- `0x8A18AE` TEAM ROCKET: So we didn’t get that / LAPRAS! // That doesn’t mean you’ve heard the / last of TEAM ROCKET! // We’ll follow you around this whole / ARCHIPELAGO until we get that / PIKACHU! // TEAM ROCKET’S blasting off again!
+- `0x8A197F` This isn’t a rare sight!
+- `0x8A199E` TEAM ROCKET: Out of the way, / twerp! // You’re not going to stand in the / way of us capturing that rare / LAPRAS! // Just try to stop us!
+- `0x8A1A20` {PLAYER}: Oh, LAPRAS! / Why won’t you trust me?
+- `0x8A1A8B` TRACEY: So you’re leaving to / challenge the ORANGE LEAGUE, huh, / {PLAYER}? // The nearest GYM is on MIKAN / ISLAND. That’s north of here! // I’m sure LAPRAS will be able to / get you there without any trouble / at all. // I might see you there!
+- `0x8A1C34` MON WATCHER! // So you’re thinking about entering / the ORANGE LEAGUE? // In order to enter you have to / challenge the four leaders of the / ORANGE CREW. // If you beat them, then you can / take on the ORANGE LEAGUE / CHAMPION! // Huh? You know PROFESSOR OAK? / He’s my hero! // If you don’t mind, I might follow / you on your journey. Then I might / have a chance to meet my idol!
+- `0x8A1F44` MON PARK is a great / attaction. That’s why so many / family cruises come here!
+- `0x8A1F90`  Aha! A young naive tourist, / ignorant to the ways of the ORANGE / ARCHIPELAGO, for me to take / advantage of!
+- `0x8A205A` MON PARK is a great / attaction. That’s why so many / family cruises come here!
+- `0x8A20A6`  TRACEY: {PLAYER}! / Why don’t we try to help LAPRAS / get over its fear of humans? // It’s only the right thing to do.
+- `0x8A2111`  Ow! Mercy!
+- `0x8A220D` MON WATCHER! // So you’re thinking about entering / the ORANGE LEAGUE? // In order to enter you have to / challenge the four LEADERS of the / ORANGE CREW. // They all live on different ISLANDS / through out the ORANGE / ARCHIPELAGO. // If you beat all of them, then you / can take on the ORANGE LEAGUE / CHAMPION! // Huh? You know PROFESSOR OAK? / He’s my hero! // If you don’t mind, I might follow / you on your journey. Then I might / have a chance to meet my idol!
+- `0x8A23BB`  LAPRAS won’t even respond to you! / It must be really scared of humans / since it was abused …
+- `0x8A2430` PROF. OAK: Hello, this is PROF. / OAK. Oh, hello, {PLAYER}! // Hmmmm? Oh, I see! So you’ve / decided to try to compete in the / ORANGE LEAGUE? // Well, I have a feeling there isn’t / anything I can do to stop you. // I’ll just have to be a little bit / more patient to get a look at that / GS BALL. // Good luck, {PLAYER}!
+- `0x8A255E` You may not be from around here, / but you’re good, aren’t you?
+- `0x8A259E` Aha! Another shot at the out-of- / towner!
+- `0x8A2608` Ugh! Cramp!
+- `0x8A2616` No excuses.
+- `0x8A2624` You have to push through / adversity, no matter what.
+- `0x8A265A` Another cramp! Ack!
+- `0x8A26AF` I must pool all my strength!
+- `0x8A26CE` The deepend!
+- `0x8A26DD` My fingers all are pruney. That / means it’s time to get out!
+- `0x8A271B` I’m waterlogged!
+- `0x8A272C`  MIKAN ISLAND / The little getaway
+- `0x8A275F` MON GYM / LEADER: CISSY / The Intrepid Wave-Rider
+- `0x8A278D`  Not a lot of people who aren’t / TRAINERS come to MIKAN ISLAND. // That’s because the only thing on / the ISLAND worth visiting is the / local GYM.
+- `0x8A29A6` SENTA: Ha! / You don’t stand a chance against / my big sister, CISSY!
+- `0x8A2A3C` Sometimes I’m the mysterious old / woman …
+- `0x8A2A6A` But no matter what the disguise / I’ll be awfully GASTLY!
+- `0x8A2AA7` Whatever happens, don’t forget the / ghost of the maiden! // She and the old lady will return / next year, too …
+- `0x8A2C79` CISSY: Oh, so you came to / challenge the GYM LEADER, huh? // Well, my name is CISSY! I am the / MIKAN GYM LEADER, and I accept / your challenge! // Follow me into the GYM, unless / you’re afraid to lose.
+- `0x8A2D44` CISSY: Are you starting trouble / again? // You’re supposed to be inside / cleaning your room!
+- `0x8A2D9C`   your room!
+- `0x8A2DA9`   will my big sister say?
+- `0x8A2DC5` Haha! / I got ya, I got ya! // You never saw me hiding here, did / ya? // You can’t be a very good TRAINER / if you fell for a trick like that! // If you want to get in this GYM, / you’ll have to battle me first! // Come on, let’s see how good you / really are!
+- `0x8A2EB9` CISSY: You’re quite the TRAINER, / {PLAYER}! // I think you’re going to do pretty / well in the ORANGE LEAGUE. Good / luck!
+- `0x8A2F26`  MAROWAK: Maro-wak!
+- `0x8A2F45` Oh! / What will my big sister say?
+- `0x8A2FE7` SENTA: That was pretty cool how / you won the race against my / sister, {PLAYER}!
+- `0x8A302F`  Better finish the wave race first!
+- `0x8A30AD` MON to challenge me, and it / has to be a WATER TYPE. // Those are the rules. If you don’t / like them, you can go get a BADGE / from some other GYM.
+- `0x8A3216` MON / wave race!
+- `0x8A32AA` SUNBURST ISLAND / The Barter Island
+- `0x8A3465` Hmmm … / Not bad!
+- `0x8A3493` MON / compete like athletes do, head to / head, one-on-one. // Let’s see if your WATER-TYPE can / best mine! Let’s go!
+- `0x8A35D4` MON! // We’ll have a one-on-one match. If / you win, then you can take on the / ultimate challenge!
+- `0x8A3636` CISSY: And you better be quiet / because you’re an even littler / squirt!
+- `0x8A3681` SENTA: Ha! Squirt! Squirt! / Squirt!
+- `0x8A378C` MON / that knows SURF through the / obstacle course up ahead. // The one that makes it through the / course the fastest is the winner. // I’ll go first. I’ll meet you up at / the obstacle course.
+- `0x8A3883` CISSY: Well, go on! / If you want to get that BADGE / you’ll have to finish the wave / race in a good time!
+- `0x8A3939` CISSY: I can’t believe it! / You actually beat me! I’m / impressed! // This is the CORAL EYE BADGE of the / MIKAN GYM!
+- `0x8A39CC` Time to shine!
+- `0x8A3ACE` MON that knows surf!
+- `0x8A3AE7` CISSY: Thanks for a great race, / {PLAYER}! // I’m sure you’ll do well in the / ORANGE LEAGUE!
+- `0x8A3B3E` CISSY: Looks like you couldn’t / come out on top! // Sorry, {PLAYER}! / You just weren’t fast enough!
+- `0x8A3B9C` CISSY: Okay, {PLAYER}! / It’s your turn! Do your best!
+- `0x8A3BF8` CISSY: So, {PLAYER}! / You ready to begin? // I’ll go first! Then you can see if / you can beat my time!
+- `0x8A3C74`  / You couldn’t beat CISSY’s time on / the wave ride course run …
+- `0x8A3CB4` You beat CISSY’S time on the wave / ride course run!
+- `0x8A3D3B` I’m no STARMIE!
+- `0x8A3E5E` I wish I were as beautiful as the / jewel on my STARMIE!
+- `0x8A3E97` This time I’ll captivate you!
+- `0x8A3EF6` TRACEY: Wow! I can’t believe I’m / friends with someone who knows / PROF. OAK! // I bet every POKeMON WATCHER in the / world dreams of having one of his / reports being reviewed by PROF. / OAK! // Thanks for introducing me, / {PLAYER}!
+- `0x8A4009` PROF. OAK: What’s that, / {PLAYER}? // Oh, you caught a LAPRAS, huh? / And you got your first ORANGE / LEAGUE BADGE? // That’s great news! I’ll talk to / you later!
+- `0x8A40F4` MON WATCHER, eh?
+- `0x8A411E` Are you ready to get doused?
+- `0x8A413D` I’m all wet!
+- `0x8A414C` I guess I’ve got water on the / brain.
+- `0x8A41AC` PROF. OAK: Oh, hello, / {PLAYER}! // How are you doing today?
+- `0x8A41E6`  So you want me to pour it on / again?
+- `0x8A424C` Would you look at that! / Looks like I landed a flounder!
+- `0x8A4286` You put up a fight!
+- `0x8A42B4` MON puts / up a good fight, I club it! // That doesn’t work as well with / TRAINERS …
+- `0x8A4305` Another chance to reel in this / battle!
+- `0x8A436D` One fish, two fish …
+- `0x8A4384` Red fish, blue fish …
+- `0x8A439C` When MAGIKARP evolves, it goes / from a red fish to a blue fish. // Who says a LIEPARD can’t change / its stripes?
+- `0x8A440A` Three fish, four fish!
+- `0x8A4421`  MANDARIN ISLAND NORTH / The Big Orange!
+- `0x8A44E2` MANDARIN ISLAND NORTH is the / biggest city ISLAND in the ORANGE / ARCHIPELAGO! // Anyone’s who anyone comes here!
+- `0x8A4556` MON have been acting so / weird lately! They won’t listen to / a thing I say. // NURSE JOY is investigating what / could be the cause. Maybe it’s / some sort of tropical disease!
+- `0x8A4607`  MART here isn’t different / than the normal MART. // I was hoping it would have more / variety of items.
+- `0x8A467A`  BALL! It’s cheaper / just to buy a new one …
+- `0x8A476D` FIRST FLOOR
+- `0x8A477B` SECOND FLOOR
+- `0x8A478A` THIRD FLOOR
+- `0x8A4811` OFFICER JENNY: So you want to / help, too? // All right! I’ll have GASTLY use / its GHOST powers to keep track of / you, and if you find anything, / we’ll be there as soon as we can! // Thanks, {PLAYER}! / I’m sure with your help we’ll / figure out this mystery!
+- `0x8A49F8` MON are strong / against PSYCHIC types, I think / this may be the result of a / PSYCHIC attack! // I’ve been trying to find who or / what might be behind it, but so / far GASTLY and I haven’t had any / luck!
+- `0x8A4B2A` MON are all cured!
+- `0x8A4C2B` {PLAYER}: Let’s help ’em out, / {V02}!
+- `0x8A4DC5` MON, too! // … // Well, if you think you can, it / wouldn’t hurt to help you just / this once. // Their hideout is in the basement / of this warehouse, but it can only / be accessed with the elevator. // You’ll need this to use the / elevator.
+- `0x8A4EA3`   to you! // We’ll still be after that PIKACHU! / TEAM ROCKET’s blasting off again!
+- `0x8A4F28` MON GYM // WINNING TRAINERS:
+- `0x8A4F55` MON GYM // WINNING TRAINERS: / {PLAYER}
+- `0x8A4F83` FIRST FLOOR
+- `0x8A4F91` SECOND FLOOR
+- `0x8A4FA0` THIRD FLOOR
+- `0x8A5146` Thanks for the business! I’m sure / you’ll get a lot of use out of / that TM!
+- `0x8A51B1` Which floor do you want?
+- `0x8A51CC` It appears to need a key.
+- `0x8A51E6`  Halt! / This is a private business! / No trespassers!
+- `0x8A5224` This isn’t a place for meddlesome / kids, so get out!
+- `0x8A5258`  Of all the warehouses in all the / ORANGE ARCHIEPLAGO, you had to / walk into mine!
+- `0x8A52AB` Here’s looking at you, twerp!
+- `0x8A52CB` This could be the beginning of a / beautiful rivalry.
+- `0x8A52FF`  What we’re up to is none of your / concern.
+- `0x8A532A`  You beat me fair and square … / The worst kind of defeat!
+- `0x8A5363`  I see … / You beat all my partners in crime. / How humiliating for us!
+- `0x8A53C0` MON won’t listen to you, / ha!
+- `0x8A53DF` What the --
+- `0x8A53F6` MON are obeying you! / Then there must be something wrong / in the basement …
+- `0x8A54A6` {PLAYER} received the LIFT / KEY from JESSIE and JAMES!
+- `0x8A5501` MON back! But don’t think that / would make us indebted to you! // We’ll still be after that PIKACHU! / TEAM ROCKET’s blasting off again!
+- `0x8A55D9` MON / disobeying them all the time - it / would lead to complete chaos!
+- `0x8A5691` MON called the crystal ONIX, / let me know right away. // -- MARISSA from SUNBURST ISLAND
+- `0x8A58F7` TEAM ROCKET: Looks like TEAM / ROCKET’s carted off again!
+- `0x8A5994` MON to / their rightful owners. // TEAM ROCKET, you’re going back to / where you belong!
+- `0x8A59E8` We lost control!
+- `0x8A5AB3` BUTCH: This isn’t over! // CASSIDY: We still have a score to / settle!
+- `0x8A5AFA` OFFICER JENNY: All right! / DROWZEE’s HYPNOSIS has been / disabled! // Sorry, TEAM ROCKET, but you’re out / of luck!
+- `0x8A5B7C` OFFICER JENNY: Oh no you don’t! / GASTLY, use your NIGHT SHADE to / block DROWZEE’s PSYCHIC power!
+- `0x8A5C1D` MON and have them attack!
+- `0x8A5C3C` OFFICER JENNY: We finally / tracked you down! // Don’t move! You’re under arrest!
+- `0x8A5C8E` Hold it right there!
+- `0x8A5DD7` MON / to attack him!
+- `0x8A5E3D` MON / are back with and listening to / their TRAINERS, and the island is / safe again! // We couldn’t have done it without / you!
+- `0x8A60C1` R{V00}AARiURRh
+- `0x8A63C3`   Thanks for the business! I’m sure / you’ll get a lot of use out of / that TM!
+- `0x8A6428` Thanks for the business! I’m sure / you’ll get a lot of use out of / that TM!
+- `0x8A64DB` Ah, an equal trade! Just how I / like it! // Thank you! No refunds, please!
+- `0x8A6524` {PLAYER} received TM30 from / the tradesman!
+- `0x8A654B` You don’t have the items I’m / looking for.
+- `0x8A6577` Maybe another time, then …
+- `0x8A6594` Ah, I see you have an eye on that / TM! I contains a move called / SHADOW BALL! // A move like that would be / invaluable to a young TRAINER like / you! // What sort of trade would be worthy / of such a TM? // I think I would like a GOLD NUGGET / and the TM for the move TOXIC! // How about it? That’s a fair deal, / isn’t it?
+- `0x8A66F4` I see you have an eye for / treasure! That coin is a real / find! // Just having that AMULET COIN will / bring you greater riches! // So how about it? Let’s make a / trade! // I think for that AMULET COIN, I / would require one PEARL and a SEA / INCENSE! // That’s not too much for such a / rare item, is it? How about it?
+- `0x8A6890` A fine trade indeed! Thank you so / much! Enjoy your AMULET COIN!
+- `0x8A68D2` {PLAYER} received the AMULET / COIN from the tradesman!
+- `0x8A692C` Looks like I’ve found a tyke with / quite the sweet tooth! // That RARE CANDY does look awfully / tempting, doesn’t it? // I’ll tell you, you can have in a / trade! All that I require in / exchange is a RED SCARF and a / LEPPA BERRY! // That’s an even exchange, isn’t it? / What do you say?
+- `0x8A6A46` Thanks for trading with me! / I’m sure you’ll enjoy that sweet / CANDY!
+- `0x8A6AF3` An even exchange! Wonderful! / Very good! // Here’s your RARE CANDY! / Don’t eat it all before supper!
+- `0x8A6B55` {PLAYER} received the RARE / CANDY from the tradesman!
+- `0x8A6B84`  Thanks for the trade! / Don’t spend that COIN all in one / place!
+- `0x8A6C73` What’s it to you? You know her? // … Listen, all I know is being / next to them is killing my / business!
+- `0x8A6D75` Yes he does. He’s very good!
+- `0x8A6D96` You’re still keeping this / crummy shop open? Haven’t you gone / out of business yet?
+- `0x8A6E1E` MARISSA: Seeing the crystal ONIX / in person has really inspired my / brother again! // Now he’s making all sorts of / crystal and glass figures! // Thank you for everything, / {PLAYER}!
+- `0x8A6ED1` MARISSA: So you’re going to try to / find the crytal ONIX for my / brother! // Thank you! It would help him so / much!
+- `0x8A6F41` … Sniff … Sniff …
+- `0x8A6F8B` MARISSA: Please go help my / brother. He wants to capture the / crystal ONIX so badly.
+- `0x8A6FE0` MARISSA: You found my letter? / I knew someone would answer it! // You have to tell me about the / crystal ONIX! Please tell me! // … … … // Oh … I see. You don’t know / anything about it. I thought for / sure you found it! // My brother really wants to capture / the crystal ONIX! // Please, maybe you could help him. / He’s in back of our shop.
+- `0x8A7122` Thank you … / My big brother MATEO runs this / shop. // But right now he feels real bad / and doesn’t want to make glass / anymore! // My name’s MARISSA.
+- `0x8A7203` MON figures. // It’s all thanks to you. / Thank you, {PLAYER}!
+- `0x8A72E3` MON figures. // It’s all thanks to you. / Thank you, {PLAYER}!
+- `0x8A7353` MATEO: We’ll both look for the / crystal ONIX. // If you find it, let me know, and / I’ll come to capture it right / away!
+- `0x8A73C7` MATEO: You mean, you’ll help me / look for the crystal ONIX? // That would be so kind of you! I / know if I could capture it, I / would be inspired again! // Thank you, {PLAYER}!
+- `0x8A74E3` MON / sculptures every day! // When he passed away, I tried my / best to follow in his footsteps, / but I just can’t make anything / good enough to sell in the store. // If I could just find some kind of / inspiration! // I know I could create sculptures / like my grandfather if I could / just capture the crystal ONIX! // Seeing the crystal ONIX is what / inspired him to begin glass / making. // I’ve looked for it all over the / island, hoping it could give me / the inspiration I need, but I / haven’t found it anywhere …
+- `0x8A76CD` MATEO: No matter what I do … / My crystal figures are so / lifeless! // They’re not even worth selling …
+- `0x8A7845` Huh? / The tide is lowering. // There appears to be a sandbar / connecting SUNBURST to another / island!
+- `0x8A7A74` To catch the right fish, you need / the right bait!
+- `0x8A7AA8` It got away!
+- `0x8A7AE2` MATEO: Thank you, ONIX. / Thank you for that inspiration!
+- `0x8A7B1C` MATEO: Amazing! / I’ve finally seen the crystal ONIX / for myself! It’s incredible! // I don’t need to capture it now. I / have all the inspiration I need / after seeing it in person!
+- `0x8A7BD5` It’s the crystal ONIX! / It’s starting to attack!
+- `0x8A80DC` Time to swink or swim!
+- `0x8A80F5` Splash!
+- `0x8A8185` Patience is needed when fishing. / When the fish is ready, it will / come to you, not the other way / around!
+- `0x8A81EF` I almost got it this time!
+- `0x8A820A`  I couldn’t keep my head above / water …
+- `0x8A8233` This time I’ll stay afloat!
+- `0x8A8327` This fish can swim!
+- `0x8A833D` Belly up!
+- `0x8A8349` I should stick to swimming and not / battling …
+- `0x8A8379` Another swimming lesson!
+- `0x8A83CA` NAVEL ISLAND / The Mountain High Island
+- `0x8A8402` MON GYM / LEADER: DANNY / The Calm and Cool Sightseer
+- `0x8A8446` MON GYM // WINNING TRAINERS:
+- `0x8A8460`  YAMBERA PARK
+- `0x8A8471` It’s a pink-colored RHYHORN!
+- `0x8A88C3` OFFICER JENNY: Since this is a / reserve, you need to leave right / away, before you cause any more / trouble! // The whirlpools are very hazardous / to navigate, so I suggest you head / east toward ROUTE 18.
+- `0x8A89BB` OFFICER JENNY: What??? / A RHYHORN chased you and it fell / off the mountainside? // I have to save it right away. / Don’t worry, I know how to handle / it!
+- `0x8A8B88` MON. // You need to leave this island / right away!
+- `0x8A8BB7` ght away!
+- `0x8A8BCC` OFFICER JENNY: Please don’t tell / anyone about this island. // This place is off limits to all / visitors, and the only reason I’m / not arresting you is because I / know you didn’t mean to come here / on purpose.
+- `0x8A8C98` {PLAYER} received the PECHA / BERRY from OFFICER JENNY!
+- `0x8A8FAE` MON. // The whirlpools that surround / PINKAN ISLAND act a natural / protection against visitors, and / we’d like to keep it that way. // You should leave as soon as / possible, but as a souvenier of / your visit you can have this.
+- `0x8A9189` RHYHORN: Roarn!
+- `0x8A91D4` Excuse me, kid! / You’re in my shot!
+- `0x8A91F9` Sorry, kid, I can’t talk now. / I’m taping this big story on the / KABUTO FOSSIL that was discovered / on this island!
+- `0x8A926A` is island!
+- `0x8A9367` MON? // An archaeological team is about to / begin their historical / exploration, and we’ll be with / them if and when they solve the / KABUTO mystery!
+- `0x8A94A3` MON, / KABUTO. // We’re about to set off to explore / the cave in the island’s bay. // We believe that’s where the DOME / FOSSIL we recently found came / from! // We’ll be exploring the entire cave / just as soon as the interview is / over.
+- `0x8A95C1` MON it was before it became / extinct …
+- `0x8A9638` MAN: Leave this island before it’s / too late! // Hear and heed the ancient / prophecy! // ”When the scavengers arrive, the / moon will glow an angry red! // ”The land itself will vanish and / be swallowed by the sea!” // If you disturb this island, you / will bring about great horror! // That archeological crew wouldn’t / listen to me, and now they’re / going to make the great prophecy / of this island into reality! // I won’t stay and watch it happen. / I’m leaving this island, and I / suggest you do the same, before / it’s too late!
+- `0x8A988F` The island’s floor is sinking into / the ocean!
+- `0x8A9960` NURSE JOY: The whole island is / sinking! // Quick! Everyone get on the boats! / Let’s get out of here!
+- `0x8A99C3` NURSE JOY: Oh no! / It’s the KABUTO! // The whole foundation of the island / was built upon the dormant KABUTO / FOSSILS! // Now that we’ve disturbed them, / they’re all fleeing into the / ocean!
+- `0x8A9A85` It seems taking the DOME FOSSIL / from the wall has awakened the / dormant KABUTO! // The KABUTO are fleeing the island!
+- `0x8A9B0D` {PLAYER} received the / DOME FOSSIL!
+- `0x8A9B2C` It appears to be the fossilized / remaines of a KABUTO! // It seems this whole wall is made / up of DOME FOSSILS! // Would you like to take the DOME / FOSSIL?
+- `0x8A9E21` GREPABERRY ISLAND 1
+- `0x8AA679` The island is completely sinking / into the ocean!
+- `0x8ABA65` I’ve been swimming for a while / now.
+- `0x8ABA8B` All wet!
+- `0x8ABAF5` Maybe I should take a break.
+- `0x8ABB14` Okay, let’s take another dip!
+- `0x8ABB73` You’re in for a scare!
+- `0x8ABB8C` The horror!
+- `0x8ABBCE` You don’t have a ghost of a / chance this time!
+- `0x8ABC3D` You won’t see this coming!
+- `0x8ABC5A` It can’t be …
+- `0x8ABC6A` I guess more FISHERMEN use / GYARADOS to battle than I thought.
+- `0x8ABCAA` This time you’ll be in for a / shocker!
+- `0x8ABD11` The world is my CLOYSTER!
+- `0x8ABD2D` It wasn’t my time.
+- `0x8ABD42` If I fish up enough CLOYSTER, I’m / bound to find a PEARL!
+- `0x8ABD7D` I’m still fishing for CLOYSTER!
+- `0x8ABDDE` You danged landlover!
+- `0x8ABDF6` The sea’s the place to be!
+- `0x8ABE13` Go away, I’m fishing.
+- `0x8ABE2B` I’m still trying to fish!
+- `0x8ABE8B` With that PASS, you can board my / SHOWBOAT any time you want. // Please enjoy yourself!
+- `0x8ABEE1` If you want to purchase a SHOW / PASS to board my SHOWBOAT, just / let me know.
+- `0x8ABF68` Thank you! / Here is your SHOW PASS!
+- `0x8ABF8D` {PLAYER} received the / SHOW PASS!
+- `0x8AC051` MON shows we run / aboard the ship are the main / attraction. // You can join in on the fun any / time you like with a SHOW PASS! // The cost is only $5,000! // So how about it? Would you like it / purchase a SHOW PASS?
+- `0x8AC145` Sorry, but you can’t leave! / The SHOWBOAT has already set sail. // We’ll be arriving at KINNOW ISLAND / shortly. Why not talk to some / fellow show-goers in the meantime?
+- `0x8AC290` Sorry, but you can only board the / SHOWBOAT if you have the SHOW / PASS.
+- `0x8AC34C` A battle? Okay, let’s fly!
+- `0x8AC378` Sorry, but you don’t have enough / money to buy a PASS.
+- `0x8AC3F2` Clipped wings!
+- `0x8AC403` You grounded me …
+- `0x8AC417` Okay! Let’s take flight again!
+- `0x8AC454` Enjoy your trip on the SHOWBOAT!
+- `0x8AC4BF` MON back to perfect health?
+- `0x8AC51C` You like what you see, little man?
+- `0x8AC541` Off limits!
+- `0x8AC54F` Come see me when you’re older. / I’ll show you what a real BATTLE / is like!
+- `0x8AC59A` You’ve still got a lot of growing / up to do, big guy.
+- `0x8AC610` What a show!
+- `0x8AC61F` Encore!
+- `0x8AC62F` ANNOUNCER: And so HITMONCHAN / defeated is rival, MACHOKE!
+- `0x8AC66A` HITMONCHAN: I owe it all to you, / my love!
+- `0x8AC696` CLEFABLE: Congratulations, / darling!
+- `0x8AC6C1` HITMONCHAN: Victory!
+- `0x8AC6D8` MACHOKE: … I lost!
+- `0x8AC6FD` MACHOKE: You’d better get ready to / lose, ’cause I’m gonna be the / CHAMPION!
+- `0x8AC74A` CLEFABLE: No matter what happens / I’ll be right here!
+- `0x8AC781` HITMONCHAN: I can’t walk away. / I have to stand here and fight or / I’d … I’d never forgive myself!
+- `0x8ACA44` MON BATTLE!
+- `0x8ACA52` The show’s great!
+- `0x8ACB62` MON / could talk and even act!
+- `0x8ACB87` MON BATTLE would help me / feel well again!
+- `0x8ACBF2` This boat ride is so relaxing!
+- `0x8ACC13` Serenity now!
+- `0x8ACC23` I love just sitting back and / watching a good show!
+- `0x8ACC58` I’m so at peace!
+- `0x8ACCAA` Back off!
+- `0x8ACCBF` No, I wasn’t saying hello. / That’s my battle cry!
+- `0x8ACCF2` Beat it!
+- `0x8ACD29` Don’t disturb me now! / I’m performing for the show!
+- `0x8ACD5E` HITMONCHAN: CLEFABLE, I cannot / stay! I must see how far my talent / can take me!
+- `0x8ACDDB` Can’t you see I’m in the middle of / a show? // Who else would read CLEFABLE’S / lines?
+- `0x8ACE2E` CLEFABLE: I understand, / HITMONCHAN! // But I’ll wait for you, and I know / you’ll return as the WORLD / CHAMPION!
+- `0x8ACEC7` Please, kid, I’m trying to read my / dialogue! // On top of being the ANNOUNCER, I / also do the lip-syncing for / MACHOKE!
+- `0x8ACF3C` ANNOUNCER: Now with MACHOKE / finally defeated, CLEFABLE hoped / that HITMONCHAN would give up / fighting forever and promise to / never go away again!
+- `0x8AD02F` {PLAYER} received TM16 / from KAY!
+- `0x8AD056` I can’t wait to perform the next / show with RAICHU!
+- `0x8AD08B` KAY: Thank you, {PLAYER}! / Now I’m no longer scared of / performing with RAICHU and so it’s / no longer frightened of me! // As my thanks, please take this TM!
+- `0x8AD11F` I’m not afraid anymore!
+- `0x8AD139` KAY: Oh! / Your {V02} seems so / happy! // It must be nice to have such a / close relationship with it! // My RAICHU is so afraid of me it / won’t even perform! // I think that’s because I’m afraid / of it. // The first time we met it shocked / me, and I’ve been afraid of / getting schocked again ever since! // I know! / Would you battle my RAICHU? // Using it in battle will show I’m / not afraid of it, and it will / trust me again!
+- `0x8AD2C7` KAY: Quiet! / Please keep your voice down / backstage!
+- `0x8AD3C6` The CANYON was sealed from above / after AERODACTYL was captured!
+- `0x8AD46A`   GREPABERRY ISLAND 2
+- `0x8AD4BB` MISTY: I wouldn’t want to battle / GOLDUCK either if I were you!
+- `0x8AD55F` MON like I am / and we wanted to see who the / better TRAINER was! // Then, when I went to call my / PSYDUCK to battle, my brand new / GOLDUCK appeared! // It’s so strong, too! It beat / MARINA’S whole team with ease! // So, how about it, {PLAYER}? // Let’s have a rematch and see who / the stronger TRAINER is now!
+- `0x8AD67F` How could my new GOLDUCK lose?
+- `0x8AD6A0` Well, I might not have beaten you, / but at least I got a brand new / GOLDUCK!
+- `0x8AD70F`  / BALL now!
+- `0x8AD783` MISTY: I wouldn’t want to battle / GOLDUCK either if I were you!
+- `0x8AD7C4` MISTY: I’m so excited! / My PSYDUCK finally evolved! // I was battling MARINA because / she’s a WATER TRAINER like I am / and we wanted to see who the / better TRAINER was! // Then, when I went to call my / PSYDUCK to battle, my brand new / GOLDUCK appeared! // It’s so strong, too! It beat / MARINA’S whole team with ease! // So, how about it, {PLAYER}? // Let’s have a rematch and see who / the stronger TRAINER is now!
+- `0x8AD947` How could my new GOLDUCK lose?
+- `0x8AD968` Well, I might not have beaten you, / but at least I got a brand new / GOLDUCK!
+- `0x8AD9D7`  / BALL now!
+- `0x8ADAF6`  BALL / in the lake, and when I went to / pick it up, GOLDUCK jumped out! // That means I still have my same / old PSYDUCK! // What a headache … // Come on, PSYDUCK. Time to go!
+- `0x8ADC28` MON could beat it!
+- `0x8ADCE2` MON without catching / it! That takes real skill!
+- `0x8ADD55` MON are so cute and / awesome! Let me show you!
+- `0x8ADD85` Oh, I was sunk!
+- `0x8ADE93` MON / I suppose I’m for a battle!
+- `0x8ADEB5` Another loss …
+- `0x8ADEFC` MON // It’s kind of her to travel from / island to island to offer her / services, isn’t it?
+- `0x8ADF58` NURSE JOY healed them again! Let’s / have another go!
+- `0x8AE01B` Not strong enough.
+- `0x8AE030` I’ll just have to fish for some / stronger ones …
+- `0x8AE062` Let’s go! / I’m all powered up for another / round!
+- `0x8AE0D3` The fish aren’t biting, so I’m up / for a battle!
+- `0x8AE105` I’m down …
+- `0x8AE141` MON. // I’ll just fish in the meantime.
+- `0x8AE168` Still can’t get a bite! / So let’s battle!
+- `0x8AE1B0` MON, / I suppose I’m up for a battle!
+- `0x8AE5BE` NURSE JOY: I have to be off, but / I’m sure we’ll run into each other / again!
+- `0x8AE60B` {PLAYER} received the / DEEP SEA SCALE from NURSE JOY!
+- `0x8AE806` MON for you! // But since you were so kind and / tried to help my friend, MAGIKARP, / please have this!
+- `0x8AE87D` NURSE JOY: That should make things / better! // All right! Back into the ocean!
+- `0x8AE8CA` NURSE JOY: It’s not safe to get / near it when it’s in this / condition. // It’s upset because it’s running / low on CALCIUM! // Here you are, MAGIKARP!
+- `0x8AE990` NURSE JOY: You’d better step away / from it …
+- `0x8AE9CC` It’s a giant MAGIKARP! // It’s flailing around like it’s out / of breath! But it’s too big to / move …
+- `0x8AEA54` It’s a rocky surface! / It could probably be climbed with / the proper equipment.
+- `0x8AEB2B` {PLAYER} scaled the rocky / surface using the CLIMB KIT!
+- `0x8AEBAE` It’s a rocky surface! / Would you like to use the CLIMB / KIT to scale it?
+- `0x8AEC00` I moved here to MANDARIN ISLAND / once I decided to retire from / hiking. // I won’t be needing this anymore. / My ROCK CLIMBING days are far / behind me. // Here, take it, and start your own / ROCK CLIMBING adventure!
+- `0x8AECCD` {PLAYER} receive the / CLIMB KIT from the HIKER!
+- `0x8AED47`  / NURSE JOY: Well, you don’t have / room for this, so nevermind …
+- `0x8AED86`  Using that KIT, you can scale the / rocky sides of mountains. // Use it like I used to, and you’ll / become a man of the mountains just / like me!
+- `0x8AEE13` How’s the ROCK CLIMBING going, / {PLAYER}? // There’s always a new undiscovered / adventure awaiting you on every / mountaintop, isn’t there?
+- `0x8AEFF5` If you plan on challenging the GYM / LEADER, you can’t use the / cable car. // You have to climb the mountain / yourself. Those are the rules …
+- `0x8AF089` MON TRAINERS! // All NAVEL GYM CHALLENGERS must / climb to the top of the mountain. // All TRAINERS must reach the top of / the mountain using their own / resources. // If a TRAINER uses the cable car to / reach the top, he will be / disqualified. // - DANNY / NAVEL ISLAND GYM LEADER
+- `0x8AF1A0` MON GYM // WINNING TRAINERS: / {PLAYER}
+- `0x8AF1FC` You really outdid me, / {PLAYER}! // Good luck on the rest of your / journey.
+- `0x8AF422` MON with / the move ICE BEAM, you’ll have to / forfeit the first match.
+- `0x8AF4DB` MON / that knows the move ICE BEAM with / you. // Would you like to forfeit the / first round?
+- `0x8AF54F` MON / that knows the move ICE BEAM so we / can start the first round of our / match.
+- `0x8AF6E3` MON / that knows the move ICE BEAM with / you. // Would you like to forfeit the / first round?
+- `0x8AF757` MON / that knows the move ICE BEAM so we / can start the first round of our / match.
+- `0x8AF8E4` DANNY: It looks like we’ve each / won a match each! The tie breaker / to determine if you’re good enough / to have a battle with me will be a / sled ride down the mountain! // Meet me at the base of the / mountain and we’ll begin our race!
+- `0x8AFAB0` Congratulations! You won ROUND 2!
+- `0x8AFAD4` You were defeated by DANNY in / ROUND 2!
+- `0x8AFD00` MON / that knows the move ICE BEAM with / you. // Would you like to forfeit the / first round?
+- `0x8AFD74` MON / that knows the move ICE BEAM so we / can start the first round of our / match.
+- `0x8AFDE0` DANNY: So you’d like to try to / race again to see if you can beat / my time? // All right, {PLAYER}. / But remember the rules …
+- `0x8AFE8A` {PLAYER} got in the sled!
+- `0x8AFE9E`  You can’t enter the caves during / the race!
+- `0x8AFEE6` GREPABERRY ISLAND 3
+- `0x8AFF01` DANNY: It looks like we’ve each / won a match each! The tie breaker / to determine if you’re good enough / to have a battle with me will be a / sled ride down the mountain! // Meet me at the base of the / mountain and we’ll begin our race!
+- `0x8B00CD` Congratulations! You won ROUND 2!
+- `0x8B00F1` You were defeated by DANNY in / ROUND 2!
+- `0x8B032A` MON beat / down in the water freezing / contest!
+- `0x8B0362` MON wasn’t strong enough / to beat DANNY. // You lost the first round.
+- `0x8B03A6` {V02} used ICE BEAM / on the hot spring!
+- `0x8B041D` MON that gets the job done / fastest will win the round! // Ready! Okay, let’s go!
+- `0x8B0489` MON / will do their best to shape the / ice block frozen in ROUND 1 into a / sled. // The first to finish wins the / round!
+- `0x8B0667` GREPABERRY ISLAND 4
+- `0x8B067B`  GREPABERRY ISLAND 5
+- `0x8B0836` DANNY: Since we’ve each won a / round, in order to prove to me / that you’re worthy of a battle, / you have to beat my time in a race / down this mountain with the sled / you built. // Use the sled to slide down the / slopes in the mountain. If you / make a wrong turn, that will give / me an advantage. // I’ll go first. Whoever makes it / down the mountain the fastest with / the least mistakes will be the / winner! // I’ll meet you at the bottom, / {PLAYER}!
+- `0x8B09DE`  DANNY: I don’t know how, but you / beat me! // That means you won two out of / three matches against me and / proven you’re worthy to battle me / for a SEA RUBY BADGE! // You ready, {PLAYER}? // This isn’t going to be easy! // Meet me in the GYM at the top of / the mountain, and we’ll have our / battle!
+- `0x8B0B16` DANNY: Sorry, {PLAYER}. / But you took one too many wrong / turns! // Try again if you like, but you’ll / have to do better than that to / prove you deserve a battle with / me!
+- `0x8B0BF0` Would you like to take the / cablecar to the bottom of the / mountain?
+- `0x8B0C33`  Would you like to take the / cablecar to the top of the / mountain?
+- `0x8B0CC5`    DANNY: Since you beat me two out / of three, I think you earned the / chance to battle me for a SEA RUBY / BADGE! // Are you all set? Then let’s go!
+- `0x8B0D56` Congratulations, {PLAYER}! / You beat me.
+- `0x8B0D9C` DANNY: Good luck on the rest of / your jouney, {PLAYER}!
+- `0x8B0DCF` {PLAYER} received the / SEA RUBY BADGE from DANNY!
+- `0x8B0E26` MON well, you / won two out of three, and beat me / in battle! // Now I’d like to give you something / you really deserve: / The SEA RUBY BADGE!
+- `0x8B128A` GREPABERRY ISLAND 6
+- `0x8B129E`  GREPABERRY ISLAND 7
+- `0x8B12BA` {PLAYER} forfeited the / first round.
+- `0x8B136C` RUBY: So you aren’t the GREPA / thief? // I’m sorry I acted that way, but / lately someone’s been coming into / our groves and stealing our GREPA / BERRIES! // I work so hard to grow the GREPA / BERRIES on these ISLANDS, I can’t / stand the thought of losing a / single one! // They’re almost like my children, / so I care about all of them. // I know the GREPA BERRY thief is on / one of these ISLANDS somewhere. If / you find him, please let me know / right away!
+- `0x8B151E` I caught you redhanded! // So you thought you could just come / here and steal all our GREPA / BERRIES after we worked so hard to / grow them?
+- `0x8B15B4` Stop thief!!!
+- `0x8B1626` RUBY: Thank you so much for / stopping SNORLAX and saving the / GREPA BERRIES!
+- `0x8B1673` RUBY: Thank you so much for / stopping SNORLAX for me! // As my thanks, please take this / GREPA BERRY!
+- `0x8B16D6` {PLAYER} received the / GREPA BERRY from RUBY!
+- `0x8B1709` RUBY: Oh no! I didn’t think that / SNORLAX could swim! // That must be how it got here in / the first place! // Please, follow it to the next / island and do whatever you can to / stop it before it eats all the / GREPA BERRIES on all of the / islands!
+- `0x8B18EF` MON before it eats / all the GREPA BERRIES! // Please try!
+- `0x8B19E7` SNORLAX is devouring the GREPA / BERRY greedily! // It won’t even acknowledge you! // … … … // It looks like it’s eaten all the / BERRIES on the island! Maybe it / will go to sleep now …
+- `0x8B1A93`  MORO ISLAND MUSEUM OF ART
+- `0x8B1B2D` JIGGLYPUFF is upset you didn’t / stay awake for its song! // It fled in an outrage!
+- `0x8B1B88` SNORLAX looks exhausted! It looks / like it’s swimming off to the / island it came from!
+- `0x8B1BDF` SNORLAX is getting drowsy … // Maybe this is your chance to / battle it!
+- `0x8B1C25` JIGGLYPUFF appeared! It’s starting / to sing!
+- `0x8B1C53` SNORLAX is eating greedily, / devouring the island of all the / GREPA BERRIES! // Can’t anything stop it? // … … …
+- `0x8B1E3A` PROF. OAK: {PLAYER}! / So you’re calling from MORO / ISLAND, eh? // Well, you timed your arrival / perfectly then! // Haven’t you heard the news? A / group of divers recently recovered / a 300-year old ORANGE LEAGUE / trophy from a sunken ship off the / coast of MORO ISLAND! // Of course, there are lots of / studies to be done, but they’re / certain it’s the real thing! // You can even go see it if you / like. They have the trophy on / display at the MORO ISLAND MUSEUM / OF ART. // Nice talking to you again, / {PLAYER}! // Good luck on the rest of your / journey through the ORANGE / ISLANDS!
+- `0x8B20A5` OFFICER JENNY: I’m sorry, the / MUSEUM is temporarily closed. // The old ORANGE LEAGUE trophy we / had on display here has been / stolen! // It seems some thieves broke in / last night and took it! // I’m sorry, but you’ll have to come / back some other time.
+- `0x8B2220` JESSIE: Oh, he’ll never think we / took it now! // MEOWTH: Never mind! Let’s scram!
+- `0x8B2271` TEAM ROCKET: The twerp! // MEOWTH: We don’t know anything / about any championship trophies! // JAMES: And if we did, we certainly / wouldn’t have the stolen one!
+- `0x8B2394` JESSIE: Oh, he’ll never think we / took it now! // MEOWTH: Never mind! Let’s scram!
+- `0x8B23E5` TEAM ROCKET: The twerp! // MEOWTH: We don’t know anything / about any championship trophies! // JAMES: And if we did, we certainly / wouldn’t have the stolen one!
+- `0x8B2696` {PLAYER} is thinking carefully / about HAUNTER’s words. // They seem to be genuine. Perhaps / it’s better to leave the TROPHY / with GASTLY and HAUNTER …
+- `0x8B2724` Fine, keep the TROPHY! TEAM / ROCKET’s blasting off again!
+- `0x8B275F` TEAM ROCKET: Hang on, twerp! / That trophy belongs to TEAM / ROCKET! // We stole it for ourselves! / Now hand it over, or prepare to / fight!
+- `0x8B27E9` A catasTROPHY!
+- `0x8B280D` MON GASTLY and / HAUNTER! // They seem to be indicating that / they don’t want you to take the / trophy … // But you can’t seem to understand / why.
+- `0x8B28A0` It’s the ancient ORANGE LEAGUE / TROPHY! // Would you like to take it?
+- `0x8B2957` OFFICER JENNY: We were never able / to recover the TROPHY, but the / MUSEUM is open again to visitors.
+- `0x8B2A34` I’m king of the general area!
+- `0x8B2A54` My liege!
+- `0x8B2A85` MON. Heavy hangs the head that / wears the crown …
+- `0x8B2AB8` King me!
+- `0x8B2B1B` MON / everywhere, but not a one to / battle!
+- `0x8B2B46` Parched!
+- `0x8B2B51` Thanks! I was thirsting for a good / battle!
+- `0x8B2B7E` Another battle? I’ll drink to / that!
+- `0x8B2BE3` Hey, check out my BROs!
+- `0x8B2BFD` My BROs!
+- `0x8B2C1F` MON / TRAINERS!
+- `0x8B2C2F` You want another battle against my / BROs?
+- `0x8B2C99` Take a dip!
+- `0x8B2CA7` The deepend!
+- `0x8B2CB6` I won’t drown. I’ve got great / stamina!
+- `0x8B2CDF` Another dip!
+- `0x8B2DC6` Yes, yes. / It’s $50 for a child’s ticket. // Would you like to come in?
+- `0x8B2E0C` Come again!
+- `0x8B2E1A` Right, $50! / Thank you!
+- `0x8B2E33` You don’t have enough money.
+- `0x8B2E65`  / It’s a lovely painting!
+- `0x8B2E7E`  It’s the place where the ORANGE / LEAGUE TROPHY was on display!
+- `0x8B3073` Navigating through those islands / was a pain in the GREPABERRIES!
+- `0x8B30B6` Far out!
+- `0x8B30C1` I don’t want to go too far off of / the island’s shore. I don’t know / how to swim!
+- `0x8B3113` Another outing!
+- `0x8B3187` MON instead of swimming?
+- `0x8B31A2` Get off my back!
+- `0x8B31B5` You will get more exercise and / feel better about yourself if you / swim rather than SURF.
+- `0x8B320F` Another ride?
+- `0x8B325E` Wanna get wet?
+- `0x8B326F` I’m soaked!
+- `0x8B327D` Was it good for you?
+- `0x8B3294` Another go? You’re tenacious!
+- `0x8B330C` En garde!
+- `0x8B3318` Faux pas ...
+- `0x8B3327` Merci beaucoup.
+- `0x8B3339` Qu’est-ce que c’est?
+- `0x8B338F` Into the blue!
+- `0x8B33A7` I lost but I still have my / swimming!
+- `0x8B33CE` Into the blue once more!
+- `0x8B35BC` GOLDEN ISLAND // The island of bounty and wealth
+- `0x8B3D63`  Once the prohpecy is fulfilled, a / great bounty will be heaped on our / entire island! // Praise to the great MEOWTH OF / BOUNTY!
+- `0x8B3EFD`  / Oh great MEOWTH OF BOUNTY! // The time has come to perform the / BOUNTY CEREMONY! // According to the prophecy, the / MEOWTH OF BOUNTY will use PAY DAY / to bring a bounty of coins that / will bring about a great age of / wealth and happiness for all our / people! // Let the ceremony begin!
+- `0x8B400D`  TEAM ROCKET: This time I’m afraid / you’re sunk, twerp!
+- `0x8B4046` We’re sinking!
+- `0x8B4057` Our MAGIKARP submarine is sinking! // Looks like TEAM ROCKET’s blasting / off again!
+- `0x8B4125`    re’s nothing here!
+- `0x8B4161` Hail MEOWTH OF BOUNTY!
+- `0x8B4184` MEOWTH: My friends! // Never forget the things that / really make you happy! // TEAM ROCKET: TEAM ROCKET’s / blasting off again!
+- `0x8B41FD` JESSIE: You protect us both from / desperation. // JAMES: You unite us all in / jubilation. // JESSIE: You help chase away our / loneliness. // JAMES: You’re a mess, but we love / you the never the less. // JESSIE: Jessie! / JAMES: James! // JESSIE: TEAM ROCKET’s friendship / never ends! // JAMES: So let’s set sail on our / ship of friends!
+- `0x8B433A` Great one! Please perform PAY DAY! // We need you here on this island to / help our people!
+- `0x8B4393` JESSIE: I’m a friend who needs you / too! // JAMES: Make it double, we both / need you!
+- `0x8B43E6` MEOWTH: These guys got me mixed up / with some other MEOWTH! // I thought if I didn’t let the cat / out of the bag, I’d be set for / life! // But now they want me to use PAY / DAY to shower them in riches, but / I used up all my MOVE SLOTS / learning how to talk! // I’m in trouble and I don’t even / have JESSIE and JAMES to blame it / on!
+- `0x8B4555` There’ no room for this item!
+- `0x8B45BC` The MEOWTH OF BOUNTY has left us! / Our people will be destitute / forever!
+- `0x8B46A3` Well, fluff my feathers!
+- `0x8B46BE` Bird is the word!
+- `0x8B46D2` I flew to the top of this mound to / get away from it all. I was / surprised to see you climb up / here!
+- `0x8B4737` You keep flocking to me!
+- `0x8B4894`  MURCOTT ISLAND FOREST
+- `0x8B48E2` MON / CENTER to heal!
+- `0x8B493E`  BALL, go!
+- `0x8B494E` TRACEY: VENONAT, use SLEEP / POWDER!
+- `0x8B4973` TRACEY: Wait, {PLAYER}! // SCYTHER is too weak to battle! / If you battle it you could just / end up hurting it more. // Let me handle it. / Go, VENONAT!
+- `0x8B4A04` Hold it!
+- `0x8B4A1C` It’s a wild SCYTHER! // But it seems really weak from / battling. Would you like to try to / catch it?
+- `0x8B4ABD` A battle? That’s rich!
+- `0x8B4AD6` You bum!
+- `0x8B4B12` TRACEY: Wait, {PLAYER}! // SCYTHER is too weak to battle! / If you battle it you could just / end up hurting it more. // Let me handle it. / Go, VENONAT!
+- `0x8B4C59` TRACEY: {PLAYER}! // I think SCYTHER’s sense of pride / was injured more in that battle / with the younger SCYTHER than / anything else. // I want to help it regain / confidence in istelf, but I’m not / sure how … // If you can think of something let / me know!
+- `0x8B4D49` TRACEY: I see …
+- `0x8B4E51` MON. // Once a leader is defeated by / another SCYTHER it can’t stay with / its swarm.
+- `0x8B4EA6` TRACEY: How do you know that / that SCYTHER used to be leader of / a whole swarm?
+- `0x8B4EF6` NURSE JOY: It looks like the old / warrior finally lost a battle for / leadership of its swarm …
+- `0x8B4F55` NURSE JOY: You’re welcome, TRACEY.
+- `0x8B4F7D` TRACEY: Thanks for healing / SCYTHER, NURSE JOY!
+- `0x8B500A` TRACEY: Thanks, {PLAYER}! // Now SCYTHER has confidence again / and trusts me as its TRAINER! // SCYTHER and I will make a great / team!
+- `0x8B5085` What a battle!
+- `0x8B50F3` MON battle! Then / it will learn to trust me and / realize how strong it really is!
+- `0x8B5143`  MURCOTT ISLAND / The bug paradise!
+- `0x8B5234` MON. // Hand them over or prepare to / fight!
+- `0x8B525F` Get away!
+- `0x8B526B` TEAM ROCKET: Our tropic vacation / turned into a tropic disaster! // TEAM ROCKET’s blasting off again!
+- `0x8B5389` AYA: The walls here may appear to / be invisible, but if you touch / them, their location will be / revealed! // That is a helpful hint for a / worthy advesary. But you will need / more than hints to defeat my / brother in battle. // Ninja vanish!
+- `0x8B549D` LORELEI’S CHATEAU
+- `0x8B54B2` The BLASTOISE is sound asleep and / won’t wake up!
+- `0x8B554E`  FLUTE / to wake it up?
+- `0x8B5AB5` Well, fluff my feathers!
+- `0x8B5AD0` Bird is the word!
+- `0x8B5AF8` PA: Attention, please! / Will {PLAYER} please come / to the video telephone? // You have a call waiting for you!
+- `0x8B5B5C`  I flew to the top of this mound to / get away from it all. I was / surprised to see you climb up / here!
+- `0x8B5BC2` You keep flocking to me!
+- `0x8B5BDB`  It’s a truck for hauling / equipment!
+- `0x8B5D50` You’ll pay for my previous defeat!
+- `0x8B5DB4` I must answer the call to battle!
+- `0x8B5DD8` Off the hook …
+- `0x8B5DE9` Don’t call me, I’ll call you.
+- `0x8B5E09` Let’s dial up another battle!
+- `0x8B5F85`  / Check out this beauty!
+- `0x8B5FA7` I want to run away and hide.
+- `0x8B5FC6` A chance for redemption!
+- `0x8B6233` MANDARIN ISLAND SOUTH / The Grand Island
+- `0x8B625A`  MANDARIN ISLAND STADIUM
+- `0x8B6476` LORELIE: Your CHARIZARD needs / training.
+- `0x8B64BD` MON. // {PLAYER}: CHARIZARD return!
+- `0x8B64E2` LORELEI: SLOWBRO, use DISABLE!
+- `0x8B6503` LORELEI: Go, SLOWBRO!
+- `0x8B6543` MON into battle / if you don’t now how to handle it!
+- `0x8B6595` {PLAYER}: If you want power, / I’ll show you power! // Go, CHARIZARD!
+- `0x8B65D2` He beat me!
+- `0x8B65E0` Okay, I’ll battle you.
+- `0x8B6614` MON TRAINER? // You want to have a battle?
+- `0x8B6751` LORELEI: If you aren’t busy, come / to my demonstartion at MANDARIN / ISLAND STADIUM. // Well, I have to go.
+- `0x8B689D` LORELIE: Your CHARIZARD needs / training.
+- `0x8B68E4` MON. // {PLAYER}: CHARIZARD return!
+- `0x8B6909` LORELEI: SLOWBRO, use DISABLE!
+- `0x8B692A` LORELEI: Go, SLOWBRO!
+- `0x8B696A` MON into battle / if you don’t now how to handle it!
+- `0x8B69BC` {PLAYER}: If you want power, / I’ll show you power! // Go, CHARIZARD!
+- `0x8B69F9` He beat me!
+- `0x8B6A07` Okay, I’ll battle you.
+- `0x8B6A3B` MON TRAINER? // You want to have a battle?
+- `0x8B6AA8` {PLAYER}: Oh, I get it! / You don’t want to battle me / because you’re afraid you’re going / to lose!
+- `0x8B6B04` Its LORELEI of the ELITE FOUR!
+- `0x8B6B25` LORELEI: The ocean is beautiful, / isn’t it?
+- `0x8B6B76` MON BATTLE now!
+- `0x8B6B88` LORELEI: The sun feels like an old / friend … // Just listen. The wind is speaking.
+- `0x8B6DA7` MON using / only one attack!
+- `0x8B6DCC` LORELEI: JYNX, use ICE PUNCH!
+- `0x8B6DEC` LORELEI: {PLAYER} … / Now that you’ve seen my / demonstration, why don’t you come / to my house on the north bank of / this hill? // It will be nice to have some / company. // Well, see you then.
+- `0x8B6F4E` MON battle demonstration / is about to begin!
+- `0x8B704C` MON using / only one attack!
+- `0x8B7071` LORELEI: JYNX, use ICE PUNCH!
+- `0x8B7091` LORELEI: {PLAYER} … / Now that you’ve seen my / demonstration, why don’t you come / to my house on the south bank of / this hill? // It will be nice to have some / company. // Well, see you then.
+- `0x8B713F`  The next nearest GYM is at / TROVITA. Go to the other side of / the island and straight across the / bay. // I hope I’ve helped you at least a / little! // Good luck, {PLAYER}!
+- `0x8B730B` MON battle demonstration / is about to begin!
+- `0x8B7504` MON than ever before. // If you earn all the BADGES and / defeat the CHAMPION, you’ll earn / the ORANGE LEAGUE TROPHY! // The next nearest GYM is at / TROVITA. Go to the other side of / the island and straight across the / bay. // I hope I’ve helped you at least a / little! // Good luck, {PLAYER}!
+- `0x8B7613` Amazing!
+- `0x8B761E` I’m sorry I had to do that, / {PLAYER}.
+- `0x8B76A3` MON each.
+- `0x8B76AF` I’m glad you could come, / {PLAYER}. / It’s nice to have company. // I may seem different when I / battle, but we all behave in / different ways when we’re in / different situations, don’t we? // Everyone has a personal style, / their own particular way of / battling. // I try to behave like water. When / I’m not battling I try to go with / the flow, but as soon as a battle / begins I become as unforgiving as / ice! Then I melt right back and / flow on. // A trainer can be successful with / any number of styles, but the most / important thing is really knowing / where your true strength lies.
+- `0x8B7906` TONY: NI-NIDORINO!
+- `0x8B792E` MARIA: NI-NIDORINA!
+- `0x8B79D6` The beach is loveley SOUTH of / here!
+- `0x8B7A1B` EMILY: Thank you for helping me / find MARIA! // If MARIA wants to be with TONY’s / NIDORINO, then I guess I’ll just / have to what makes her happy!
+- `0x8B7AA9` EMILY: MARIA’s been running away a / lot lately and I just hope I can / find her! // If you find her, please let me / know!
+- `0x8B7B1E` EMILY: Wait, that’s a boy / NIDORAN. MARIA’s a girl NIDORAN. / There’s a big difference!
+- `0x8B7BC3` MON, a NIDORAN.
+- `0x8B7BD5` EMILY: Excuse me, maybe you can / help me! // Have you seen my little Maria?
+- `0x8B7C1D`  WEST of here is the MANDARIN / DESERT! // Keep your eyes opened for / SANDSTORMS!
+- `0x8B7C69`  MANDARIN ISLAND DESERT
+- `0x8B7CA5` RALPH: Thanks for helping me find / TONY! // I guess you can’t fight love, so / I’ll just have to let TONY and / MARIA be together!
+- `0x8B7D22` RALPH: I’m sure that EMILY must / have stolen TONY because she was / jealous of it! // If you find my TONY will you / please let me know?
+- `0x8B7DA5` RALPH: That’s not it. TONY’s a boy / NIDORAN.
+- `0x8B7E59` MON in the whole world! // But lately he’s been running away / a lot.
+- `0x8B7EBB` MON, TONY, have you?
+- `0x8B7ED0`  TROVITA ISLAND is SOUTHWEST of / here, but the only way to reach it / is by crossing the MANDARIN / DESERT! // Hope you’re up for a good hike!
+- `0x8B82C0` MON / truly happy! Love has made them / stronger than ever!
+- `0x8B8348` EMILY: I wouldn’t want MARIA to / be unhappy. So if it’s what she / wants, I guess we can make it / work. After all, you can’t fight / love!
+- `0x8B840E` EMILY: And my MARIA is in love / with RALPH’s NIDORAN?
+- `0x8B8498` EMILY: What are you doing with / HIS NIDORAN?
+- `0x8B84C6` It’s TONY and MARIA! It looks like / they’re playing together. // Could … could they be in love?
+- `0x8B872F` MAGNEMITE: Mag-ne-mite!
+- `0x8B8788` Hiking in this desert rocks my / world!
+- `0x8B87B6` Here, take this POISON BARB as a / reward for all your help, / {PLAYER}! // That will make POISON-based / attacks even more powerful!
+- `0x8B882F` {PLAYER} received the POISON BARB!
+- `0x8B884C`  Would you like to climb up the / ladder?
+- `0x8B893A` MON contests here / in town and it always seems to / come down to a face-off between / RALPH and EMILY. // This year they tied for first / place. RALPH and EMILY weren’t too / happy, but they’re NIDORAN were! / It was love at first sight for / those two.
+- `0x8B8A28`  Oh, who are you? // Pardon me, but YAMBERA is such a / small town that everyone knows / everyone. It’s quite a shock to / see a face you’ve never seen / before!
+- `0x8B8AD5`    Grounded.
+- `0x8B8AE4` Rock climbing is great exercise.
+- `0x8B8B07` Let’s rock and roll!
+- `0x8B8B5D` Let’s dig up some trouble.
+- `0x8B8B7A` Big trouble!
+- `0x8B8B89` My trio dug up more trouble / than I could handle.
+- `0x8B8BBF` A rematch? I dig it!
+- `0x8B8C15` What? Who’s that? Who’s there?
+- `0x8B8C36` I got sand in my eyes!
+- `0x8B8C4F` This weather’s just not any good / on the ol’ peepers.
+- `0x8B8C86` Who’s there?
+- `0x8B8D18`  / Would you like to climb down the / ladder?
+- `0x8B8DA8` Shocking!
+- `0x8B8DB4` ETHAN: Thanks for all your help, / {PLAYER}. // To get to the next GYM you have to / go SOUTH of here. There’s a FERRY / in TROVITOPOLIS.
+- `0x8B8E31` {PLAYER} received the MAGNET / from ETHAN!
+- `0x8B8EA0` MON CENTER / has electricity again. // How’d you like to team up and be / partners with ol’ ETHAN? // I could sure use someone with / talent like that. // … … … // Oh, I see. So you want to compete / in the ORANGE LEAGUE? // All right then. In that case, take / this as my thanks for all your / help!
+- `0x8B8FB4` TEAM ROCKET: We didn’t nab those / ’MITE, so it looks like we’re / blasting off again!
+- `0x8B9041` MON CENTER! // Fight off these bandits before / it’s too late!
+- `0x8B9081` TEAM ROCKET: We’re here for that / heap of MAGNEMITE! Hand them over / or prepare to fight!
+- `0x8B91F9` MON CENTER SOUTH of / here, but I couldn’t do anything / until my MAGNEMITE were charged / up.
+- `0x8B92BA` There’s no power! / The PC can’t be booted up.
+- `0x8B9396` MON in this / CENTER! // I don’t know what we’ll do if we / don’t get power back soon.
+- `0x8B94C6` A strange cry echoes through the / sewers.
+- `0x8B94FD`  / {PLAYER} picked up the BULBASAUR.
+- `0x8B951A`  TROVITOPOLIS / The big city
+- `0x8B9601` MAYOR’S HOUSE
+- `0x8BB05E`   It’s a wild BULBASAUR! // It has a collar with a strange / symbol on it. Maybe it has an / owner. // Would you like to pick up the / BULBASAUR and bring it with you?
+- `0x8BB16F` MAYOR: I assure you, I didn’t mean / to abandon my BULBASAUR! // I hope this won’t affect your / vote!
+- `0x8BB1EF` MAYOR: Of course that isn’t my / BULBASAUR! // What do you mean it has the symbol / I put on all my campaign posters / on its collar? // Keep that creature away from me or / I’ll have it exterminated!
+- `0x8BB2AC` Welcome to TROVITOPOLIS! // I am the MAYOR of this fair city! / Please enjoy your stay and / remember to vote for me!
+- `0x8BB31B`  DANGER! // Do not play near sewer pipe.
+- `0x8BB396` OFFICER JENNY: Thanks to you we / can make sure the MAYOR doesn’t / get re-elected this year!
+- `0x8BB404` OFFICER JENNY: The cry you heard / came from this abandoned / BULBASAUR? // And look at this! It has the / symbol of the MAYOR on its collar! // The MAYOR must have abandoned it / in the sewer when he was a child. // Don’t worry, {PLAYER}, I’ll take / care of BULBASAUR. And now I can / make sure the MAYOR doesn’t get / re-elected this year! // Thank you for all your help, / {PLAYER}!
+- `0x8BB56B` OFFICER JENNY: You heard the cry / of some strange creature down / there? // Hmm? This may require some / investigating. There’s an open / sewer pipe at the north of the / city. // The MAYOR has been wanting to / close off all the sewers. Maybe / this creature you heard has / something to do with it! // If you find anything please let me / know!
+- `0x8BB6AE` OFFICER JENNY: You fell into the / sewer? // You have to be more careful. It / can be very dangerous down there.
+- `0x8BB721` I can’t decide if I should vote to / re-elect the MAYOR. // He has some strange policies on / sewer maintenance!
+- `0x8BB78B`  If you want to get to TROVITA / ISLAND you’ll have to take the / ferry.
+- `0x8BB82F` All aboard!
+- `0x8BB83D` The ferry isn’t running quite yet. / Come back in a little while.
+- `0x8BB87F` Landlover!
+- `0x8BB88C` Ahoy! So you want to set sail to / TROVITA ISLAND?
+- `0x8BB8CC` TROVITA RIVER
+- `0x8BB8DA`  TROVITA ISLAND / The spike rock island
+- `0x8BB92A` MISTY: I’ve decided not to stay / with RUDY. // I don’t know what it is, but / something’s holding me back …
+- `0x8BB992` MISTY: I can’t believe it … // RUDY has asked me to stay with him / and MAHRI. // I don’t know what I should do. He / seems like a great guy …
+- `0x8BBA8B` RUDY: I’ll see you at the GYM, / {PLAYER}.
+- `0x8BBAB3` RUDY: MISTY. / It would give me great pleasure if / you’d join me back at my GYM. // Please say yes!
+- `0x8BBB5C` Yes, is it such a shock?
+- `0x8BBC2F` Not rude. It’s RUDY. // RUDY: Naturally I’ll be glad to / accept your challenge. // To get to my GYM you’ll have to / navigate through the TROVITA / RIVER.
+- `0x8BBD15` MON TRAINER. // I’d be very honored and very / grateful if you could stay here / for a while and instruct the / TRAINERS in my humble GYM.
+- `0x8BBE18` MISTY! You’re amazing!
+- `0x8BBE31` MAHRI! Never go swimming alone / again! //  rfMAHRI: I won’t.
+- `0x8BBE80` {PLAYER}: That was a close call! / What were you doing out there? // GIRL: I was swimming near the / beach, but the ocean pulled me / out! // MISTY: You have to be careful in / the ocean. The currents can be / dangerous, so make sure you always / swim with other people around.
+- `0x8BBF89` MISTY: Hang on! I’ll help you.
+- `0x8BBFAA` HEEEELP! / Please somebody help me!
+- `0x8BBFEF` Ahoy! So you want to set sail to / MANDARIN ISLAND?
+- `0x8BC03F` MAHRI: I’m going to miss MISTY, / but maybe one day she’ll change / her mind and come back!
+- `0x8BC099` MAHRI: You wanna know a secret? // I always wanted a big sister just / like MISTY! // I’m the only girl at this GYM. // I wish MISTY would be my big / sister and stay here forever!
+- `0x8BC141`  RUDY: You’re a lucky guy, / {PLAYER}. // You’ll understand why someday.
+- `0x8BC1D8` MAHRI: I won’t.
+- `0x8BC416` MON of / that type available or you will / have to forfeit the battle. // I’ll meet you at the top of the / NORTH PEEK outside of the GYM and / we’ll have our match.
+- `0x8BC51E` MON GYM / LEADER: RUDY / The Provocative Dance Master
+- `0x8BC7CE` Let the first round begin!
+- `0x8BC7EB` The first round is over.
+- `0x8BC9FA` Let the first round begin!
+- `0x8BCA17` The first round is over.
+- `0x8BCB44` Let the second round begin!
+- `0x8BCB62` The second round is over.
+- `0x8BCE56` Let the first round begin!
+- `0x8BCE73` The first round is over.
+- `0x8BCFA0` Let the second round begin!
+- `0x8BCFBE` The second round is over.
+- `0x8BD1C7` Let the third round begin!
+- `0x8BD1E4` The final round is over.
+- `0x8BD320` Let the first round begin!
+- `0x8BD33D` The first round is over.
+- `0x8BD46A` Let the second round begin!
+- `0x8BD488` The second round is over.
+- `0x8BD691` Let the third round begin!
+- `0x8BD6AE` The final round is over.
+- `0x8BD789` RUDY: Still, I may have won / the best prize of all. // Now to see what MISTY’s answer is / to my offer!
+- `0x8BD7F0` {PLAYER} received the SPIKE / SHELL BADGE form RUDY!
+- `0x8BD81F` RUDY: It looks like you beat me 2 / out of 3 rounds. // I’m impressed, {PLAYER}. // You’ve earned the SPIKE SHELL / BADGE!
+- `0x8BD88C` RUDY: Looks like you couldn’t beat / me 2 of 3 rounds.
+- `0x8BD8DC` MON for / this battle. // Would you like to forfeit this / round?
+- `0x8BD92E` MON for / this battle. // Would you like to forfeit this / round?
+- `0x8BD980` MON for / this battle. // Would you like to forfeit this / round?
+- `0x8BDA10` MON of / the ELECTRIC TYPE in your party to / begin the match.
+- `0x8BDA9E` MON of / the GRASS TYPE in your party to / begin the match.
+- `0x8BDB28` MON of / the WATER TYPE in your party to / begin the match.
+- `0x8BDB62` RUDY: Let me know when you’re / ready to begin our GYM BATTLE.
+- `0x8BDC8F` MON. // Whoever wins two of the three / battles will be the winner! // Are you ready to begin?
+- `0x8BDE5D` {PLAYER} used the WHIRLPULLER to / cross over the whirlpool!
+- `0x8BDE94` A whirlpool is swirling with great / force! // Would you like to use the / WHIRLPULLER to cross it?
+- `0x8BE073` A whirlpool is swirling with great / force!
+- `0x8BE0EB` {PLAYER} received the / WHIRLPULLER from MISTY!
+- `0x8BE457` The sea is my mistress!
+- `0x8BE471` Don’t tell my wife.
+- `0x8BE516` MISTY: {PLAYER}! / That was a great battle! // MAHRI and I were watching from the / GYM. // You’re going to need this if / you’re going to go farther NORTH / in the ORANGE ISLANDS.
+- `0x8C0549`    A man’s heart can’t belong to a / woman alone.
+- `0x8C057B` The sea understands me.
+- `0x8C05EC` Let’s have a whirl!
+- `0x8C0602` My head is spinning!
+- `0x8C0619` Be careful of whirlpools! They’ll / make you spin right round, like a / record player.
+- `0x8C066E` Let’s have another whirl!
+- `0x8C06C9` Let’s have a blast!
+- `0x8C06DF` Not fun …
+- `0x8C06EB` What a bummer.
+- `0x8C06FC` Blast it up!
+- `0x8C0799` Thank you for the battle.
+- `0x8C07B5` Let’s battle again sometime, shall / we?
+- `0x8C07DE` Another battle? Sure, I’m game!
+- `0x8C1A73` MON GYM // WINNING TRAINERS:
+- `0x8C1AA2` MON GYM // WINNING TRAINERS: / {PLAYER}
+- `0x8C4BAB` You need to use PIKACHU to take / care of TEAM ROCKET!
+- `0x8C4C1C` TEAM ROCKET got away with PIKACHU!
+- `0x8C4C41` TEAM ROCKET: We got ya! // Now PIKACHU’s locked to MEOWTH and / it can’t get away no matter what! // TEAM ROCKET’s blasting off again!
+- `0x8C4F3E` MEOWTH: Uh oh! / Looks like the cat’s out of the / bag …
+- `0x8C50EC` MON to find. // Look for them if you like, but / don’t get your hopes up. // I’m sure we’ll spot them first!
+- `0x8C5235` Better call out PIKACHU to take / care of TEAM ROCKET!
+- `0x8C5325` TEAM ROCKET: Actually we were / really trying to catch that / PIKACHU and you were just part of / the package, MEOWTH. // Sorry to burst your bubble. // MEOWTH: The painful truth … // TEAM ROCKET: Now hand over that / PIKACHU or prepare to fight!
+- `0x8C540D` MEOWTH: Thanks a lot for coming to / find me. For a while there I / thought you didn’t care about me!
+- `0x8C5471` TEAM ROCKET: I guess we were bound / for trouble this time, but next / time you won’t be so lucky! // TEAM ROCKET’s blasting off again!
+- `0x8C54F4` This is a disaster!
+- `0x8C550A` TEAM ROCKET: We’re not letting you / get away that easily!
+- `0x8C5545` You retrieved PIKACHU from TEAM / ROCKET!
+- `0x8C558F` MON in your / party. You’ll have to store some / before you can get PIKACHU back.
+- `0x8C55DF` It’s PIKACHU! / Do you want to unlock it and / return it to your party?
+- `0x8C563C` I live my life by the three C’s!
+- `0x8C565F` Creepy, crawly, and cool!
+- `0x8C569A` MON / I’ll train.
+- `0x8C56CE` MON team?
+- `0x8C5719` How about a little pinch?
+- `0x8C5735` You pinched back!
+- `0x8C5749` A pinch from PINSIR could snap you / in two like a twig. Watch out!
+- `0x8C578D` I could just pinch those cheeks!
+- `0x8C57EF` Let’s do the hive jive!
+- `0x8C5809` That stung!
+- `0x8C5817` Aren’t you the busy little / BEEDRILL?
+- `0x8C583E` Let’s do the hive jive again!
+- `0x8C5912` Now that CHARIZARD is finally / obeying, it wants to win this / battle for you!
+- `0x8C59B2` You can’t leave without getting / PIKACHU back first!
+- `0x8C59E6`  FAIRCHILD ISLAND // WARNING: High level RHYDON and / PIDGEOT reside in the forest. / Proceed with extreme caution!
+- `0x8C5A53`  KINNOW ISLAND / The beach getaway!
+- `0x8C6A26` MON… // It doesn’t mean a thing if you don’t / know how to use them properly!
+- `0x8C6A71` You’re a master at this.
+- `0x8C6AF8` MON, TRAINERS / themselves need to grow up.
+- `0x8C6B47`  / UNDERGROUND PATH / ROUTE 5 - ROUTE 6
+- `0x8C6BD4`  / You need to help CHARIZARD before / you leave!
+- `0x8CB14B` CLEOPATRA ISLAND / The star island
+- `0x8CB16C`  SHAMOUTI FESTIVAL HOUSE
+- `0x8CB1B2` {PLAYER}: CHARIZARD and I are a / team now!
+- `0x8CB2BB` MON / TRAINERS who know what they’re / doing. // So, {PLAYER}, why don’t you and / I have a match? // I’ll land on CLEOPATRA ISLAND up / ahead and we can battle there.
+- `0x8CB351` That was a close call! / You must be {PLAYER}! // My name’s TAD. You just earned / yourself a badge at the TROVITA / GYM, didn’t you?
+- `0x8CC24A` TAD: It looks like you and / CHARIZARD are finally working as a / team. // Congratulations, {PLAYER}! // I think I promised you a rematch. / If you’re ready let’s have it now.
+- `0x8CC2E8`  It looks like you’ve finally / gained CHARIZARD’s respect after / saving it! // It’s finally ready to obey you in / battle!
+- `0x8CC35E` CHARIZARD’s freezing was healed!
+- `0x8CC381` Would you like to use the ICE HEAL / on CHARIZARD?
+- `0x8CC3D5` TAD: I’d be glad to have a / rematch, {PLAYER}. // When you learn to handle that / thing.
+- `0x8CC474` MON wins a / battle. // POLIWRATH, ICE BEAM!
+- `0x8CC4A1` {PLAYER}: CHARIZARD! / Get back here! // I need you to win this battle! / 
+- `0x8CC525` MON like / that, {PLAYER}. // It might be strong, but you can’t / control it.
+- `0x8CC56C` CHARIZARD still refuses to obey / you. // It seems enraged!
+- `0x8CC5A9` {PLAYER}: If you want power, / you’ll love this! // My secret weapon … // Go, CHARIZARD!
+- `0x8CC675` TAD: I hope you live up to your / reputation!
+- `0x8CC6A3` This can’t be!
+- `0x8CC6CE` TAD: That was a great battle! I / hope I see you at the ORANGE / LEAGUE, {PLAYER}!
+- `0x8CC77F` MON to face it!
+- `0x8CC78F`  CHARIZARD is frozen solid! // You’d better do something before / the flame on its tail goes out!
+- `0x8CC864` Do I look old?
+- `0x8CC884` TAD: I’m sorry I had to freeze / your CHARIZARD, but it was out of / control. // I hope you understand. It might be / powerful, but until you can get it / to obey you, it just isn’t / reliable.
+- `0x8CC939`  Dead in the water.
+- `0x8CC94F` It’s the water. If you stay in it / too long you get pruney.
+- `0x8CCA65` Let this battle be as / unpredictable as the ocean’s / current!
+- `0x8CCAA3` Washed up.
+- `0x8CCC2D` MON battles and the ocean … / they are the same. Both vast and / uncertain, and always thrilling.
+- `0x8CCD48` Would you like to use the FULL HEAL / on CHARIZARD?
+- `0x8CCD8E` You’re going down. No mercy!
+- `0x8CCDC5` MON battling. It’s / not the end of the world.
+- `0x8CCEA2` Water you waiting for?
+- `0x8CCEBB` Drown and out!
+- `0x8CD075` MON for your team?
+- `0x8CD09C` Can’t you sea? The ocean is full / of puns.
+- `0x8CD179` {PLAYER} received ICE HEAL from / TAD.
+- `0x8CD1A4` TAD: Make room for this, / {PLAYER}!
+- `0x8CD1C3` TAD: You’re going to need this to / help CHARIZARD.
+- `0x8CDF68` Oh, a battle? But I’m just a frail / girl. There’s no way I can win.
+- `0x8CDFB7` I like to play mind games with my / opponents. I make them think I’m / weak to catch them off guard, then / WHAM! I take them out.
+- `0x8CE075` Love me tender!
+- `0x8CE087` Don’t be TENTACRUEL.
+- `0x8CE09E` ELVIS has left the building.
+- `0x8CE127`  / MISTY: The nearest island is / BUTWAL. We’re headed there, if / you’d like to join us, {PLAYER}.
+- `0x8CE17F`  TRACEY: We always seem to be one / step ahead of you, huh, / {PLAYER}?
+- `0x8CE1D7` MAREN: We’re way off course! / That’s SHAMOUTI ISLAND up ahead. // We’re right in the middle of the / ORANGE ISLANDS. // We’ll have to dock there for now.
+- `0x8CE28B` A giant thunderstorm kicked up out / of nowhere!
+- `0x8CE2E9` MAREN: All right, let’s set sail!
+- `0x8CF402`   MAREN: All right, let’s go!
+- `0x8CF422` MAREN: No? Maybe some other time / then.
+- `0x8CF449`  SHAMOUTI ISLAND / The island of ancient festivals
+- `0x8CF507` Hey there! / My name’s MAREN. // The water in this area is too / rough to swim or SURF on, but I’d / be happy to give you a ride! // I’m on my way to BUTWAL ISLAND. / Would you like to come along?
+- `0x8CF865` The lava on the top floor sank / into the ground!
+- `0x8CF8A2` The switch has already been / flipped.
+- `0x8CF8C9` There is a switch on the statue. / Would you like to flip it?
+- `0x8CF9BC` The lava on the third floor sank / into the ground!
+- `0x8CF9EE`  FIRE ISLAND / The flame island of legend
+- `0x8CFA49` PIKACHU seems anxious to get / going!
+- `0x8CFA6F` {PLAYER}: Then let’s go! / You coming, MISTY?
+- `0x8CFA97` MISTY: She’s such a showoff!
+- `0x8CFAB6` MAREN: You know what? / I like your attitude! // We can take my boat, {PLAYER}!
+- `0x8CFCA6` It’s the ancient FIRE SPHERE. / Would you like to take it?
+- `0x8CFD0A` The lava on the second floor sank / into the ground!
+- `0x8CFDE1` MAREN: That was quite a storm! The / sea still looks angry. We should / wait a while before heading out / again.
+- `0x8CFE96` The lava on the bottom floor sank / into the ground!
+- `0x8CFFC0`  ZAPDOS is trapped inside! I wonder / if anything can free it?
+- `0x8D0001`  / MELODY: Oh, there’s no hurry! / You have all day tomorrow. / Tonight’s just for the party. / Stay, have some fun!
+- `0x8D024D` MAREN: That was quite a storm! The / sea still looks angry. We should / wait a while before heading out / again.
+- `0x8D03D9`  MAREN: That was quite a storm! The / sea still looks angry. We should / wait a while before heading out / again.
+- `0x8D04A7` MON to / free them.
+- `0x8D058B` MAREN: Let’s go!
+- `0x8D059E` MAREN: All right, {PLAYER}! / The first island is FIRE ISLAND on / the SOUTHEAST coast of SHAMOUTI. // You ready to head out?
+- `0x8D082C` And now you’ll have to excuse / me.
+- `0x8D0850` SENSOR indicate ARTICUNO is / changing course.
+- `0x8D0883`   / TRACEY: This seem dangerous, / {PLAYER}! // We gotta do something.
+- `0x8D08BD`  ZAPDOS is trapped inside! I wonder / if anything can free it?
+- `0x8D0908` We have found our CHOSEN ONE!
+- `0x8D092C` MELODY: I’ll be glad to play for / him tonight at the banquet. // It’s at the FESTIVAL HOUSE on the / south side of town.
+- `0x8D09B9` MON / TRAINER, huh? // Hmm. I guess he’ll do. Here’s your / traditional welcome kiss!
+- `0x8D0A34` Dont’ let it worry you, kid. / It’s just for the tourists!
+- `0x8D0B02` MON have always been / my passion. // And soon my collection itself will / be legendary.
+- `0x8D0B8F` MON / are just things to collect like / dolls or stamps! // What kind of TRAINER are you?
+- `0x8D0BE7` Of course without ARTICUNO it / isn’t a complete set.
+- `0x8D0C20` MOLTRES, the bird of FIRE!
+- `0x8D0C40` And ZAPDOS, the bird of / LIGHTNING!
+- `0x8D0C68` Well, this certainly is a / pleasure, though and unexpected / one! // What do you think?
+- `0x8D0CC4` ZAPDOS!
+- `0x8D0CCE` … and MOLTRES!
+- `0x8D0D1E` It looks like the beam is drawing / you and the others in as well!
+- `0x8D0D66` ZAPDOS is being drawn into the / strange giant ship!
+- `0x8D0DB0` What’s that???
+- `0x8D0E08` The ancient legend foretells your / arrival! // And only with you can the / guardian of the waters vanquish / the great TITANS OF FIRE, ICE, and / LIGHTNING! // In your hands, oh CHOSEN ONE, / rests the world and its fate.
+- `0x8D0EE3` MON TRAINER???
+- `0x8D0F30` MON TRAINER!
+- `0x8D0F3F` Don’t worry I’ll play my role in / the big legend. // I’ve only seen you do it about a / zillion times. // CAROL: Just be there! / Well, unfortunately that’s my / little sister. Her name is MELODY. // But don’t get fooled. She’s not / always this adorable.
+- `0x8D102F` You’d think after a few centuries / you’d have outgrown this dorky / ritual! // CAROL: It’s our tradition! You / should be honored to take part.
+- `0x8D10BD` I’m right here!
+- `0x8D10CF` CAROL: What are you doing back on / SHAMOUTI ISLAND? // MAREN: We got caught up in that / storm and floated in, and it looks / like we got here at the perfect / time. // CAROL: You’re right! The annual / legend festival starts today. // MAREN: This is my favorite island / holiday! Are you going to be the / star of the show again? // CAROL: No, I’m too old to be the / FESTIVAL MAIDEN anymore, so this / year my little sister’s going to / take over for me. // I wonder where she could--
+- `0x8D1296` MAREN: CAROL, I can’t believe it! / It’s great to see you!
+- `0x8D12D6` MAREN! How are you? / It’s been a while!
+- `0x8D12FD`  MELODY: Oh, there’s no hurry! / You have all day tomorrow. / Tonight’s just for the pary. / Stay, have some fun!
+- `0x8D136B` MELODY: Then it’s over, oh CHOSEN / ONE!
+- `0x8D175C` MON - MOLTRES - gone missing?
+- `0x8D17C7` It looks like PIKACHU is trying to / communicate with ZAPDOS using / electricity!
+- `0x8D183C` MON - ZAPDOS!
+- `0x8D1860` MELODY: Oh, you’ll get used to it. / It’s just something you’re going / to have to work on when the two of / you get married.
+- `0x8D18DA` MISTY: Welcome to my world. // I have to deal with his stubborn / attitude every single day!
+- `0x8D1934` MELODY: Well, I hope you’re happy / Mr. Hero! // If you’d just listened to me in / the first place and stayed at the / party like I told you, we wouldn’t / be stranded out here on this / island.
+- `0x8D19F7`  / Disturb not the harmony of fire, / ice, or lightning, lest these / titans wreak destruction upon the / world in which they clash. // Though the water’s great guardian / shall arise to quell the fighting, / alone its song will fail, and thus / the earth shall turn to {PLAYER}. // O CHOSEN ONE, into thine hands / bring together all three. // Their treasures combined tame the / BEAST OF THE SEA.
+- `0x8D1B65`  MELODY: The legend … / Could it be? // ”Disturb not the harmony of fire, / ice, or lightning, lest these / titans wreak destruction upon the / world in which they clash.” // What if the ancient legend is / coming true?
+- `0x8D1C31`  There is a switch on the statue! / It’s flipped down. // Would you like to flip it up?
+- `0x8D1CB2` The raised ledges lowered and the / flat ledges raised!
+- `0x8D1F15` There is a switch on the statue! / It’s flipped up. // Would you like to flip it down?
+- `0x8D1F67`  LIGHTNING ISLAND / The electric island of legend
+- `0x8D1F97`  MELODY: {PLAYER}! // You need to find the LIGHTNING / SPHERE. It has to be on this / island somewhere.
+- `0x8D201F` The airship is exploding!
+- `0x8D2061`  / It’s the ancient LIGHTNING SPHERE. / Would you like to take it?
+- `0x8D20A0`  TRACEY: What are we gonna do? // The battle between the legendary / bird trio could destroy the whole / island and maybe even the world!
+- `0x8D2156` And put it over there.
+- `0x8D217A` The airship is crashing!
+- `0x8D2195` The fighting of ZAPDOS and MOLTRES / must be destroying the airship! // The airship is crashing!
+- `0x8D2208` MELODY: All you have to do is get / these glass balls from three / islands. // One from FIRE ISLAND, one from ICE / ISLAND, and one from LIGHTNING / ISLAND. // And you bring them to the SHRINE / on the SOUTH coast of SHAMOUTI. // And then I celebrate by playing / this song!
+- `0x8D2308` MELODY: What do you have to do? / I just told you! // It won’t be very hard, {PLAYER}. / Not for you! // And besides, almost all the CHOSEN / ONES come back alive!
+- `0x8D23B2` ZAPDOS and MOLTRES were both set / free!
+- `0x8D23E9` {PLAYER}: Everyone, go! / Use all your attacks at once!
+- `0x8D242B` MON are attacking / at once!
+- `0x8D2504` {PLAYER}: Go, {V02}! / Use {V03} to free MOLTRES!
+- `0x8D252A` If you don’t set MOLTRES and / ZAPDOS free, ARTICUNO will be / captured as well, and the SHAMOUTI / prophecy might come true!
+- `0x8D2642` My life’s work has been destroyed. // But I might still have a chance to / claim the ultimate prize!
+- `0x8D26A2`  SLOWKING: Take the treasue …
+- `0x8D2708` MELODY: Oh, CHOSEN ONE! // You must climb to the SHRINE to / right what is wrong, and the world / will be healed by the guardian’s / song!
+- `0x8D2796` MELODY: Hear ye, all! // From the trio of islands ancient / spheres shall you take, for / between life and death all the / difference you’ll make!
+- `0x8D2878` It’s the girl from the beach - / MELODY!
+- `0x8D29DF` MISTY: We crash landed on / LIGHTNING ISLAND. // We’d better find a way out of here / quick, before MOLTRES and ZAPDOS / return!
+- `0x8D2BD2` The current is carrying the ship / away!
+- `0x8D2BFB` Something in the ocean is taking / control of the ship!
+- `0x8D2C43` MAREN: {PLAYER}! / Everyone’s on board! // Hurry! We have to get out of here!
+- `0x8D2CB5` The legendary bird trio is / battling each other!
+- `0x8D2D3C` MELODY: Oh, and MISTY, try not to / get jealous.
+- `0x8D3F08` MELODY: Are you his little sister?
+- `0x8D3F2D` MISTY: I am not! // MELODY: Well, then I guess you / must be his girlfriend. // MISTY: Bleh! Gross! // MELODY: Oh, I don’t think so!
+- `0x8D4006` Hey! Don’t go away yet!
+- `0x8D4047` The LIGHTNING SPHERE has been / placed here.
+- `0x8D7246`   It is the location designated for / the LIGHTNING SPHERE.
+- `0x8D72AD` Would you like to set the SPHERE / in place?
+- `0x8D72D8`  The FIRE SPHERE has been / placed here.
+- `0x8D734B` It is the location designated for / the FIRE SPHERE.
+- `0x8D73D2` The FIRE SPHERE has been / placed here.
+- `0x8D73FA` It is the location designated for / the FIRE SPHERE.
+- `0x8D746D` SLOWKING: Place the treasures / you’ve collected over there.
+- `0x8D74C5` The current is carrying the ship / away!
+- `0x8D74EE` Something in the ocean is taking / control of the ship!
+- `0x8D7536` MAREN: {PLAYER}! / Everyone’s on board! // Hurry! We have to get out of here!
+- `0x8D75A7`  / The legendary bird trio is / battling each other!
+- `0x8D7690` SLOWKING: What a mess! // The only way to stop the legendary / birds from fighting is to get the / ICE SPHERE from ICE ISLAND.
+- `0x8D772A` TRACEY: That was quite a trip!
+- `0x8D778D` MISTY: No, thanks! // If you want somebody to do / whatever you want, whenever you / want, you should find yourself a / girlfriend!
+- `0x8D9889` TRACEY: ICE ISLAND is directly / SOUTH of here. // You have to go there and get the / ICE SPHERE, {PLAYER}!
+- `0x8D98E8`  MELODY: Only the CHOSEN ONE can / bring together the three SPHERES. // But how will we ever find the / CHOSEN ONE if we don’t know where / to look?
+- `0x8D9976` MELODY: {PLAYER}, this whole / thing is my fault. // I never should have dragged you / into this.
+- `0x8D9B7D`  MISTY: The CHOSEN ONE … / It’s in the legend. // ”And then the earth shall turn to / {PLAYER}!” // It’s talking about you!
+- `0x8D9BF7`  / MISTY: You can bring the treasures / together, {PLAYER}! // You’re the CHOSEN ONE!
+- `0x8DEAB6`   The switch has been pressed / already.
+- `0x8DEC7D` MAREN: My boat! It was marooned in / the snow! // The water changed to ice so / quickly thanks to ARTICUNO!
+- `0x8DECE2`  A tremor shook loose some of the / snow inside the mountain!
+- `0x8DED20` There is a switch on the statue. / Do you want to press it?
+- `0x8DED8B` The switch has been pressed / already.
+- `0x8DEDB0`  ICE ISLAND / The freeze island of legend
+- `0x8DEDE1`  / A tremor shook loose some of the / snow inside the mountain!
+- `0x8DEE1F` There is a switch on the statue. / Do you want to press it?
+- `0x8DEF43` It’s the ancient ICE SPHERE. / Would you like to take it?
+- `0x8DEF94` LUGIA: Only in the hands of the / true CHOSEN ONE will the ICE / SPHERE glow like the others, its / power awakened. // The choice is yours. You must go / only where your heart leads. // ICE ISLAND lies directly SOUTH of / here. // Thanks to ARTICUNO, the path has / been frozen over in snow. // Only you, {PLAYER}, can obtain the / ICE SPHERE and restore balance to / the world.
+- `0x8DF3EC`  / LUGIA: The song … / The song has restored my strength. // But it alone cannot bring harmony / to the three warring ones. // When the treasures of FIRE, ICE, / and LIGHTNING are aligned, my song / shall harmonize with their powers / and tame the beasts both above and / below the sea. // But this can come to pass only / with the help of the CHOSEN ONE.
+- `0x8DF546` MELODY: LUGIA! / The sound it makes is just like / the song from the legend!
+- `0x8DF5D2` MON of the / sea - LUGIA!
+- `0x8DF681`  /  / SLOWKING: You’re one treasure / short.
+- `0x8DF6AA` SLOWKING: So, you’re {PLAYER}!
+- `0x8DF6C3`  A large mound of snow is blocking / the path into the cave.
+- `0x8DFD3C` LUGIA: The treasure!
+- `0x8DFD53` LUGIA: Hold on. / I’ll take you back to the SHAMOUTI / SHRINE.
+- `0x8DFD8E`  TRACEY: You did it, {PLAYER}! / That was quite an adventure, huh?
+- `0x8DFDDA`  / A tremor shook loose some of the / snow inside the mountain!
+- `0x8DFE6B` MISTY: {PLAYER}! / You don’t have to do this alone. // And you’ll never be alone because / you’ve got … me.
+- `0x8DFEDA`  / MISTY: {PLAYER}! / You don’t have to do this alone. // And you’ll never be alone because / you’ve got … me.
+- `0x8DFF68` MELODY began to play the legend’s / song!
+- `0x8DFFBF` Better use the other exit.
+- `0x8E01D0` The ICE SPHERE has been / placed here.
+- `0x8E01F5`  MELODY began to play the legend’s / song!
+- `0x8E022F` I love parties!
+- `0x8E1192` It is the location designated for / the ICE SPHERE.
+- `0x8E1249` MISTY: {PLAYER}! / That was amazing! // You saved the whole world by / bringing those treasures together.
+- `0x8E12A6`  MAREN: Let’s head back to SHAMOUTI / ISLAND, {PLAYER}! // I can take you to any of the / nearby islands from there.
+- `0x8E1481`  MAREN: That was a rough trip, / {PLAYER}! // Hurry up and get that SPHERE / before this storm gets worse and / we’re stranded here!
+- `0x8E5086` SHAMOUTI is a hotspot for tourism, / so we have to put on a good show / every now and then.
+- `0x8E576B` yz {V0F}hy
+- `0x8E59D0`  Ö:i yhlgzjlR  / j:z
+- `0x8E687B` TRACEY: You got the ICE SPHERE? / That’s great! // Now we can stop the / legendary birds from fighting!
+- `0x8E68DC`  MELODY: You made it! / I hope this works!
+- `0x8E6A83` MON researchers about / this! // Come on!
+- `0x8E6AAA` {PLAYER}: Thanks, MOM.
+- `0x8E6BD2` MON TRAINER, and / that’s just how it is. // But next time, could you try to / save the world just a little / closer to home? // And remember … / Every day you’re my hero.
+- `0x8E6C70`  My mom and dad are such party / poopers.
+- `0x8E6CC4`  / MOM: All right, start talking! / You are in big trouble, mister!
+- `0x8E6D06` {PLAYER}: It’s my MOM!
+- `0x8E6D23` {PLAYER}! / {PLAYER}!
+- `0x8E6D39` LUGIA: The bird trio have calmed / their fighting and returned to / their respective islands. // The beast of the sea has been / tamed. // The fate of the world could not / have been in better hands.
+- `0x8E7500` SLOWKING: So, you have the final / treasure, {PLAYER}! // You must be the one to place it.
+- `0x8E7561` There’s nothing here!
+- `0x8E7577`  The underground path takes you / SOUTHEAST to ROUTE 9, between / VERMILION CITY and FUCHSIA CITY.
+- `0x8E762C` BUTWAL ISLAND
+- `0x8E763C` CLEOPATRA ISLAND
+- `0x8E764F` SHAMOUTI SHRINE
+- `0x8E7661` LIGHTNING ISLAND
+- `0x8E7674` ICE ISLAND
+- `0x8E7681` FIRE ISLAND
+- `0x8E768F` MAREN: Where would you like to go, / {PLAYER}?
+- `0x8E76B6`  Would you like to return to / SHAMOUTI ISLAND?
+- `0x8E76E4`  SHAMOUTI is known for its island / festivals. // Hardly a month goes by without us / celebrating some ancient ritual!
+- `0x8E7805` MON who live on those / islands are too dangerous, though, / so they’re off limits to tourists.
+- `0x8E7861`  You have ORANGE LEAGUE BADGES! / How cool! // I want to compete in the ORANGE / LEAGUE some day!
+- `0x8E78BC`  The weather has been very strange / lately. // Terrible thunderstorms have been / appearing out of nowhere. And / we’ve even seen snow!
+- `0x8E793C`  It’s a great honor to represent / the CHOSEN ONE in our festival! // I hope you uphold the position / with honor and respectability.
+- `0x8E79F9` MON / from special attacks.
+- `0x8E7A15` {PLAYER} received TM16!
+- `0x8E7A29` For our CHOSEN ONE, a present.
+- `0x8E7A48`  Tonight is the festival of the / LEGENDARY BEAST! // It’s gonna be a blast!
+- `0x8E7A90`  We aren’t much for parties, but / we’ll go for the sake of our son.
+- `0x8E7AD3`  I’d rather stay home and read a / good book and have a cup of tea.
+- `0x8E7B15`  Tradition says the legendary bird / trio lives on the islands south of / here. // I think it’s silly to believe such / stories, though.
+- `0x8E7B95`  Have you visited the SHAMOUTI / SHRINE at the southend of the / island? // It’s got these neat rock / formations and a pretty flower / garden. It’s a must see while / you’re here!
+- `0x8E7C3D`  … And she says, ”No, but I have / KRABBIES!” Hahahaha!
+- `0x8E7C73`  I don’t think a joke like that is / appropriate for a child like you.
+- `0x8E7CB8`  It’s ridiculous! / Me, your girlfriend!
+- `0x8E7CDF`  What a party, huh? / Sit down and grab some grub!
+- `0x8E7D10`  The festival ceremony is about to / begin. Isn’t it exciting?
+- `0x8E7D4D`  Pass the bubbly, please. // I don’t think you’re old enough / yet.
+- `0x8E7D8E`  CAROL is such a fine performer. I / hope her younger sister, MELODY, / does her justice.
+- `0x8E7DE4`  TRACEY: A party is just what I / need to relax, eh, {PLAYER}!
+- `0x8E7E1B`  MELODY: Don’t be in such a hurry, / {PLAYER}. // Wait until the storm lets up at / least. It’s just a festival / ceremony after all.
+- `0x8E7F0B` SLOWKING: Thank you for helping to / protect the SHRINE and save the / world, {PLAYER}! // You truly are the CHOSEN ONE of / legend!
+- `0x8E8C9C`  / The door’s locked shut! / Would you like to ring the / doorbell?
+- `0x8E8CDE` Who’s there? … // You say you’d like to use my / phone? // Very well, come on in!
+- `0x8E8D28`  It’s a VIDEO TELEPHONE! // Would you like to dial PROF. OAK’s / number?
+- `0x8E8D6C`  {PLAYER} received the / {V02}!
+- `0x8E8F38` MOM: Oh, {PLAYER}! // You passed through PALLET TOWN and / didn’t even come home to say / hello? // I really wish you would come see / me every once in a while. // So much happened while you were / gone! I’ve adopted a MR. MIME as a / companion. It’s such a good little / housekeeper! // Even though you didn’t come to say / hello, I’m still proud of you, / {PLAYER}.
+- `0x8ECB0E` The wild BULBASAUR evolved! // But yours doesn’t seem to be / evolving …
+- `0x8ECB52`  WESTWOOD THE FIFTH: I’m sure I / could understand the mystery of / SLOWPOKE’s evolution if I could / just witness it firsthand! // But for that to happen a SHELLDER / would have to be introduced to my / SLOWPOKE.
+- `0x8F1824` gAQ SAR lShRlRi? / Ä
+- `0x8F9374` gAQ SAR lShRlRi? / Ä
+- `0x9035A4` kii{VFC}
+- `0x90381D` Ezj  ·zjS
+- `0x934C26` UR:AQA:AAA 
+- `0x934C34`             RRRRQRQRQAARAAAA
+- `0x934C51` AAA EAR :
+- `0x934C80` üRRRüRRRURRRüURBö // BAüAEQUQUR$g{VDA}RRRRRBRBRAABAAAAAAA
+- `0x93ECFE`      E   E   :                    DCykAwj?AA99
+- `0x93ED40` {VDE}jDPyAA99AAk9 / 
+- `0x93F4FE`      E   E   :                    DCykAwj?AA99
+- `0x93F540` {VDE}jDPyAA99AAk9 / 
+- `0x93F70C`                     ywy·jyg?AA9 / 
+- `0x93F73F`   / jDjPCjy·9AAE. / 
+- `0x93FFAD` A99:AAA:A // 
+- `0x9407AD` A99:AAA:A // 
+- `0x9409A9` 9AA:A99:AAA 
+- `0x94115E`                                                                    :AR :Ag SAg SAC SBS VR{V00} 
+- `0x94195E`                                                                    :AR :Ag SAg SBC :RS  
+- `0x941B5E`                                                                    :AQ :Ag SAg SAC SBS VR{V00} 
+- `0x941F71`                                                {VDF}BB SAS 
+- `0x941FAB` B VLB  SR  VS   
+- `0x943DC0` 99Uh99ki99 / i99 // i9 //  / . / A
+- `0x943F2D` VRR iRRVRRRSRR
+- `0x943F90`                 S{CAA}9S{VAA}9i·99i·99f
+- `0x943FC0` 9 / Rh9 / Sh99Ui99k.9 / k.9
+- `0x94412B` R FRR RRRFR
+- `0x9443C2` SR99UR99kh99 / i99 // i9 //  / i / A / 9
+- `0x94459C`     R{VAF}9R·99h·99{VAA}99{VAA}99{VAF}99 / 
+- `0x94474C` RR VRRh 
+- `0x947C2C` :iii:iii ki
+- `0x94842C` :iii kii :
+- `0x94862C` :iii:iii ki
+- `0x94A636` Bg:hRhChh
+- `0x94A8A6` R{CF0}{CBB} // U // A{CBF}gRhChRhgR
+- `0x94A8D4` RhB{VFF}Uh // R{VCF}h                                                                
+- `0x94AABC` iA //   V{V0F} Cg{VD0}QSAVhRBShR
+- `0x94AAD4` SS{CBC}SSSRShR
+- `0x94AAF6`   A{C00} U{C00}   C //   VC   V                    CA // iAA’A
+- `0x94AC36` Bg:hRhChh
+- `0x94AE36` Bg:hRhChh
+- `0x94B0A6` R{CF0}{CBB} // U // A{CBF}gRhChRhgR
+- `0x94B0D4` RhB{VFF}Uh // R{VCF}h                                                                
+- `0x94B2A6` R{CF0}{CBB} // U // A{CBF}gRhChRhgR
+- `0x94B2D4` RhB{VFF}Uh // R{VCF}h                                                                
+- `0x94B4BC` iA //   V{V0F} Cg{VD0}QSAVhRBShR
+- `0x94B4D4` SS{CBC}SSSRShR
+- `0x94B4F6`   A{C00} U{C00}   C //   VC   V                    CA // iAA’A
+- `0x94B6BC` iA //   V{V0F} Cg{VD0}QSAVhRBShR
+- `0x94B6D4` SS{CBC}SSSRShR
+- `0x94B6F6`   A{C00} U{C00}   C //   VC   V                    CA // iAA’A
+- `0x94E0DE` ü                                                                   CA  BA  BA  UR  :k   .   :    k
+- `0x94E2FD`       V   :   :                    AQ· / AQ
+- `0x94E4DE` {VDF}                                   :   :                        AQ· / AQ
+- `0x94EADE` ü                                                                   VA  FA  UA  ·R  :
+- `0x94ECDE` ü                                                                   CA  BA  BA  FR   k            k
+- `0x9504AE` AA NAA:NBA
+- `0x950CAA` AA NAA:NBA
+- `0x950EAA` AA NAA:NBA
+- `0x9515A2` YhV{CF9}h:{CF7}h U
+- `0x9519AD` RRSkiik:
+- `0x95440C`   {CFA}  ·E  ·x  :v   
+- `0x954445` ORRU{CFF}
+- `0x95444C` RAR?{CCC}w // :9R /  ·z- :
+- `0x954E45` ORRU{CFF}
+- `0x954E4C` RARx{CCC}! // :9R /  ·9v :
+- `0x955045` ORRU{CFF}
+- `0x95682B` BERAB:AQA 
+- `0x956C27` RPARREQRB:UBA :
+- `0x956E2B` BERAB:AQA 
+- `0x957027` BERABERAB:AQA 
+- `0x95742B` BEARA:ABA 
+- `0x957626` LRPARREQRB:UBA :
+- `0x95D429` 9UC k / R:iE
+- `0x95D635` ikR:··Pk / f.RkRBfUR
+- `0x95DA1E` A{CA0}hUCPR / RQ?E
+- `0x95DA34` Qk{V4B}{CFA}
+- `0x95E1B2` BA SRA SRR
+- `0x95E1E0`                                    {V00} VQ  CA VAQ VAQ EAR EBR 
+- `0x95E273`  RA //  RQ //  R{VFF}    
+- `0x95E9E0`                                    {V00} VQ  CA VAQ VAQ EAR EBR 
+- `0x95EA73`  RA //  RQ //  R{VFF}    
+- `0x95EC7E`     EA  EB  Eä  
+- `0x960449` URAM{CBC}gB
+- `0x960A49` URAM{CBC}gB
+- `0x960C49` URAM{CBC}gB
+- `0x963E9C`   f{VDD}i{V00}ii{V00}ii· 
+- `0x9643A0` Ri{V00}ii{V00}ii{V00}ii· 
+- `0x9644A0` Ri{V00}ii{V00}ii{V00}ii· 
+- `0x964823` B:RAA SRA URR{VF6}Sk{C66}{VFB}Q
+- `0x965023` B:RAA SRA URR:üSk{V66}{VFB}R
+- `0x9686AA` AA NAA:NBA
+- `0x968D22` AA NAA:NBA
+- `0x96D179`                                        :A9R:B·S:Rk9 U{VDD} 9f
+- `0x96D314`              / DAARAAR9PR
+- `0x96D3A5`  // E{CF0}·A{C00}khk  / 
+- `0x96D979`                                        :B9R:R·S Uk9 9 / i f.
+- `0x96DB7D`                                    :A9R:B·S:Rk9 U{VDD} 9f
+- `0x96DD03` R   9                         / DAARAAR9PR
+- `0x96DD69`    ?   ?   ?   ?   {C00}     :   :                        QRPfE
+- `0x96DDA6` B{CFF}9A{C00}:S{V00} 
+- `0x96DF14`              / DAARAAR9PR
+- `0x96DFA5`  // E{CF0}·A{C00}khk  / 
+- `0x979127` Za{CBD}gR{VBB}Ay
+- `0x979AAF` Za{CBD}gR{VBB}Ay
+- `0x979CAF` Za{CBD}gR{VBB}Ay
+- `0x97D4B4`  VSE SREV
+- `0x97D4DB`  i{VDF}                                                            :   ::QkBEC{CBD}ECR
+- `0x97D52C` EARR{VBB}RR
+- `0x97D5A2` g{CCF}x×E
+- `0x97D5AE` hBRRUSQ // :R
+- `0x97D6D9` {C0D} URk                                                        :   :   :VURk:U // B:{CFB}BURUBUhRC{CDC}RS{CFB}RSU
+- `0x97D73E` {CCC}URk {CCB}
+- `0x97D754` S{CFB}{CCD}{CDF}{CFC}hh
+- `0x97D760`                                                V   :   :        {VCC}UBSUUBU
+- `0x97D7AA` hE{CCC}R{VCC}kSRR{CD0}
+- `0x97D7CC` SR{CDC}RiU{CDF}:R{C00} 
+- `0x97D948` UR{CBB} // iSR{VBB}gU{VBC}Akg
+- `0x97D97E`     EQ  :g  :h   U   :            CAgSg
+- `0x97D9A6` S{C9D}TRURR{VDD}
+- `0x97D9BC`     {CFB}RREUhh{CCC}RURU{CCF}{VFD}U{VCC}
+- `0x97DAB4`  VSE SREV
+- `0x97DADB`  i{VDF}                                                            :   ::QkBEC{CBD}ECR
+- `0x97DB2C` EARR{VBB}RR
+- `0x97DBA2` g{CCF}x×E{VCC}kAR
+- `0x97DBAE` hBQ // US
+- `0x97DCB4`  VSE SREV
+- `0x97DCDB`  i{VDF}                                                            :   ::QkBEC{CBD}ECR
+- `0x97DD2C` EARR{VBB}RR
+- `0x97DDA2` g{CCF}x×E
+- `0x97DDAE` hBRRUSQ // :R
+- `0x97DDC8` gU{CDD}h{CCF}{CCD}
+- `0x97DED9` {C0D} URk                                                        :   :   :VURk:U // B:{CFB}BURUBUhRC{CDC}RS{CFB}RSU
+- `0x97DF3E` {CCC}URk {CCB}
+- `0x97DF54` S{CFB}{CCD}{CDF}{CFC}hh
+- `0x97DF60`                                                V   :            {VCC}UBSUUBU
+- `0x97DFAA` hE{CCC}R{VCC}
+- `0x97DFCC` SR{CDC}RiU{CDF}:R{C00} 
+- `0x97E0D9` {C0D} URk                                                        :   :   :VURk:U // B:{CFB}BURUBUhRC{CDC}RS{CFB}RSU
+- `0x97E13E` {CCC}URk {CCB}
+- `0x97E154` S{CFB}{CCD}{CDF}{CFC}hh
+- `0x97E160`                                                V   :   :        {VCC}UBSUUBU
+- `0x97E1AA` hE{CCC}R{VCC}kSRR{CD0}
+- `0x97E1CC` SR{CDC}R{VCF}{CDF}V
+- `0x97E348` UR{CBB} // iSR{VBB}gU{VBC}Akg
+- `0x97E37E`     EQ  :g  :h   U   :            CAgSg
+- `0x97E3A6` S{C9D}TRURR{VCD}
+- `0x97E3BC`     {CFB}RREUhh{CCC}RURU{CCF}{CFD}U{VFF}i{VCB}   
+- `0x97E548` UR{CBB} // iSR{VBB}gU{VBC}Akg
+- `0x97E57E`     EQ  :g  :h   U   :            CAgSg
+- `0x97E5A6` S{C9D}TRURR{VDD}
+- `0x97E5BC`     {CFB}RREUhh{CCC}RURU{CCF}{VFD}U{VCC}
+- `0x97F27B`  CAh  UAS:UAi
+- `0x97F28D` {CCD}R:khi
+- `0x97F295` UBE VBC ykRAA{CFF}CA{C0F}RRi
+- `0x97F2BB`  R{VDE} VQT
+- `0x982B67` E:kREkQ{CBD}ER{CBC}CR{CCD}QhR
+- `0x982B7C` QBRRU{V00} 
+- `0x982B94` {VCC}R{VCF}gR{VCC}iR //                                                                                                                                                                   :C  :i  :i  :i  :i   k   k  :{VCD}RRRAAQR
+- `0x982C69` kCQU{VDF}CUz{VBD}{CFE} / CR
+- `0x982CB1`                                                                                                                                                  :{V00} :S  :S  :i  :k  Vk  U{C00} SRCQhEUARE{CCC}AE{CCF}RC{CFD}kiSU
+- `0x982D7D` iEASBQ{VCD}A{CFD}CRU{VCD}{CCF}{VFD}kk{VFF}{CDC}
+- `0x982DB5`    {C00}  h                                                                                                                                    :iR :BS :Rg :BR :SR :SR :ih  iiQ
+- `0x982E64` RRiihiRiSQRhSRhiChiiSiiRRiRR
+- `0x983268`   : //   : //   : //   : //   : //   : //                                                                                                                                                                                                                :   
+- `0x983369` iUQCRSQRRhiAARR
+- `0x983379` EABx / EQ    
+- `0x983390` Rih{VBC}AQ{VDB}{VFF}
+- `0x9833BD`                                                                                                                                      k{V00} ki  ki  ki  kC  kS  :i  :
+- `0x983460` xz{VDB}U /  / g{CFF}
+- `0x9834B5`                                                                                                                                              :{V00} :{V00} :{V00} :{V00} :k  Vk  U{C00} SR
+- `0x98358B` {VFF}k{VFD}
+- `0x983591` Sk{VDF}hk
+- `0x9835B5`    {C00}  h                                                                                                                                    :iR :BS :Rg :BR :SR :SR :ih  iiQ
+- `0x983664` RRiihiRiSQRhSRhiChiiSiiRRiRR
+- `0x983A85`     //     //     //     //     //     // 
+- `0x983B90` QUR{VDC}URh
+- `0x983BBD`                                                                                                                                       k   k   k   k   k   :   :   kgRRRCAAR{VFF}iA{VDC}
+- `0x983C77` kS{CFF}kUQh{VCC}RRgRAAhBi
+- `0x983C8E` Sk // yTk //  /  / h // 
+- `0x983D54`    {V00} :R  VRkAR{VFC}BQ{CCC}UB // S
+- `0x983D76` {CFF}kiE
+- `0x983D7C` {CDF}{VBB}gRAhgBQkgQ{CDC}gR
+- `0x983DBE`                                                                                                                                     kS  Ug  UB  UQ  kR  kR  kS  ViB{CFF}
+- `0x983E64` RRhiSiShhBRRhRRihQiiihiSShSR
+- `0x985F80` ii{V00}ii{V00}ii{V00}i
+- `0x986780` ii{V00}ii{V00}ii{V00}i
+- `0x986F80` ii{V00}ii{V44}ii{V4F}i
+- `0x987420` SAAABARRQRRRRRRRkRRR
+- `0x9874E9`                                                                                                                                                                                                           V  VC  CA SAA          R  FR iSR AQh AAh AAR
+- `0x987C20` SAAABARRQRRRRRRRkRRR
+- `0x987DDF`                                         V   V   :               :SAAABARRQRRRRRRRkRRR:
+- `0x987EE9`                                                                                                                                                                                                           V  VC  CA SAA          R  FR iSR AQh AAh AAR
+- `0x9880D9`                                                                                                                                                                                                                           V  VC  CA SAA          R  FR iSR AQh AAh AAR
+- `0x98B8E2`   g{C00} A{C00} A{C00}  / 
+- `0x98BE80`  NAA:NBA
+- `0x98BF7B` RAANR NAA:NBA
+- `0x98C680`  NAA:NAA
+- `0x98C77F` R NAA:NAA
+- `0x98D94F`  AAg AAg AQh
+- `0x98DB54` AAAhDAQhRRRh                        
+- `0x98DB9F` R SRR:cSR
+- `0x98DBC0` RRR{VCC}Riäii
+- `0x98DFC0` RRRRRRRiiii
+- `0x98FD4F` i :iR kRh URh:JRR        
+- `0x98FE47` R :Sh URi URh:PRR:iRR:iii
+- `0x98FE80` :iii:iii kii:iii kii:.
+- `0x99004F` i :iR kRh URh:JRR        
+- `0x99014F` i :iR kRh URh:JRR        
+- `0x990247` R :Sh URi URh:PRR:iRR:iii
+- `0x990280` :iii:iii kii:iii kii:.
+- `0x990347` R :Sh URi URh:PRR:iRR:iii
+- `0x990380` :iii:iii kii:iii kii:.
+- `0x9903BF`   :zA :!z : / z :AA  
+- `0x990CE8` ii{V0E}zzl z                                                                                                          
+- `0x990F88` :RSRUhRRUhRRURRR:hUR 
+- `0x99118C` :RSRUhRRUhRRURRR:hSR        
+- `0x99120C` :RSRUhRRUhRRURRR:hSR        
+- `0x991435` {CFF} kik
+- `0x992A6E` Ü A{CF3} R{C0F} 
+- `0x9946BB`      A // EäD // g9z?. D
+- `0x9946CE` .9 // /ke / !ki 
+- `0x996B1F` JRR{C0F}RR{CFF}{VFF}{V04}
+- `0x996C0D` UAzZ / Bwyz
+- `0x996D05` äRR{VFF}RRh
+- `0x996D30` i{VFF} i{V0F} 
+- `0x996E23`  RR{C0F}RR{CFF}ii{V04}{VFF}{V42}UR
+- `0x996F23`  RR{C0F}RR{CFF}ii{V04}{VFF}{V42}UR
+- `0x997011` UAzZ / Bwyz
+- `0x997111` UAzZ / Bwyz
+- `0x997209` äRR{VFF}RRh
+- `0x997234` i{VFF} i{V0F} 
+- `0x997309` äRR{VFF}RRh
+- `0x997334` i{VFF} i{V0F} 
+- `0x9989AF` AAkiAg{VDF}fgk{VFF} / kAiAA //  Aw{V00}A’{V0A}wkE3giEAf
+- `0x998BA1` A // {VF0}CAA / CAA’kCAA{VDA}ig.{VFF}gkii / fAA{VBB}! AA{V00}AA{V0A}AiE3i / CA
+- `0x998D5A` Ü A! /                                                                   :CA /AA fAp ·yE :ki  :
+- `0x998FAF` AAkiAg{VDF}fgk{VFF}{VDF}AiAA //  Aw{V00}A’{V0A}wkE3giEAf
+- `0x9991F5`     //    ä     EA  Eg  :
+- `0x9993A1` A // {VF0}CAA / CAA’kCAA{VDA}ig.{VFF}gkii{VDA}AA{VBB}! AA{V00}AA{V0A}AiE3i / CA
+- `0x999849` A //  {VBD} //  g
+- `0x99995A` Ü A! /                                                                   :CA /AA fAp ·yE :ki  :
+- `0x999E10` AARAAQRA // 
+- `0x999E1A` UBEAÜRuz / 
+- `0x999EE4` AR{CBF}AA
+- `0x999F19` zzzuzzz
+- `0x999F21` RAAURAARBAAR
+- `0x999FC4` AAR{CCC}AARRAAARAAARAAARBAQRRARzz
+- `0x999FEA` zER{CEE}
+- `0x99A700` zuURzu{CCC}zuzUzuz{C9E}z
+- `0x99A728` RRAzRRAzURAA{CFF}
+- `0x99A8B0`                 RBAQRRARRRAR
+- `0x9A41FD` D //   :Az  EA  :
+- `0x9A420C`                     ·×DD·/z9:/!A:EE!: / 
+- `0x9A423B`      DDD89vA9A!A / 
+- `0x9A43FF`   :ww :AD  EA  :
+- `0x9A4803` D :ww :AD  EA  :
+- `0x9A4838`         zww89/D9A!A / 
+- `0x9A4A0C`                     ·uww·/z9:/!A:EE!: / 
+- `0x9A4A3B`      DDD89vD9A!A / 
+- `0x9A4DF7`  vw //  ED //   :ww :AD  EA  :
+- `0x9A4FFD`                                    : // !-: /  //  //  · //  //  :E /   :
+- `0x9A7204` LRRRLRR{CF0}
+- `0x9A7604` LRRRLRR{CF0}
+- `0x9A7704` LRRRLRR{CF0}
+- `0x9AA5D4`  :AE :AA ·AA             
+- `0x9AA9D4`  :AE :AA ·AA             
+- `0x9AAAD4`  :AE :AA ·AA             
+- `0x9ABA50` sz //  / RB //  / DQv / zAA /                                                :   :   :        :/!
+- `0x9ABE3E` z9P/ //  PA{C00}s?
+- `0x9AC050` sz //  / RB //  / DQv / zAA /                                                :   :   :        :/!
+- `0x9AC250` sz //  / RB //  / DQv / zAA /                                                :   :   :        :/!
+- `0x9AC83E` z9P/ //  PA{C00}s?
+- `0x9AD5C8`                         wz-uAzAx
+- `0x9ADCA2` zz vzz vT /   / A /   
+- `0x9ADE38` z99xzzzD            
+- `0x9ADEF8`         z/AAD!AAA!AAAQ9
+- `0x9ADF13`  9R?  P?  P? AAA // AA!9 // 
+- `0x9AE7C1` AAA:AAA:QAA:QAQ 
+- `0x9AF4A2` zz vzz vT /   / A /   
+- `0x9AF638` z99xzzzD            
+- `0x9AF6F1` wzz:AzD:AAA:AAAzvzAz!AAD!AAAQ9
+- `0x9AF71D` P? AAA // AA!9 // 
+- `0x9AFA58` h{CBB}A{VFF}
+- `0x9AFCAE` Eg:ü{VBA}:
+- `0x9B0032` {VFC}··hUk· // {CCF}k

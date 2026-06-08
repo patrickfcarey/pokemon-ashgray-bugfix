@@ -1,0 +1,5 @@
+# Don't commit copyrighted ROMs — the fork's deliverable is the patch + tools + docs
+base/*.gba
+rom/*.gba
+*.sav
+*_verify.gba
