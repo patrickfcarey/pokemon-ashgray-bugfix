@@ -17,7 +17,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 | **F4** | 🟠 | next | Islands after Grampa Canyon | Crash/softlock getting pickaxe from scientist | crash | here |
 | **F5** | 🟠 | open | Early Spearow vs Team Rocket | Catch Spearow early + use it → heavy glitching | script/flag | here |
 | **F6** | 🔴 | open | Tangelo Island arrival | Crash going through the back of a building | crash | here/map |
-| **F7** | 🟠 | open | 2nd Orange Island, Nastina doll-competition lady | Crash on that event (persists across patches) | crash | here |
+| **F7** | 🟠 | needs-repro | 2nd Orange Island "lady" event | Crash (may be Nastina's doll competition, or the older-beta "lady after the plane crash" content-end) | crash | here |
 | **L1** | 🟠 | next | Indigo Plateau gate | Guard says league hasn't started despite badges + exam | flag logic | here |
 | **L2** | 🟠 | next | Prof Oak, full party | Can't receive Pokémon → next event won't trigger | give logic | here |
 | **L3** | 🟡 | next | After Pikachu thundershocks Spearow | Ash stuck on Misty's bike | state flag | here |
@@ -26,6 +26,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 | **L6** | 🟡 | open | Badge UI | Winning 6 badges shows as 5 | flag/UI | here |
 | **L7** | 🟡 | open | Safari Zone | Team Rocket doesn't appear (event missing) | event | here |
 | **L8** | 🟡 | needs-repro | Safari Zone | Stuck without the bike (no escape route) | progression | map |
+| **L9** | 🔴 | open | Decline Dragonite's Mewtwo-island invite | Raft permanently breaks → soft-lock (can't progress *or* return; some report raft "gone") | flag logic | here |
 | **D1** | 🟡 | open | Storage boxes | Bad Eggs appear (often cheat-induced) | data | here |
 | **D2** | 🟠 | open | Eevee brothers event | Deposit Squirtle to make room → Squirtle disappears | storage event | here |
 | **D3** | 🟡 | open | First Jessie & James battle | Switching Pokémon makes other mons invisible | battle/script | engine |
@@ -63,10 +64,23 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 *Hypothesis:* a bad command (corrupt pointer, `applymovement` to a non-existent object, or a `trainerbattle`/`special` with bad args) in those NPC scripts.
 *Plan:* decompile each NPC's person-script; compare structure to a working analogue; patch the offending opcode.
 
+### L9 — raft soft-lock from declining Dragonite's invite (🔴)
+*Repro:* decline Dragonite's invitation to Mewtwo's island → the raft stops working, Nurse Joy won't let you in, and you can't return to Pallet. Some players report the raft item is "gone."
+*Hypothesis:* the **decline** dialogue branch leaves a travel/state flag in a dead state with no recovery path (only the *accept* branch re-enables the raft warp).
+*Plan:* decompile the Dragonite-invite script (likely the same map cluster as **F2**) → make the decline branch still leave the raft usable / offer a retry, or auto-set the travel flag.
+
 ## By design — NOT bugs (FAQ, so we don't "fix" them)
 - **HMs are replaced by key items** — Hatchet = Cut, Raft = Surf, etc. Cut/Surf "not working" is expected.
+- **Brock's first battle is a scripted loss** — even if you beat Onix, the story treats it as a loss (anime-accurate).
+- **Pikachu refuses to battle Misty** — must use other Pokémon for the Cerulean gym (anime-accurate).
+- **Charmander/Charizard disobeys** — its ID is deliberately changed so it disobeys after evolving (anime-accurate).
 - **"Stuck, don't know where to go"** — Ash Gray follows the anime; many gates are story-flag based, not bugs.
 - **Bad Eggs / freezes from cheats** — using GameShark/all-badges cheats causes much of the instability (see D1).
+
+## Known limitation (not fixable — no content exists)
+- **The hack is unfinished**, ending partway through the Orange Islands / Orange League. Reaching the end of
+  available content can *look* like a freeze/soft-lock (older betas famously stopped at "the lady after the
+  plane crash"). Nothing to fix here unless new content is authored from scratch.
 
 ## Sources
 PokéCommunity dev thread 180722; PC 436579 (freeze), 444362 (4.3.5 bugs), 493681 (unplayable glitch);
