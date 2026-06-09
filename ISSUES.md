@@ -32,7 +32,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 | **D3** | 🟡 | open | First Jessie & James battle | Switching Pokémon makes other mons invisible | battle/script | engine |
 | **D4** | 🟢 | open | Teachy TV | Broken / non-functional | item/data | here |
 | **D5** | 🟢 | open | Route 1 | Release glitch when releasing Pidgeot while holding Pidgeotto | storage | here |
-| **D6** | 🟢 | open | Pokédex | Onix's type listed incorrectly | data | here |
+| **D6** | 🟢 | wontfix | Pokédex | **Not a bug (verified):** Onix is correctly Rock/Ground in both FireRed & fork (gBaseStats @0x254784) | data | n/a |
 | **G1** | 🟢 | open | Ash girl-disguise battle sprite | Mis-colored (shirt blue, hair white) | graphics | art |
 | **T1** | 🟢 | **fixed** ✅ | Bulbasaur village line (0x834CBF) | Duplicated word "the the" | text | here |
 | **T2** | 🟢 | wip | Various dialogue | **3 fixed** (sacrfices→sacrifices @0x829FAC; recieved→received @0x814026 & @0x867878); rest pending proofread (`audit/04`) | text | here |
