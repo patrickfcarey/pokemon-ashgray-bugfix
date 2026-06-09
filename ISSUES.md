@@ -76,6 +76,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 - **Charmander/Charizard disobeys** — its ID is deliberately changed so it disobeys after evolving (anime-accurate).
 - **"Stuck, don't know where to go"** — Ash Gray follows the anime; many gates are story-flag based, not bugs.
 - **Bad Eggs / freezes from cheats** — using GameShark/all-badges cheats causes much of the instability (see D1).
+- **Trade evolutions are adapted** — you can't trade in a single-player hack, so Kadabra/Machoke/Haunter/Graveler evolve by level or other means; not a bug.
 
 ## Known limitation (not fixable — no content exists)
 - **The hack is unfinished**, ending partway through the Orange Islands / Orange League. Reaching the end of
@@ -85,3 +86,24 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 ## Sources
 PokéCommunity dev thread 180722; PC 436579 (freeze), 444362 (4.3.5 bugs), 493681 (unplayable glitch);
 Vizzed 71285 / 45433; Fandom *Pokémon Ash Gray*; Quora (input-freeze report); chaptercheats walkthrough (event locations).
+
+## Research status — blocked sources & exactly what I need from you
+
+The ~25 issues above are everything the **open web** exposes. The richest remaining bug
+lists are behind anti-bot walls I cannot fetch (confirmed this session):
+
+| Source | Status | Why it matters |
+|--------|--------|----------------|
+| **PokéCommunity dev thread #180722** | 🚫 HTTP 403 (Cloudflare) | metapod23's **first post** holds the changelog + a "known bugs" list |
+| **Fandom — *Pokémon Ash Gray*** wiki | 🚫 HTTP 403 | likely a Bugs / Trivia section |
+| **Internet Archive / Wayback** | 🚫 fetch blocked | would snapshot the above |
+| pokemoncoders / Fandom mirrors | 🚫 HTTP 403 | secondary write-ups |
+| RetroAchievements forum #2211 | ⚠️ flaky / low value | mostly achievement notes |
+
+### You do NOT need to grab hundreds of posts — just one of these:
+1. **The FIRST post (OP) of PokéCommunity thread 180722** — copy/paste its text (or screenshot). It usually contains the full changelog + any "Known Bugs" list. *(One page.)*
+2. **Any "Bugs" / "Glitches" / "Trivia" section** of the Fandom Ash Gray page. *(One section.)*
+3. **Best of all:** the community **"Bugs & Glitches guide"** that grades issues 🔴/🟡/🟢 (referenced in search results but never linked) — if you can locate that single post, it's the jackpot.
+
+Paste any of those here and I'll fold every new bug into this tracker automatically.
+
