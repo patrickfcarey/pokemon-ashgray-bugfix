@@ -35,7 +35,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 | **D6** | 🟢 | open | Pokédex | Onix's type listed incorrectly | data | here |
 | **G1** | 🟢 | open | Ash girl-disguise battle sprite | Mis-colored (shirt blue, hair white) | graphics | art |
 | **T1** | 🟢 | **fixed** ✅ | Bulbasaur village line (0x834CBF) | Duplicated word "the the" | text | here |
-| **T2** | 🟢 | open | Various dialogue | Typo candidates (dup-word / space-before-punct) — see `audit/04` | text | here |
+| **T2** | 🟢 | wip | Various dialogue | **3 fixed** (sacrfices→sacrifices @0x829FAC; recieved→received @0x814026 & @0x867878); rest pending proofread (`audit/04`) | text | here |
 
 ## Prioritized — details & fix plans
 (Hypotheses to confirm by decompiling the exact script with `tools/decomp.py`.)
