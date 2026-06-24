@@ -4,10 +4,10 @@ Where every ROM came from, how to rebuild it, and the checksums to verify it.
 ROMs themselves live **outside this git repo** (in the `gba/` library, per repo policy — see README);
 this record + the fork patch are the source of truth. Verified 2026-06-15.
 
-> ⚠️ **Git status (2026-06-16):** the repo's last commit predates the current fork. `patches/ashgray-fork.ips`
-> is a version-controlled file but its **current contents are uncommitted**, and this `PROVENANCE.md` is
-> **untracked**. So git does *not* yet reproduce the current `5cffa700` build — commit the working tree
-> first to make the rebuild recipes below actually truthful.
+> ✅ **Git status (2026-06-24):** the working tree is committed — `patches/ashgray-fork.ips`, this
+> `PROVENANCE.md`, the fix tooling, and the audit docs are all tracked. Git now reproduces the current
+> `5cffa700` build: clean FireRed + the committed `ashgray-fork.ips` → MD5 `5cffa700…`, CRC `63478921`
+> (verified). The rebuild recipes below are truthful against `HEAD`.
 
 ## The base
 
@@ -58,9 +58,8 @@ Shares 4.5.3's save format, so its `.sav` is interchangeable with the clean ROM.
 | SHA-256 | `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1` |
 | CRC-32 | `63478921` |
 
-**Source:** `ashgray-fork/patches/ashgray-fork.ips` (MD5 `d013c124c4ce2b2c7b73166e64c4cc91`) — a
-version-controlled file, but its **current contents are uncommitted** as of 2026-06-16 (commit to capture
-this `5cffa700` build).
+**Source:** `ashgray-fork/patches/ashgray-fork.ips` (MD5 `d013c124c4ce2b2c7b73166e64c4cc91`) — tracked,
+and **committed** as of 2026-06-24, so this `5cffa700` build is captured in git history.
 
 **Rebuild recipe:**
 ```
