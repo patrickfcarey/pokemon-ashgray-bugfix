@@ -11,7 +11,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 
 | ID | Sev | Status | Area / trigger | Summary | Type | Fix-where |
 |----|-----|--------|----------------|---------|------|-----------|
-| **F1** | 🟠 | **reproduced** (engine-level) | Early forest scripted battles (Pidgeotto/Caterpie) | **REPRODUCED HEADLESSLY 2026-06-11** (`_emu/f1_proof.png`): the scripted-wild-battle wrapper (`setwildbattle; dowildbattle` — Caterpie `0x800277`, Pidgeotto `0x8170FC`, both decompile clean) **hard-freezes non-deterministically in the battle-end fade** — black screen, stale frame, input dead; same savestate completes fine on other runs. Timing-dependent, inside `dowildbattle` = Ash Gray's modified battle engine (ASM), beyond safe byte-patching. One-command repro: load `_emu/forest.ss` on `tvtest/forest_test.gba`, fight the Caterpie. The "camera scrolls too high"/"first hit" details in old reports = anecdotes around this same hang | freeze | engine (wontfix-for-now, repro documented) |
+| **F1** | 🟢 | **RE-TESTED: did NOT reproduce** (false positive, 2026-06-25) | Early forest scripted battles (Pidgeotto/Caterpie) | **⛔ RETRACTED 2026-06-25 — likely a reproduction artifact, NOT a real freeze (5th false-positive of this class).** Re-test from the same `forest.ss` (which is saved *mid-Caterpie-battle*): ~19 runs + a 10-timing RNG-shifted sweep, **zero freezes**; the battle always responds to input and was driven to **two clean terminal states** — loss→whiteout→home (`_emu/L_final.png`) and run→forest field with a live START menu (`_emu/r5_start.png`). Every "stuck" frame was a menu/textbox awaiting A (the drive kept picking Growl, the 0-dmg move-slot-1). All CPU traces healthy (main loop `0x080008ac`); never a battle-code spin. The old `f1_proof.png` is a composite that actually shows the fade proceeding to a rendered overworld. The script is trivially clean (`setwildbattle; dowildbattle; setvar 0x6108,1; release; end`), and the game is completable (139 RA cheevos), so a real freeze here is implausible. Full method + evidence: `audit/f1-battle-freeze-retest.md`. *(Original 2026-06-11 claim: "hard-freezes non-deterministically in the battle-end fade" — could not be reproduced.)* | not-a-freeze | n/a |
 | **F2** | 🔴 | **fixed** ✅ | Underwater cave, after Dragonite tournament msg | Black-screen freeze | freeze | here |
 | **F3** | 🟠 | **fixed** ✅ | Breeding center | Crash talking to Team Rocket (Jessie/James) | crash | here |
 | **F4** | 🟠 | **fixed** ✅ | Grampa Canyon (map 1.101) | Crash/softlock getting pickaxe ("from scientist" = the rival handoff) | crash | here |
@@ -203,6 +203,30 @@ reserve; "D1 could've done it" is NOT an available answer here), three more audi
   underflowed wild-level range (a too-high / wrapped wild Staryu when surfing there). **FIXED** (file
   `0x72BA88`: `0x23`→`0x19`, `tools/fix_wild_0_17_level.py`) → fork build `43216f9f` → **`5cffa700`** (CRC
   `63478921`). Detail: `audit/wild-encounter-integrity.md`.
+
+## Session 2026-06-25 — F1 battle-engine "freeze" re-test (the last unfixed game-blocker)
+
+Took the one remaining 🔴/🟠 unfixed bug — F1, the early-forest scripted-battle "freeze in the
+battle-end fade" — back into the engine, because a deterministic emulator *can't* freeze differently
+on the same savestate unless inputs differ (= a flaky repro signature, not a code bug).
+
+- **Added CPU introspection to the rig** (`_emu/rig.c`): `regs`, `trace <n>` (instruction-level PC
+  histogram — a real freeze = few PCs in a tiny range), `stepto <addr>` (faithful software
+  breakpoint). `ARMRun` processes the event scheduler each step, so stepping is timing-faithful.
+- **`forest.ss` is saved mid-Caterpie-battle** (Pikachu vs Caterpie Lv5, in-battle bag open) — the
+  exact F1 scenario. Drove it ~19 ways + a 10-timing RNG-shifted sweep.
+- **Zero freezes.** Battle always responds to input; drove it to **two clean terminal fades** —
+  loss→whiteout→respawn home (`_emu/L_final.png`) and run→return-to-forest field with a working START
+  menu (`_emu/r5_start.png`). Every "frozen" frame was a menu/textbox waiting for A (the drive kept
+  selecting Growl, the 0-damage move in slot 1). The sweep: no black screens, end-LOC split 5 home /
+  5 forest (proving real RNG variation was sampled), none hung.
+- **Conclusion: F1 is a reproduction artifact (false positive), the 5th of its class.** The old
+  `f1_proof.png` is a composite that, read correctly, shows the fade *completing* to a rendered
+  overworld. Detail + the full evidence table: `audit/f1-battle-freeze-retest.md`.
+- **Net effect: the fork now has no known unfixed game-blocking bug.** `RELEASE.md` F1 caveat corrected.
+
+*5th over-claim of the "open textbox / menu ≠ freeze" class — same lesson as the dream retraction:
+advance dialogue fully and test responsiveness with a real action, not direction-keys on an open box.*
 
 ### #6a "won 6 badges, shows 5" — badge code SOUND; 3 gyms D1-safe (incl. Koga), 4–5 gyms' badge paths D1-gated; not reproduced (2026-06-13)
 
