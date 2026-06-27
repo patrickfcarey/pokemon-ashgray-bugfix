@@ -2,7 +2,10 @@
 
 Boots the ROM, drives input, **warps to any map**, and screenshots frames with **no
 display** — fixes get verified in-engine without anyone playing through the game.
-Build dir: `_emu/` at the repo root (outside git). Run: `bash _emu/rig.sh <rom> <script.rig> [state.ss]`.
+Source archived here: **`tools/emu/rig.c`** + `tools/emu/rig.sh` (canonical copies). Build/working dir
+is `_emu/` at the repo root (outside git) — `rig.sh` compiles `rig.c` against the local libmgba build.
+Run: `bash _emu/rig.sh <rom> <script.rig> [state.ss]` (or `./rig <rom> <script.rig> [state.ss]` directly
+with `LD_LIBRARY_PATH` set to `prefix/lib64`).
 
 ## Build (one-time)
 Needs `gcc` + `cmake` (`pip install --user cmake`):
@@ -17,7 +20,35 @@ Needs `gcc` + `cmake` (`pip install --user cmake`):
 (hexdump absolute) · `dump1 <off> <len>` (hexdump from *gSaveBlock1Ptr+off — follows sb1
 relocation) · `save/load` (savestates, flags=0, files opened O_RDWR) · `savfile` (attach
 128K .sav) · `flash1m` (force Flash-1M or in-game saves hang) · `warpto` (poke all
-SaveBlock1 warp slots) · `reset`.
+SaveBlock1 warp slots) · `reset` · `call <addr> [r0..r3]` (invoke a Thumb fn in isolation,
+run to return, log r0/r1/steps).
+
+### CPU introspection (added 2026-06-25, for localizing freezes)
+`ARMRun()` steps one instruction *and* processes the event scheduler, so stepping it is timing-faithful.
+- `regs` — dump r0–r15, cpsr, and the code halfwords around PC.
+- `trace <n>` — step n instructions, print a **PC histogram** (hottest PCs + range). A real freeze =
+  a few PCs in a tiny span (the spin loop); a healthy game = the broad main loop. Note: the generic
+  main-loop wait (`0x080008ac`) and the battle main loop (`0x08011101`) both look "busy" — they do **not**
+  distinguish frozen from healthy-waiting, so confirm state from a screenshot or `gMain.callback2`
+  (`0x030030f4`: field-idle `0x080565b5` vs battle `0x08011101`), not the PC alone.
+- `stepto <addr> [max]` — faithful software breakpoint: run until PC enters `[addr, addr+6]`.
+
+### Flash-save persistence (fixed 2026-06-26) — save→reset→Continue now works
+The in-game save writes the savedata buffer but leaves it `dirty`/unflushed; `core->reset()` then
+re-reads the (empty) backing vfile and wipes it, so Continue saw "new game". Fix: **`reset` now flushes
+savedata→vfile first** (`GBASavedataClean` + `vf->sync`). New helpers: `savedbg` (print type/size/dirty +
+first bytes) and `savesync` (force flush). Gotchas: issue `savfile`+`flash1m` before the first save;
+the in-game SAVE confirm needs ~130 frames for the save-info box before the YES (else the A is eaten);
+a valid FRLG save shows 14 sectors with signature `0x08012025`.
+
+### Staging a scripted battle/event from a field state (no navigation needed)
+When a coord trigger can't be reached (forest ledge-maze) or won't arm (after `warpto`), invoke the
+script directly: `call 0x08069AE5 <script_ptr>` runs **`ScriptContext1_SetupScript`** (FR U,
+`@0x08069AE4`), which arms the overworld to execute that script over the next frames. e.g.
+`call 0x08069AE5 0x088170FC; frames 220` runs the Pidgeotto wrapper (`setvar; setwildbattle;
+dowildbattle`) → a real "Wild PIDGEOTTO appeared!" battle on whatever field state is loaded. (Sibling:
+`RunScriptImmediately @0x08069B48` runs a script to completion synchronously — wrong for `dowildbattle`,
+which is multi-frame.)
 
 ### Hard-won facts (D7/L12 campaigns, 2026-06-12)
 - **Stale gMapHeader**: a savestate predating a ROM-side events repoint keeps the OLD
