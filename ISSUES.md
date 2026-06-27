@@ -225,6 +225,16 @@ on the same savestate unless inputs differ (= a flaky repro signature, not a cod
   overworld. Detail + the full evidence table: `audit/f1-battle-freeze-retest.md`.
 - **Net effect: the fork now has no known unfixed game-blocking bug.** `RELEASE.md` F1 caveat corrected.
 
+*Pidgeotto follow-up (2026-06-26) — directly tested live, no longer just engine-equivalence.* The
+Pidgeotto battle couldn't be reached by headless navigation (forest ledge-maze; `warpto` doesn't arm the
+coord trigger), so it was staged by invoking its wrapper script directly:
+`call ScriptContext1_SetupScript(0x088170FC)` (`@0x08069AE4`) on a movable field → real "Wild PIDGEOTTO
+appeared!" (Lv7, `gBattleMons[1]=17`, `_emu/rs2.png`). A 10-timing RNG sweep: **zero freezes** — 4 runs
+drove the full loss→whiteout→home fade (field-idle at home), 6 healthy ongoing battles, no black screens.
+F1 is now retracted with **direct live evidence for both** forest battles. *(Bonus: fixed a real
+flash-save persistence bug in the rig — `reset` now flushes savedata, so save→reset→Continue boots a real
+field; see `audit/f1-battle-freeze-retest.md`.)*
+
 *5th over-claim of the "open textbox / menu ≠ freeze" class — same lesson as the dream retraction:
 advance dialogue fully and test responsiveness with a real action, not direction-keys on an open box.*
 
