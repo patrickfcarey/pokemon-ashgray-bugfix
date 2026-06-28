@@ -340,6 +340,34 @@ int main(int argc, char** argv) {
 				for (uint32_t i = 0; i < len; i++) wr(a + i, 8, b & 0xff);
 				fprintf(stderr, "FILL 0x%08x <= 0x%02x x %u\n", a, b & 0xff, len);
 			}
+		} else if (!strcmp(cmd, "memcpy")) {
+			/* memcpy <dst> <src> <len> : byte block-copy (e.g. clone a party Pokemon) */
+			uint32_t d, s, len;
+			if (sscanf(rest, "%i %i %i", &d, &s, &len) == 3) {
+				for (uint32_t i = 0; i < len; i++) wr(d + i, 8, rd(s + i, 8));
+				fprintf(stderr, "MEMCPY 0x%08x <- 0x%08x x %u\n", d, s, len);
+			}
+		} else if (!strcmp(cmd, "search")) {
+			/* search <start> <end> <value> [8|16|32] : scan for a value, print matches.
+			   Finds any global by its known value (gBattleTypeFlags, menu cursors, ...). */
+			uint32_t start, end, val; int sz = 32;
+			if (sscanf(rest, "%i %i %i %d", &start, &end, &val, &sz) >= 3) {
+				int hits = 0, step = sz / 8;
+				for (uint32_t a = start; a + step <= end && hits < 200; a += step) {
+					if (rd(a, sz) == val) { fprintf(stderr, "  @0x%08x\n", a); hits++; }
+				}
+				fprintf(stderr, "SEARCH %d hit(s) for 0x%x [%d] in [0x%08x,0x%08x)\n", hits, val, sz, start, end);
+			}
+		} else if (!strcmp(cmd, "state")) {
+			/* state : one-line interpretation of gMain.callback2 (Ash Gray values) +
+			   party count + loc — saves a screenshot round-trip when probing flow. */
+			uint32_t cb2 = core->busRead32(core, 0x030030f4u);
+			const char* s = cb2 == 0x080565b5u ? "FIELD-IDLE" : cb2 == 0x08011101u ? "BATTLE" :
+			                cb2 == 0x0811eba1u ? "PARTY-MENU" : cb2 == 0x0812eb11u ? "MAIN-MENU" : "?";
+			uint32_t sb1 = core->busRead32(core, GSAVEBLOCK1PTR);
+			fprintf(stderr, "STATE cb2=0x%08x (%s) party=%u loc=%u.%u(%u,%u)\n", cb2, s,
+				core->busRead8(core, 0x02024029u), core->busRead8(core, sb1 + 4),
+				core->busRead8(core, sb1 + 5), core->busRead16(core, sb1 + 0), core->busRead16(core, sb1 + 2));
 		} else if (!strcmp(cmd, "deref")) {
 			uint32_t pa, off; int sz = 32;
 			if (sscanf(rest, "%i %i %d", &pa, &off, &sz) >= 2) {

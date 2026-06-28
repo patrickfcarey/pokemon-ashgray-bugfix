@@ -21,7 +21,21 @@ Needs `gcc` + `cmake` (`pip install --user cmake`):
 relocation) · `save/load` (savestates, flags=0, files opened O_RDWR) · `savfile` (attach
 128K .sav) · `flash1m` (force Flash-1M or in-game saves hang) · `warpto` (poke all
 SaveBlock1 warp slots) · `reset` · `call <addr> [r0..r3]` (invoke a Thumb fn in isolation,
-run to return, log r0/r1/steps).
+run to return, log r0/r1/steps) · `fill <addr> <byte> <len>` (memset) · `memcpy <dst>
+<src> <len>` (block-copy — e.g. clone a 100-byte party Pokemon into the next slot) ·
+`search <start> <end> <value> [8|16|32]` (scan memory for a value → find any global by
+its known value: gBattleTypeFlags, a menu cursor, …) · `state` (one-line read of
+gMain.callback2 → FIELD-IDLE/BATTLE/PARTY-MENU/MAIN-MENU + party count + loc, so you can
+probe in-game flow without a screenshot round-trip).
+
+### Operational gotchas (learned the hard way)
+- **Keep the *shell command you send* short.** A long command string intermittently trips a
+  Bash-tool streaming bug; the same work inside a short wrapper script runs fine. Use the
+  one-line helpers: **`bash cc.sh`** (recompile rig) and **`bash r.sh <rig> [state.ss]`**
+  (run a rig, write full output to `/tmp/rigout.txt`, print just the results).
+- **`rig.sh` only converts *this run's* `.raw` shots** (newer than a timestamp marker). The
+  old loop re-converted all ~600 `.raw` every run — hundreds of output lines that flooded the
+  caller (the `e.includes` glitch) and added hundreds of wasted `python` startups per run.
 
 ### CPU introspection (added 2026-06-25, for localizing freezes)
 `ARMRun()` steps one instruction *and* processes the event scheduler, so stepping it is timing-faithful.

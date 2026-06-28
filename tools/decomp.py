@@ -164,5 +164,10 @@ for a in args:
             decompile(off,out,vis)
     else:
         off=int(a,16); decompile(off,out,set())
-open('audit/06-decompile.md','w').write('\n'.join(out)+'\n')
-print('-> audit/06-decompile.md\n'); print('\n'.join(out[:120]))
+import os as _os
+# Write to a scratch path (NOT the tracked audit/ file) so repeated runs don't clobber
+# a committed doc and force a git-checkout each time. Override with DECOMP_OUT=.
+_outf = _os.environ.get('DECOMP_OUT', '/tmp/decomp_out.md')
+open(_outf, 'w').write('\n'.join(out) + '\n')
+print('-> %s  (%d lines)\n' % (_outf, len(out)))
+print('\n'.join(out[:200]))
