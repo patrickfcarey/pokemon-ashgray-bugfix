@@ -8,8 +8,9 @@ This is a diagnosis-and-repair effort: every fix was reproduced and A/B-verified
 
 The fork ships as an **IPS patch** you apply to a clean FireRed ROM. It does **not** include any copyrighted ROM.
 
-1. Obtain a clean **Pokémon FireRed Version (USA) v1.0** ROM ("No-Intro" / "squirrels").
+1. Obtain a clean **Pokémon FireRed (USA)** ROM — the **original "squirrels" dump (rev 0)**, *not* the `(Rev 1)` revision.
    - MD5 `e26ee0d44e809351c8ce2d73c7400cdd`
+   - SHA-1 `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`
    - CRC-32 `dd88761c`
 2. Apply `patches/ashgray-fork.ips` to it with any IPS patcher (Lunar IPS, Flips, etc.).
    - Patch MD5 `d013c124c4ce2b2c7b73166e64c4cc91`

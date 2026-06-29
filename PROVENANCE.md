@@ -13,9 +13,10 @@ this record + the fork patch are the source of truth. Verified 2026-06-15.
 
 | | value |
 |---|---|
-| ROM | **Pokémon FireRed Version (USA)** — No-Intro v1.0 ("squirrels") |
+| ROM | **Pokémon FireRed Version (USA)** — original "squirrels" dump, **rev 0** (*not* the `(USA, Europe) (Rev 1)` revision) |
 | file | `ashgray-fork/base/firered.gba` |
 | MD5 | `e26ee0d44e809351c8ce2d73c7400cdd` |
+| SHA-1 | `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc` |
 | SHA-256 | `3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac` |
 | CRC-32 | `dd88761c` |
 
@@ -86,7 +87,7 @@ fix: map (0,17) Surf Staryu min>max). Full fix list: `ISSUES.md`.
 
 | artifact | MD5 | CRC-32 | RA? |
 |---|---|---|---|
-| FireRed (USA) v1.0 base | `e26ee0d4…cdd` | `dd88761c` | n/a |
+| FireRed (USA) **rev 0** base ("squirrels", *not* Rev 1) | `e26ee0d4…cdd` | `dd88761c` | n/a |
 | **Ash Gray 4.5.3 (original / RA)** | `92262059…fb14` | `10ef71a7` | ✅ recognized |
 | **Ash Gray 4.5.3 fork (current)** | `5cffa700…2d0` | `63478921` | ❌ not recognized |
 

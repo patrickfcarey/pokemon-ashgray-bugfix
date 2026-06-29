@@ -17,15 +17,15 @@ Full per-issue list with verification notes: **[`RELEASE.md`](RELEASE.md)** · l
 
 ## How to apply
 
-You apply the IPS to a clean **Pokémon FireRed Version (USA) v1.0** ROM ("No-Intro" / "squirrels"):
+You apply the IPS to a clean **Pokémon FireRed (USA)** ROM — specifically the **original release**: the No-Intro **"squirrels"** dump, a.k.a. **rev 0** (this is what "v1.0" means here). It is **not** the `(USA, Europe) (Rev 1)` revision — that's a different ROM with different hashes, and the patch will **not** produce a correct result on it. Verify your base against all three checksums:
 
-| | MD5 | CRC-32 |
-|---|---|---|
-| **Base** — FireRed (USA) v1.0 | `e26ee0d44e809351c8ce2d73c7400cdd` | `dd88761c` |
-| **Patch** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | — |
-| **Result** — this fork | `5cffa700fee4378fd9c48e8ba849a2d0` | `63478921` |
+| | MD5 | SHA-1 | CRC-32 |
+|---|---|---|---|
+| **Base** — FireRed (USA), rev 0 | `e26ee0d44e809351c8ce2d73c7400cdd` | `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc` | `dd88761c` |
+| **Patch** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | `1f65c4694a4bdbad7fd5f616ead44311abaee8d3` | — |
+| **Result** — this fork | `5cffa700fee4378fd9c48e8ba849a2d0` | `92ed82145c013069472153391c7aab1cfbf37b75` | `63478921` |
 
-1. Get a clean FireRed (USA) v1.0 ROM (matching the hash above).
+1. Get a clean **rev 0** FireRed (USA) ROM (matching all three base checksums above — it's 16,777,216 bytes).
 2. Apply [`patches/ashgray-fork.ips`](patches/ashgray-fork.ips) with any IPS patcher (Lunar IPS, Flips, etc.).
 3. Verify the output is MD5 `5cffa700…` / SHA-256 `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1`. If it matches, you have the exact fork.
 
