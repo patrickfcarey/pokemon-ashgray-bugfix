@@ -47,7 +47,7 @@ submenu and the vanilla box-grid view.
 Both inline step sites have **identical structure** (only +1/wrap-0 vs −1/wrap-13). 16 contiguous patchable
 bytes each: RIGHT `0x0808d46e–0x0808d47d`, LEFT `0x0808d4a6–0x0808d4b5`.
 
-## THE FIX — built & proven (`_emu/fix_boxreserve.py`, 2026-06-13)
+## THE FIX — built & proven (`tools/fix_boxreserve.py`, 2026-06-13)
 
 Hazard boxes = **indices {1, 2, 5}** (Box 2 / Box 3 / Box 6; full-box reserve, not slot-level — wastes
 Box 2's 27 safe slots but far simpler). Two free-space leaf helpers skip them (usable boxes 14→11):

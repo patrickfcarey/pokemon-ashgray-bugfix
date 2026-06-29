@@ -45,6 +45,7 @@ The fork's hash differs from the original, so RA will **not** recognize it. For 
 
 - [`patches/`](patches/) — the distributable IPS. [`PROVENANCE.md`](PROVENANCE.md) — exact build recipe + checksums (rebuildable from clean FireRed).
 - [`tools/`](tools/) — each fix as a byte-guarded Python script, plus a script decompiler and analysis tools.
+- [`tools/research/`](tools/research/) — the investigation & reproduction toolchain (the scripts that *found* and reproduced each bug: repro builders, state probes, the Thumb disassembler, the variable↔box mapping).
 - [`tools/emu/`](tools/emu/) — the headless libmgba verification harness used to reproduce and prove every fix.
 - [`audit/`](audit/) — deep dives (the Bad-Egg architecture, per-domain sweeps, the freeze-class analysis).
 
