@@ -1,0 +1,29 @@
+Fan-project disclaimer
+======================
+
+This is an unofficial, non-commercial, fan-made bug-fix patch for **Pokémon
+Ash Gray**, a ROM hack of Pokémon FireRed created by **metapod23**. It is not
+affiliated with, endorsed by, or supported by metapod23, Nintendo, Game Freak,
+The Pokémon Company, or any rights holder.
+
+- **No copyrighted ROM data is distributed here.** This repository contains
+  only a patch (`patches/ashgray-fork.ips`), source/analysis tooling, and
+  documentation. The patch is a binary diff; it does not include the FireRed
+  ROM or metapod23's hack.
+
+- **You must supply your own legally-obtained game.** To use this, apply the
+  IPS patch to a clean Pokémon FireRed (USA) v1.0 ROM that you own. See README
+  / RELEASE.md for the exact hashes and steps.
+
+- **Credit.** Pokémon Ash Gray and all of its original content are the work of
+  metapod23. Pokémon, Pokémon FireRed, and related marks are property of
+  Nintendo / Game Freak / The Pokémon Company. This project only changes
+  specific bytes to fix bugs in the released 4.5.3 build; it adds no new story,
+  maps, or assets.
+
+- **No warranty.** Use at your own risk. Back up your saves. See the caveats in
+  RELEASE.md (e.g. the box-reserve mitigation protects new saves, not ones that
+  already have a Pokémon in a hazard box).
+
+If a rights holder objects to this fan patch, open an issue and it will be
+taken down.

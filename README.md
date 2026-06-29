@@ -1,33 +1,54 @@
-# Ash Gray — bug-fix fork
+# Pokémon Ash Gray — bug-fix fork
 
-A personal bug-fixing **fork of Pokémon Ash Gray** (FireRed hack by **metapod23**).
-All credit for Ash Gray goes to metapod23; this repo only adds targeted fixes on top.
+An unofficial **bug-fix patch** for **Pokémon Ash Gray** (beta 4.5.3) by **metapod23** — the FireRed romhack that retells Season 1 of the anime. It fixes crashes, softlocks, and the infamous "Bad Egg" save corruption in the released build, **without changing any story, maps, or balance** beyond the fixes.
 
-**This repo does not contain any ROM.** It ships the *patch* and the tooling/analysis.
-To build the forked ROM, apply `patches/ashgray-fork.ips` to a clean
-**Pokémon FireRed (USA) v1.0** ("squirrels", CRC32 `dd88761c`).
+> ⚠️ **This is a fan project. No ROM is included here** — only an IPS patch you apply to a clean FireRed you legally own. See [`NOTICE`](NOTICE). All credit for Ash Gray itself goes to metapod23.
 
-## Layout
-- `base/firered.gba`   — clean FireRed v1.0 (git-ignored; supply your own)
-- `rom/ashgray.gba`    — working ROM you edit (git-ignored)
-- `tools/` — analysis & build scripts:
-  - `diff.py`      — change footprint vs FireRed
-  - `maps.py`      — walk map/event tables, list script offsets
-  - `text.py`      — decode the anime dialogue (for proofreading)
-  - `makepatch.py` — regenerate `patches/ashgray-fork.ips` from `rom/ashgray.gba`
-  - `patcher.py`   — apply IPS/BPS/UPS (to verify the patch round-trips)
-- `audit/` — analysis output (footprint, maps, dialogue dump)
-- `patches/` — the distributable fork patch
+Every fix was reproduced and A/B-verified in a headless emulator against an unmodified 4.5.3 ROM. Where something couldn't be fixed safely, it's disclosed in [`RELEASE.md`](RELEASE.md) rather than papered over.
 
-## Workflow
-1. Edit bytes/scripts/text in `rom/ashgray.gba` (via the tools).
-2. `python3 tools/makepatch.py` → updates `patches/ashgray-fork.ips`.
-3. Verify it round-trips against clean FireRed before sharing.
+## What it fixes (highlights)
 
-## Findings so far
-- Ash Gray relocated the **map bank table** to `0x73E2F4` (expanded space) to add maps.
-- ~1.5 MB of new scripts+dialogue live at `0x71A000–0x9A0000`; ~4,880 strings decoded.
-- See `audit/` for details.
+- **The "Bad Eggs" — root-caused and mitigated.** Ash Gray's story progress physically overlaps your PC storage, which is the real, non-cheat cause of Bad Eggs (and a lot of "backtracking corrupted my save" reports). The patch **reserves the three hazardous boxes (Box 2, 3, 6)** in the storage UI so you can no longer deposit a Pokémon into a slot the game will overwrite. (Diagnosis + the full variable→box map are in [`audit/`](audit/).)
+- **Crashes fixed:** breeding-center (Jessie & James / Butch & Cassidy with a full party), Grampa Canyon "pickaxe from the rival" softlock, the underwater-cave black screen after Dragonite's message, the Tangelo Island arrival crash, and a "talk to an NPC → freeze" at the doll-competition scene.
+- **Softlocks fixed:** the Indigo Plateau guard refusing entry with all 8 badges, Prof. Oak stalling the league send-off, declining Dragonite's invite making the game unwinnable, the Cerulean Gym pool-walkway trap, a Pallet Town ledge that sealed you in a one-tile pocket, and a batch of dangling warps.
+- **Quality:** running shoes restored on 44 maps, bike usage on 16 maps, the "broken — don't use" Teachy TV made safe, a wild-encounter level typo, and several text fixes.
 
-> Note on sharing: respect metapod23's wishes — credit the original, don't claim
-> ownership, and check the project's terms before redistributing a forked build.
+Full per-issue list with verification notes: **[`RELEASE.md`](RELEASE.md)** · live tracker: **[`ISSUES.md`](ISSUES.md)**.
+
+## How to apply
+
+You apply the IPS to a clean **Pokémon FireRed Version (USA) v1.0** ROM ("No-Intro" / "squirrels"):
+
+| | MD5 | CRC-32 |
+|---|---|---|
+| **Base** — FireRed (USA) v1.0 | `e26ee0d44e809351c8ce2d73c7400cdd` | `dd88761c` |
+| **Patch** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | — |
+| **Result** — this fork | `5cffa700fee4378fd9c48e8ba849a2d0` | `63478921` |
+
+1. Get a clean FireRed (USA) v1.0 ROM (matching the hash above).
+2. Apply [`patches/ashgray-fork.ips`](patches/ashgray-fork.ips) with any IPS patcher (Lunar IPS, Flips, etc.).
+3. Verify the output is MD5 `5cffa700…` / SHA-256 `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1`. If it matches, you have the exact fork.
+
+**Saves** use the same format as clean 4.5.3, so a `.sav` is interchangeable. (Read the box-storage caveat in `RELEASE.md` before migrating a long save — the reserve protects *new* placements, not a Pokémon already sitting in a hazard box.)
+
+## RetroAchievements
+
+The fork's hash differs from the original, so RA will **not** recognize it. For credited RA play, use the unmodified 4.5.3 ROM (MD5 `92262059190c05a5615be6b98612fb14`, RA game #5245). Play the fork for the best bug-fixed run; play the original for RA credit. See [`HARDCORE-RA-GUIDE.md`](HARDCORE-RA-GUIDE.md).
+
+## Known limits (read before playing)
+
+- The hack is **unfinished** — content ends partway through the Orange Islands (~the third Orange-League gym). That's metapod23's frontier, not a bug.
+- Some things look like bugs but are **intentional** (anime-accurate): HMs replaced by key items, Brock's scripted first-battle loss, Pikachu refusing Misty, Charizard disobedience.
+- A few minor issues are documented, not fixed — see `RELEASE.md`.
+
+## For tinkerers
+
+- [`patches/`](patches/) — the distributable IPS. [`PROVENANCE.md`](PROVENANCE.md) — exact build recipe + checksums (rebuildable from clean FireRed).
+- [`tools/`](tools/) — each fix as a byte-guarded Python script, plus a script decompiler and analysis tools.
+- [`tools/emu/`](tools/emu/) — the headless libmgba verification harness used to reproduce and prove every fix.
+- [`audit/`](audit/) — deep dives (the Bad-Egg architecture, per-domain sweeps, the freeze-class analysis).
+
+## Credits & license
+
+- **Pokémon Ash Gray** © **metapod23**. Pokémon / FireRed © Nintendo · Game Freak · The Pokémon Company.
+- This fork's tooling and documentation are MIT-licensed ([`LICENSE`](LICENSE)); the patch is offered as a fan bug-fix under the terms in [`NOTICE`](NOTICE).

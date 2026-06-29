@@ -4,7 +4,7 @@
 # Compiles rig.c with the SAME defines the libmgba build used (struct-ABI must match).
 set -uo pipefail
 export PATH="$HOME/.local/bin:$PATH"
-cd /tank/backups/media_3x/roms/consoles/pokemon_romhacks/_emu
+cd "$(dirname "$(readlink -f "$0")")"
 PFX="$PWD/prefix"; export LD_LIBRARY_PATH="$PFX/lib64:$PFX/lib:${LD_LIBRARY_PATH:-}"
 DEFS="-DENABLE_VFS -DENABLE_DIRECTORIES -DENABLE_DEBUGGERS -DM_CORE_GBA -DM_CORE_GB -D_GNU_SOURCE"
 if [ ! -x rig ] || [ rig.c -nt rig ]; then

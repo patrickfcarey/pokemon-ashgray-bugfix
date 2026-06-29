@@ -3,3 +3,10 @@ base/*.gba
 rom/*.gba
 *.sav
 *_verify.gba
+
+# Author-only working files — kept locally, not published
+COMMUNITY-POST*.md
+COMMUNITY-REPORTS.md
+tools/setup.sh
+tools/init_fork.sh
+artifacts/

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -uo pipefail
 export PATH="$HOME/.local/bin:$PATH"
-cd /tank/backups/media_3x/roms/consoles/pokemon_romhacks/_emu
+cd "$(dirname "$(readlink -f "$0")")"
 PFX="$PWD/prefix"
 export LD_LIBRARY_PATH="$PFX/lib64:$PFX/lib:${LD_LIBRARY_PATH:-}"
 if [ ! -x shot ] || [ shot.c -nt shot ]; then

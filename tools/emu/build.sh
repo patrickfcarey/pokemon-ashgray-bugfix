@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -uo pipefail
 export PATH="$HOME/.local/bin:$PATH"
-cd /tank/backups/media_3x/roms/consoles/pokemon_romhacks/_emu
+cd "$(dirname "$(readlink -f "$0")")"
 [ -d mgba ] || git clone --depth 1 https://github.com/mgba-emu/mgba.git 2>&1 | tail -2
 cd mgba && mkdir -p build && cd build
 echo "=== configure ==="
