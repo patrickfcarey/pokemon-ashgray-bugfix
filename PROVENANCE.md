@@ -54,7 +54,7 @@ Shares 4.5.3's save format, so its `.sav` is interchangeable with the clean ROM.
 | | value |
 |---|---|
 | working ROM | `ashgray-fork/rom/ashgray.gba` (git-ignored) |
-| kept ROM | `gba/Ashgray-fork.gba`  — rebuilt 2026-06-16 |
+| kept ROM | `gba/Pokemon Ash Gray (4.5.3, bugfix fork).gba`  — rebuilt 2026-06-16 |
 | **MD5** | **`5cffa700fee4378fd9c48e8ba849a2d0`** |
 | SHA-256 | `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1` |
 | CRC-32 | `63478921` |
@@ -75,7 +75,7 @@ python3 ashgray-fork/tools/patcher.py \
 braille-freeze fix) → `43216f9f` (+ person4/map-1.59 braille-freeze fix) → **`5cffa700`** (+ wild-level typo
 fix: map (0,17) Surf Staryu min>max). Full fix list: `ISSUES.md`.
 
-> **Built & kept (2026-06-16):** `gba/Ashgray-fork.gba` is the current fork (MD5 `5cffa700…`,
+> **Built & kept (2026-06-16):** `gba/Pokemon Ash Gray (4.5.3, bugfix fork).gba` is the current fork (MD5 `5cffa700…`,
 > CRC `63478921`), built from `firered.gba` + `ashgray-fork.ips`, sitting alongside the clean
 > `gba/Pokemon Ash Gray (4.5.3).gba`.
 >
