@@ -2,7 +2,7 @@
 
 An unofficial **bug-fix patch** for **Pokémon Ash Gray** (beta 4.5.3) by **metapod23** — the FireRed romhack that retells Season 1 of the anime. It fixes crashes, softlocks, and the infamous "Bad Egg" save corruption in the released build, **without changing any story, maps, or balance** beyond the fixes.
 
-> ⚠️ **This is a fan project. No ROM is included here** — only an IPS patch you apply to a clean FireRed you legally own. See [`NOTICE`](NOTICE). All credit for Ash Gray itself goes to metapod23.
+> ⚠️ **This is a fan project. No ROM is included here** — only IPS and BPS patches you apply to a clean FireRed you legally own. See [`NOTICE`](NOTICE). All credit for Ash Gray itself goes to metapod23.
 
 Every fix was reproduced and A/B-verified in a headless emulator against an unmodified 4.5.3 ROM. Where something couldn't be fixed safely, it's disclosed in [`RELEASE.md`](RELEASE.md) rather than papered over.
 
@@ -17,16 +17,17 @@ Full per-issue list with verification notes: **[`RELEASE.md`](RELEASE.md)** · l
 
 ## How to apply
 
-You apply the IPS to a clean **Pokémon FireRed (USA)** ROM — specifically the **original release**: the No-Intro **"squirrels"** dump, a.k.a. **rev 0** (this is what "v1.0" means here). It is **not** the `(USA, Europe) (Rev 1)` revision — that's a different ROM with different hashes, and the patch will **not** produce a correct result on it. Verify your base against all three checksums:
+You apply the patch to a clean **Pokémon FireRed (USA)** ROM — specifically the **original release**: the No-Intro **"squirrels"** dump, a.k.a. **rev 0** (this is what "v1.0" means here). It is **not** the `(USA, Europe) (Rev 1)` revision — that's a different ROM with different hashes, and the patch will **not** produce a correct result on it. Two equivalent patch formats are provided (`.ips` and `.bps`); use whichever your patcher prefers — both produce the identical fork. Verify your base against all three checksums:
 
 | | MD5 | SHA-1 | CRC-32 |
 |---|---|---|---|
 | **Base** — FireRed (USA), rev 0 | `e26ee0d44e809351c8ce2d73c7400cdd` | `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc` | `dd88761c` |
-| **Patch** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | `1f65c4694a4bdbad7fd5f616ead44311abaee8d3` | — |
+| **Patch (IPS)** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | `1f65c4694a4bdbad7fd5f616ead44311abaee8d3` | — |
+| **Patch (BPS)** — `patches/ashgray-fork.bps` | `29d7cb5f1849526cb58a7c6e741584fb` | — | — |
 | **Result** — this fork | `5cffa700fee4378fd9c48e8ba849a2d0` | `92ed82145c013069472153391c7aab1cfbf37b75` | `63478921` |
 
 1. Get a clean **rev 0** FireRed (USA) ROM (matching all three base checksums above — it's 16,777,216 bytes).
-2. Apply [`patches/ashgray-fork.ips`](patches/ashgray-fork.ips) with any IPS patcher (Lunar IPS, Flips, etc.).
+2. Apply either [`patches/ashgray-fork.ips`](patches/ashgray-fork.ips) (IPS) or [`patches/ashgray-fork.bps`](patches/ashgray-fork.bps) (BPS) with any patcher (Lunar IPS, Flips, beat, etc.).
 3. Verify the output is MD5 `5cffa700…` / SHA-256 `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1`. If it matches, you have the exact fork.
 
 **Saves** use the same format as clean 4.5.3, so a `.sav` is interchangeable. (Read the box-storage caveat in `RELEASE.md` before migrating a long save — the reserve protects *new* placements, not a Pokémon already sitting in a hazard box.)
@@ -43,8 +44,8 @@ The fork's hash differs from the original, so RA will **not** recognize it. For 
 
 ## For tinkerers
 
-- [`patches/`](patches/) — the distributable IPS. [`PROVENANCE.md`](PROVENANCE.md) — exact build recipe + checksums (rebuildable from clean FireRed).
-- [`tools/`](tools/) — each fix as a byte-guarded Python script, plus a script decompiler and analysis tools.
+- [`patches/`](patches/) — the distributable IPS and BPS patches (both produce the identical fork). [`PROVENANCE.md`](PROVENANCE.md) — exact build recipe + checksums (rebuildable from clean FireRed).
+- [`tools/`](tools/) — each fix as a byte-guarded Python script, a script decompiler, a patch applier (`patcher.py`, IPS + BPS) and BPS generator (`make_bps.py`), and analysis tools.
 - [`tools/research/`](tools/research/) — the investigation & reproduction toolchain (the scripts that *found* and reproduced each bug: repro builders, state probes, the Thumb disassembler, the variable↔box mapping).
 - [`tools/emu/`](tools/emu/) — the headless libmgba verification harness used to reproduce and prove every fix.
 - [`audit/`](audit/) — deep dives (the Bad-Egg architecture, per-domain sweeps, the freeze-class analysis).
