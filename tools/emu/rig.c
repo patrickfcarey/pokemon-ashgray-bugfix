@@ -71,7 +71,10 @@ static uint32_t held = 0;
    watch/rwatch a byte range; on a matching access log the PC, link reg (= caller),
    the access, and r0-r3 (likely args/values). Optional condition (op,val) fires only
    when the accessed value matches -> catches "when does X become >N". Plain watches
-   dedup by PC (find the set of accessing functions); conditional ones log every hit. */
+   dedup by PC (find the set of accessing functions); conditional ones log every hit.
+   LIMIT: only CPU data accesses go through these fn pointers — DMA transfers (and PPU
+   fetches) bypass them entirely, so a DMA write into a watched range is invisible.
+   Also note the plain-watch PC dedup set is shared across ALL active watches. */
 enum { WT_WRITE = 0, WT_READ = 1 };
 struct Watch { uint32_t lo, hi; int type, op; uint32_t val; };
 static struct ARMCore* wcpu = NULL;
@@ -325,7 +328,8 @@ int main(int argc, char** argv) {
 		} else if (!strcmp(cmd, "peek8") || !strcmp(cmd, "peek16") || !strcmp(cmd, "peek32")) {
 			uint32_t a = (uint32_t) strtoul(rest, NULL, 0);
 			int sz = cmd[4] == '8' ? 8 : (cmd[4] == '1' ? 16 : 32);
-			fprintf(stderr, "PEEK 0x%08x = 0x%x (%u)\n", a, rd(a, sz), rd(a, sz));
+			uint32_t v = rd(a, sz);   /* single read: a read-side-effecting I/O reg must not be hit twice */
+			fprintf(stderr, "PEEK 0x%08x = 0x%x (%u)\n", a, v, v);
 		} else if (!strcmp(cmd, "poke8") || !strcmp(cmd, "poke16") || !strcmp(cmd, "poke32")) {
 			uint32_t a, v;
 			if (sscanf(rest, "%i %i", &a, &v) == 2) {
