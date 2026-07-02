@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""FireRed event-script decompiler. Full Gen3/FireRed command table (opcode lengths
-derived from pret/pokefirered asm/macros/event.inc). Recurses through call/goto/if
-branches; stops only on the genuinely variable-length trainerbattle or a bad opcode.
+"""FireRed event-script decompiler. Full Gen3/FireRed command table, opcode lengths
+ENGINE-DERIVED (see tools/oplen.py; tools/verify_opcode_table.py re-derives them from
+the base ROM's 213 handlers). Recurses through call/goto/if branches; stops only on
+the genuinely variable-length trainerbattle or a bad opcode.
 Usage: decomp.py [bank,map | 0xOFFSET] ..."""
 import sys
 ag = open('rom/ashgray.gba', 'rb').read(); ROM = 0x08000000
@@ -41,7 +42,7 @@ T={
 0x19:('copyvar',5),0x1A:('setorcopyvar',5),0x1B:('cmp_ll',3),0x1C:('cmp_lv',3),0x1D:('cmp_lp',6),
 0x1E:('cmp_pl',6),0x1F:('cmp_pv',6),0x20:('cmp_pp',9),0x21:('compare',5),0x22:('compare_vv',5),
 0x23:('callnative',5),0x24:('gotonative',5),0x25:('special',3),0x26:('specialvar',5),0x27:('waitstate',1),
-0x28:('delay',3),0x29:('setflag',3),0x2A:('clearflag',3),0x2B:('checkflag',3),0x2C:('initclock',5),
+0x28:('delay',3),0x29:('setflag',3),0x2A:('clearflag',3),0x2B:('checkflag',3),0x2C:('initclock',1),
 0x2D:('dotimebasedevents',1),0x2E:('gettime',1),0x2F:('playse',3),0x30:('waitse',1),0x31:('playfanfare',3),
 0x32:('waitfanfare',1),0x33:('playbgm',4),0x34:('savebgm',3),0x35:('fadedefaultbgm',1),0x36:('fadenewbgm',3),
 0x37:('fadeoutbgm',2),0x38:('fadeinbgm',2),0x39:('warp',8),0x3A:('warpsilent',8),0x3B:('warpdoor',8),
@@ -58,22 +59,22 @@ T={
 0x67:('message',5),0x68:('closemessage',1),0x69:('lockall',1),0x6A:('lock',1),0x6B:('releaseall',1),
 0x6C:('release',1),0x6D:('waitbuttonpress',1),0x6E:('yesnobox',3),0x6F:('multichoice',5),
 0x70:('multichoicedefault',6),0x71:('multichoicegrid',6),0x72:('drawbox',1),0x73:('erasebox',5),
-0x74:('drawboxtext',5),0x75:('showmonpic',5),0x76:('hidemonpic',1),0x77:('showcontestpainting',2),
-0x78:('braillemessage',5),0x79:('givemon',12),0x7A:('giveegg',3),0x7B:('setmonmove',5),0x7C:('checkpartymove',3),
+0x74:('drawboxtext',1),0x75:('showmonpic',5),0x76:('hidemonpic',1),0x77:('showcontestpainting',2),
+0x78:('braillemessage',5),0x79:('givemon',15),0x7A:('giveegg',3),0x7B:('setmonmove',5),0x7C:('checkpartymove',3),
 0x7D:('bufferspeciesname',4),0x7E:('bufferleadmonspeciesname',2),0x7F:('bufferpartymonnick',4),
 0x80:('bufferitemname',4),0x81:('bufferdecorationname',4),0x82:('buffermovename',4),0x83:('buffernumberstring',4),
 0x84:('bufferstdstring',4),0x85:('bufferstring',6),0x86:('pokemart',5),0x87:('pokemartdecoration',5),
-0x88:('pokemartdecoration2',5),0x89:('playslotmachine',3),0x8A:('setberrytree',4),0x8B:('choosecontestmon',1),
+0x88:('pokemartdecoration2',5),0x89:('playslotmachine',3),0x8A:('setberrytree',1),0x8B:('choosecontestmon',1),
 0x8C:('startcontest',1),0x8D:('showcontestresults',1),0x8E:('contestlinktransfer',1),0x8F:('random',3),
-0x90:('addmoney',6),0x91:('removemoney',6),0x92:('checkmoney',6),0x93:('showmoneybox',4),0x94:('hidemoneybox',3),
-0x95:('updatemoneybox',4),0x96:('getpokenewsactive',3),0x97:('fadescreen',2),0x98:('fadescreenspeed',3),
+0x90:('addmoney',6),0x91:('removemoney',6),0x92:('checkmoney',6),0x93:('showmoneybox',4),0x94:('hidemoneybox',1),
+0x95:('updatemoneybox',4),0x96:('getpokenewsactive',1),0x97:('fadescreen',2),0x98:('fadescreenspeed',3),
 0x99:('setflashlevel',3),0x9A:('animateflash',2),0x9B:('messageautoscroll',5),0x9C:('dofieldeffect',3),
 0x9D:('setfieldeffectargument',4),0x9E:('waitfieldeffect',3),0x9F:('setrespawn',3),0xA0:('checkplayergender',1),
 0xA1:('playmoncry',5),0xA2:('setmetatile',9),0xA3:('resetweather',1),0xA4:('setweather',3),0xA5:('doweather',1),
-0xA6:('setstepcallback',2),0xA7:('setmaplayoutindex',3),0xA8:('setobjectsubpriority',5),
-0xA9:('resetobjectsubpriority',4),0xAA:('createvobject',8),0xAB:('turnvobject',3),0xAC:('opendoor',5),
+0xA6:('setstepcallback',2),0xA7:('setmaplayoutindex',3),0xA8:('setobjectsubpriority',6),
+0xA9:('resetobjectsubpriority',5),0xAA:('createvobject',9),0xAB:('turnvobject',3),0xAC:('opendoor',5),
 0xAD:('closedoor',5),0xAE:('waitdooranim',1),0xAF:('setdooropen',5),0xB0:('setdoorclosed',5),
-0xB1:('addelevmenuitem',8),0xB2:('showelevmenu',1),0xB3:('checkcoins',3),0xB4:('addcoins',3),0xB5:('removecoins',3),
+0xB1:('addelevmenuitem',1),0xB2:('showelevmenu',1),0xB3:('checkcoins',3),0xB4:('addcoins',3),0xB5:('removecoins',3),
 0xB6:('setwildbattle',6),0xB7:('dowildbattle',1),0xB8:('setvaddress',5),0xB9:('vgoto',5),0xBA:('vcall',5),
 0xBB:('vgoto_if',6),0xBC:('vcall_if',6),0xBD:('vmessage',5),0xBE:('vbuffermessage',5),0xBF:('vbufferstring',6),
 0xC0:('showcoinsbox',3),0xC1:('hidecoinsbox',3),0xC2:('updatecoinsbox',3),0xC3:('incrementgamestat',2),
@@ -83,6 +84,10 @@ T={
 0xD0:('setworldmapflag',3),0xD1:('warpspinenter',8),0xD2:('setmonmetlocation',4),0xD3:('getbraillestringwidth',5),
 0xD4:('bufferitemnameplural',6),
 }
+# Lengths are the engine's own (0x2C/0x74/0x8A/0x94/0x96/0xB1 are FR nop-stubs = 1;
+# givemon = 15). Keep in lockstep with the canonical table:
+import oplen as _oplen
+assert {k: v[1] for k, v in T.items()} == _oplen.LEN, 'decomp.py T out of sync with oplen.py'
 TERM={0x02,0x03,0x05,0x08,0x0C,0x0D,0x24,0xB9}   # end/return/goto/gotostd/returnram/endram/gotonative/vgoto
 SUB={0x04,0x05,0x06,0x07}                        # call/goto/goto_if/call_if -> recurse into pointer
 
