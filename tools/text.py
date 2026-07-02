@@ -48,9 +48,13 @@ out = ['# Ash Gray — anime dialogue dump (region 0x700000–0xA00000)\n',
 for off, txt in strings:
     show = txt.replace('\\n', ' / ').replace('\\p', ' // ').replace('\\l', ' / ')
     out.append(f'- `0x{off:06X}` {show}')
-open('audit/03-dialogue.md', 'w').write('\n'.join(out)+'\n')
+# scratch path by default so re-runs don't clobber the committed audit doc;
+# set AUDIT_OUT=audit/03-dialogue.md to regenerate the tracked file deliberately
+import os as _os
+_outf = _os.environ.get('AUDIT_OUT', '/tmp/03-dialogue.md')
+open(_outf, 'w').write('\n'.join(out)+'\n')
 
-print(f"decoded {len(strings)} strings -> audit/03-dialogue.md")
+print(f"decoded {len(strings)} strings -> {_outf}")
 print("--- first 25 ---")
 for off, txt in strings[:25]:
     print(f"  0x{off:06X}  {txt[:90].replace(chr(92)+'n',' / ')}")

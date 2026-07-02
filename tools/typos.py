@@ -48,7 +48,10 @@ while i<0xA00000:
 out=['# Ash Gray — dialogue text-error candidates\n', f'Flagged: **{len(flags)}** strings (high-precision filters).\n']
 for off,iss,txt in flags:
     out.append(f'- `0x{off:06X}` [{", ".join(iss)}]  —  {txt.replace(chr(92)+"n"," / ").replace(chr(92)+"p"," // ")[:140]}')
-open('audit/04-typo-candidates.md','w').write('\n'.join(out)+'\n')
-print(f"flagged {len(flags)} strings -> audit/04-typo-candidates.md")
+# scratch path by default (AUDIT_OUT=audit/04-typo-candidates.md to update the tracked doc)
+import os as _os
+_outf = _os.environ.get('AUDIT_OUT', '/tmp/04-typo-candidates.md')
+open(_outf,'w').write('\n'.join(out)+'\n')
+print(f"flagged {len(flags)} strings -> {_outf}")
 for off,iss,txt in flags[:30]:
     print(f"  0x{off:06X} {','.join(iss):28} {txt.replace(chr(92)+'n',' / ')[:80]}")

@@ -69,7 +69,10 @@ out.append('|-----------|---------------|')
 for k in sorted(buckets):
     out.append(f'| 0x{k:01X}00000–0x{k:01X}FFFFF | {buckets[k]:,} |')
 
-open('audit/01-footprint.md', 'w').write('\n'.join(out) + '\n')
+# scratch path by default (AUDIT_OUT=audit/01-footprint.md to update the tracked doc)
+import os as _os
+_outf = _os.environ.get('AUDIT_OUT', '/tmp/01-footprint.md')
+open(_outf, 'w').write('\n'.join(out) + '\n')
 
 # console summary
 print(f'changed {total:,} bytes ({100*total/n:.1f}%), {len(ranges)} regions')
@@ -77,4 +80,4 @@ print('top 12 regions:')
 for a, b in ranges_sorted[:12]:
     kind, wf, guess = classify(a, b)
     print(f'  0x{a:06X}  {b-a+1:>8,}B  {kind:4}  free={wf*100:3.0f}%  {guess}')
-print('-> audit/01-footprint.md')
+print(f'-> {_outf}')

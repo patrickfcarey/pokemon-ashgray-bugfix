@@ -79,7 +79,10 @@ for (bi,mi,hoff,s,nw) in rewritten:
     refs=', '.join(f'{l}@0x{o:06X}' for l,o in nw[:6])
     if len(nw)>6: refs+=f' …(+{len(nw)-6})'
     out.append(f'| {bi}.{mi} | {nm} | {len(s)} | {refs} |')
-open('audit/02-maps.md','w').write('\n'.join(out)+'\n')
-print('-> audit/02-maps.md')
+# scratch path by default (AUDIT_OUT=audit/02-maps.md to update the tracked doc)
+import os as _os
+_outf = _os.environ.get('AUDIT_OUT', '/tmp/02-maps.md')
+open(_outf,'w').write('\n'.join(out)+'\n')
+print(f'-> {_outf}')
 for (bi,mi,hoff,s,nw) in rewritten[:14]:
     print(f"  {bi}.{mi} {NAMES.get((bi,mi),''):16} refs={len(s):2}  e.g. {nw[0][0]}@0x{nw[0][1]:06X}")
