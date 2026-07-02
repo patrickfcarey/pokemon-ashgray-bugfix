@@ -30,6 +30,9 @@ for b, bt in enumerate(banks):
         if fr[h+0x18] == 1 and ag[h+0x18] == 0:
             ag[h+0x18] = 1
             n += 1
+if n == 0:
+    print('L10: no maps needed the biking restore (already applied) — no change')
+    raise SystemExit(0)
 assert n == 16, f'expected 16 maps, found {n}'
 open('rom/ashgray.gba', 'wb').write(ag)
 print(f'L10 fixed: bikingAllowed restored on {n} maps')

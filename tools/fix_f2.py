@@ -30,6 +30,14 @@ script = bytes([
     0x02,                                # end
 ])
 
+# superseded-by-v2 guard: once fix_f2_v2 rebuilt the mapscripts (header 0x34F9F4+8 ->
+# 0x08C000C0), this old frame table is orphaned — re-applying v1 would only dirty the ROM.
+if bytes(ag[0x34F9FC:0x34FA00]) == (0x08C000C0).to_bytes(4, 'little'):
+    print('F2 v1 superseded: fix_f2_v2 already applied (v1 would edit an orphaned table) — no change')
+    raise SystemExit(0)
+if bytes(ag[ENTRY_P:ENTRY_P+4]) == NEW_PTR:
+    print('F2 v1 already applied — no change')
+    raise SystemExit(0)
 assert ag[NEW_AT:NEW_AT+len(script)] == b'\xff'*len(script), 'free space not free!'
 assert bytes(ag[ENTRY_P:ENTRY_P+4]) == OLD_PTR, 'frame-table entry not as expected!'
 assert bytes(ag[0x71F48B:0x71F48F]) == bytes([0x01,0x70,0x00,0x00]), 'entry var/val moved!'

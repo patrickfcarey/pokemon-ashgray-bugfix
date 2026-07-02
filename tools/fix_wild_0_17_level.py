@@ -10,6 +10,9 @@ FIX: minLevel byte at file 0x72BA88: 0x23 (35) -> 0x19 (25). Byte-guarded single
 """
 ROM = 'rom/ashgray.gba'; OFF = 0x72BA88; EXPECT = 0x23; NEW = 0x19
 data = bytearray(open(ROM, 'rb').read())
+if data[OFF] == NEW and data[OFF+1] == 0x1E and data[OFF+2] == 0x78:
+    print('wild-level fix already applied — no change')
+    raise SystemExit(0)
 assert data[OFF] == EXPECT, 'GUARD: byte @0x%06X is 0x%02X, expected 0x%02X' % (OFF, data[OFF], EXPECT)
 assert data[OFF+1] == 0x1E and data[OFF+2] == 0x78, 'GUARD: slot maxLevel/species changed (got %02X %02X)' % (data[OFF+1], data[OFF+2])
 data[OFF] = NEW

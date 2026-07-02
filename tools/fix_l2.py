@@ -22,6 +22,9 @@ stub = bytes([0x0F, 0x00, 0x1E, 0x20, 0x87, 0x08,   # loadword 0, 0x0887201E
               0x16, 0x13, 0x70, 0x01, 0x00,         # setvar 0x7013, 1
               0x6C,                                 # release
               0x02])                                # end
+if bytes(ag[GOTO:GOTO+5]) == bytes([0x05]) + (0x08000000+STUB).to_bytes(4, 'little'):
+    print('L2 already applied (no-room branch already goes to the stub) — no change')
+    raise SystemExit(0)
 assert ag[STUB:STUB+len(stub)] == b'\xff'*len(stub), 'free space not free!'
 assert bytes(ag[GOTO:GOTO+5]) == bytes([0x05, 0xDF, 0x16, 0x82, 0x08]), \
     f'goto bytes unexpected: {bytes(ag[GOTO:GOTO+5]).hex()}'

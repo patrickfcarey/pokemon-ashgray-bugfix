@@ -16,6 +16,9 @@ ag = bytearray(open('rom/ashgray.gba', 'rb').read())
 W = 0x73101C
 OLD = bytes([0x01,0x00, 0x06,0x00, 0x04, 0x00, 0x03, 0x21])  # x=1 y=6 elev=4 warpId=0 -> map 33.3
 NEW = bytes([0x01,0x00, 0x06,0x00, 0x04, 0x01, 0x0D, 0x03])  # same pos -> map 3.13 warpId 1
+if bytes(ag[W:W+8]) == NEW:
+    print(f'F6 already applied @0x{W:06X} — no change')
+    raise SystemExit(0)
 assert bytes(ag[W:W+8]) == OLD, f'warp struct unexpected: {bytes(ag[W:W+8]).hex()}'
 ag[W:W+8] = NEW
 open('rom/ashgray.gba', 'wb').write(ag)

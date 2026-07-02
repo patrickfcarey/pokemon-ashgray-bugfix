@@ -60,6 +60,7 @@ CLAMPS = [
     (23,0,2,  (3,30,3),  1),
     (23,0,3,  (3,30,3),  1),
 ]
+changed = False
 for sg, sn, sw, (dg, dn, dw), new in CLAMPS:
     o = warpstruct(sg, sn, sw)
     if ag[o+7] == dg and ag[o+6] == dn and ag[o+5] == new:
@@ -67,6 +68,7 @@ for sg, sn, sw, (dg, dn, dw), new in CLAMPS:
     assert ag[o+7] == dg and ag[o+6] == dn and ag[o+5] == dw, \
         f'{sg}.{sn} w{sw}: expected ->{dg}.{dn} id{dw}, found ->{ag[o+7]}.{ag[o+6]} id{ag[o+5]}'
     ag[o+5] = new
+    changed = True
     print(f'clamped {sg}.{sn} warp#{sw}: ->{dg}.{dn} warpId {dw} -> {new}')
 
 # corpse-door seals: retarget to the source's own warp#0
@@ -76,12 +78,18 @@ SEALS = [
 ]
 for sg, sn, sw, (dg, dn, dw) in SEALS:
     o = warpstruct(sg, sn, sw)
+    if ag[o+7] == sg and ag[o+6] == sn and ag[o+5] == 0:
+        print(f'already sealed {sg}.{sn} warp#{sw}'); continue
     assert ag[o+7] == dg and ag[o+6] == dn and ag[o+5] == dw, \
         f'{sg}.{sn} w{sw}: expected ->{dg}.{dn} id{dw}, found ->{ag[o+7]}.{ag[o+6]} id{ag[o+5]}'
     ag[o+5] = 0
     ag[o+6] = sn
     ag[o+7] = sg
+    changed = True
     print(f'sealed {sg}.{sn} warp#{sw}: ->{dg}.{dn} now -> {sg}.{sn} warp#0')
 
+if not changed:
+    print('L5 already applied (all clamps + seals in place) — no change')
+    raise SystemExit(0)
 open('rom/ashgray.gba', 'wb').write(ag)
 print('done: 19 clamps + 2 seals')

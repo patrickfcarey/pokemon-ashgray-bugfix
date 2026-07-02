@@ -25,6 +25,9 @@ NEW = bytes([0x21,0x14,0x70,0x02,0x00,   # compare 0x7014, 2
              0x05,0x81,0x90,0x8E,0x08])   # goto      -> 0x8E9081  (eligibility check)
 
 cur = bytes(ag[AT:AT+len(OLD)])
+if cur == NEW:
+    print(f'L1 already applied @0x{AT:06X} — no change')
+    raise SystemExit(0)
 if cur != OLD:
     print('ABORT: bytes @0x%06X are not the expected original guard dispatch.' % AT)
     print('  expected:', OLD.hex())

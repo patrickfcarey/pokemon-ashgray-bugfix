@@ -34,6 +34,9 @@ for b, bt in enumerate(banks):
         if (v & 2) and not (a & 2):
             ag[h+0x19] = v
             n += 1
+if n == 0:
+    print('L4: no maps needed the run-flag restore (already applied) — no change')
+    raise SystemExit(0)
 assert n == 44, f'expected 44 maps, found {n}'
 open('rom/ashgray.gba', 'wb').write(ag)
 print(f'L4 fixed: restored vanilla header flags (+0x19) on {n} maps (run/escape/map-name)')

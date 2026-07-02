@@ -31,6 +31,9 @@ ENTRY = 0x806505
 FREE  = 0xC00150
 OLD = bytes([0x21,0x72,0x60,0x03,0x00, 0x06,0x00,0x06,0x54,0x80,0x08,
              0x06,0x01,0x7C,0xD6,0x80,0x08, 0x6C, 0x02])          # compare/goto_if/goto_if/release/end
+if bytes(ag[ENTRY:ENTRY+5]) == bytes([0x05,0x50,0x01,0xC0,0x08]):
+    print('Marsh re-guard already applied — no change')
+    raise SystemExit(0)
 assert bytes(ag[ENTRY:ENTRY+19]) == OLD, f'unexpected dispatcher bytes: {bytes(ag[ENTRY:ENTRY+19]).hex()}'
 assert all(b == 0xFF for b in ag[FREE:FREE+32]), 'free space @0xC00150 not empty'
 

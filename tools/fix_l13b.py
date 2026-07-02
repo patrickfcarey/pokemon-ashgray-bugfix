@@ -30,6 +30,9 @@ tip = bd + (9*W + 8) * 2
 ref = bd + (10*W + 8) * 2
 old = struct.unpack('<H', ag[tip:tip+2])[0]
 new = struct.unpack('<H', ag[ref:ref+2])[0]
+if old == 0x42A4:
+    print('L13b already applied (tip already the full 0x42A4 clone) — no change')
+    raise SystemExit(0)
 assert old == 0x12A4, f'expected post-v1 cell 0x12A4 at (8,9), got {old:#06x}'
 assert new == 0x42A4, f'expected walkway cell 0x42A4 at (8,10), got {new:#06x}'
 ag[tip:tip+2] = struct.pack('<H', new)

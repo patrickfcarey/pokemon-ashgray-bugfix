@@ -14,6 +14,9 @@ import struct
 ag = bytearray(open('rom/ashgray.gba', 'rb').read())
 e = 0x3DB028 + 44 * 0x16E + 28
 old = struct.unpack('<I', ag[e:e+4])[0]
+if old == 0x080A2239:
+    print('D4 already applied (fieldUseFunc already CannotUse) — no change')
+    raise SystemExit(0)
 assert old == 0x080A18ED, f'expected Teachy TV fieldUseFunc 0x080A18ED, got {old:#x}'
 ag[e:e+4] = struct.pack('<I', 0x080A2239)
 open('rom/ashgray.gba', 'wb').write(ag)

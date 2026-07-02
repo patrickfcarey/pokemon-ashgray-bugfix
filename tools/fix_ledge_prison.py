@@ -6,8 +6,11 @@ The lab's south door tile (24,15) carries an east-jump ledge behavior: pressing 
 direction (verified by live probing) — a permanent softlock two screens from the start
 of the game. The door warp on that tile is also unreachable (dead).
 
-Fix: replace the (24,15) block with the neighboring solid wall block (23,15) — the
-UP-press now just bumps, the trap is unreachable, no new routes are created. One u16.
+Fix: make the LANDING tile itself solid — clone the solid block from (26,16) over the
+pocket (25,16). The jump no longer triggers (no landing spot), UP just bumps, the trap
+is unreachable, and no new routes are created. One u16.
+(An earlier draft edited the door tile (24,15) instead; the shipped fix is the landing
+tile, as recorded in ISSUES.md.)
 """
 ag = bytearray(open('rom/ashgray.gba', 'rb').read())
 ROM = 0x08000000
@@ -24,6 +27,9 @@ src = bd + (16*W + 26) * 2        # solid block at (26,16)
 dst = bd + (16*W + 25) * 2        # the 1-tile prison pocket (25,16)
 old = ag[dst] | ag[dst+1] << 8
 new = ag[src] | ag[src+1] << 8
+if old == new:
+    print('M1 already applied (pocket already the solid clone) — no change')
+    raise SystemExit(0)
 assert ((old >> 10) & 3) == 0, f'expected walkable pocket at (25,16), got col={(old>>10)&3}'
 assert ((new >> 10) & 3) != 0, f'expected solid block at (26,16)'
 ag[dst] = ag[src]; ag[dst+1] = ag[src+1]

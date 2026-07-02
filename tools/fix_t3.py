@@ -5,6 +5,9 @@ ag = bytearray(open('rom/ashgray.gba', 'rb').read())
 ENC = {c: 0xBB+i for i, c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
 def enc(s): return bytes(ENC[c] for c in s)
 AT = 0x881FC4
+if bytes(ag[AT:AT+6]) == enc('INDIGO'):
+    print('T3 already applied — no change')
+    raise SystemExit(0)
 assert bytes(ag[AT:AT+6]) == enc('INIDGO'), f'unexpected: {bytes(ag[AT:AT+6]).hex()}'
 ag[AT:AT+6] = enc('INDIGO')
 open('rom/ashgray.gba', 'wb').write(ag)

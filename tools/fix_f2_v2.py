@@ -26,8 +26,12 @@ if bytes(ag[ENTRY_P:ENTRY_P+4]) == (0x08C000B0).to_bytes(4, 'little'):
     print('v1 edit reverted')
 assert bytes(ag[ENTRY_P:ENTRY_P+4]) == bytes.fromhex('df278508'), 'entry A ptr unexpected'
 
-# --- new structures in free space
 MS  = 0xC000C0   # mapscripts block: 04 <T4> 02 <T2> 00
+if bytes(ag[0x34F9FC:0x34FA00]) == (0x08000000+MS).to_bytes(4, 'little'):
+    print('F2 v2 already applied (map 1.72 mapscripts already rebuilt) — no change')
+    raise SystemExit(0)
+
+# --- new structures in free space
 T4  = 0xC000D0   # [01 70 00 00 | DF 27 85 08][00 00]
 T2  = 0xC000E0   # [98 61 00 00 | 84 82 81 08][00 00]
 HDR = 0x34F9F4   # map 1.72 header; mapscripts ptr at +8

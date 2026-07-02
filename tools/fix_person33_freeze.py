@@ -18,6 +18,9 @@ OFF = 0x7BFDC0                      # map 3.72 events@0x7BFA98 + person33(33*24)
 EXPECT = 0x08160DDF
 data = bytearray(open(ROM, 'rb').read())
 orig = struct.unpack('<I', data[OFF:OFF+4])[0]
+if orig == 0:
+    print('person33 fix already applied (ptr already NULL) — no change')
+    raise SystemExit(0)
 assert orig == EXPECT, 'GUARD: person33 script ptr @0x%06X is 0x%08X, expected 0x%08X' % (OFF, orig, EXPECT)
 data[OFF:OFF+4] = struct.pack('<I', 0x00000000)
 open(ROM, 'wb').write(data)

@@ -17,6 +17,9 @@ ag = bytearray(open('rom/ashgray.gba', 'rb').read())
 AT = 0x852C63
 OLD = bytes([0x07, 0x06, 0xA6, 0x2C, 0x85, 0x08])   # call_if 6 -> 0x08852CA6
 NEW = bytes([0x07, 0x01, 0xA6, 0x2C, 0x85, 0x08])   # call_if 1 (==) -> same target
+if bytes(ag[AT:AT+6]) == NEW:
+    print(f'F3 already applied @0x{AT:06X} — no change')
+    raise SystemExit(0)
 assert bytes(ag[AT:AT+6]) == OLD, f'unexpected bytes @0x{AT:06X}: {bytes(ag[AT:AT+6]).hex()}'
 # context guard: the compare 0x800D,6 right before
 assert bytes(ag[AT-5:AT]) == bytes([0x21, 0x0D, 0x80, 0x06, 0x00]), 'compare context moved!'

@@ -59,18 +59,38 @@ def repoint(bad, good):
     b=encw(bad); hits=find_all(b); n=0
     for h in hits:
         s,e=strbounds(h)
+        oldp=(ROM+s).to_bytes(4,'little')
+        # a matched string with NO live refs is an orphan (e.g. the leftover original
+        # from a previous repoint run) — moving it again is pure damage; skip it
+        if not any((r>=2 and ag[r-2]==0x0F) or (r>=1 and ag[r-1] in (0x67,0x9B))
+                   for r in find_all(oldp)):
+            print(f'  [repoint] string 0x{s:06X} has no refs (orphan) — skipping')
+            continue
         print(f'  [repoint] string 0x{s:06X}  "{show(h)}"')
         new=bytes(ag[s:e]).replace(b, encw(good))
         no=alloc(len(new)+1); ag[no:no+len(new)]=new; ag[no+len(new)]=0xFF
         oldp=(ROM+s).to_bytes(4,'little'); newp=(ROM+no).to_bytes(4,'little')
-        upd=sum(1 for r in find_all(oldp) if r>=2 and ag[r-2]==0x0F and (ag.__setitem__(slice(r,r+4),newp) or True))
-        print(f'        -> moved to 0x{no:06X}, {upd} loadpointer ref(s) updated:  "{show(no)}"')
+        upd=0
+        for r in find_all(oldp):
+            if r>=2 and ag[r-2]==0x0F:            # loadword: 0F <bank> <ptr@+2>
+                ag[r:r+4]=newp; upd+=1
+            elif r>=1 and ag[r-1] in (0x67,0x9B): # message / messageautoscroll: op <ptr@+1>
+                ag[r:r+4]=newp; upd+=1
+        print(f'        -> moved to 0x{no:06X}, {upd} ref(s) updated:  "{show(no)}"')
+        left=find_all(oldp)
+        if left:
+            print(f'        !! WARNING: {len(left)} reference(s) to the OLD string not repointed '
+                  f'(unrecognized opcode context) — the typo would survive there: '
+                  f'{[hex(ROM+r) for r in left]}')
         n+=1
     return n
 
 print('=== recieved -> received (same length, in-place) ===')
-inplace('recieved', 'received')
+n1 = inplace('recieved', 'received')
 print('=== sacrfices -> sacrifices (longer, repoint) ===')
-repoint('sacrfices', 'sacrifices')
+n2 = repoint('sacrfices', 'sacrifices')
+if n1 == 0 and n2 == 0:
+    print('no occurrences found (already applied) — no change')
+    raise SystemExit(0)
 open('rom/ashgray.gba','wb').write(ag)
 print('written rom/ashgray.gba')

@@ -22,6 +22,9 @@ OLD = bytes([0x4F, 0x08, 0x00, 0x70, 0x6D, 0x8C, 0x08,   # applymovement obj8, 0
 NEW = bytes([0x53, 0x08, 0x00,                           # removeobject 8
              0x05, 0xFF, 0xDF, 0x86, 0x08,               # goto 0x86DFFF (cleanup+release)
              0x00, 0x00])                                # nop nop (padding)
+if bytes(ag[AT:AT+10]) == NEW:
+    print(f'F4 already applied @0x{AT:06X} — no change')
+    raise SystemExit(0)
 assert bytes(ag[AT:AT+10]) == OLD, f'unexpected bytes @0x{AT:06X}: {bytes(ag[AT:AT+10]).hex()}'
 ag[AT:AT+10] = NEW
 open('rom/ashgray.gba', 'wb').write(ag)

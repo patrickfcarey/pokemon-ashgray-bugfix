@@ -15,6 +15,9 @@ import struct
 ROM = 'rom/ashgray.gba'; OFF = 0x74078C; EXPECT = 0x0816223D
 data = bytearray(open(ROM, 'rb').read())
 orig = struct.unpack('<I', data[OFF:OFF+4])[0]
+if orig == 0:
+    print('person4 fix already applied (ptr already NULL) — no change')
+    raise SystemExit(0)
 assert orig == EXPECT, 'GUARD: 0x%06X is 0x%08X, expected 0x%08X' % (OFF, orig, EXPECT)
 data[OFF:OFF+4] = struct.pack('<I', 0)
 open(ROM, 'wb').write(data)

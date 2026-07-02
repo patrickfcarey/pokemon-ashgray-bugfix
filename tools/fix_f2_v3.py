@@ -39,6 +39,9 @@ script = bytes([
     0x02,                                              # end
 ])
 
+if bytes(ag[T2E+4:T2E+8]) == (0x08000000+NEW).to_bytes(4, 'little'):
+    print('F2 v3 already applied (ON_FRAME entry already self-buffering) — no change')
+    raise SystemExit(0)
 assert ag[NEW:NEW+len(script)] == b'\xff'*len(script), 'free space not free!'
 assert bytes(ag[T2E:T2E+8]) == bytes([0x98,0x61,0x00,0x00]) + bytes.fromhex('84828108'), \
     'v2 T2 entry not as expected (apply fix_f2_v2 first)'

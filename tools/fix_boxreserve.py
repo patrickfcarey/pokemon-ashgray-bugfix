@@ -14,6 +14,7 @@ def off(va): return va - 0x08000000
 def bl(src_va, dst_va):
     """Thumb-1 BL (two halfwords, little-endian bytes) from src_va to dst_va."""
     o = dst_va - (src_va + 4)
+    assert -0x400000 <= o < 0x400000, f'BL out of range: 0x{src_va:08x} -> 0x{dst_va:08x} (offset {o:#x}, limit ±4MB)'
     h1 = 0xF000 | ((o >> 12) & 0x7FF)
     h2 = 0xF800 | ((o >> 1) & 0x7FF)
     return struct.pack('<HH', h1, h2)
@@ -38,9 +39,6 @@ def check(va, want):
         print(f"!! mismatch @{va:08x}\n  want {want.hex()}\n  got  {got.hex()}")
         sys.exit(1)
 
-check(RIGHT_VA, RIGHT_ORIG)
-check(LEFT_VA,  LEFT_ORIG)
-
 # ---- new call-site bytes: BL helper; ldr r2,[pc,#0x1c]; ldr r1,[r4]; adds r1,r1,r2; strh r0,[r1]; nop;nop
 TAIL = bytes.fromhex("074a 2168 8918 0880 c046 c046".replace(" ", ""))   # 12 bytes
 right_new = bl(RIGHT_VA, NEXT_VA) + TAIL
@@ -54,8 +52,6 @@ DEP_A_VA, DEP_A_REG = 0x08040c1a, 5   # scan A @0x08040b90 (give-mon module)
 DEP_B_VA, DEP_B_REG = 0x080cc85e, 4   # scan B @0x080cc7f8 (storage helper)
 DEP_A_ORIG = bytes.fromhex("01350e2d00d10025")
 DEP_B_ORIG = bytes.fromhex("01340e2c00d10024")
-check(DEP_A_VA, DEP_A_ORIG)
-check(DEP_B_VA, DEP_B_ORIG)
 def deposit_hook(wrap_va, boxreg):
     mov_in  = struct.pack('<H', 0x1C00 | (boxreg << 3))   # adds r0, rBox, #0
     mov_out = struct.pack('<H', 0x1C00 | boxreg)          # adds rBox, r0, #0
@@ -83,9 +79,25 @@ cbB_new = (bytes.fromhex("5118") + bytes.fromhex("0878") + bl(0x0808cc52, PREV_V
            + bytes.fromhex("0870") + bytes.fromhex("07e0") + bytes.fromhex("0000")
            + LITERAL + NOP * 5)
 assert cbB_new[14:18] == LITERAL, cbB_new[14:18].hex()
+assert len(cbF_new) == 24 and len(cbB_new) == 28
+
+# ---- already applied? (all 8 regions carry the new bytes) -> pass input through ----
+def region(va, n): return bytes(rom[off(va):off(va)+n])
+if (region(NEXT_VA, len(NEXT)) == NEXT and region(PREV_VA, len(PREV)) == PREV
+        and region(RIGHT_VA, 16) == right_new and region(LEFT_VA, 16) == left_new
+        and region(DEP_A_VA, 8) == depA_new and region(DEP_B_VA, 8) == depB_new
+        and region(CB_F_VA, 24) == cbF_new and region(CB_B_VA, 28) == cbB_new):
+    open(OUT, 'wb').write(rom)
+    print('box-reserve already applied — output written unchanged')
+    sys.exit(0)
+
+# ---- original-byte guards (all call sites) ----
+check(RIGHT_VA, RIGHT_ORIG)
+check(LEFT_VA,  LEFT_ORIG)
+check(DEP_A_VA, DEP_A_ORIG)
+check(DEP_B_VA, DEP_B_ORIG)
 check(CB_F_VA, CB_F_ORIG)
 check(CB_B_VA, CB_B_ORIG)
-assert len(cbF_new) == 24 and len(cbB_new) == 28
 
 # ---- verify helper free space is FF ----
 for va, body in ((NEXT_VA, NEXT), (PREV_VA, PREV)):

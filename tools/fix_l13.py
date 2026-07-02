@@ -31,6 +31,9 @@ bd = pf(lay + 12)
 cell = bd + (9*W + 8) * 2           # (8,9)
 old = struct.unpack('<H', ag[cell:cell+2])[0]
 ref  = struct.unpack('<H', ag[bd + (10*W + 8)*2 : bd + (10*W + 8)*2 + 2])[0]
+if old & 0x3FF == 0x2A4:
+    print('L13 already applied (tip block already 0x2A4) — no change')
+    raise SystemExit(0)
 assert old & 0x3FF == 0x299, f'expected block 0x299 at (8,9), got {old & 0x3FF:#x}'
 assert (old >> 10) & 3 == 0, 'expected col=0 at (8,9)'
 assert ref & 0x3FF == 0x2A4, f'expected walkway block 0x2A4 at (8,10), got {ref & 0x3FF:#x}'
