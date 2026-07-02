@@ -13,12 +13,12 @@ The fork ships as an **IPS patch** (with an equivalent **BPS patch** alongside i
    - SHA-1 `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`
    - CRC-32 `dd88761c`
 2. Apply `patches/ashgray-fork.ips` (or the equivalent `patches/ashgray-fork.bps`) with any patcher (Lunar IPS, Flips, beat, etc.).
-   - IPS MD5 `d013c124c4ce2b2c7b73166e64c4cc91`
-   - BPS MD5 `29d7cb5f1849526cb58a7c6e741584fb`
+   - IPS MD5 `1640a0a9780eb487c45d80ab4c9a4d40`
+   - BPS MD5 `aed795498023b7ca85ecb4bed9603ca8`
 3. Verify the output matches the fork build:
-   - MD5 `5cffa700fee4378fd9c48e8ba849a2d0`
-   - CRC-32 `63478921`
-   - SHA-256 `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1`
+   - MD5 `f6b3162afc333dcf543597066d8b3091`
+   - CRC-32 `e36b3c4d`
+   - SHA-256 `6fdfc3bbcad462a2384792a2aaebefe0dafb7398bfb6af4729a5a3b8357e77cd`
 
 If your output hash matches, you have the exact fork. If it doesn't, your base ROM isn't the right FireRed.
 
@@ -66,3 +66,8 @@ These are the honest limits of the fork. Some are bugs we could not safely fix; 
 ## For tinkerers
 
 The full per-issue analysis, reproduction steps, and fix tooling are in this repo: see `ISSUES.md` (the tracker), `audit/` (deep dives, including the Bad-Egg variable→box map), `tools/fix_*.py` (each fix as a byte-guarded script), and `PROVENANCE.md` (exact build recipe and checksums). The fork is fully reproducible from clean FireRed + the committed patch.
+
+## Revision history
+
+- **2026-07-02 (`f6b3162a…`):** repaired the Pokémon-Park position gate from the Tangelo-arrival fix — the first version of that gate mis-assembled one opcode (`getplayerxy`), so its back-door check silently branched on leftover engine state instead of the player's position (proven and re-verified in-engine; see `ISSUES.md`, F6). Also corrected a script-opcode-length table used by the analysis tooling and re-ran the ROM-wide sweeps — no other findings changed.
+- **2026-06-16 (`5cffa700…`):** initial public build.

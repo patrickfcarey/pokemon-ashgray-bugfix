@@ -22,13 +22,13 @@ You apply the patch to a clean **Pokémon FireRed (USA)** ROM — specifically t
 | | MD5 | SHA-1 | CRC-32 |
 |---|---|---|---|
 | **Base** — FireRed (USA), rev 0 | `e26ee0d44e809351c8ce2d73c7400cdd` | `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc` | `dd88761c` |
-| **Patch (IPS)** — `patches/ashgray-fork.ips` | `d013c124c4ce2b2c7b73166e64c4cc91` | `1f65c4694a4bdbad7fd5f616ead44311abaee8d3` | — |
-| **Patch (BPS)** — `patches/ashgray-fork.bps` | `29d7cb5f1849526cb58a7c6e741584fb` | — | — |
-| **Result** — this fork | `5cffa700fee4378fd9c48e8ba849a2d0` | `92ed82145c013069472153391c7aab1cfbf37b75` | `63478921` |
+| **Patch (IPS)** — `patches/ashgray-fork.ips` | `1640a0a9780eb487c45d80ab4c9a4d40` | `459532fda7453369e8106b1c94582998609b6476` | — |
+| **Patch (BPS)** — `patches/ashgray-fork.bps` | `aed795498023b7ca85ecb4bed9603ca8` | — | — |
+| **Result** — this fork | `f6b3162afc333dcf543597066d8b3091` | `d67f8678674f0a1739bcde1601687ed5ec35e940` | `e36b3c4d` |
 
 1. Get a clean **rev 0** FireRed (USA) ROM (matching all three base checksums above — it's 16,777,216 bytes).
 2. Apply either [`patches/ashgray-fork.ips`](patches/ashgray-fork.ips) (IPS) or [`patches/ashgray-fork.bps`](patches/ashgray-fork.bps) (BPS) with any patcher (Lunar IPS, Flips, beat, etc.).
-3. Verify the output is MD5 `5cffa700…` / SHA-256 `a08055484c8366768d3e98e2dbed0998641abd2899ffbfc8d7f132925875f7a1`. If it matches, you have the exact fork.
+3. Verify the output is MD5 `f6b3162a…` / SHA-256 `6fdfc3bbcad462a2384792a2aaebefe0dafb7398bfb6af4729a5a3b8357e77cd`. If it matches, you have the exact fork.
 
 **Saves** use the same format as clean 4.5.3, so a `.sav` is interchangeable. (Read the box-storage caveat in `RELEASE.md` before migrating a long save — the reserve protects *new* placements, not a Pokémon already sitting in a hazard box.)
 

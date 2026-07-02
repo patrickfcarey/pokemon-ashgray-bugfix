@@ -10,3 +10,6 @@ COMMUNITY-REPORTS.md
 tools/setup.sh
 tools/init_fork.sh
 artifacts/
+
+# Python bytecode
+__pycache__/

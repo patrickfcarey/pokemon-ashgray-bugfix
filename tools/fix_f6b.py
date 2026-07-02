@@ -28,6 +28,10 @@ wrapper = bytes([
     0x02,                                          # end
 ])
 
+if bytes(ag[ENTRY:ENTRY+4]) == (0x08000000+NEW).to_bytes(4, 'little'):
+    print('F6b already applied (entry repointed to the wrapper) — no change. '
+                     'NOTE: this v1 wrapper is BUGGY (bare getplayerxy); fix_f6b_v2.py replaces it.')
+    raise SystemExit(0)
 assert ag[NEW:NEW+len(wrapper)] == b'\xff'*len(wrapper), 'free space not free!'
 assert bytes(ag[ENTRY:ENTRY+4]) == ORIG, f'frame entry ptr unexpected: {bytes(ag[ENTRY:ENTRY+4]).hex()}'
 assert bytes(ag[ENTRY-4:ENTRY]) == bytes([0x35,0x70,0x00,0x00]), 'entry var/val moved!'

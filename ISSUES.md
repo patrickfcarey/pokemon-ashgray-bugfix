@@ -46,7 +46,7 @@ Research sources in `audit/05-known-bugs.md`. Add findings here as we go.
 | **S1** | 🟡 | **wontfix** | Butterfree-breeding + Pikachu-release events | **Not live bugs (verified):** all cond>5 sites are unreachable dead code; see details below | script | n/a |
 | **L14** | 🟠 | **explained by D1** (not separate) | "Route 1" Spearow loop (forest chase, map 3.67) | "Forced into the opening Spearow scene every time you re-enter." **Not a script bug** — decompiled the whole stage machine: chase var `0x6079` is **terminal at 3** (5 setvar sites; `ON_TRANSITION` `0x81DB67` removes the Spearow *only* at `0x6079==3`; nothing takes 3→<3 except the guarded whiteout reset `0x882811`). Post-completion re-arming therefore requires **external corruption of `0x6079`** — which physically lives in **Box 3 slot 0** (proven in D1). So: store a Pokémon in Box 3 → it clobbers the chase-completion var → re-entering re-forces the Spearow scene. A named, reported progression bug that is a direct **D1 manifestation** (the bidirectional half). Fix = the D1 workaround (avoid Box 3); no separate byte-patch | engine/data | see D1 |
 | **L15** | 🟠 | **explained by D1** (not separate) | Mt. Moon area Zubat/Seymour loop (map 3.22) | "Zubat cutscene re-triggers even when the NPC is gone, trapping progress." Same shape as L14: the Seymour-rescue scene is gated on var **`0x6105`** = **Box 3 slot 4** (D1 range). The (19,6) coord trigger `0x827168` fires on `0x6105==0`; rescuing Seymour (`0x826F81`/`0x827109`) sets `0x6105` to 1/2. Post-rescue re-firing = `0x6105` clobbered back to 0 by a Box-3 deposit. **Second confirmed case of the same pattern → the whole "backtracking-reset / re-trigger" class is largely D1** (Box-3/6 story vars overwritten by PC storage). The (19,6) trigger is also latently fragile (sets no guard of its own), but the trigger var being a Box-3 var is the actual cause. Fix = D1 workaround | engine/data | see D1 |
-| **L16** | 🟠 | **root-caused → D1** (new 2026-06-14) | "Teleport Marker Reset" (community list): custom **WARP SYSTEM** destinations stop working after story-flag resets | The WARP SYSTEM (PokéCenter PC fast-travel — menu @`0x86A320` → per-destination handlers @`0x885C7B4`+0x24·N → shared warp executor @`0x886C156`) **routes/gates destinations on `compare var 0x6194` and `compare var 0x7006`**, both **D1 hazard vars** (0x6194 = **Box 3** slot 8; 0x7006 = **Box 6** slot 10). A Pokémon deposited in Box 3/6 clobbers them → the executor's state dispatch (0x6194 ∈ {0,2,3}; 0x7006 == 3) lands wrong → destinations "stop working" / markers reset — same storage→logic class as L14/L15. **Already protected by the box-reserve fix** (reserves Box 3 + Box 6); no separate patch needed. *Third confirmed box-fix protection after L14/L15 (Box-3) and the OI-gym chain `0x7036` (Box-6).* | engine/data | see D1 |
+| **L16** | 🟠 | **root-caused → D1** (new 2026-06-14) | "Teleport Marker Reset" (community list): custom **WARP SYSTEM** destinations stop working after story-flag resets | The WARP SYSTEM (PokéCenter PC fast-travel — menu @`0x86A320` → per-destination handlers @`0x885C7B4`+0x24·N → shared warp executor @`0x886C156`) **routes/gates destinations on `compare var 0x6194` and `compare var 0x7006`**, both **D1 hazard vars** (0x6194 = **Box 3** slot 7, byte +76 *(slot corrected 2026-07-02; was written "slot 8")*; 0x7006 = **Box 6** slot 10). A Pokémon deposited in Box 3/6 clobbers them → the executor's state dispatch (0x6194 ∈ {0,2,3}; 0x7006 == 3) lands wrong → destinations "stop working" / markers reset — same storage→logic class as L14/L15. **Already protected by the box-reserve fix** (reserves Box 3 + Box 6); no separate patch needed. *Third confirmed box-fix protection after L14/L15 (Box-3) and the OI-gym chain `0x7036` (Box-6).* | engine/data | see D1 |
 | **M1** | 🟠 | **fixed** ✅ | Pallet Town, Oak's lab south wall (map 3.66) | **Found by our own audit:** ledge prison — the lab door tile (24,15) carries an east-jump ledge behavior; pressing UP from (24,16) hops the player into (25,16), a 1-tile pocket with no exit = permanent softlock 2 screens into the game. Fixed by making the landing tile itself solid (block 0x30DD→0x0405, `tools/fix_ledge_prison.py`); the jump no longer triggers, no routes changed | map data | here |
 | **F8** | 🔴 | **fixed** ✅ (2026-06-15) | Talk to a garbage-pointer scene NPC (map 3.72 person33; map 1.59 person4) | **Hard freeze on talk.** A few scene-actor NPCs have a corrupt person-event script pointer (into erased ROM / engine code). Most are benign — the script VM **bounds-checks** opcodes (`RunScriptCommand@0x08069804`, 213-entry table `0x0815f9b4`–`0x0815fd08`), so a pointer decoding to an out-of-range opcode (e.g. starts with 0xFF) just stops. **But two decode to a *valid* `braillemessage` on a wild open-bus pointer first** → the braille text renderer infinite-loops on the non-terminating garbage string → game freezes (verified in-engine: 8M-step pure-software glyph loop, garbage braille box on screen). Fixed by NULLing the two dangerous pointers (`tools/fix_person33_freeze.py`, `tools/fix_person4_159_freeze.py`) so talking runs no script, like the game's many empty-script extras. ROM-wide sweep (`tools/scan_partial_exec.py`) confirms no others. | data | here |
 
@@ -342,6 +342,42 @@ re-guard each exposed gym on its **badge flag** (sb1+0xFE4, not storage) so corr
 permanently block — per-gym free-space surgery, badge-symptom only. L13/L14/L15 stay valid
 (live-verified); Cascade's gate var 0x6113 is literally the L13 var.
 
+## Session 2026-07-02 — full toolchain review; F6b wrapper repaired (build → `f6b3162a`)
+
+A granular audit of the *tools themselves* (every `tools/*.py`, `tools/emu/`, and the load-bearing
+`tools/research/` scripts), with every finding verified against the ROMs/engine before acting:
+
+- **F6b v1 wrapper was mis-assembled → repaired (`tools/fix_f6b_v2.py`), new build `f6b3162a`**
+  (MD5 `f6b3162afc333dcf543597066d8b3091`, CRC `e36b3c4d`; both patches regenerated + round-trip
+  verified). Full mechanism, live proof, and adversarial re-verification: see the F6 CORRECTION
+  above. 6th caught over-claim, and the first in shipped bytes rather than in a report — the lesson
+  this time: *an A/B pass proves the path you drove, not the predicate you meant to install*.
+- **Script-opcode-length table corrected against the engine.** The decompiler/scanner table had 10
+  engine-wrong entries (worst: `givemon` 12 → **15** — masked because the 3 swallowed filler bytes
+  decode as `nop`s; also 0xA8/0xA9/0xAA one short, and 0x2C/0x74/0x8A/0x94/0x96/0xB1 which FireRed
+  STUBS to 1 byte — their "arguments" execute as opcodes). Lengths are now derived from the engine
+  itself: all 213 handlers @`0x0815F9B4` disassembled and their `ScriptRead*` consumption counted
+  (`tools/verify_opcode_table.py` re-derives and gates the canonical `tools/oplen.py`; decomp.py
+  self-checks against it). **Re-ran every affected sweep: results byte-identical** (same 258
+  wild-deref hits, gym-gate traces unchanged) **except one NEW finding** the old table couldn't see:
+  map 33.0 person0 (park entry clerk) carries an Emerald-style `hidemoneybox 0x12,0x01` on its
+  decline branch — FR reads no args, so the trailing `release; end` are swallowed by an accidental
+  `loadbytefromptr` (open-bus read) and the VM stops on `0xFE`. **Benign** (bounds-check stop +
+  auto-release, the proven L-class engine behavior); documented, not patched. Extended the deref
+  sweep with `loadword`/`pokemart`/`getbraillestringwidth` classes and mapscript-table coverage
+  (369 scripts): 0 hits — the F8 "no others" conclusion now holds under strictly stronger scans.
+- **Toolchain hardening:** every `fix_*.py` is now idempotent (already-applied → clean skip, exit 0 —
+  the whole chain is re-runnable); `textfix.py` no longer re-moves orphaned strings on re-runs and
+  warns about non-`loadword` references it can't repoint; `makepatch.py` refuses size-mismatched
+  inputs and splits records that the `EOF`-offset nudge would overflow (regeneration verified
+  byte-identical on the real pair); `patcher.py` validates BPS/UPS self-CRCs and target size, and
+  exits nonzero on verification failure; `fix_boxreserve.py`'s BL encoder range-checks ±4MB;
+  `scan_badcond.py` now covers the full script bank from `0x7F0000` (no new candidates);
+  `inspect_f3*.py` party-entry size test corrected (`flags&1`, not `&3` — verified inconsequential:
+  trainers 361/365 have flags=0); `tools/emu/build.sh` pins the exact mgba commit the rig's
+  struct-ABI was verified on; audit-writing tools default to scratch output (`AUDIT_OUT=` to update
+  the tracked docs deliberately).
+
 ## Prioritized — details & fix plans
 (Hypotheses to confirm by decompiling the exact script with `tools/decomp.py`.)
 
@@ -510,6 +546,24 @@ bytes would bloat the IPS for zero behavior change. (cond=103 scan hits were mis
 *Verified:* A/B headless — control: instant ejection → void softlock on front entry; fork: normal
 hall + working park attendant ("Welcome to POKéMON PARK!"), `_emu/f6_proof.png`. IPS round-trips
 (fork CRC `009a1eda`); boot regression clean.
+
+**CORRECTION (2026-07-02) — the v1 wrapper was mis-assembled; repaired by `tools/fix_f6b_v2.py`.**
+A toolchain review found the v1 wrapper emitted a BARE `getplayerxy` (0x42) assuming a 1-byte
+implicit form. FireRed's `getplayerxy` is **5 bytes** (handler @`0x0806B010` reads two var-ID
+halfwords), so the engine consumed the following `compare` as its arguments (x/y written to
+`GetVarPointer(0x0121)/(0x0340)` = NULL → silently dropped) and ran the `goto_if <` on a **stale**
+`ctx->comparisonResult` (`InitScriptContext` @`0x080697AC` initializes every field except offset 2).
+The y<3 gate therefore never evaluated — the branch was decided by whatever compare ran last in the
+global context. **Proven live** (staged wrapper on a field state, same player y=5 twice): poking
+`sScriptContext1.comparisonResult` (`0x03000EB2`) 0 vs 1 flipped the outcome — stale=0 ran the
+ejection and force-walked the player 3 tiles; stale=1 silently disarmed. The original front-door A/B
+had passed on stale-flag luck; the practical risk was both residual void-marches (stale=0 paths) and
+silently skipped back-door ejections. v2 rebuilds the wrapper in place (22B @`0xC00120`, entry ptr
+unchanged) with the real `getplayerxy 0x4000,0x4001` + `compare 0x4001,3`. **Re-verified in-engine
+with adversarial stale flags both ways:** y=5 + stale=0 → disarm only (watch confirmed the handler
+writing y into VAR_TEMP_1 via gSaveBlock1Ptr); y=1 + stale=1 → ejection runs. Position now decides;
+the stale flag is irrelevant. *(Scope note: the branch logic and both outcomes were staged on a live
+field per the F1 methodology; the full Tangelo ejection cinematic itself is unchanged content.)*
 
 ### F4 — Grampa Canyon pickaxe softlock (🟠) — FIXED ✅
 *ROOT CAUSE (reproduced + fixed 2026-06-11):* The PICKAXE handoff is the **rival scene** on
