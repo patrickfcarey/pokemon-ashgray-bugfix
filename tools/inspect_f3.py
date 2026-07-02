@@ -24,7 +24,7 @@ nmons = e[0x20]; pptr = int.from_bytes(e[0x24:0x28], 'little')
 print(f'class={cls} pic={pic} name={name!r} nmons={nmons} partyPtr=0x{pptr:08X} partyFlags={partyFlags}')
 if 0x08000000 <= pptr < 0x09000000:
     off = pptr - 0x08000000
-    sz = 16 if partyFlags & 3 else 8
+    sz = 16 if partyFlags & 1 else 8   # 16B only for CUSTOM_MOVESET (bit0); held-item-only stays 8B
     print(f'party entries (entry size {sz}):')
     for i in range(min(nmons, 6)):
         m = ag[off+i*sz: off+i*sz+sz]

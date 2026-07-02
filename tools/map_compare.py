@@ -25,9 +25,7 @@ for tag, b, m in (("bedroom", 4, 1), ("gate?", 28, 0)):
     ev = pf(h+4)
     print(f"{tag} {b}.{m}: header=0x{h:06X} layout=0x{lay:06X}" if lay else f"{tag}: bad layout")
     if lay:
-        w, hh = pf(lay) is not None and u16(lay) or 0, u16(lay+4)
         # layout: +0 width(4) +4 height(4) +8 border +12 blockdata +16 tileset1 +20 tileset2
-        import struct
         W = int.from_bytes(ag[lay:lay+4], 'little'); H = int.from_bytes(ag[lay+4:lay+8], 'little')
         bd = pf(lay+12); t1 = pf(lay+16); t2 = pf(lay+20)
         print(f"   size={W}x{H} blocks=0x{bd:06X} tilesets=0x{t1:06X},0x{t2:06X}")

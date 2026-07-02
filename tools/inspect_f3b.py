@@ -14,7 +14,7 @@ nm = ''.join(CH.get(b, '?') for b in e[4:16] if b != 0xFF)
 pptr = int.from_bytes(e[0x24:0x28], 'little')
 print(f'  trainer{trainer}: name={nm!r} nmons={e[0x20]} flags={e[0]} ptr=0x{pptr:08X}')
 if 0x08000000 <= pptr < 0x09000000:
-    off = pptr - 0x08000000; sz = 16 if e[0] & 3 else 8
+    off = pptr - 0x08000000; sz = 16 if e[0] & 1 else 8   # 16B only for CUSTOM_MOVESET (bit0)
     for i in range(min(e[0x20], 6)):
         m = ag[off+i*sz: off+i*sz+sz]
         print(f'    mon{i}: lvl={m[2]|m[3]<<8} species={m[4]|m[5]<<8}')

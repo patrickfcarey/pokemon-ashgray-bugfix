@@ -8,7 +8,7 @@ To cut false positives, require the candidate to be PRECEDED by a plausible comp
 ag = open('rom/ashgray.gba', 'rb').read()
 
 hits = []
-for i in range(0x800000, min(len(ag), 0x900000)):
+for i in range(0x7F0000, min(len(ag), 0x900000)):   # full script bank (starts 0x7F0000)
     op = ag[i]
     if op not in (0x06, 0x07): continue
     cond = ag[i+1]

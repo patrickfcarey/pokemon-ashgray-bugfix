@@ -20,9 +20,12 @@ before, ff = show(START)
 print('BEFORE 0x%06X:  %s' % (START, before))
 the = bytes([ENC['t'],ENC['h'],ENC['e']])
 buf = ag[START:ff]
+LETTER = set(range(0xBB, 0xEF))                # A-Z (0xBB-0xD4) + a-z (0xD5-0xEE)
 idx = -1
-for p in range(len(buf)-7):
-    if buf[p:p+3]==the and buf[p+3] in (0x00,0xFE) and buf[p+4:p+7]==the:
+for p in range(len(buf)-6):
+    # word-boundary check after the 2nd 'the' too, else "the them" would match
+    if (buf[p:p+3]==the and buf[p+3] in (0x00,0xFE) and buf[p+4:p+7]==the
+            and (p+7 >= len(buf) or buf[p+7] not in LETTER)):
         idx = p; break
 if idx < 0:
     print('pattern "the<sep>the" not found — aborting (no change)')

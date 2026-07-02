@@ -44,7 +44,8 @@ def mapname(nameid):
     p = pf(NAMETBL + 4*nameid)
     if p is None: return '?'
     # decode FRLG text
-    CM = {0x00:' ',0xAD:'.',0xB8:',',0xBA:'-'}
+    CM = {0x00:' ',0xAD:'.',0xB8:',',0xAE:'-',0xBA:'/'}   # 0xAE is '-', 0xBA is '/' in FRLG text
+    for v in range(0xA1,0xAB): CM[v]=chr(ord('0')+v-0xA1)
     for v in range(0xBB,0xD5): CM[v]=chr(ord('A')+v-0xBB)
     for v in range(0xD5,0xEF): CM[v]=chr(ord('a')+v-0xD5)
     s=''
@@ -84,7 +85,7 @@ def dims(hdr):
 OI = {0x720068:'VALENCIA',0x72022F:'MIKAN',0x727F76:'TANGELO',0x728B60:'PINKAN'}
 oi_ids={}
 for addr,nm in OI.items():
-    hits=find_ptr(0x08000000+(addr-0)) if addr>=0x08000000 else find_ptr(0x08000000+addr)
+    hits=find_ptr(0x08000000+addr)
     for h in hits:
         if NAMETBL is not None and (h-NAMETBL)%4==0 and h>=NAMETBL:
             oi_ids[(h-NAMETBL)//4]=nm
